@@ -1,0 +1,40 @@
+* August 2014
+
+
+** 8.22
+*** DONE Learn org mode basics
+    CLOSED: [2014-08-23 Sat 02:37]
+*** DONE Accompany Qiuyue to get her license plate
+    CLOSED: [2014-08-22 Fri 20:30]
+
+
+** 8.23
+*** Words
+a gazillion shortcuts
+
+*** Emacs
+M-g M-g: go to line
+C-x ( : start a macro
+
+*** Ubuntu PPA
+My previous lyx 2.06 can not open the note file edited by lyx
+2.1.1. Today I installed lyx 2.1.1 in Ubuntu via PPA. Hence solve
+this problem.
+
+*** Alexa: a site which can be used to explore internect traffic
+
+*** [[http://yihui.name/][Yihui Xie's Blog]]
+An amusing self-introduction and a lot of interesting articles out
+there.
+
+Precipice means cliff.
+
+*** Generate SSH key
+ssh-keygen -p
+
+*** Fail to build Jekyll in my Ubuntu 14.04
+But I did successfully build my first website via cloning a template
+provided via [[http://ztpala.com/2012/01/12/zero-to-hosted-jekyll-blog-in-3-minutes/][Tao Zhang's blog]]. Here it is [[http://sadapple.github.io/][sadapple.github.io]].
+**** DONE Fix this problem
+     CLOSED: [2015-02-17 Tue 10:17]
+

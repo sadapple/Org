@@ -1,0 +1,94 @@
+* Current Tasks
+
+** TODO Read the LPD & ROAD papers(do the necessary calculations)and figure out a strategy to establish our result
+
+*** Notion of sparsity, how to measure? When will it preserve?
+
+*** DONE Read Fan's main theorem proof
+    CLOSED: [2015-03-28 Sat 14:10] SCHEDULED: <2015-03-21 Sat>
+*** Exponential inequalities
+Need to figure out how the inequalites in lemma 1 were derived in
+LPD paper.
+
+**** DONE Berstein Inequality(2 types of conditions)
+     CLOSED: [2015-04-06 Mon 17:01] SCHEDULED: <2015-03-31 Tue>
+
+*** Obtain similar results like (26) and (27) in LPD paper
+** LPD & ROAD comparison
+
+*** TODO Can LPD select the best marginal feature? How about ROAD?
+
+** TODO Analyze leukemia data
+*** Original dataset vs golub dataset in mulltest package?
+No conflict, since I found the script which the autors of mulltest used to
+preprocess the data into the *golub* dataset in their package.
+*** current issues
+**** Sig is not p.d., how to get an initial solution
+***** TODO idea
+      SCHEDULED: <2015-05-15 Fri>
+Use the objective function in section 4 of ROAD paper, write it in
+regression form then apply lars pacakge to solve an initial solution
+for a lambda>0.
+**** modify the algorithm for the case with singular Sig matrix
+The current update method relies on the invertibility of the active
+set covariance matrix.
+***** TODO Q: when will the solution be unique when Sig is singular?
+      SCHEDULED: <2015-05-16 Sat>
+***** DONE When Sig is singular, starting from an initial solution, how to update the optimal solutions and subgradients?
+      CLOSED: [2015-04-16 Thu 16:26] SCHEDULED: <2015-04-08 Wed>
+For gamma1 vector, it is easy. But for gamma2 vector, how to choose
+it?
+***** Any matrix decomposition package available in R, matlab?
+**** p>3000, computation is slow in R
+*** Weighted case vs Equal weight case
+**** idea
+Read the code of ROAD and see whether we could modify it to use in the
+weighted scenario.
+*** Cross Validation
+How to do CV for the current problem?
+** TODO Find other implementation code of CLASSO to compare
+*** Matlab version for ROAD
+*** Tony Cai's LPD
+**** TODO Find/write code to solve the LP problem in the paper
+     SCHEDULED: <2015-05-14 Thu>
+** TODO estimation of conditional heteroscedastic time series
+*** TODO book reading
+    SCHEDULED: <2015-07-01 Wed>
+* Current needed background/technique/skill
+** convex optimization(like l0,l1,l2...), KKT condition
+*** Langrange Multiplier
+to the extent that I can derive the all the dual problems in the
+recent papers I read(ROAD,Cai,LARS,etc) swiftly
+
+know how to derive dual form and solve langrange multiplier equations
+*** gradient descent
+** matrix norms and calculus
+** inequalities
+*** elementary inequality
+*** norm inequality
+*** concentration inequality
+** asymptotics
+*** familiarize with the rate of convergence language
+** bayesian
+*** BDA book
+focus on the examples and the computation chapters
+* Previous work
+** Classo Project Special Case
+
+*** DONE Algorithm
+    CLOSED: [2015-02-11 Wed 18:42]
+
+*** DONE Matrix Update
+    CLOSED: [2015-02-11 Wed 18:42]
+
+
+*** Algorithm Check
+**** Whether the current version is correct
+like stopping rule
+**** DONE LARS package implementation
+   CLOSED: [2015-02-20 Fri 15:14]
+using the lars package, for p=4, the number of pieces doesn't meet the expected 42
+* Temporary aside
+** TODO Gradually export the texmacs version of the CLASSO notes to a latex version
+** TODO Think about how to apply our algorithm in classification
+** TODO Think about how to modify the algorithm for extension

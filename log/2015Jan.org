@@ -1,0 +1,72 @@
+* Back Home Plan 1.21-1.31
+** Research
+*** DONE Wrap up the findings for the one contraint general case, insert some plots into the notes.
+    CLOSED: [2015-01-06 Tue 04:24] DEADLINE: <2015-01-05 Mon>
+*** Study research related optimization theory and solve problems.
+*** TODO Read Fan's ROAD paper and Cai's paper
+*** TODO Regression Notes Problems
+** Data Mining
+*** TODO ESL Ch4, 7, 8
+    SCHEDULED: <2015-01-29 Thu>
+*** TODO Do the HWs of 588.
+    SCHEDULED: <2015-01-29 Thu>
+
+** Programming
+*** TODO Python Introduction
+*** DONE Art of R programming
+    CLOSED: [2015-01-26 Mon 07:35]
+** SICP Ch1 and 2 Exercises
+*** a glance at some R packages(dplyr, reshape)
+** Reading
+
+*** TODO Beyond Feeligs
+    SCHEDULED: <2015-01-30 Fri>
+
+*** DONE Wan Wan Mei Xiang Dao
+    CLOSED: [2015-02-01 Mon 07:37]
+** Miscellaneous
+A new pair of glasses
+Toothwash
+*** TODO Revise CV
+    SCHEDULED: <2015-01-23 Fri>
+
+
+* Exercising Plan
+** Running
+*** Equipment
+*** Target
+*** Plan
+** Strength
+*** Wrist and Hand
+*** Shoulder
+*** Belly
+*** thigh and calf
+** Ball Game
+* 401 basic stat teaching idea
+** math backgroud
+factorial numbers
+binomial expansion/multimonial expansian
+elementary integration
+
+** probability
+
+** estimation
+
+** testing
+
+** ANOVA and Regression
+
+** Nonparametric
+
+** computing
+* Potential Courses
+** High Dim by Zhang
+Tu Wed 5 pm , Hill 552
+** Advanced Stat Method in Finance by Zhang
+Mon 6:40 pm. ARC 105/Hill 009
+
+** Bayesian Data Analysis
+Mon Wed 1:40-3:00 pm , Hill 552
+Office Hour: Th 1-2 pm
+** Conf Dist
+10:20 am, Friday

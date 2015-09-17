@@ -1,0 +1,95 @@
+* 4.3
+** DONE Sanofi Oncology Interview
+   CLOSED: [2015-04-04 Sat 17:24]
+
+* DONE 4.10 Change Engine Oil
+  CLOSED: [2015-04-10 Fri 09:37] SCHEDULED: <2015-04-10 Fri>
+* DONE CPT workshop
+  CLOSED: [2015-04-16 Thu 16:36] SCHEDULED: <2015-04-13 Mon>
+04/14/2015	1:00 p.m. - 2:30 p.m.	Livingston Student Center - Room 202 (AB)
+
+Complete all forms handed out during the workshop, and gather all supporting documents for your application.
+** Materials [0/3]
+*** TODO Employer
+Employer's Certification for CPT Authorization form and a job offer letter. If a job offer letter includes ALL required
+information noted on the form, then the job offer alone is
+sufficient.
+*** TODO Department
+*** TODO Personal
+Transcript and Passport
+** Meet with Inter Advisor
+Lauren Tong (International Student Adviser)
+Tuesdays: 10:30 am – 12:00 pm
+Fridays: 2:00 pm – 3:30 pm
+* Summer Intern Prep
+** Data Mining
+*** Regression
+**** Linear Reg Review
+**** GLM
+**** Mixed Models
+
+*** Classification
+
+**** LDA, QDA, Logit Reg, NB, Fisher's Rule
+
+**** SVM
+
+**** Trees & Boosting
+** Baysian
+*** Review Common Distribution(characterization, properties and relasionship)
+*** Computation of Posterior Dist, solve some examples
+*** Hierarchical Models
+*** Computation
+**** EM
+**** MC
+**** MCMC
+**** R implementation examples
+** Programming
+*** R
+**** Familiar with apply function family
+**** Do some interesting simulations to be more proficient
+**** Data Cleaning Technique
+**** Learn some useful package in R, like dplyr, ggplot2
+**** Solve simulation problems in BDA course
+**** OOP in R
+**** Learn Regular Expression and Try on real data
+
+*** Python
+*** Matlab
+*** SICP
+**** Ch2
+**** Problems in Ch1&2
+*** Big Data Tools Introduction
+** Math
+*** The Power of Linear Algebra
+*** Analysis Technique
+*** Asymptotics
+*** Nonlinear Programming
+
+** Knowledge of Biostat
+** Others
+
+*** Body
+
+**** Run regularly!
+
+**** Train Strength
+
+*** Heart
+
+**** 读辛稼轩，敢问君志
+**** 带着有趣地视点看世界
+**** TODO Train Critical Thinking and Concentration
+**** Read *Beyond Feelings*
+**** Read *Stat and Truth* by Rao
+**** Read *Tao of Jekundo*
+* Emacs Initial Buffer
+'(initial-buffer-choice "c:/Users/Seb/Documents/Emacs/TODO_List.org"))
+* Fonts in Latex
+** \texttt{} is good for short code font in text
+* Bayes Learning
+** Posterior Simulation examples
+** Imporrtance sampling
+** Rejectiuoin sampling
+** Metropolis sampler
+** Gibbs sampler

@@ -1,0 +1,81 @@
+* FSRM teaching
+** prepare
+*** TODO think about what materials have important or interesting application in STAT future study
+*** materials I can teach that are helpful for my research background study
+**** matrix theory, matrix calculus
+**** conditional maxima/minimum, multivariate Taylor expansion, Langrangian multipler
+**** convex functions, basic optimization theory
+*** prepare calculus early, half a day every week
+
+** potential coverage
+
+*** special topic for last lecture
+
+**** SVD, matrix calculus?
+
+**** convex optimization basic
+*** univariate calculus
+**** limit calculation
+***** stolz theorem
+***** L'Hospital Rule
+**** derivative and mean value theorems
+***** Leibniz formula
+***** taylor expansion
+
+**** indefinite integral
+**** definite integral
+***** change of variable technique
+***** integration by parts
+***** inequalities
+**** infinite series
+***** power series
+***** Fourier series
+*** multivariate calculus
+
+**** directional derivative, partial derivative
+
+**** total differential
+
+**** chain rule
+**** multivaritate taylor expansion
+**** maxima and minima, lagrangian multiplier
+**** multiple integration
+****  surface and volume integral. Green, Gauss, Stokes theorems
+*** linear algebra
+**** matrix notions
+***** linear dependence
+***** rank
+***** inverse
+**** system of linear equations
+**** determinants
+***** geometric intuition
+**** quadratic forms
+**** orthonality
+
+** DONE placement exam
+   CLOSED: [2015-09-09 Wed 16:31] SCHEDULED: <2015-08-30 Sun>
+* Library hours Sep 13 - Dec 10
+** LSM & Kilmer
+8 am - 2 am Mon - Thur
+     - Midnight Fri
+10 am - Midnight Sat
+Noon - 2 am Sunday
+* tennis notes
+** how to measure grip size?
+** five fingers
+thumb, index, middle, ring, little
+* question: how to think about the recent CCTV plagiarism on Wang Yuanzong's photos
+** compare this with Richard Stallman's free software campaign
+* Misc
+** DONE bring new CPT for Courtney
+   CLOSED: [2015-09-09 Wed 16:31] SCHEDULED: <2015-09-08 Tue>
+** DONE meet student Liya Guan
+   CLOSED: [2015-09-11 Fri 14:26] SCHEDULED: <2015-09-11 Fri>
+** DONE register fall GA insurance
+   CLOSED: [2015-09-14 Mon 22:12] SCHEDULED: <2015-09-11 Fri>
+** TODO do some study about car tires
+what tires are suitable for my car?
+** TODO find out what's behind the sound with the tire rotation
+   SCHEDULED: <2015-09-23 Wed>
+if necessary, change the tires
+also, change the engine oil if necessary

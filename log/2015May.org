@@ -1,0 +1,27 @@
+* April 30 - May 3
+** DONE Solve some stat related linear algebra exercises
+   CLOSED: [2015-05-02 Sat 12:25] SCHEDULED: <2015-04-30 Thu>
+** DONE BDA homework problems
+   CLOSED: [2015-07-13 Mon 12:48] SCHEDULED: <2015-05-01 Fri>
+* to do list
+** DONE aaaa battery for surface pen
+   CLOSED: [2015-05-09 Sat 20:43]
+** DONE bulbs for the lamps
+   CLOSED: [2015-05-09 Sat 20:43]
+** TODO call Lord and Taylor for card issue
+* morning recipe
+** corn
+** yogurt
+* Jersey Garden Mall, 5.9
+** Converse and Hollister
+Good brand I will buy in the future.
+** Save a drink for a book
+I regret to buy that smoothie since it only let me gain weight..  And
+I could have saved the money for books....
+* OPT workshop
+* Oregon trip
+** memo
+*** ID, NP passport
+*** DONE Band ring
+    CLOSED: [2015-06-09 Tue 12:36] SCHEDULED: <2015-06-02 Tue>
+*** GPS

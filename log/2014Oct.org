@@ -1,0 +1,35 @@
+* What is an Interpreter?
+
+[[http://www.yinwang.org/blog-cn/2012/08/01/interpreter/][How to write an interpreter]] by Yin Wang is a really good article to take a first step to
+learn interpreter. His this article [[http://www.yinwang.org/blog-cn/2012/07/25/semantics/][What is semantics]] is also recommended.
+* Usable Time Analysis
+** Oct to Dec, 2014
+6-7 hours sleep
+2 hours for eating
+2-3 hours for others(Driving, Exercising, etc)
+=>
+I should be able to have 11-12 hours a day for study and research.
+
+** Things to be done regularly
+*** Morning Reading
+20-30 minutes
+Matrerails: What ever good paragraphs I read
+
+*** Problem Solving
+one hour a day, 3-4 days a week
+stat or math alternatively
+
+*** Programming Practice
+one hour/day
+
+Current Focus:
+R/C++/Python
+
+*** CFA
+Today is 9.24, 72 days left. 5 books, 18 sessions. 12 days/book, 10
+days remaining for review.
+
+*** Research
+6 hours/day remaining....
+
+*

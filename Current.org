@@ -1,0 +1,341 @@
+* What's the most important thing for my current state of life?
+
+** Research (Want to graduate as a good Phd? Only via Hard Work!)
+
+Accumulate sufficient knowledge about high dim statitical analysis.
+Plan:
+
+
+*** TODO Read the related materials in ESL thoroughly and repeatedly
+
+Ch3 Penalized Regression
+Ch4 Classification
+Model Assessment and Selection
+Model Inference and Averaging
+
+Clustering
+SVM
+Trees and random forest
+Boosting
+
+Bootstrap
+EM
+*** TODO Be more familiar with nonlinear programming theory and examples
+*** TODO Matrix calculus & Random matrix theory
+
+** Computing (Be a better programmer)
+*** What does a good program mean?
+Well structured, each piece has its meaning and might be adapt to
+other programs.
+
+Well commented and documented.
+
+*** How to write good programs?
+First Principle: GET YOUR HANDS DIRTY!
+
+*** Any general principles?
+Use means of combination and means of abstraction to control the
+complexity of the computing problem.
+
+*Learn to problem in a problem/project/target orientated way, do not mess up with the details without a direction*
+*Learn from expereienced people around you*
+
+*** TODO Think about what abilities and tools does a data analyst/scientist nowadays  need to know and master
+Data processing? Cleaning?
+Hadoop? Map reduce?
+
+*** R & SAS expertise
+For R, learn some useful packages like dplyr, ggplot2, reshape. Know
+the limitations of R. Also, at some point, learn the interaction of R
+with other languages like Cpp, Python, SQL etc.  For both, learn how
+to process large data set.
+
+*** Python
+Q:When is Python better than R?
+
+*** C++
+Pointer, Inheritence, Template, void function.
+
+** Job
+
+*** CV Writing
+*** Build connections
+*** Accumulate informations
+Website?
+BBS?
+Friends?
+
+* current strength and weakness
+** strength
+Still have some curiosity and open mind.
+Have the will to discovery and dive into the details for the things I like.
+** weakness
+*** LAZY, lack of audacity and persistence, "Eyes are high while Hands are low..."
+*** too sensitive
+what are you afraid of?? Job? Status? Love?
+Just remember, ultimately, it is a from dust to dust journey!
+*** occational self-constrain and pride (*Ask help from peers/friends whenever possible and neccessary*, this might save a lot of time)
+*** lack of effective communication(oral & written) skill
+*** think about possession too much/have some desires, sometimes
+
+* current motivation
+
+** Programming is fun
+*** What does a good program generally exhibit?
+*** What skills do you need to present as a good programmer?
+*** TODO Fun/Good program example accumulating!
+** Stat is fun
+*** Use examples/data together with concise(but sharp) explanations to illustrate/defend a point/argument
+Good example: <under the dome> by Chai Jing
+*** See through fake/wrong conclusions draw from data
+Good example: Simpson's paradox
+*** An ideal condition would be able to see whether the conclusion drawing from data analysis is reliable or not
+*** Data Mining
+Classification Rules
+When will Bayes Rule be good?
+** Math is fun
+*** strategies in game theory, statistics(see Ferguson's math stat book) and daily life
+** Emacs, Linux, anything that is clever, playful and fun
+** Body training
+*** Hiking
+*** Basketball
+** Friends, like She tou & Tao zi
+** Critical thinking
+* current guiding principle
+
+** Ping Chang Xin, Beyond Feelings
+** Less is more
+** If...Then...
+** Trinity: Body, Skill, Heart
+** Trinity: Statistics, Mathematics, Programming
+** Love yourself, concentrate on your own stuff, stay focused
+** Know more things about the finance,  economics. Try apply to daily life.
+
+* Book List
+
+** Long term
+
+*** ESL(also solve problems in this book as many as possible)
+*** Nonlinear Programing by Bertsekas
+*** Statistical Learning with Sparsity by Tibshirani
+*** Analysis of Finantial Time Series
+*** Theory of Multivariate Stat(problems in Ch1&2 are mandatory)
+*** Regression Notes and Problems by Cunhui Zhang
+*** Mathematical Statistics by Jun Shao(focus on solving problems of Ch1&2)
+*** Topics in Random Matrix theory by Tao
+
+*** SICP
+*** Advanced R Programming
+*** Algorithm Design Manual
+*** The Linux Command Line
+
+** Short term
+
+*** Art of R programming
+*** R in action
+*** Little SAS book
+*** Learn Python the hard way
+
+
+** Fun & Meditation
+
+*** Statistics and Truth(C.R.Rao)
+*** Beyond Feelings
+*** Design of everyday things
+*** Conquest of Happiness
+*** Hiker's guide
+
+*** DONE The power of habits
+    CLOSED: [2014-12-27 Sat 14:33]
+* Learn from work
+** get the whole picture
+** communication
+** task arrangement
+** morning & night time
+* Daily Time Analysis
+** March 2nd 2015
+1. sleep : 6-7 hours, weekend could be longer
+2. cook and eat : 2 hours
+3. exercise : minimum 45 minutes
+4. road time : 30 minutes
+5. email time : 30 minutes
+6. dressing, bathing, teeth brushing, face washing, shopping etc :
+   maximum 1.25 hour average
+7. remaining time for other things : 12 hours
+*** How to spend the remaining time?
+**** Routine Habit Time
+1 hour problem solving everyday
+30 minutes minimum for visual memory and meditation
+**** Mon
+1:30 hours for holding the office hour
+**** Tuesday
+need 3-4 hours to prepare the lecture
+**** Wed
+1 hour for meeting with advisor
+**** Thur
+**** Fri
+3 hours for Inference course
+1 hour video chatting with parents
+**** Sat
+**** Sun
+30 minutes call with Leila
+**** Conclusion
+All the previous entries would consume 1.5*7+11=21.5 hours, the
+remaining hours would be 12*7-21.5=62.5 hours per week, 9 hours per day.
+*** What time category is more important, what could be shortened or saved?
+| Important Categories  | Priority | Time Range per day                                      | Comments                                      |
+|-----------------------+----------+---------------------------------------------------------+-----------------------------------------------|
+| problem solving       |        1 | 1 hour                                                  | for sharpening skills and technique           |
+| critical thinking     |        2 | not defined                                             | for becoming a better thinker                 |
+| visual memory traning |        3 | 30 minutes                                              | for retrieve the old good feeling             |
+| sleep                 |        4 | min 6 hours, max 8 hours                                | for healthy and effcient living               |
+| research              |        5 | under the previous four constraint, as much as possible | for better thinker, graduation and better job |
+| exercise              |        6 | 45 minutes                                              | for healthy and efficent living               |
+
+** July 13 2015
+
+*** work
+Monday to Friday, 8 am - 6 pm
+
+*** spare time
+Weekdays
+7 am - 8 am
+7 pm -12:00 am
+Weekend
+14 hours per day
+
+*** summary
+spare time 30+28=58 hours per week
+** Sep 1st 2015
+
+*** work
+20 hours per week
+*** spare time
+14 hours per day if NOT work
+
+*** summary
+spare time 14*7-20=78 hours per week
+* Building good habits for research
+** Representations
+*** An appetite of solving problems by hand or by mental calculation
+*** A belief/desire to find you own answers, a belief to drill deep and be crystally clear
+
+*** Persistent and Consistent
+*** Make connections and analogies regularly
+** Plan
+
+*** Plan longer time for daily meditation and problem solving
+Check emails and wechat less often. For emails/wechat, I could do it in a 4
+times a day fashion: morning, noon, afternoon and night.
+*** Improve efficiency
+Try study and research in a project and problem driving manner. Avoid/Postpone
+relative unimportant problems and distractions even for those which
+are interesting.
+*** Communication
+Don't hesitate to ask dumb questions before fellow students. Don't
+reserve your understanding for a problem for most people who want to
+know your perspectives.
+Don't hesitate to take the initiative when meeting the advisor. Don't
+hesitate to present the points which block you for some time.
+* Habits Plan
+** Sleep before 1:00 am, get up no later than 7:20 am.
+** Eat
+Three meals a day, do not eat after 8 pm.
+Vegetables, Fish, Corn, Fruits prefered
+** Run
+3 times a week, 4-6 km per run.
+** Place for study
+Try spend more time studying in the library in daytime.
+Try Kilmer Library.
+** Reading, Form good reading habits this year
+Whenever wanna play computer or surf the internet, think about read
+some good books instead.
+** In the morning
+A glass of water, clean face then use creme
+** At night
+one hour problem solving time, either programming or stat/math
+problems
+** Self-control
+Do not drink, do not eat at night
+learn to control when there are attractions present(like leisure novel, sex related
+material, etc)
+** Expression
+How to express yourself in a good way?
+Effective, Faithful, With Insight~
+** Thinking and Meditation
+Develop visual memory, mental calculation habits!
+** Learn the tao of Fun & Humor!
+*** What things are truly fun or humorous?
+*** Accumulate fun/humorous materials
+*** How to express them?
+* Persistent Habit/Reflex 2015
+** Body
+*** running
+*** upper limb, abdominal muscle, waist strength
+*** martial art basics
+** Skill
+*** Asymptotics
+*** Matrix calculus
+*** Machine Learning
+*** Write better program
+*** Suitable knowledge about Algorithm
+*** Visual Memory Skills
+** Heart
+*** Oral expression and communication
+*** Beyond Feelings, Critical Thinking
+*** Fun and Humor
+What does playful mean?
+Learn from RMS!
+* temp plan 8.22 2015
+** good attitude
+*** less is more
+*** yi wang bu gu yue ben!
+*** find your own answers!
+*** *fight with the weakness that father pointed out long time ago*
+
+*** be playful in life, find beauty in life!
+*** have vision, plan early
+*** two trinity: body/skill/heart & math/stat/programming
+*** Wind, Forest, Fire, Mountain
+** good habit, good expression
+*** morning and night
+get up around 7am, go to sleep around 1am
+In the morning, consider recite some good paragraphs I read recently.
+Before sleep, try to solve some problems(could be research related or
+just brain speed training) or practise virtual memorization.
+*** *Make deep meditation and calculations as an Conditioned Reflex*
+*** Find a suitable topic to express yourself(could be written/oral) faithfullly everyday!
+*** Find good problem/project to challenge myself(programming, math, stat or anything interesting) regularly
+*** Realize at many occassions, the thing you feel reluctant to do is the exactly the thing you should do first!
+** task priorites
+1) research and thesis related
+2) self-improvement or job related skill
+3) intern projects
+4) teaching
+** books/videos which shall be read and meditate on regularly
+*Note*: need to add more math books, but don't have much idea at present(8.22)
+*** beyond feelings
+*** ESL
+*** problem solving strategies
+*** algorithm design manual
+*** SICP
+*** advanced R
+* Research Habits, Idea & Challenge Plan
+** Habits
+*** improve related problem solving skill
+as often as possible, better be everyday
+****  math/stat problem solving
+      SCHEDULED: <2015-09-16 Wed 22:30-23:30 +2d>
+**** programming problem solving
+     SCHEDULED: <2015-09-17 Thu 22:30-23:30 +2d>
+
+*** express your learning and finding in timely manner
+*** find projects to challenge yourself in timely manner
+** Challenge Plan
+*** 9.14 - 9.18
+**** primal dual problems examples
+**** how can you generalize the sign pattern method for proving piecewise linearity
+**** the homotopy idea
+*** in the future
+**** LPD asymptotics for correlation matrices
+

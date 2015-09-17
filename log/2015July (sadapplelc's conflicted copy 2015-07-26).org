@@ -1,0 +1,20 @@
+* Sanofi
+** clinical trial delivery
+** TODO updated offer letter
+   SCHEDULED: <2015-07-29 Wed>
+** forms
+** vocab
+imputation
+
+* Rutgers
+** TODO summer tuition remission
+   SCHEDULED: <2015-07-21 Tue>
+** TODO fall CPT
+   SCHEDULED: <2015-07-29 Wed>
+* Others
+** TODO AAA member register
+** baseball
+*** when can a runner start to run?
+*** how many ways are there to pull out a runner
+*** alive, foul and dead ball
+*** what is a tag? when does it apply?

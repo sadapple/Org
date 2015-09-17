@@ -1,0 +1,24 @@
+* vocab
+
+
+* questions
+
+** what car do I need
+mainly for driving to work,
+** gear ratio
+The gear ratio of a gear train, also known as its speed ratio, is the
+ratio of the angular velocity of the input gear to the angular
+velocity of the output gear. The gear ratio can be calculated
+directly from the numbers of teeth on the gears in the gear train.
+** CVT
+is an automatic transmission that can change seamlessly through an
+infinite number of effective gear ratios between maximum and minimum
+values. This contrasts with other mechanical transmissions that offer
+a fixed number of gear ratios. The flexibility of a CVT allows the
+input shaft to maintain a constant angular velocity.
+* candidate
+** accord
+** passat
+** fusion
+** cheroque
+** altima

@@ -1,0 +1,32 @@
+* Tasks
+** DONE Start new org file
+   CLOSED: [2014-08-23 Sat 01:19]
+** DONE Outline Document
+   CLOSED: [2014-08-23 Sat 01:44]
+** TODO Write Introduction
+** Finish Document
+
+* Introduction
+
+Org-mode is a personal information management and outlining tool for
+Emacs.
+
+You can obtain org-mode from the [[http://orgmode.org/][org-mode home page]]. C-c C-o to open
+this link... org-open-at-point
+
+[[file:~/.emacs::(define-key%20global-map%20"\C-ca"%20'org-agenda)][.emacs org configuration]] link to the configuration point 
+C-c l to store link  org-store-link
+C-c C-l to insert link org-insert-link
+C-c C-t org-todo
+Sh+TAB Toggling between Overview and Detail
+C-c a see org agenda
+** Installation
+** Configuration
+
+* The Basics
+** Simple task list
+** Using headlines to structure a document
+** Links to other places
+** Adding notes to a task
+** Scheduling an appointment
+** Using the agenda 

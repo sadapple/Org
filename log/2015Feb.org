@@ -1,0 +1,167 @@
+* Back US Reminder 2.1
+** DONE Revise CV(1st try) DEADLINE: <2015-02-04 Wed>
+   CLOSED: [2015-02-05 Thu 08:04]
+** TODO Read Ch4 of ESL & Solve related 588 problems DEADLINE: <2015-02-04 Wed>
+** DONE Think about how to teach 401
+ Discuss with Chengrui about what useful and interesting material to
+ include, write miscellaneous slides alternatively(two weeks in turn).
+** DONE Think about how to communicate and learn from advisor effectively
+   CLOSED: [2015-02-10 Tue 15:46]
+*** Before meet
+Try the ideas/calculations the advisor propose. See whether you have
+some ideas or your own way to approach the problem. Do sufficient thinking/calculations before meet.
+*** During meet
+**** Research related
+Talk about what (partial)results you've obtained, the approaches
+you've tried, what you're aiming to obtain and what seems to block
+you.
+**** Other areas the advisor might help you
+Stat Modelling in Finance. Like Covariance Matrix Estimate, Portfolio
+Management, Martingale Applications.
+*** After meet
+    Some gaps/calculations need to bridge in order to understand some
+points your advisor made during the meet which you don't have enough
+time to figure out.
+Think about whether the meet has illuminated some paths in your
+current project's map. If yes, search and research further into them.
+** Buying list [100%]
+*** DONE Suites
+    CLOSED: [2015-02-16 Mon 20:21]
+*** DONE Electronic Toothbrush
+    CLOSED: [2015-02-07 Sat 06:33]
+*** DONE tools to clean the restroom
+    CLOSED: [2015-03-02 Mon 14:25]
+*** DONE wash liquid
+    CLOSED: [2015-03-02 Mon 14:25]
+*** DONE soap
+    CLOSED: [2015-02-05 Thu 11:13]
+*** DONE New bed or Not(No need)
+    CLOSED: [2015-03-02 Mon 14:26]
+No need right now.
+*** Room divider
+No need right now.
+*** DONE A hook (note hooker has other meaning...)
+    CLOSED: [2015-02-05 Thu 10:44]
+*** DONE trash bin
+    CLOSED: [2015-02-05 Thu 10:44]
+*** DONE balance
+    CLOSED: [2015-02-05 Thu 10:44]
+* 2.2-2.7 Plan
+** Find real data to apply the CLASSO one constraint algorithm
+** DONE Finish Ch4, Ch7 Optional of ESL
+   CLOSED: [2015-02-14 Sat 11:17]
+
+** DONE Figure out a first plan for finding an intern
+   CLOSED: [2015-02-10 Tue 16:18]
+*** CV revision
+Ask experienced people to revise your cv
+*** Data Science
+Contact Justin, Yang Jiao, Zhiheng Xu for advice
+*** Finance
+Contact Wenqian Qiao, Xialu, Kun Chang, Chunhong, Yang Li, Jianning
+Fan for advice
+*** Form the Taste
+Have ideas and knowledge about what might be a good internship/job
+opportunity and what might not.
+See through what abilities and skills an intern/job requires and
+whether I can obtain that in short period and how to do that.
+*** Decision
+Decide which area to focus on and forge all the way ahead.
+** Gathering information and Interview preparation
+
+** Consider how to Build weak connections
+
+* Interview Book List
+
+** Stat Models and Methods in Financial Market
+* Suits
+** 2.16 Bridgewater commons
+Macy's(bought a white dress shirt and blue tie in CK brand)
+J-crew
+Brook Brothers
+Banana Republic
+Lord & Taylor(the place I bought a suitable entry level suits with
+only 140 dollars. The pants need to be tailored, pick up next week)
+
+* Shopping reminder
+** Corns
+** Milk
+** DONE Ice sugar
+   CLOSED: [2015-02-24 Tue 16:32]
+* Regression problem with intercept terms
+Note what good properties might we have when we try to invert the
+matrix *X'X*.
+** What are the advantages to center the data when doing regression or other stat analysis?
+See 2nd paragraph on P 104 of ESL.
+* Finding a job
+** What job do you want and what choice do you have
+A job which I could apply my knowledge about stat modelling and interpretation, like in
+finance or IT area.
+** What to apply and how to apply
+** To be a sound candidate
+*** Present good knowledge and skills
+*** Good CV
+*** Good interpersonal skills
+* JP Morgan Chase
+
+** what do they expect
+ Core Modeling – Work on projects that develop sophisticated models to
+meet internal and regulatory needs, performing data extraction,
+sampling, and statistical analysis, documenting the modeling process
+and model results to business leaders, and validating existing models
+in order to support important business functions.
+
+ Model Analytics – Work on projects that will expose you to risk, modeling, pricing,
+financial reporting, analytics and forecasting as you seek to identify
+drivers of change, in order to understand and communicate the impact
+of a range of scenarios on the business. Manage the full-cycle of
+analysis; staring with identifying the opportunities and issues,
+collecting data, programming SAS, analyzing the data and making
+recommendations specific to policy changes
+
+Data Analytics – Work on projects that involve gathering,
+manipulating, and analyzing data to support risk/reward business
+decisions, assess and forecast profit and loss, recommend business
+strategies, or facilitate Risk Management
+
+Digital Analytics – Develop models, algorithms, & platforms for
+product recommendations and content personalization that wil enhance
+the customer experience across the entire spectrum of digital
+commerce, payment, and banking
+
+Quant Developer & Programming – Work on project that analyze and
+validate business and functional requirements involving advanced
+modeling and mathematical concepts. Design, Test & implement
+high-performance software and document results
+
+** what to prepare
+*** Stat Modelling, Data Mining
+**** Decision Trees
+**** Linear and Logistic Regression
+**** Time Series
+*** Programming
+Improve R programming and Summarize my SAS knowledge.
+Learn some SQL if time permits.
+*** Unstructured problem solving skill
+*** Finance knowledge
+Fixed income, Derivatives
+** plan
+* After 2.6 Sanofi Pasteur interview
+** review some common design like Latin square design
+** suppose you have obs for three treatments, how to select the best one?
+** improve SAS programming  skills
+* BMS
+** Design of Experiment
+** Bayesian Analysis
+** SAS programming
+
+* 2.27-3.1 plan
+** DONE Read Ch2 of *Stat for high dim data*
+   CLOSED: [2015-03-02 Mon 14:22] DEADLINE: <2015-02-28 Sat>
+** DONE Read proof of Th 2 in Cai's paper in detail
+   CLOSED: [2015-04-02 Thu 19:54] DEADLINE: <2015-03-04 Wed>
+The key is to learn the technique and find connections to the result
+we intend to establish.
+** TODO Analyze leukemia data
+   DEADLINE: <2015-03-03 Tue>
+ 

@@ -1,0 +1,41 @@
+* Data Scientist
+** An example
+
+Data Scientist - Recent PhD, Mentored Directly by a Master, Machine
+Learning, *Quantitative Trading, Quant Lending* Platform, *Predictive Modeling*, Logistic Regression, PFA, Clustering, R, Matlab, C/C++,
+Java, Python, Scala, Weka, Vowpal Wabbit - Dallas, TX
+
+ Our big data client in Dallas, Texas is seeking a Data Scientist to
+join their all PhD team, to be directly mentored by a master in
+quantitative trading, former head (SVP) of quantitative trading at the
+largest Wall Street trading institution for many years.  They apply
+machine learning techniques to very large data sets (multi-terabyte
+and petabyte scale).  Models can be predictive, descriptive, or
+both. This is an incredible beginner opportunity to work on *real-time
+pricing engines, directional probability, market forecasts,
+international proxy pricing, pattern recognition, mortgage default
+predictions, capacity models, statistical arbitrage* from a seasoned
+group of highly successful Wall Street professionals.
+
+*** Primary Responsibilities:
+
+Participate in the development of a quantitative platform for a
+lending institution You will have exposure to quantitative trading
+through their money management and equities trading vertical, all Wall
+Street based
+
+
+*** Qualifications:
+
+Recent PhD graduate in Mathematics, Quantitative Analytics, Statistics, Finance, or a similar computational PhD degree
+0-1 year of experience in an academic, professional, or R&D organization
+Experience developing predictive models using R, Matlab or similar modeling software
+Experience with *logistic regression, PFA, clustering* and/or other quantitative models
+Experience with machine learning algorithms such as *Weka, Vowpal Wabbit* or the like
+Experience with programming in one or more of the following: C/C++, Java, Python, *Scala, Clojure*
+
+*** Additional Qualifications:
+
+Ability to hit the ground running
+Independent thinker
+Works well in a close-knit, team environment

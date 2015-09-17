@@ -1,0 +1,68 @@
+* Car Notes
+** Theory
+*** what is torque
+As you know, an engine’s output is rated in horsepower and
+torque. Torque is pulling power, and it’s best demonstrated as the
+grunt that gets you moving, while horsepower is what keeps you going.
+
+Without sounding like your high-school physics teacher, torque is the
+twisting force created in an engine by rotating parts; horsepower is
+the measurement of how fast torque is being used. Horsepower and
+torque work hand-in-hand, as horsepower is calculated from torque.
+
+For the average buyer, torque shouldn’t be a deciding factor unless
+you know you’ll be towing or hauling heavy loads. And that’s where
+high-torque vehicles will thrive, driving while towing a trailer or
+maxing out cargo capacity. It will be easier to accelerate and sustain
+speed with a high-torque car in any situation, but especially with
+heavy loads.
+* Miscellaneous
+** DONE upgrade the R version to 3.2.2 on Ubuntu & Windows 10
+   CLOSED: [2015-08-15 Sat 13:53]
+** DONE upgrade the R verison to 3.2.2 on Mac
+   CLOSED: [2015-08-17 Mon 11:46] SCHEDULED: <2015-08-22 Sat>
+** DONE renew driver's license
+   CLOSED: [2015-08-25 Tue 13:34] SCHEDULED: <2015-08-22 Sat>
+** TODO call grand parents
+   SCHEDULED: <2015-08-26 Wed>
+* FSRM teaching
+** DONE program orientation
+** TODO placement exam
+   SCHEDULED: <2015-08-30 Sun>
+*** univariate calculus
+**** limit calculation
+***** stolz theorem
+***** L'Hospital Rule
+**** derivative and mean value theorems
+***** Leibniz formula
+***** taylor expansion
+
+**** indefinite integral
+**** definite integral
+***** change of variable technique
+***** integration by parts
+***** inequalities
+**** infinite series
+***** power series
+***** Fourier series
+*** multivariate calculus
+
+**** directional derivative, partial derivative
+
+**** total differential
+
+**** chain rule
+**** multivaritate taylor expansion
+**** maxima and minima, lagrangian multiplier
+**** multiple integration
+****  surface and volume integral. Green, Gauss, Stokes theorems
+*** linear algebra
+**** matrix notions
+***** linear dependence
+***** rank
+***** inverse
+**** system of linear equations
+**** determinants
+***** geometric intuition
+**** quadratic forms
+**** orthonality
