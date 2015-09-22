@@ -322,20 +322,38 @@ just brain speed training) or practise virtual memorization.
 *** advanced R
 * Research Habits, Idea & Challenge Plan
 ** Habits
+*** save time & squeeze time
+**** ban wechat moments, news checking, etc
+**** avoid unnecessary meet and appointment
+**** prepare good breakfast, eat quick lunck
+*** time analysis
+Mon - Wed: 5 hours at night
+Thur - Friday: 12 hours per day
+Saturday: 9 hours
+Sunday: 10 hours
+
+Total: 46 hours/week
+Deduction: Sep-Oct, 6 hours lecture preparing per week
 *** improve related problem solving skill
 as often as possible, better be everyday
 ****  math/stat problem solving
       SCHEDULED: <2015-09-16 Wed 22:30-23:30 +2d>
 **** programming problem solving
-     SCHEDULED: <2015-09-17 Thu 22:30-23:30 +2d>
-
+     SCHEDULED: <2015-09-17 22:30-23:30 +2d>
 *** express your learning and finding in timely manner
+*** back up your findings(notes and script) in a timely manner
+**** using github
+currently I'm maintaining backup repositories for my org, lyx and research r
+scripts on github.
 *** find projects to challenge yourself in timely manner
+
 ** Challenge Plan
-*** 9.14 - 9.18
+*** 9.14 - 9.24
 **** primal dual problems examples
 **** how can you generalize the sign pattern method for proving piecewise linearity
 **** the homotopy idea
 *** in the future
 **** LPD asymptotics for correlation matrices
-
+** Communication with advisor
+*** TODO talk about thesis and graduation before Oct 10
+    SCHEDULED: <2015-10-07 Wed>

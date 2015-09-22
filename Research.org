@@ -45,8 +45,8 @@ No conflict, since I found the script which the autors of mulltest used to
 preprocess the data into the *golub* dataset in their package.
 *** current issues
 **** Sig is not p.d., how to get an initial solution
-***** TODO idea
-      SCHEDULED: <2015-05-15 Fri>
+***** DONE idea
+      CLOSED: [2015-09-18 Fri 10:41] SCHEDULED: <2015-05-15 Fri>
 Use the objective function in section 4 of ROAD paper, write it in
 regression form then apply lars pacakge to solve an initial solution
 for a lambda>0.

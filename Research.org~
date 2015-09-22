@@ -14,6 +14,9 @@ LPD paper.
      CLOSED: [2015-04-06 Mon 17:01] SCHEDULED: <2015-03-31 Tue>
 
 *** Obtain similar results like (26) and (27) in LPD paper
+
+*** TODO prove LPD type asymptotics results for correlation matrices
+    SCHEDULED: <2015-09-27 Sun>
 ** comparison of our algorithm with related algorithms like LPD & ROAD
 *** what is the pros & cons?
 
@@ -26,6 +29,9 @@ LPD paper.
      CLOSED: [2015-09-09 Wed 16:33] SCHEDULED: <2015-08-28 Fri>
 **** TODO try to find counter example for covariance matrix via simulation construction
 
+*** piecewise lineararity of the LPD problem & uniqueness
+
+**** TODO professor Lee Dicker's Danzig Selector uniqueness reference
 ** implementation of our algorithm
 
 *** DONE nonsingular case
@@ -89,7 +95,7 @@ know how to derive dual form and solve langrange multiplier equations
 focus on the examples and the computation chapters
 ** a plan, 9/3/2015
 *** TODO optimization method chapter of Tibshirani's Lasso book, including problems section
-    SCHEDULED: <2015-09-06 Sun>
+    SCHEDULED: <2015-09-17 Thu>
 *** notes of duality & penalized regression by advisor
 *** multivariate taylor expansion
 *** selected sections of Bersekas's book
