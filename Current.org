@@ -152,6 +152,10 @@ When will Bayes Rule be good?
 ** communication
 ** task arrangement
 ** morning & night time
+* Learn from teaching/presentation
+** teaching
+*** always try to include some concrete examples to illustrate the theory(definition, notion, property, theorem, etc)
+*** show your example & logic not only by words, but also by writing on the blackboard
 * Daily Time Analysis
 ** March 2nd 2015
 1. sleep : 6-7 hours, weekend could be longer
@@ -349,11 +353,18 @@ scripts on github.
 
 ** Challenge Plan
 *** 9.14 - 9.24
-**** primal dual problems examples
+**** DONE primal dual problems examples
+     CLOSED: [2015-09-30 Wed 15:11]
 **** how can you generalize the sign pattern method for proving piecewise linearity
 **** the homotopy idea
 *** in the future
 **** LPD asymptotics for correlation matrices
+**** Improve simulation technique
+***** TODO R problems, hard section
 ** Communication with advisor
-*** TODO talk about thesis and graduation before Oct 10
-    SCHEDULED: <2015-10-07 Wed>
+*** TODO discuss thesis and graduation with advisor
+    SCHEDULED: <2015-11-01 Sun>
+** Tao of learning
+If you really wanna learn something, always find/generate the *motivation*
+first! Then spending enough time/efforts/good communications with others(if possible)
+should follow.

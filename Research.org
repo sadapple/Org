@@ -27,6 +27,9 @@ LPD paper.
 
 **** DONE study whether whenever L0 norm = 1, the nonzero feature is the best marginal feature
      CLOSED: [2015-09-09 Wed 16:33] SCHEDULED: <2015-08-28 Fri>
+The answer is no, counter example exists.
+***** write down the counter example
+      SCHEDULED: <2015-10-11 Sun>
 **** TODO try to find counter example for covariance matrix via simulation construction
 
 *** piecewise lineararity of the LPD problem & uniqueness

@@ -1,0 +1,18 @@
+* Vim
+** text editing notes
+*** quick insert
+o: insert line below
+Shift+o: insert line above
+* Emacs
+** org mode
+*** tables
+| feature    | vim          | emacs     | comparison                     |
+|------------+--------------+-----------+--------------------------------|
+| navigation | extrordinary | very good | emacs+evil can approximate vim |
+|            |              |           |                                |
+*** fonts and notations
+*bold*
+/incline/
+_underline_
+
+* Analogy & Comparison
