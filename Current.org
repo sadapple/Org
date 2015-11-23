@@ -106,6 +106,7 @@ When will Bayes Rule be good?
 ** Ping Chang Xin, Beyond Feelings
 ** Less is more
 ** If...Then...
+** March forward, but revisit regularly to gain confidence
 ** Trinity: Body, Skill, Heart
 ** Trinity: Statistics, Mathematics, Programming
 ** Love yourself, concentrate on your own stuff, stay focused
@@ -219,6 +220,63 @@ spare time 30+28=58 hours per week
 
 *** summary
 spare time 14*7-20=78 hours per week
+* Persistent Habit/Reflex 2015
+** Body
+*** running
+*** upper limb, abdominal muscle, waist strength
+*** martial art basics
+** Skill
+*** Asymptotics
+*** Matrix calculus
+*** Machine Learning
+*** Write better program
+*** Suitable knowledge about Algorithm
+*** Visual Memory Skills
+** Heart
+*** Oral expression and communication
+*** Beyond Feelings, Critical Thinking
+*** Fun and Humor
+What does playful mean?
+Learn from RMS!
+* a plan 8.22 2015
+** good attitude
+*** less is more
+*** yi wang bu gu yue ben!
+*** find your own answers!
+*** *fight with the weakness that father pointed out long time ago*
+
+*** be playful in life, find beauty in life!
+*** have vision, plan early
+*** two trinity: body/skill/heart & math/stat/programming
+*** Wind, Forest, Fire, Mountain
+** good habit, good expression
+*** morning and night
+get up around 7am, go to sleep around 1am
+In the morning, consider recite some good paragraphs I read recently.
+Before sleep, try to solve some problems(could be research related or
+just brain speed training) or practise virtual memorization.
+*** *Make deep meditation and calculations as an Conditioned Reflex*
+*** Find a suitable topic to express yourself(could be written/oral) *faithfullly* & *efficiently* everyday!
+*** Find good problem/project to challenge myself(programming, math, stat or anything interesting) regularly
+*** Realize at many occassions, the thing you feel reluctant to do is the exactly the thing you should do first!
+
+** learn the tao of Fun & Humor!
+*** What things are truly fun or humorous?
+*** Accumulate fun/humorous materials
+*** How to express them?
+** task priorites
+1) research and thesis related
+2) self-improvement or job related skill
+3) intern projects
+4) teaching
+** books/videos which shall be read and meditate on regularly
+*Note*: need to add more math books, but don't have much idea at present(8.22)
+*** beyond feelings
+*** ESL
+*** problem solving strategies
+*** algorithm design manual
+*** SICP
+*** advanced R
 * Building good habits for research
 ** Representations
 *** An appetite of solving problems by hand or by mental calculation
@@ -241,130 +299,3 @@ reserve your understanding for a problem for most people who want to
 know your perspectives.
 Don't hesitate to take the initiative when meeting the advisor. Don't
 hesitate to present the points which block you for some time.
-* Habits Plan
-** Sleep before 1:00 am, get up no later than 7:20 am.
-** Eat
-Three meals a day, do not eat after 8 pm.
-Vegetables, Fish, Corn, Fruits prefered
-** Run
-3 times a week, 4-6 km per run.
-** Place for study
-Try spend more time studying in the library in daytime.
-Try Kilmer Library.
-** Reading, Form good reading habits this year
-Whenever wanna play computer or surf the internet, think about read
-some good books instead.
-** In the morning
-A glass of water, clean face then use creme
-** At night
-one hour problem solving time, either programming or stat/math
-problems
-** Self-control
-Do not drink, do not eat at night
-learn to control when there are attractions present(like leisure novel, sex related
-material, etc)
-** Expression
-How to express yourself in a good way?
-Effective, Faithful, With Insight~
-** Thinking and Meditation
-Develop visual memory, mental calculation habits!
-** Learn the tao of Fun & Humor!
-*** What things are truly fun or humorous?
-*** Accumulate fun/humorous materials
-*** How to express them?
-* Persistent Habit/Reflex 2015
-** Body
-*** running
-*** upper limb, abdominal muscle, waist strength
-*** martial art basics
-** Skill
-*** Asymptotics
-*** Matrix calculus
-*** Machine Learning
-*** Write better program
-*** Suitable knowledge about Algorithm
-*** Visual Memory Skills
-** Heart
-*** Oral expression and communication
-*** Beyond Feelings, Critical Thinking
-*** Fun and Humor
-What does playful mean?
-Learn from RMS!
-* temp plan 8.22 2015
-** good attitude
-*** less is more
-*** yi wang bu gu yue ben!
-*** find your own answers!
-*** *fight with the weakness that father pointed out long time ago*
-
-*** be playful in life, find beauty in life!
-*** have vision, plan early
-*** two trinity: body/skill/heart & math/stat/programming
-*** Wind, Forest, Fire, Mountain
-** good habit, good expression
-*** morning and night
-get up around 7am, go to sleep around 1am
-In the morning, consider recite some good paragraphs I read recently.
-Before sleep, try to solve some problems(could be research related or
-just brain speed training) or practise virtual memorization.
-*** *Make deep meditation and calculations as an Conditioned Reflex*
-*** Find a suitable topic to express yourself(could be written/oral) faithfullly everyday!
-*** Find good problem/project to challenge myself(programming, math, stat or anything interesting) regularly
-*** Realize at many occassions, the thing you feel reluctant to do is the exactly the thing you should do first!
-** task priorites
-1) research and thesis related
-2) self-improvement or job related skill
-3) intern projects
-4) teaching
-** books/videos which shall be read and meditate on regularly
-*Note*: need to add more math books, but don't have much idea at present(8.22)
-*** beyond feelings
-*** ESL
-*** problem solving strategies
-*** algorithm design manual
-*** SICP
-*** advanced R
-* Research Habits, Idea & Challenge Plan
-** Habits
-*** save time & squeeze time
-**** ban wechat moments, news checking, etc
-**** avoid unnecessary meet and appointment
-**** prepare good breakfast, eat quick lunck
-*** time analysis
-Mon - Wed: 5 hours at night
-Thur - Friday: 12 hours per day
-Saturday: 9 hours
-Sunday: 10 hours
-
-Total: 46 hours/week
-Deduction: Sep-Oct, 6 hours lecture preparing per week
-*** improve related problem solving skill
-as often as possible, better be everyday
-****  math/stat problem solving
-      SCHEDULED: <2015-09-16 Wed 22:30-23:30 +2d>
-**** programming problem solving
-     SCHEDULED: <2015-09-17 22:30-23:30 +2d>
-*** express your learning and finding in timely manner
-*** back up your findings(notes and script) in a timely manner
-**** using github
-currently I'm maintaining backup repositories for my org, lyx and research r
-scripts on github.
-*** find projects to challenge yourself in timely manner
-
-** Challenge Plan
-*** 9.14 - 9.24
-**** DONE primal dual problems examples
-     CLOSED: [2015-09-30 Wed 15:11]
-**** how can you generalize the sign pattern method for proving piecewise linearity
-**** the homotopy idea
-*** in the future
-**** LPD asymptotics for correlation matrices
-**** Improve simulation technique
-***** TODO R problems, hard section
-** Communication with advisor
-*** TODO discuss thesis and graduation with advisor
-    SCHEDULED: <2015-11-01 Sun>
-** Tao of learning
-If you really wanna learn something, always find/generate the *motivation*
-first! Then spending enough time/efforts/good communications with others(if possible)
-should follow.

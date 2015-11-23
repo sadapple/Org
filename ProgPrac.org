@@ -1,32 +1,56 @@
-* Python
-** DONE Follow edx course MIT 6.002
-   CLOSED: [2015-09-02 Wed 14:25]
-*** DONE 1st week
+* Programming Langranges 
+** Python
+*** Follow edx course MIT 6.002 [/]
+**** DONE 1st week
     CLOSED: [2015-06-24 Wed 22:54] SCHEDULED: <2015-06-13 Sat>
 
-*** DONE problem set 1
+**** DONE problem set 1
     CLOSED: [2015-06-25 Thu 21:30]
 
-*** DONE problem set 2
+**** DONE problem set 2
     CLOSED: [2015-07-01 Wed 08:47] SCHEDULED: <2015-06-28 Sun>
-** Learn python the hard way
 
-** Recursion
+**** TODO problem set 3
 
-*** Divide and conquer
+**** TODO problem set 4
 
-* R
-** TODO Finish the Hard Function problems
-** TODO study dplyr packag for SAC(split-apply-combine) procedure
-   SCHEDULED: <2015-09-26 Sat>
-* SAS
-** DONE Level up to write some easy sas programs
+**** TODO problem set 5
+*** Learn python the hard way
+
+*** Recursion
+
+**** Divide and conquer
+
+** R
+*** TODO Finish the Hard Function problems
+*** TODO study dplyr packag for SAC(split-apply-combine) procedure
+   SCHEDULED: <2015-12-19 Sat>
+** SAS
+*** DONE Level up to write some easy sas programs
    CLOSED: [2014-10-07 Tue 10:49]
-* Cpp
-* SICP
+*** TODO Improve SAS skill via the IPD NMA case study[0/4]
+**** TODO data manipulation, SQL
+**** TODO GLM, logistic & poisson regression procedure in SAS
+**** TODO write macros
+**** TODO accumulate and summary SAS tricks you learn
+** Cpp
+** SICP
 
-
-* Markdown
-** DONE Learn basics
+** Markdown
+*** DONE Learn basics
    CLOSED: [2015-02-17 Tue 10:10]
-** TODO gmail via markdown
+*** TODO gmail via markdown
+* Algorithm & Data Structure
+* Thoughts
+** Tools/Skills/Knowledge worth achieving expertise for programming in 10 years
+*** Emacs & Vim
+*** Git & Github
+*** CMD(Bash, Win, etc)
+*** Lisp & Scheme
+*** C & C++
+*** Python & R
+*** Algorithm & Data Structure
+*** Different Paradigms of Programming
+*** Org Mode & Notes Keeping/Project Managing/Time Tracking/Self Evaluation
+*** Reproducible Research(Org, Latex, Texmacs, Knitr integration)
+*** Web, Server related tools & language

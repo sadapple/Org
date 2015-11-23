@@ -1,14 +1,12 @@
 * Book for Multivariate Statistics
 ** TODO Ch1&2
 
-
 * Data Mining Homework by Han Xiao
 ** DONE LDA and Logistic Regression
    CLOSED: [2015-02-27 Fri 02:13] DEADLINE: <2015-02-25 Wed>
 ** TODO PCA and Factor Model
 ** Lasso, SCAD, Penalized Regression
-   SCHEDULED: <2015-09-30 Wed>
-
+* Data Mining by Yang Dan
 * Familiar with common distribution charaterization and facts
 * Math Expectation Calculation & Moment Inequalites
 * MGF and Charateristic Function
