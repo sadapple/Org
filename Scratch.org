@@ -1,0 +1,457 @@
+(#+STARTUP: content)
+
+* Org Mode
+** Motion
+next/previous heading C-c C-n/p
+next/previous same level heading C-c C-f/b
+back to higher level heading C-c C-u
+jump to another place in document C-c C-j
+** Org key
+M-S left/right to promote/demote a subtree
+C-c C-c: to add a tag when cursor at a headline
+
+*** Org templates
+Use "<l" to insert template for latex and "<h" similarly for html.
+You can install additional templates by customizing the variable org-structure-template-alist.
+** Search
+Search for headlines by typing * and the first word.  Org searches
+collapsed sections, so you don’t need to open everything before
+searching.
+To search using Org’s outline structure, use C-c / r (org-sparse-tree,
+regexp), which will show only entries matching a regular expression.
+
+eg.
+Use \<cat\> to search all entries that contain "cat" as a word by
+itself (example: "cat," but not "catch")
+
+*** TODO Don't know how the previous search works, since no explicit results return
+** org list egs
+1) [-] haha [33%]
+   1) [X] mmu
+   2) [ ] hehe
+   3) [ ] xixi
+2) [ ] yoyo
+
+
+
+*** key for list operation
+M-RET : insert same level list entry
+M-Shift-RET : insert same level list entry with *checkbox*
+C-c C-c : change the status of the checkbox
+M-left/right : similar as headlines
+M-up/down : see above
+** org footnotes
+[fn:1] hiahiahia
+** org tables
+| Name          | Phone           | Email                  | sub1 | sub2 | total |   |
+|---------------+-----------------+------------------------+------+------+-------+---|
+| Chuan Liu     | 732-319-0112    | prouwolflucy@gmail.com |   88 |   70 |   158 |   |
+| Leila         | (86)18179717117 | cdl1209@hotmail.com    |   99 |   80 |   179 |   |
+| She tou       | 765-637-3834    |                        |  100 |   99 |   199 |   |
+| Fengfeng Zhou | (86)18675591420 |                        |   98 |   90 |   188 |   |
+| Tao Jing      |                 |                        |   80 |   80 |   160 |   |
+#+TBLFM: $6=$4+$5
+*** key for tables
+**** basics
+- Summing key : C-u C-c C-c
+- C-c | : create a table by indicating its size(like 5*2) or convert
+  the active region to table.
+ If every line contains at least one TAB character, the function
+  assumes that the material is tab separated.
+ If every line contains a comma, comma-separated values (CSV) are
+  assumed.
+ If not, lines are split at whitespace into fields.
+| 2 | 3 | 4 |
+| 6 |   |   |
+
+- C-c C-c : align the tables
+- Tab : turn right
+- Enter/Return : turn down
+**** column and row
+
+- M-up/down/left/right : move row/column in that direction
+- M-S-down//right : insert a new row/colunm above/to the left of the
+  current row/column
+- M-S-up/left : kill the current row/column
+- C-c ^ : sort the table lines, the postition of point indicates the
+  column to be used for sorting
+**** regions
+- C-c C-x M-w : copy rectangle region
+- C-c C-x C-w : cut rectanle region
+- C-c C-x C-y : paste a rectanle region into a table
+- M-RET : Split the current field at the cursor position and move the
+rest to the line below
+**** calculations
+- C-c + : Sum the numbers in the current column, or in the rectangle
+defined by the active region. The result is shown in the echo area and
+can be inserted with C-y.
+- S-RET : When current field is empty, copy from first non-empty field
+above. When not empty, copy current field down to next row and move
+cursor along with it.
+*** How to reference field in org-table
+3 ways: by name, by absolute coordinates, by relative coordinates.
+To find out the coordinates of a field, use "C-c ?" in that field, or
+press "C-c }"  to toggle the display of a grid.
+**** field references
+Format : @row$column
+Column specifications can be absolute like $1, $2,...$N, or relative
+to the current column (i.e., the column of the field which is being
+computed) like $+1 or $-2. $< and $> are immutable references to the
+first and last column, respectively, and you can use $>>> to indicate
+the third column from the right.
+**** range reference
+You may reference a rectangular range of fields by specifying two
+field references connected by two dots ‘..’. If both fields are in the
+current row, you may simply use ‘$2..$7’, but if at least one field is
+in a different row, you need to use the general @row$column format at
+least for the first field (i.e the reference must start with ‘@’ in
+order to be interpreted correctly).
+
+
+** org hyperlinks
+
+[[TODO]] (use C-c C-o to open link)
+
+<<TODO>>
+
+You can create a hyperlink to a text search by putting the keywords
+between two pairs of square brackets. To define a link anchor, put the
+text in double angled brackets
+
+In this org file, I refered [[http://sachachua.com/blog/2008/01/outlining-your-notes-with-org/][Sacha Chua]].
+*** See pictures directly
+[[file:/media/Learn/Dropbox/Screenshots/WrongCV.png]]
+To see the above picture directly, use C-c C-x C-v
+*** Link to local files
+ Try visiting another file—for example, your emacs initialization
+ file. Then hit C-c l to call org-store-link. You'll see a message
+ that a link was stored to the current location in the file you're
+ visiting.
+
+Then switch back to your org-mode buffer and paste the link using C-c
+C-l to call org-insert-link. (You may need to press the arrow keys to
+scroll through and find the link you just recorded.)
+** org TODO item
+You can add checkbox in the TODO headings.
+*** TODO hiahia [33%]
+**** TODO momo
+**** DONE xixi
+     CLOSED: [2015-02-27 Fri 21:11]
+*** [#A] keys for TODO item
+- C-c C-t : toggle TODO status
+- C-c / t : display all TODO items in tree
+- C-c C-c : toggle checkbox status
+- C-c , : set priorities
+- M-S-RET : insert same level TODO entry
+** org tags							    :org:tag:
+*** key for tags
+- add tags : C-c C-q
+- generate tags tree : C-c / m
+** org time stamp
+- C-C + . : open calendar
+- C-c !
+- S-Left/Right/Up/Down
+- C-c C-d : insert deadline time
+- C-c C-s : insert schduled time
+    <2014-12-25 Thu>
+*** test repeated time-stamp
+#    SCHEDULED: <2015-09-16 Wed 16:00 +1w>
+*** Inactive timestamp
+    SCHEDULED: [2015-09-16 Wed]
+*** countdown timer
+";" in agenda buffers
+"C-c C-x ;" everywhere else
+
+** org clocking
+   CLOCK: [2015-09-17 Thu 00:40]--[2015-09-17 Thu 00:49] =>  0:09
+
+** org special text font
+*bold*
+/italic/
+_underlined_
+=code=
+~verbatim~
++strike-through+
+
+
+** org export setup and enviroments
+
+*** set title and contents
+#+TITLE: Chuan Liu's Scratch
+#+OPTIONS: toc:2 (only to two levels in TOC)
+#+OPTIONS: toc:nil (no TOC at all)
+
+*** add quote
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler -- Albert Einstein
+#+END_QUOTE
+
+*** center output
+#+BEGIN_CENTER
+    Everything should be made as simple as possible,but not any simpler
+#+END_CENTER
+
+*** creat example where contents in this region will be exported as you enter
+#+BEGIN_EXAMPLE
+这里面的字符不会被转义
+#+END_EXAMPLE
+
+*** add comment(contents in this region wouldn't be exported)
+#+BEGIN_COMMENT
+这里的注释不会被导出
+#+END_COMMENT
+
+*** key for exporting
+- C-c C-e
+** org and latex
+*** C-c C-x C-l
+   CLOCK: [2014-10-24 Fri 01:45]--[2014-10-24 Fri 01:45] =>  0:00
+\[
+e^{i\pi} = -1
+\]
+** org and html
+#+BEGIN_EXAMPLE
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+Add the previous line to the head of the org file, it would load the CSS.
+#+END_EXAMPLE
+** org interaction with other programming languages	    :org:programming:
+
+#+BEGIN_SRC emacs-lisp
+(+ 1 2 3 4)
+#+END_SRC
+
+#+RESULTS:
+: 10
+
+#+BEGIN_SRC python :results output
+a = 1+1
+print a
+#+END_SRC
+
+#+RESULTS:
+: 2
+
+#+begin_src C++ :includes <stdio.h>
+  int a=1;
+  int b=1;
+  printf("%d\n", a+b);
+#+end_src
+
+#+RESULTS:
+: 2
+
+#+BEGIN_SRC R
+a = 1
+b = 1
+print((a+b))
+#+END_SRC
+
+#+RESULTS:
+: 2
+
+*** key for interaction
+Inside a code chunk, use "C-c C-c" to evaluate the code chunk and
+produce the results in the next chunk.
+
+* more vim to learn
+** how to undo previous action?
+** how to navigate better like?
+To the character movement: f/, t/, F/, T/
+
+Paging - Moving the page up and down by full pages with CTRL-f and CTRL-b and by half pages with CTRL-u and CTRL-d.
+
+Cursor jumping to screen parts - Moving to the head, middle and last
+line of a screen with H, M and L respectively.
+
+Top and Bottom of the buffer - Jumping to the top line of the entire
+buffer with gg and the bottom of the entire buffer with G.
+
+Jumping to a particular line - Get to a specific line number with
+<number>G.
+
+Easy regular expression searching - The famous '*' and '#' keys for
+jumping by bounded regular expression.
+
+Manual regular expression searching - Using '/' and '?' to manually
+search.
+
+Start of Function or Class Jumping - Moving to the beginning of
+functions and classes backwards through the buffer with "[[" and the
+beginning of functions and classes forwards through the buffer with
+"/]/]" End of Function or Class Jumping - Forwards to the end of a
+function or class definition with ][ and backwards to the end of a
+function or class definition with [].  Jumping to Matching Braces -
+The fantastic % characters.  Marks - Basic mark functionality and how
+it works with m, ' and `.
+*Like in emacs, I have M-b M-f M-d M-delete C-upper C-down, what's the
+equivalence in vim?*
+** how to delete a word/sentence/paragraph quickly in vim?
+** how to do faster selection?
+
+* more git to learn
+* Markdown syntax note
+to do block, use '<'
+
+* Gnus
+** Sending Email
+C-x m to begin compose
+C-c C-s to send(C-c C-c do the same then bury the buffer)
+* Brainstorming Guide
+
+Brainstorming is a great way to break your writer’s block or to
+generate lots of possibilities. The key idea is to come up with as
+many ideas as you can, and write them all down before you start
+evaluating them.
+
+I usually switch to paper for mindmapping and brainstorming because
+paper helps me think in a more colorful and non-linear way. However,
+it can be hard to manage large mindmaps on paper, because you can’t
+reorganize nodes easily. Despite its text-heavy interface, Org is one
+of the best mindmapping tools I’ve come across. Because it’s built
+into Emacs, everything can be done through keyboard shortcuts.
+
+When you’re brainstorming, you might like working from *two different
+directions*.  Sometimes it’s easier to start with an outline and to
+add more and more detail. Other times, you may want to jot quick ideas
+and then organize them into groups that make sense. Org provides
+support for both ways of working.
+
+Brainstorming bottom-up is similar to David Allen’s Getting Things
+Done method in that separating collection from organization is a good
+idea. That is, get the ideas out of your head first before you spend
+time trying to figure out the best way to organize them. To get things
+out of your head quickly, collect your ideas by using the M-RET
+(org-meta-return) to create a new heading, typing in your idea, and
+using M-RET (org-meta-return) to create the next heading. Do this as
+many times as needed.
+
+* On Programming
+Some famous sayings:
+*A little learning is a dangerous thing.*
+*A language that doesn't affect the way you think about programming, is not worth knowing.*
+*Everyone can be taught to sculpt: Michelangelo would have had to be
+taught how not to. So it is with the great programmers*
+
+ it takes about ten years(the other version is 10000 hours) to develop expertise in any of a wide
+ variety of areas, including chess playing, music composition,
+ telegraph operation, painting, piano playing, swimming, tennis, and
+ research in neuropsychology and topology. The key is deliberative
+ practice: not just doing it again and again, but challenging yourself
+ with a task that is just beyond your current ability, trying it,
+ analyzing your performance while and after doing it, and correcting
+ any mistakes. Then repeat. And repeat again.
+
+* On Habits
+** Elements of habit
+Cue, Routine, Reward, Cravings
+** How habits are formed
+Cue, Routine and Reward forms a circle for a habit. Cravings are what
+drives habits. If you know how a spark a craving, this would make
+creating a new habit easier.
+
+However, these cravings don't have complete authority over us. There
+are mechanisms that can help us ignore the temptations. But to
+overpower the habit, we must recognise which craving is driving the
+behavior.
+** How to change a habit?
+Genuine change requires work and self-understanding of the cravings
+driving the behaviors. Changing any habit requires determination. No
+one will quit smoking simply because they sketch a habit loop.
+
+However, by understanding habits' mechanisms, we gain insights that
+make new behaviors easier to grasp. Changes are accomplished because
+people examine the cues, cravings and rewards that drive their
+behaviors and then find ways to replace their self-destructive
+routines with healthier alternatives, even if they aren't fully aware
+of what they are doing at the time. Understanding the cues and
+cravings driving your habits won't make them suddenly disappear, but
+it will give you a way to plan how to change the pattern.
+*** Golden Rule of Habit Change
+*You can't extinguish a bad habit, you can only change it.*
+How it works:
+*Use the same cue. Provide the same reward. Change the routine.*
+*** Comments
+For a habit to stay changed, people must believve change is
+possible. And most often, that belief only emerges with the help of a
+group.
+
+If you want to change a habit, you must find an alternative routine,
+and your odds of success go up dramatically when you commit to
+changing as part of a group. Belief is essensial, and it grows out of
+a communal experience, even if that community is only as large as two people.
+*** Guide to applying these ideas
+**** Step 1: Identify the Routine
+**** Step 2: Experiment with Rewards
+Most cravings are like this: obvious in retrospect, but incredibly
+hard to see when we are under their sway. To figure out which cravings
+are driving particular habits, it's useful to experiment with
+different rewards. This might take a few days, or a week, or
+longer. During that period, you shouldn't feef any pressure to make a
+real change --- think of yourself as a scientist in the data
+collection stage.
+
+After you test four or five different rewards, you can use an old
+trick to look for patterns: After each activity, jot down on a piece
+of paper the first three things that come to mind when you get back to
+your desk. They can be emotions, random thoughts, reflections on how
+your're feeling, or just the three words that pop into your head. Then
+set an alarm on your watch or computer for 15 minutes. When it goes
+off, ask yourself: Do you still feel the urge for that cookie?
+
+The reason why it's important to write down three things--- even if
+they are meaningless words-- is twofold. First, it forces a momentary
+awareness of what you are thinking or feeling. What's more, studies
+show that writing down a few words helps in later recalling what you
+are thinking at that moment.
+
+And why the 15 minutes alarm? Because the point of these tests is to
+determine the reward you're craving. If, 15 minutes after eating a
+donut, you still feel an urge to get up and go to the cafeteria, then
+your habit isn't motivated by a sugar craving. On the other hand, if
+15 minutes after chatting with a friend, you find it easy to get back
+to work, then you've identified the reward--- temporary distraction
+and socialization --- that your habit sought to satisfy.
+
+By experimenting with different rewards, you can isolate what you are
+actually craving, which is essential in redesigning the habit.
+
+**** Step 3: Isolate the cue
+Experiments have shown that almost all habitual cues fit into one of
+five categories:
+1. location
+2. time
+3. emotional state
+4. other people
+5. immediately preceding action
+
+**** Step 4: Have a plan based on the previous three steps
+
+**** My Idea
+注意习惯的三要素中，routine是可以直接可以观察到的，而其他两者有时候自
+己大概知道，有时候完全不知道。所以理解和改变自己的习惯关键可能就
+在于通过改变rountine，来明了相应地cue和reward，从而明白这三个要素的
+craving是什么。有些craving可能是好的，有些可能是不好的,如果是好的
+craving那么只需要改变相应地routine和reward就好，cue并不需要加以改变。
+而如果背后的craving是不好的，那么可能意味着改变这一习惯是一个长期的战
+斗，因为你可能需要用一个好的craving支撑的新习惯来替代这个旧习惯
+（cue,routine,reward, all of these)。不过因为明确了cue和reward，这时候
+可以采取减少老习惯cue出现几率还有用好craving支撑的相似reward来代替旧习
+惯reward的方法来慢慢改变。
+
+* 史记 吕世浩
+
+** 案例
+*** 【忍】和【先】 张良
+***  读书三层次：诵书，读书，念书（念乃实践之意）
+** 责任
+吕世浩先生提到这门（史记）课上很多内容他都有办法让学生理解，唯独“责任”
+二字，因为古今时代的变化，是很难让学生理解了。
+
+* keyboard shortcut
+** win 10
+win+TAB: Task View
+Create new virtual desktop: Windows key + Ctrl + D
+Close current virtual desktop: Windows key + Ctrl + F4
+Switch virtual desktop : Windows key + Ctrl + Left or Right
+Snapping window: Windows key + Left or Right

@@ -1,15 +1,76 @@
-* OPT prepare
-** TODO attend OPT workshop
-SCHEDULED: <2015-12-09 Wed>
 
-Post-Completion Employment Workshop
-10:30 a.m. - 12noon
-180 College Avenue
+* DONE pay phone bill 
+CLOSED: [2015-11-24 Tue 18:20] SCHEDULED: <2015-12-02 Wed>
 
-* Interview prepare
+* DONE apply TD bank card 
+CLOSED: [2015-12-02 Wed 07:52] SCHEDULED: <2015-12-02 Wed>
 
-* TODO pay phone bill 
-SCHEDULED: <2015-12-02 Wed>
+* DONE buy SP4 for Ni Le & Huahua 
+CLOSED: [2015-12-03 Thu 21:35] SCHEDULED: <2015-12-04 Fri>
 
-* TODO apply TD bank card 
-SCHEDULED: <2015-12-02 Wed>
+** check whether bestbuy accept apple-pay
+
+** order the SP4 and ship it to Jiawei
+
+* DONE check whether the transfers are received in the discover online saving account 
+CLOSED: [2015-12-09 Wed 16:30] SCHEDULED: <2015-12-11 Fri>
+received
+* DONE have Kolassa signed the CPT & I-20 extension forms 
+CLOSED: [2015-12-09 Wed 11:13] SCHEDULED: <2015-12-09 Wed>
+
+also signed the reduced credit form
+* DONE submit the CPT, I-20 extension, reduced credit & insurance exemption forms to the inter office
+CLOSED: [2015-12-11 Fri 17:14] SCHEDULED: <2015-12-11 Fri>
+* DONE pay the fail to inspect ticket 
+CLOSED: [2015-12-18 Fri 19:45] SCHEDULED: <2015-12-19 Sat>
+* DONE pay the phone bill using AMEX card
+CLOSED: [2015-12-22 Tue 22:21] SCHEDULED: <2015-12-23 Fri>
+confirmation # 4XV7MYW9V04PXG1
+* write an essay about the thankgiving backtrip 
+
+** beijing 
+
+*** Gugong & Jingshan park 
+
+*** Wan Yimin & Ni Le
+
+*** POTO show
+** ganzhou
+*** Naima, Li Huan & the chance mentioned by Dong hemeng
+*** Xiao Yan's child  
+** shenzhen, hongkong
+
+*** visit to Shen Li's home, some talk with Liu Qiang, Liu Lu and Zhang Yejun
+
+*** Nanshan climbing
+
+*** dinner with Dongdong on 11.29
+*** a miraculous reverse happened on Monday 11.30
+
+*** hongkong talk with Chunhong
+** body training
+
+*** feeling about basketball plays at Ningdu
+
+** career plan 
+
+*** reminder from Dongdong
+** sheng, lao, bing, si
+生老病死
+*** 4 child I met and played
+
+*** grandparents & parents
+
+* Boston Trip 
+** 12.27 老炮儿
+和小伙伴们忙活了几天今儿终于抽空看了这部电影。满分十分的话我想给8-8.5分。六爷是
+个行走在黑白之间同时固守着一份自己信仰、做事认死理、“贫贱不能移，威武不能屈”的粗
+人。虽然有些理未必经得起推敲（比如直男癌满满的话），可却充满魅力，让人觉得可亲可
+敬可爱。冯小刚演真是太合适不过了。至于剧情，有几处转承不够自然之处，但联系过去兄
+弟，父子和解，以及最后那一段还是让我回味良久。时代总是不断的变迁，可有一些真精神
+值得去被记住。恩仇恩仇，有恩报恩，有仇报仇；仁义仁义，唯其义尽，所以仁至。片中的
+老炮儿们大抵就是这样一群人吧。
+
+** 12.28 Rhode Island, Cheesecake Factory, Twin River Casino 
+** 12.29, first snow I saw in US this winter, F1 boston drive experience, *you are my sunshine*(Louisiana State Song) ---- dinner at John & Stacy's house
+** 12.31, Boston Museum of fine arts

@@ -21,16 +21,17 @@
 
 **** Divide and conquer
 
+*** mutable & immutable objects
 ** R
 *** TODO Finish the Hard Function problems
 *** TODO study dplyr packag for SAC(split-apply-combine) procedure
-   SCHEDULED: <2015-12-19 Sat>
 ** SAS
 *** DONE Level up to write some easy sas programs
    CLOSED: [2014-10-07 Tue 10:49]
-*** TODO Improve SAS skill via the IPD NMA case study[0/4]
+*** TODO Improve SAS skill via the IPD NMA case study[1/4]
 **** TODO data manipulation, SQL
-**** TODO GLM, logistic & poisson regression procedure in SAS
+**** DONE GLM, logistic & poisson regression procedure in SAS
+CLOSED: [2016-01-18 Mon 17:18]
 **** TODO write macros
 **** TODO accumulate and summary SAS tricks you learn
 ** Cpp
@@ -41,6 +42,9 @@
    CLOSED: [2015-02-17 Tue 10:10]
 *** TODO gmail via markdown
 * Algorithm & Data Structure
+** Cracking the code interview
+*** TODO 1st discussion
+SCHEDULED: <2016-01-31 Sun>
 * Thoughts
 ** Tools/Skills/Knowledge worth achieving expertise for programming in 10 years
 *** Emacs & Vim

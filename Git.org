@@ -1,0 +1,10 @@
+* Why Git?
+** Important Features
+*** Collaboration via *pull request*
+* Git Notes
+** Questions
+*** How to create repositories locally & remotely?
+*** How to get repositories from server?
+*** How to update local repositories changes via Git and push it to remote server?
+*** How to fork, clone, submit *pull request* locally in *command line*?
+*** How to maintain different branches locally and remotely?

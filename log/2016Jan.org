@@ -1,3 +1,82 @@
+* Purdue Trip Thoughts
+** those important sense of thinking/intuitions in your field
+Like in representation theory, one central problem is how to decompose a
+representation(not always decomposable in direct product) and you should have
+some good sense/intuition into the homomorphisms between vector spaces & group
+action. What is the central problem in your research area? what are the
+important sense of thinking, what are the important related skills?
+*** classification
+*** l_1 minimization
+** DONE learn how to improve upper limb strengh from Dongming
+CLOSED: [2016-01-11 Mon 11:01]
+
+SCHEDULED: <2016-01-08 Fri>
+* 2016 Library Hours
+** spring semester
+Jan 19 - May 2, 2016
+*** Kilmer & LSM
+8 am to 2 am, Mon to Thur
+8 am to Midnight, Fri
+10 am to  Midnight, Sat
+Noon to 2 am, Sun
+*** Math
+Mon to Friday start at 8:30 am
+* Job search & Interview prepare
+
+** data science
+
+*** alumi talk on data science work at sillicon valley
+
+**** prepare potential interviews
+
+***** review data mining notes and problems
+
+***** study more about dplyr, ggplot2, pandas, SQL
+
+***** think about what does data visualization mean and what is the general principle to do it 
+**** prepare good questions
+** bank
+
+** pharmarcutical company
+* OPT prepare
+** TODO attend OPT workshop
+SCHEDULED: <2016-02-09 Tue>
+Post-Completion Employment Workshop
+10:30 a.m. - 12 noon
+College Avenue Student Center - Room 411 (A,B)
+
 * Other Tasks
-** TODO renew library books
-SCHEDULED: <2016-01-10 Sun>
+** DONE renew library books
+CLOSED: [2015-12-09 Wed 17:16] SCHEDULED: <2016-01-10 Sun>
+** DONE pay phone bill using AMEX 
+CLOSED: [2016-01-24 Sun 21:39] SCHEDULED: <2016-01-23 Sat>
+** DONE pay TD bank bill
+CLOSED: [2016-01-02 Sat 21:21] SCHEDULED: <2016-01-06 Wed>
+** DONE Purdue trip checklist
+CLOSED: [2016-01-09 Sat 20:04]
+*** GPS
+*** gift for Shetou
+*** camera
+** DONE cancel several magzines' subscription 
+CLOSED: [2016-01-25 Mon 17:31] SCHEDULED: <2016-01-19 Tue>
+** DONE submit tuition remission form
+CLOSED: [2016-01-24 Sun 21:40]
+** DONE Apply AMEX golden reward card with special offer
+
+CLOSED: [2016-01-26 Tue 14:35]
+** TODO Contact Lisa & Rutgers HR to check about how to continue the spring TA health insurance 
+SCHEDULED: <2016-02-02 Tue>
+** customize my new room
+*** DONE over head earphones
+CLOSED: [2016-01-23 Sat 04:39]
+*** whiteboard and dry-erase markers
+**** how does a good whiteboard performance like?
+**** installation
+since I live in rented house, it's not a good idea to drill-install
+*** arrange my rare-used books and package them
+*** buy two towels for upper stairs use
+* 1.16 
+** TODO study Wishart property and finish the LPD uniqueness notes
+:LOGBOOK:
+CLOCK: [2016-01-16 Sat 13:45]--[2016-01-16 Sat 13:59] =>  0:14
+:END:

@@ -1,0 +1,27 @@
+* Other Tasks 
+** TODO pay TD card bill
+SCHEDULED: <2016-02-01 Mon>
+
+** TODO timberland shoe repair
+SCHEDULED: <2016-02-01 Mon>
+** tax report 
+*** DONE have all the forms?
+CLOSED: [2016-01-26 Tue 21:20] SCHEDULED: <2016-02-01 Mon>
+**** DONE Rutgers
+CLOSED: [2016-01-26 Tue 21:19]
+Online pdf received
+**** DONE Pro Unlimited
+CLOSED: [2016-01-26 Tue 21:18]
+Received
+**** Banks
+***** DONE Discover, received
+CLOSED: [2016-01-26 Tue 21:19]
+***** Chase
+***** BOA
+*** TODO File through Turbo Tax
+SCHEDULED: <2016-02-01 Mon>
+** TODO schedule to see a dermitology doctor for my long existed skin issue
+As I have never seen a doctor in US. Here I intentionally do this to gain such life experience. 
+
+** TODO visit Princeton with Yitong 
+SCHEDULED: <2016-02-04 Thu>

@@ -1,7 +1,31 @@
 * Reading Notes
-
+** Music
+*** pitched accent
+Pitch accent is a feature of certain languages whereby variations in pitch
+(linguistic tones) can be used to differentiate words, but where the potentially
+distinctive tones are restricted to only one or two syllables within a word – as
+opposed to fully tonal languages like Standard Chinese, where each syllable can
+have an independent tone. In a pitch accent language, the syllable with phonemic
+tone is typically one that is acoustically prominent (stressed). Also many words
+may not be marked for tone at all.
+*** tonal language
+Tone is the use of pitch in language to distinguish lexical or grammatical
+meaning – that is, to distinguish or to inflect words.[1] All verbal languages
+use pitch to express emotional and other paralinguistic information and to
+convey emphasis, contrast, and other such features in what is called intonation,
+but not all languages use tones to distinguish words or their inflections,
+analogously to consonants and vowels. Languages that do have this feature are
+called tonal languages.
 * Oral Expression
 
+** small habits
+
+*** TODO call grandparents
+SCHEDULED: <2016-01-28 Thu +1m>
+:PROPERTIES:
+:LAST_REPEAT: [2016-01-02 Sat 21:56]
+:END:
+- State "DONE"       from "TODO"       [2016-01-02 Sat 21:56]
 * Voc
 cortical: of or relating to a cortex
 cortex: the tissue forming the outer layer of an organ or structure in plant or animal;
@@ -16,3 +40,17 @@ pedigree: the descendants of one individual;
  *glimer of hope*
  brethren: The Bible often uses the word brethren to indicate brothers. It is a fancy plural form of "brother" most often used formally when speaking in a religious tone.
 
+*hung one's head* : this is an idiom which has the following meaning
+
+Hang one's head: let it fall forward (e.g., when ashamed); a downward droop or bend
+eg.
+After the teacher caught me cheating, I hung my head in shame.
+Athletes caught taking drugs should hang their heads in shame.
+
+When a person commits suicide or is executed by hanging, we use hang/hanged. "Hung" is never used in such cases. e.g.,
+eg.
+He was hanged for murder. (executed)
+He said he would hang himself. (suicide)
+
+
+revenant: gui lai zhe

@@ -45,6 +45,87 @@ c$  : note that the "c" command would switch to insert mode
 *** retrieve and merge file
 :r FILENAME
 
+** vim text objects(like words, sentences, paragraphs & user-defined objects)
+In Vim, editing commands have the following structure:
+  <number><command><text object or motion>
+
+some text objects eg.: aw, iw, as, is, ap, ip
+command eg.: daw, ciw
+
+Vim provides several text objects based on common *programming language constructs*.
+
+Strings
+a” – a double quoted string
+i” – inner double quoted string
+a’ – a single quoted string
+i’ – inner single quoted string
+a` – a back quoted string
+i` – inner back quoted string
+
+command eg.: ci", ci'
+
+Parentheses
+a) – a parenthesized block
+i) – inner parenthesized block
+
+Brackets
+a] – a bracketed block
+i] – inner bracketed block
+
+Braces
+a} – a brace block
+i} – inner brace block
+
+Markup Language Tags
+at – a tag block
+it – inner tag block
+a> – a single tag
+i> – inner single tag
+
+*** Vi Command Line Editing
+
+If you use Vi command line editing in your shell, enabled with set -o vi in bash
+and bindkey -v in zsh, Vim’s text objects are not available. Text objects were
+introduced by Vim but shell command line editing is based on Vi.
+
+*** Precision Editing
+
+Vim’s text objects provide an incredible level of precision. The key is to try
+to always edit by text objects. Editing by motions e.g., by part of a line, to
+the next occurrence of a character, is tedious, clumsy, and slow. Instead of
+correcting a misspelling character by character, change the entire word and
+re-type it.
+
+Don’t be discouraged by the large number of text objects, their conventions make
+them intuitive and easy to learn. After some practice, like every other Vim
+command, they’ll quickly become just another muscle memory.
+
+*** vim script can be used to define new text objects 
+like in [[https://github.com/vim-scripts/argtextobj.vim][VimTextObj]], it provides a text object for function arguments.  
+aa – an argument
+ia – inner argument
+
+** speak vim - verbs, nouns, and modifiers
+Using vim is like talking to your editor in ‘verb modifier object’ sentences, turned into acronyms
+
+learn some verbs: v (visual), c (change), d (delete), y (yank/copy). these are the most important. there are others
+learn some modifiers: i (inside), a (around), t (till..finds a character), f (find..like till except including the char), / (search..find a string/regex)
+learn some text objects: w (word), s (sentence) p (paragraph) b (block/parentheses), t (tag, works for html/xml) there are others
+
+To move efficiently in vim, don’t try to do anything by pressing keys many times, instead speak to the editor in sentences
+
+delete the current word: diw (delete inside word)
+change current sentence: cis (change inside sentence)
+change a string inside quotes: ci” (change inside quote)
+change until next occurrence of ‘foo’: c/foo (change search foo)
+change everything from here to the letter X: ctX
+visually select this paragraph: vap (visual around paragraph)
+
+
+If you understand the verbs and objects you’re dealing with, you will soon
+realize that adding a new plugin and learning a new verb or noun exponentially
+increases your productivity, as you can now apply it in all the sentences you
+already know. It’s just like learning a language.
 
 * Emacs
 ** org mode
@@ -86,11 +167,11 @@ esoteric: confined to and understandable by only an enlightened inner circle
 
 * Questions 
 ** TODO how to search a keyword in a batch of files inside emacs? 
-
+** TODO "It’s best to use search commands for searching and not editing". why?
 * Problems/Projects for Pratising
 
-** TODO study how to enter Chinese in Emacs across possible platform(Windows, Mac and Linux)
-SCHEDULED: <2015-11-25 Wed>
+** DONE study how to enter Chinese in Emacs across possible platform(Windows, Mac and Linux)
+CLOSED: [2016-01-11 Mon 00:47] SCHEDULED: <2015-11-25 Wed>
 Also need to figure out what *encoding* format to use. Unicode-8 or Unicode-16
 or else?  
 

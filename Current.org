@@ -299,3 +299,51 @@ reserve your understanding for a problem for most people who want to
 know your perspectives.
 Don't hesitate to take the initiative when meeting the advisor. Don't
 hesitate to present the points which block you for some time.
+* Some TODO habits in 2016 new year  
+** study at home efficiently, go to the library if needed  
+** think deep about the career in 10 years, gather information and prepare for interviews   
+** build your knowledge & skill trees on a few but good books/projects/tools/community groups
+*** Stat 
+**** ESL
+**** Theory of Multivariate Statistics by Bilodeau & Brenner
+**** Statistical Learning with Sparsity
+*** Math & Prob
+**** Concentration Inequalities by Lugosi
+**** Principle of Math Analysis, Rudin 
+
+*** Programming
+**** SICP(with *the little scheme* as reference)
+**** C++ primer
+**** Intro to Algorithm
+**** Algorithm Design Manual
+**** Algorithm by Dasgupta
+**** Code Complete
+**** The Pragmatic Programmer
+**** The Linux Command Line
+*** Projects
+**** Codewar Kata
+**** SICP problems
+**** Github Blog(to maintain actively)
+**** Data Mining Hw problems revisit
+**** Cracking the code interview problems
+**** Finish the remaining Python problems in edx MIT 6.001 Course
+*** Tools
+**** Emacs and Vim
+**** Org mode 
+**** Git & Github
+**** TODO Regular Expressions
+**** Latex & TeXmacs
+**** Edx & Coursera
+**** Google Scholar
+**** SQL
+**** Jekyll, Markdown & other Web tools
+*** Discussion/Community Groups 
+**** SICP and Emacs qq group
+**** Emacs Google+ group
+**** Codewar & Kaggle
+**** StackOverflow
+**** Zhihu Programming Language group
+**** Some Friends, Fellow Students & Mentor 
+** do meditation & memory training as much as possible, like before sleep everyday 
+** express your research feelings/daily fun things in written and oral form! 
+** maintain 7 hours sleep as regularly as you can, stay up late can be allowed on rare occasions

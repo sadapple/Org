@@ -1,0 +1,773 @@
+二零一六年关键词————“好的习惯，好的思考，好的表达”
+
+“在那些年月里，我们为了推翻卓越的前辈们，废寝忘食地不知付出了多大的努力。现在的
+风尚的确与当时不大相同了。眼下，日本围棋界的条件相当优越。比如学棋的场所、学棋的
+对手几乎遍地皆是。然而只有这些，似乎还不足以激发棋手们学习的冲动，因为能让他们感
+动的东西太少了。或许正是因为年轻棋手们拥有的太多，结果反倒成了他们的不幸。”
+
+* 题记
+“好的习惯”想表达的意思和前两年相比并无改变，只是今年我想确切地形成一两个助益一生
+的习惯，比如说规律地睡眠和锻炼，保持解题(编程，数学，游戏，etc)的胃口。今年我加
+入了“好的思考”，因为我发现很多时候先有了“好的思考”，才有“好的表达”。“好的思考”常
+常需要是深入的，不应该浅尝辄止，只看表象。坚持去做“好的思考”，就可能使自己分析判
+断的能力越来越强。这样，才是真正通往“自己的正解”的路。
+* Jan 
+** 1.2 结束Boston之行
+短短11天，没想到发生了那么多事。无论在 *做事* 和 *感情* 上都有很多体会和收获，同时也让我明确了今年的一些目标和打算。我会好好吸收这些收获和体会，变得更好。
+** 1.3 
+*** programming tips
+"最开始需要多花时间敲代码，这段时间免不了会敲很多重复的代码，但是无所谓，因为这段
+时间自己就是一个白痴。然而，当代码可以畅通无阻的表达自己思想的时候，就需要多看书
+了，让你的思想得到更大的提升，从而可以写出更多更有深度与更有意义的代码。"
+*** 《倚天屠龙记》中赵敏是怎么把张无忌追到手的？
+赵敏能追到张无忌的秘诀：“我偏要勉强” 
+
+常言道：男追女，隔座山；女追男，隔层纱，但是今天讲的“女追男”思路对广大光棍男依然
+是适用的，因为“女追男、隔层纱”那得看对手是谁。敏敏的对手不是一个，至少是仨！而且
+除了珠儿，其余都是重量级人物！
+
+ 小四是金庸作品中女仆系列的代表人物、万千宅男的YY对象、人气比肩双儿的小昭！
+
+ 小三更厉害了——周芷若，听名字就是美女，实际更是美女，貌若天仙，曾经秒杀张无忌、
+宋青书。同时，她还智慧过人、出身名门，手握武林秘籍，总之，基本上是完美的。放到任
+何一本武侠小说里做女一号都绝对是绰绰有余的，加上本来就和无忌哥哥熟识多年，从哪个
+角度看，都是当仁不让的绝对胜利者！
+
+可是，她败了！她不是输给了赵敏，打败她的是爱情! 
+
+全书写到一半赵敏才出场，金先生，您还能再NB一点么？但是敏敏只用了不到全书八分之一
+的篇幅就气场全开，征服了几乎所有读者，金先生，你还真能再NB了。
+
+敏敏特穆尔，汉语名字为赵敏，身份为蒙古郡主，司职国家安全局，主要职能为剿灭江湖反
+动人士，比如明教恐怖组织头目张无忌。此女智慧过人，设计将六大派一网打尽，张无忌的
+各位师叔伯全部落入她手，殷六侠差点丧命，无忌最尊敬的三丰太师傅也差点中招；性格强
+硬，多次明算、暗算张无忌，屡次弄得张无忌灰头土脸，还差点自杀以谢天下……说到这里，
+我都不相信她能拖下根正苗红的周芷若成功上位。
+
+ 她就两招：疯狂爱和水银泻地般犀利无比的表白。前者为体，后者为用，双剑合璧，天下
+莫当。
+
+疯狂爱，大家都有体会。她放弃郡主身份，放弃大好前程，甚至放弃家庭，义无反顾地去追
+一个一直站在自己对立面的土匪头子。在张无忌和周芷若结婚典礼上，周围全部是赵敏死敌，
+她单刀赴会抢亲时，发生了如下对话：【范遥眉头一皱，说道：“郡主，世上不如意事十居
+八九，既已如此，也是勉强不来了。赵敏道：“我偏要勉强。”】然后我就义无反顾、毅然决
+然地爱上了这个妖女。
+
+ 疯狂爱到这就不说了，一来大家可以很容易地从书中体会到，二来这个也不具备可操作性。
+如果你碰到了你的真命天子，那就由不得你不去疯狂；如果你仅仅是感觉合适或者还算般配，
+你怎么都疯狂不起来。
+
+ 下面重点学习敏敏的表白。教科书般的表白，分寸的拿捏，情景的设计，心理的捕捉，都
+华丽得让我不禁感叹：金老爷子当年肯定也是高手啊！
+
+第一次，赵敏和张无忌在大都的一间小酒店里喝酒。
+
+ 【张无忌拿起酒杯，火锅的炭火光下见杯边留着淡淡的胭脂唇印，鼻中闻到一阵清幽的香
+气，也不知这香气是从杯上的唇印而来，还是从她身上而来，不禁心中一荡，便把酒喝了。
+赵敏道：“再喝两杯。我知道你对我终是不放心，每一杯我都先尝一口。】
+
+深夜，小店，烛光，幽香……这气氛营造得！然后打着反毒品的名义和张无忌同饮一杯酒。要
+知道，共享饮料的行为一般只发生在关系十分亲密的人之间。此时两人是对立身份，但敏敏
+反而借势把关系悄然拉近，然后展开一系列人生观、价值观、善恶观的探讨。看见没，不管
+是追美女还是帅哥，最初都得来点有层次的，谈人生、谈理想是最好、最快、最安全的开始
+阶段话题。人生理想谈拢以后，敏敏又出招了—— 【赵敏道：“要是我明天死了，你心里怎样
+想？你心中一定说：谢天谢地，我这个刁钻凶恶的大对头死了，从此可免了我不少麻烦。”】
+摸出张无忌已然对自己有点小动心，立刻以退为进！逼宫！目标达成以后，为了使自己不显
+得过于强势，立刻又问：【张公子，你说是我美呢，还是周姑娘美？】这叫色诱……洗刷自己
+强势形象，第一轮较量敏敏完胜无忌，成功把之前的对立形象转化成了无忌心中的美好印象。
+
+ 然后两人在灵蛇岛“度蜜月”时，赵敏咬了张无忌的手，又在他手上抹去腐消肌膏，这一段，
+堪称金书调情第一桥段。其后周芷若强势反击，陷害赵敏。赵敏再见无忌之时，已经是杀害
+殷离、偷走刀剑的嫌疑犯了。 【张无忌脸上如罩严霜，喝道：“你要盗那倚天剑和屠龙刀，
+我不怪你！你将我抛在荒岛之上，我也不怪你！可是殷姑娘已然身受重伤，你何以还要再下
+毒手！似你这等狠毒的女子，当真天下少见。”说到此处，悲愤难抑，跨上一步，左右开弓，
+便是四记耳光。赵敏在他掌力笼罩之下，如何闪避得了？啪啪啪啪四声响过，两边脸颊登时
+红肿。】
+
+
+如果是你，遭人陷害，九死一生，好不容易见到爱人还不信任自己一顿耳光，你会有什么感
+受？愤怒？委屈？心冷？不甘？仇恨？那是你们，我们敏敏完全不一样。 敏敏此时完全掌
+握了无忌的心理，看她此时表现：【赵敏追了出来，叫道：“张无忌，你往哪里去？”张无忌
+道：“跟你有什么相干？”赵敏道：“我有话要问谢大侠和周姑娘，请你带我去见他二人。”张
+无忌道：“我义父下手不容情，你这不是去送死？”赵敏冷笑道：“你义父心狠手辣，可不似
+你这等糊涂。再说，谢大侠杀了我，你是报了表妹之仇，岂不是正好偿了你的心愿？”张无
+忌道：“我糊涂什么？我不愿你去见我义父。”赵敏微笑道：“张无忌，你这糊涂小子，你心
+中实在舍不得我，不肯让我去给谢大侠杀了，是也不是？”】
+
+ 后来，张无忌发现殷离是被周芷若杀的，反应却很平淡，连重话都没说两句，这是为什么？
+
+其实，张无忌的愤怒是出于内心中对赵敏的爱，如果赵敏杀了殷离，自己就不能和她继续在
+一起了，因此恨其不争才打她耳光。敏敏对无忌的心思洞若观火，强大的洞察力给她带来无
+穷自信。她知道哪怕全世界都与她为敌，无忌也会出来保护她的，于是长剑出鞘，逼得无忌
+手足无措。
+
+第二回合，敏敏再次在极端不利的条件下完胜！
+
+ 其后两人躲入鼓中，外面斗得如火如荼。【赵敏将嘴凑到张无忌耳边，轻轻说道：“你这该
+死的小淫贼！”这一句话似嗔似怒，如诉如慕，说来娇媚无限，张无忌只听得心中一荡，霎
+时间意乱情迷，极是烦恼：“倘若她并非如此奸诈险毒，害死我的表妹，我定当一生和她长
+相厮守，什么什么也不顾得了。”】
+
+ 一句耳边轻语，威力竟如此之大！身外则是如火如荼的争斗，两人处于极其危险的处境当
+中，可是，纵然如此，也没有“我要对你说我有多么爱你”来得重要！这样的情状，谁能不动
+情？谁能不动心？ 再往后，周芷若使尽各种功夫，略微稳住局势，陪着无忌到了大都。无
+忌来到两人初次相遇的酒店，发现赵敏居然也在，一切如故。瞬间被击倒了……
+
+反观周芷若，此时只能一哭二闹三上吊了，失败基本无可挽回。再后来的抢亲什么的已经不
+重要了，因为无忌已心有所属，他需要的，只是一个冠冕堂皇的理由，比如救义父。一旦理
+由找到，没有了道德的羁绊，他就立刻义无反顾地投入敏敏的怀抱中。
+
+ 谈三点启示。
+
+ 首先，光爱还不够，要大声说出来。你不说我怎么知道你要呢？赵敏除了爱得比芷若更炽
+烈之外，她更加勇于且善于表达自己的爱。而且当碰到困难和挫折的时候，有人会患得患失，
+畏首畏尾，而赵敏选择的是更加积极地一往无前，最后她赢得爱情。
+
+其次，光有勇气不够，还要有足够的技巧。 
+
+技巧的第一层是要懂得营造氛围，创造机会。未必要有烛光、有鲜花，君不见，赵敏同学对
+路边小店、海岛、游船、破庙，无不应用得得心应手。关键在于创造接触机会，让双方要么
+觉得十分放松，要么觉得十分刺激。无论是大排档、大马路，还是过山车、看鬼片，其实都
+是好环境，就看你怎么用。再比如小店的二次邂逅，多好的环境。你或许没有这样的缘分，
+但是完全可以侦察好地形，自己制造一场这样的邂逅。
+
+ 技巧的第二层则在于敏锐的观察。每次无忌心里的想法在赵敏那里都是纤毫毕现的，然后
+她再从容选择以退为进、步步紧逼、单刀直入等各种战术。不过，心理观察是很难的，不是
+每个人都能像敏敏这样做到心理大师级的观察，但是，请冷静地用脑子去听对方说话。她说，
+你去死，多半不是让你去死，而是高兴又不好意思表露；她说，你很好，那你就可以真的去
+死了。
+
+ 最后，很多时候，两个人已经势成水火，全世界都对你不抱希望了。不要顾及面子，不要
+担心嘲笑，不要把爱埋在心底，记住郡主说的“我偏要勉强”。这就叫真挚。
+** 1.5
+*** full court press
+*** how to stuff a sleeping bag? 
+*** 给2015(让眉) 
+完成2015这四下敲击时，实实确确已是2016年了。开年当头的三天愁霾依旧，而我也被十余日的北京咳牵出了肺热，闭窗隐几，只沉沉病着。
+
+检点平生这种抛付心力的活儿，似乎在病枕上是挺合宜的，几日来微信网间见了不少朋友应景的总结和计划，沉思往事时就难免也起了动念。
+
+以日期作为岁月之刻度，很能见古人性冷之自虐。若无一个避无可避的端点，谁又能找到一个那么合理的由头去伤感所谓大江流日夜呢。
+
+ 
+
+我很少用“老”这个词来形容时光流逝，因为我讨厌强加败相给任何事物——这个任何里也包括我自己。一年过去，奔三之路还有不短的行程，而我也依旧不惮于矫情和卖萌，但站在年尾年头回顾，似乎不得不伤感地承认我或许确实和去年的此时有些不同了。
+
+或许是因为事业的日益企稳——也或许只是长大。当初那个目无下尘的姑娘已渐渐肯于入世。
+
+第一次有此警醒是今年夏天。当时出差去了趟云南，项目不靠谱，券商便自然亲和。忙完公务闲聊时，一个热衷于乐嘉所谓性格色彩学的小哥建议大家测一测各自的性格，我不愿拂人兴致，便如他言逐题答了。
+
+意料之中的绿色人格，小哥听到答案却愣了一下，我问起原因，他笑着说：“看李老师出项目时谈笑风生，气象不凡，跟宋美龄相去仿佛，我以为该是个女强人呢。”
+
+一语如当头棒喝，倒把我自己唬了一跳。网络诗坛里我被惯加的称呼是“第一含羞草”，盖因每及英雄小宴时，我总是温驯讷言的；而在德国时，也很惯了被人喊着“神仙姐姐”来喻所谓不接地气——然而看来我举止的适应能力还要强于心灵的惯性，职场忽忽两年余，虽然骨子里仍厌于应酬，性子上看，倒已很能捭阖自如了。
+
+可是，虽然“女强人”的气场令我向来羡慕，小哥这句话却依然令我不快且慌张了许久。
+
+又后来我换了工作。
+
+面试是处极古雅幽静的所在，分花拂柳革履翩翩，行止间就也难免有些矜持张致。待得后来跟同事们熟悉了，秘书跟我说他当时对我的印象是个“很有自信的能力型管理者”——及至这时我才无奈接受自己原来已经是一头如此成熟的大尾巴狼的事实。
+
+此后渐渐地，我也会开始翻翻金融类各种大部头，也惯于闲暇时点进各种财经类公众号去看看各家靠谱或不靠谱的言论，更时常要跟天台、高树、杨虚白、佛爷等诗词圈的朋友一回回天南海北地从宏观大势浑侃到股债纷纭——而转过头来想想这种伪事业型人物姿态，却曾经是少年时那个矜持戒备的我多么不屑的。
+
+我小时候对未来的想象颇得神雕侠式中二中年范儿。时常YY着自己戴着人皮面具在金融的江湖里飘然去来，片叶不沾身——而揭下假面后，却只见十六年来苍白清俊依旧。然而想来是因为我的江湖太过炽热，乃而方才两年光景，面具的纹路便已作用于肌理了。
+
+许是往来见惯了香风鬓影的丽人与衣冠楚楚的才俊，对自己就也或多或少有了些不清高却矜贵的期冀吧——至今行止爱好虽犹不能俗，却也为着怕给人家说句文人多落魄，就再绝不肯一味清高地压着自己走到“非诗不可”的境地去。
+
+好么？不好么？回头想来，虽然有点小不甘，也还须要接受了。只因比较起一个不再清高的社会人，我更反感的还是百无一用却犹自愤世嫉俗抢文学史话语权的酸丁，嗯，尚有好恶，纵然是变化着，那也很好了。
+
+ 
+
+一年间，诗人的聚会虽不常有，却也零星不断。别聚匆匆，京中诸子也往往有些“相过不寂寥”的心念。点检起来，和这群人相识堪堪也已七年，坐在筵中猛忆重头，却发现自己确然已是嗔笑自若，虽非侃侃之辈，却也绝不似当年的腼腆稚子了。八胡有次感叹说：初与众人识时大家还是聊诗的，复几年，说情场爱恨，再几年，言立业成家，而今却已是子女成行，多有不能语矣——而我作为北平圈儿里最小的一位，就也免不了要时时被他们催问起几时生子，无论最终做何答复，少时桀骜的心气却总是沉定下去了。
+
+我倒觉得这沉定让我舒服。看着每个诗人都在所谓的市井烟火中周旋抵挡，对诗，我就也少了几分少年人固有急功近利的进取心。许是过起了步履匆匆的日子，才更加向往随机游走式的浪费与碰撞吧——这一年来，或读或写，我的自由度似乎都要比从前大得多了。
+
+不惮于在所有自己半吊子的领域里思考和碰壁，对诗而言或许也算是一种不务正业的致敬？阅读之间不再追求于增长功力，下笔之时也不再心系名家，于是我今年写东西的时候倒是在哲学、美术和西诗里好好拧巴了一圈。蘸出来洋洋一抖脸，无论行为了什么艺术，这身段倒也近如一只高傲的沙皮狗了。
+
+我素来不法古人，也不在意门派家数。只因我之所以愿意写诗而不仅仅是读诗，正在于自己喜欢去捕捉一些在斟酌语句时终将落于构想区间外的、衍生出来的意外灵机。这灵机虽大多时候是游离而不成形的，但也偶尔极能令我惊艳。细微的游跃仿佛历史中的一只只扇动翅膀的蝴蝶，或许将决定整首诗的走向——因为让我抓着，所以它终而存在。这种感觉的美好，没有经过思考和创作的人们恐怕是很难体会的。
+
+于是这一年来我写诗的时候更常毫不吝惜地抛弃原始的成句去追寻一霎狂慧，然而这尝试也是有时成功，有时失败。今年我的诗写得比往年更少了，自己读起来，脑子也要拧几个弯几似要沥出水来。从文字上讲，这种写法大大影响着所谓初心的真诚，怕是入了小障的。然而这障既能让我目眩和欣喜，那就也不妨耽几年吧。
+
+法古的诗人往往甘心顺着趋势线把文字运转下去，而不敢闻见这些可爱的方差。而读诗时，我们看到的更仅仅成了不再具有时间性的成品。拜泥塑不如心中有，这一年来我浑写浑读，隐隐觉得要写得有成就感和快乐，只怕还是应该放下一些责任心和敬畏感的。
+
+ 
+
+最后，今年放下敬畏感之于我，还见于一些心结的解开。
+
+这一年我见到了睽违多年的朋友，也在这次见面里荡没了网间交集的最后一层遗憾。倘和曾经同道的朋友经年重见时依然能相语如故，恍如渚涯岁月不曾遥隔，那么就中曾有的误解种种，便也就都成了过去式里一道释然的笑纹。
+
+我十分很感激这种仪式感，正如我感激岁月之所以为岁月，肯于如此温柔地分离开所谓的“曾经”和“倘如”。
+
+是的。All above。谢谢2015。
+** 1.6 
+*** first try spothero 
+** 1.7 things to abandon this year
+*** several things to abandon in order to save more time this year
+**** weiqi video watching
+**** Chinese news website surfing 
+**** fruitless chatting, dining outside
+*** check if a ubuntu package is installed
+apt-cache policy *package name*
+*** fun sentences 
+继上海一男子造谣自己因造谣而被拘留15日而被拘留15日；美术馆反法西斯胜利70周年画展
+因庆祝反法西斯胜利70周年活动而暂停；俄罗斯一票否决了乌克兰提出的取消俄罗斯一票否
+决权的安理会提案之后......中国股市为预防恶化而紧急停止的熔断机制为预防恶化而紧急
+停止。
+*** successfully find a proxy to run netease musicbox on Ubuntu
+also learned from Luo Dan that *pptp+shadowsocks* is another approach to solve the problem
+*** TODO I know roughly what is *API*. But what does the code actually look like, can you find good real world analogy?
+*** China's broken stockmarket(from economist)
+Update, January 7th, 3.50pm London: China's stock exchanges announced on
+Thursday evening that they would suspend use of the circuit-breakers. The
+securities regulator said they were not the main cause of the market's fall but
+had not achieved their aim and had instead caused a 'magnet effect', as
+described in the article below.
+
+BIG swings in the Chinese stockmarket are par for the course. But even by its
+wild standards, the alacrity of its latest crash was stunning. Just 13 minutes
+into trading on Thursday, the CSI 300 index of blue-chip stocks fell 5%,
+triggering the first circuit-breaker: a 15-minute pause for traders to
+supposedly regain their cool. When the action resumed, it lasted all of one
+minute before the second and final circuit-breaker was hit: the CSI 300 fell 7%,
+which necessitated a closure of the market for the rest of day. Trading, in
+other words, lasted all of 14 minutes before being halted.
+
+The obvious conclusion to draw from the market sell-off is that China’s economy
+is in big trouble. Why else would investors be in such a rush to dump their
+shares? Growth is certainly slowing, but the problem with this view is that the
+Chinese stockmarket has only ever had a tenuous relationship with reality. It is
+often derided as a casino. Wu Jinglian, a veteran economist, has quipped that
+this is unfair to casinos. They have strict rules and gamblers cannot see each
+other’s cards. In China's stockmarket, the rules rarely apply to big investors,
+who treat price manipulation as a basic trading strategy.
+
+But while the swings of the Chinese market defy explanations most of the time,
+there is actually extensive research to help explain the dynamics of the latest
+crash. For the culprit, look no further than the circuit-breakers that
+regulators introduced at the start of this week. Only four days into operation,
+they have already been triggered in much the same manner twice: with the 5%
+threshold hit first and then full closure at the 7% level soon after. The theory
+of circuit-breakers is that they are supposed to help calm an over-excited
+market. In China’s case, it appears that they have done just the opposite:
+encouraging traders to lock in sell orders to make sure they are the first to
+escape the market before the bottom falls out.
+
+For analysts who have studied circuit-breakers, this should not be surprising.
+They generally fall into two camps: those who think they help to reduce
+volatility and those who worry they exacerbate it by leading to an acceleration
+of trading before halts occur. But even the former acknowledge that
+circuit-breakers pose the risks described by the latter. The general view is
+thus that that they should only be applied in extreme cases.
+
+As Arthur Levitt, then chairman of America's Securities and Exchange Commission
+(SEC), explained in 1998:
+
+Circuit-breakers were meant, from their inception, to be triggered only in truly
+extraordinary circumstances—ie, a severe market decline when the prices have
+dropped so dramatically that liquidity and credit dry up, and when prices
+threaten to cascade in a panic-driven spiral. As long as the markets are closed
+or have the potential to close early, there is uncertainty. Uncertainty for
+individual investors leads to confusion. In China, big swings between the open
+and close of the stockmarket used to be the norm, much to the chagrin of
+reporters who were expected to divine something intelligible from the movements.
+Peter Thal Larsen of Reuters Breakingviews put it best in a tweet: “Iron rule of
+Chinese stockmarkets: any observation based on intraday movements will be
+obsolete by the close of trading.”
+
+The introduction of circuit-breakers has changed this logic. They have
+highlighted a problem known as the “magnet effect”. The Hong Kong Securities and
+Futures Commission defined this in a 2001 article as the possibility that
+circuit-breakers might “accelerate price movements towards the preannounced
+limits as market participants alter their strategies and trade in anticipation
+of a market halt”.
+
+Based on the four days in which China’s breakers have been in operation, the
+first magnetic pull seems to kick in at around 4% down. Traders rush to sell
+before they are locked out. After trading starts again at 5% down, the magnetic
+draw to 7% is almost irresistible; no one wants to be left holding the hot
+potato.
+
+In its design of the circuit-breakers, China has violated one of the basic
+principles of those countries that also apply them: the gaps between breaker
+levels should be sufficiently wide to avoid having an overwhelming magnet
+effect. The SEC halts trading at the 7%, 13% and 20% thresholds for the S&P 500
+index. And bear in mind that American markets are far more mature, making even
+7% changes a rarity. In China, the 5% threshold is something that was crossed
+with regularity before the circuit-breakers were introduced, with the market
+often giving up its gains or paring its losses over the course of the frenetic
+trading day. Now, though, the circuit-breaker makes those lurches permanent,
+until the next trading day begins.
+
+None of this means that the Chinese stockmarket should be performing well. Share
+prices, especially for small-cap stocks, are still extremely frothy. But the
+madness of 14-minute-long trading days was utterly avoidable. The latest update
+is that the securities regulator has called an unscheduled meeting to discuss
+the circuit-breakers, according to Bloomberg. If only they had bothered to
+discuss them properly before implementation.
+*** arrive in Chicago, join with Wenbin 
+** 1.8 Reunion with Dongming at Purdue!
+** 1.9 revisit Chicago in rain & snow 
+ Willis tower(didn't climb), Millenium Park/Cloud Gate, Art Institute, 名轩（粤菜） 
+*** *until you*, song 
+** 1.10 visit Jinwei at Notre Dame in snow, revisit Chicago in better weather, reunion with Xuecheng, Jun & Yitong 
+** 1.16
+*** 练刀工 
+作者：灰子
+链接：https://www.zhihu.com/question/19980549/answer/21237905
+来源：知乎
+
+1.刀具和案板做中餐，基本上3把刀就够了。砍刀是多大块的骨头，火腿啊、排骨啊之类的。
+剁刀一般用来剁鸡、鸭、兔子之类骨头小的禽类，还有就是剁肉馅、剁姜蒜的时候用。切刀
+用的最多，素菜和没有骨头的肉一般都用切刀。案板要大一点的好，因为大案板更稳，在厨
+房里一般不用案板，用墩子，二十多厘米高，就像是一树墩子，多形象。如果觉得自家的案
+板不稳，总是晃动，可以在案板下面垫一块帕子，就稳多了。2.磨刀磨刀石有两种，一种是
+砂石，一种是油石，砂石粗糙，油石更光滑细腻。刀太钝了，就先用砂石来粗磨，刀刃的角
+度磨好了，再用油石来磨地平滑。刀与磨刀石夹角为30度左右，刀刃太薄了很脆，太厚了不
+够锋利。我之前在餐厅切菜，每人有自己的专用刀，我们几乎每天都要磨刀，最多3天要磨
+一次，不然自己的菜刀太钝了，要被同事们鄙视。但在家里不必这么频繁，毕竟我们当时一
+天要切七八个小时的菜。磨得特别棒的刀，拿一个稍微软一点的土豆，削去皮放在案板上，
+把刀立上去，手握着刀把，几乎不需要用力，刀靠着自身的重力就能切下去一半。（这也是
+因为餐厅里的刀本身就比家用刀更大更重）3.刀法刀法有很多种，入门的刀法，会几种就够
+了。直切，垂直下刀，干净利落，绝大多数蔬菜都都是直切法。推切，比较柔软的食物，比
+如绝大多数肉类，直着下刀，肉的形状要走样，边向前推边下刀。推拉切，特别硬的东西，
+比如冻牛肉、大头菜之类的，还有就是特别易碎的食物，比如面包、馒头，要用推拉切，方
+法类似于锯。花刀，餐厅里做的鱿鱼卷、松鼠鱼、肝腰合炒之类的，原料要上花刀，一般来
+说，每一刀要切到原料的3/4处，但一定不能切断，属于难度比较大的刀法。剁，肉馅啊、
+姜蒜末啊。我们在厨房里剁姜蒜，有时候一次十几斤，两把刀左右手一起剁，剁熟练了能剁
+出马奔跑时马蹄发出的“哒——哒哒——哒——哒哒”的声音，节奏特别动感过瘾。砍，主要对付大
+骨头，刀要举过头顶，猛地砍下去，砍下去的速度要快，还需要花些力气。三刀都能砍到同
+一个位置，你就出师了。其实，也不必我讲刀法的理论，实践中大家自然会找到最适合的刀
+法。4.切菜的姿势两脚自然分开，上半身微微前倾，但不要弯腰，案板的高度大概在腰部，
+身体至少离案板一拳。右手握刀，大拇指自然弯曲，左手放在食物上，指头弯曲，用中指第
+一个关节顶在最前面。刀垂直下刀，抬起刀的高度永远不要超过左手中指的高度。如果你能
+一直保持这样的姿势，从理论上来说，你就永远也不会切到手了。5.终于可以开始切菜了以
+切土豆丝为例吧。左手按稳土豆（把土豆比较平的一面放在案板上），右手垂直下刀，切下
+了的土豆片，上下要一样厚薄。注意要使用腕力下刀，不要用胳膊的力气。切一刀后，左手
+中指第一个关节往左退2毫米（别真拿尺子去量哈，凭感觉），再重新下刀，眼睛看着刀的
+右边。关节连着退3-4次后，把整个左手向左退一小截。土豆切掉1/3左右，把切面平放在案
+板上，这样土豆就特别稳了，继续切。土豆都切成片以后平铺码好，按照同样的方法切成丝。
+（写着写着，就怀念起当年一帮同事一切比赛切土豆丝的时候，谁都不服谁，我当时的技术
+还是不错的，平均2分钟可以切出一盘比火柴棍差不了太多的土豆丝，现在手生了，不行了。）
+再说说切肉。肉难切的原因在于比较柔软，容易跑偏。切肉的时候，左手要按得稳一点，下
+刀要边向前推便下刀，利索果断一点，切下去后刀往右边偏一下，切好的那片肉就掉下去了。
+冻得不那么硬的肉，要容易切得多。一块肉切了90%，最后一小坨，是最难切的了，这里要
+引入一个名词，叫片，可以把肉平方过来，刀也与案板平行，这样推拉着切，叫片，技术要
+难一些。6.怎样把刀工练好熟能生巧，刀工是一项技能，智商再高，技巧再好，不练出手感
+来，刀工是好不了的。认真切，切菜是一件很无聊的事情，很容易跑神，边切菜，边聊个天
+想个心事啥的，当然，这样除了容易切到手以外，也没啥坏处。但如果想切得好，同样要认
+真才行，切菜的时候把注意力集中在两只手上，很快就能找到手感。
+*** order
+作者：谢熊猫君
+链接：https://www.zhihu.com/question/22074052/answer/20208275
+来源：知乎
+
+中餐炒菜的大概炒菜顺序：1.烧热油和锅2.大葱、生姜、蒜、各种椒，爆香3.放主料炒脱生
+4.料酒、酱油、醋，去腥上色调味5.家常菜可以加高汤或者水焖熟6.盐、糖、味精、鸡精等
+调味7.勾芡8.撒葱花以上步骤和料不是每道菜都必须要，看你炒什么菜调整用料、步骤、顺
+序。
+
+请不要追问油多热算热、盐怎么放、各种调料放多少这类问题。参考《做饭要快，无他，唯手熟尔。》
+http://zhuanlan.zhihu.com/xiepanda/19608807
+** 1.17
+*** 给丫的信
+本来有些话是想当面对丫说的，不过一来电话几次想约你打不通，二来觉得发普通信息也不
+够庄重，所以选择了信的方式。
+
+我是一个不喜欢矫情、直来直去的人，所以这话也大大咧咧的说————在波士顿相处的那几天
+里，丫让我心动了。我喜欢丫。这份喜欢和你姐他们无关，虽然如果没有他们的暗示和鼓励，
+我未必会真的会想到表白。因为心动，所以去看过你之前的微信还有校内能看到的状态，想
+多了解丫。看过后，我觉得，丫是个很有性格的姑娘，虽然在杨叔叔那不是那么明显：）
+
+
+“自古表白多白表，从来姻缘少原因”。川哥毕竟也二十八岁了，知道这些道理。从你的回应，
+我知道你对我是没什么感觉心有回避的。可也有句话，叫做“说了后悔总比不说后悔来得好”。
+既然是自己真实产生了的心意，那么去做忠实地自我表达就不是件坏事。
+
+我知道我大你五岁，可咱这都什么时代了，五岁无非也就是半辈人，而且重要的是我觉得我
+的心怀依然少年。我知道你决定了回国，可那天车上我也和你说过，文化上我对美国没什么
+留恋的。除了父母，我几个最好的朋友都在国内，我看的清留美和回国的得失。如果是和喜
+欢的姑娘一起探索未来，我愿意。我知道我学理你学文，可我觉得这其实可以互补，况且我
+这个人骨子里其实感性，在理解别人这点上悟性不差。当然，如果我是长相上没过你心里的
+阀值，那就该一票否决了。作为外貌协会会员，我完全理解~
+
+我相信，这世界上真正美好的东西，都应该是简单明快的，对便对了，不对便是不对。人与
+人间的理解有天然的局限，可若不去做真实明快的表达，是永远也无法突破那层局限，而实
+现心与心间相对理解的。你对你自己的心有最好的判断，我这封信本质上是为了我自己的忠
+实表达，你读的时候可不需要烦恼啥，若是能会心一笑那是最好了！
+
+总之，我希望你我之间的表达是单纯明快的。如果你对我没有感觉，那就直说，我这人明白
+“一个巴掌拍不响”，看得清这缘分该怎么惜,从此以后，做你合格的朋友、大哥就够了。如
+果你觉得我们有希望,但还需一些时间方能开始，那就我追你。
+
+好了，写到这我想我试图表达的也大致清楚了。于我来说，循心而往，随缘而去，纵是难成
+美眷也不负少年心怀。虽然未必能打动你，可你对我可能有的误会也该消解了。和丫这样的
+好姑娘认识，是我有缘。无论如何，做你合格的一位朋友和大哥，是我可以完成的承诺~
+
+最后，祝丫在LA玩的开心。等你回来，欢迎你来我的地盘，我一定带你好吃好喝好玩：）
+
+                                                                                                              川哥
+                                                                                                  二零一六年一月十七日夜于新泽西
+
+** 1.20 
+
+*** 1st 回信
+川哥：
+
+谢谢你写这封邮件给我，抱歉我看到晚了。
+
+我一直都处于一个并不想谈恋爱的状态，这么说也不是在敷衍你，因为我从来都没有谈过正
+式的男朋友。你从我姐姐她们的态度就可以看出来，她们都很希望我可以和一个很好的人开
+始一段感情，大概是因为她们怕我拖着拖着就剩下了把。但我现在依然没有这方面的想法，
+现在的状态我就很舒服了。
+
+我其实是一个非常慢热的人，要和别人成为朋友前需要很长的时间。这回在波士顿认识你们
+当然是很愉快的，但是对我而言其实是一个很不自然的状态。就像你说的一样，我在我舅舅
+家并不是真正的性格，这样的相遇真的是很遗憾。我想，如果我们是慢慢熟悉起来，在了解
+对方的喜恶之后再这样长时间的相处大概会更好一些吧。就像“丫”这个称呼，我其实一直不
+喜欢这个名字，也就是家人会这样叫我，我的朋友同学没有一个人是知道的。每次家人以外
+的人发现这个称呼都让我觉得很难堪。我也应该给你说声对不起，在你访问了我人人网之后
+把能屏蔽的都屏蔽了实在是不礼貌的做法。我不是对你有什么意见，我只是一直都不希望别
+人了解到我还没有准备好让他们了解的地方。人人网的账号我一直都是想删除的，只不过忘
+了注册邮箱的密码我删不掉。我以为你发现以后应该会讨厌我，不理我了，没想到你还是对
+我这么耐心，谢谢你啦。
+
+我从来没觉得你大我五岁或者文科理科会是个问题。只是和你的热情相比，我实在是一个太
+过冷漠的人了。我习惯和大部分人相处都保持着一段距离，整个家里的平辈，我真正关心的
+就只有这一个姐姐。我也讨厌维持异地的感情，无论是友情还是亲情。哪怕是和旦旦姐姐，
+我们不在一个城市的时候也基本上是不联系的状态。所以我如果先你一步回国，我实在是不
+敢保证什么。退一步说，我们两个根本不算是真正的了解对方，你要放弃在这边这么多年的
+积累贸然和我回国，我良心上都会过不去。
+
+你骨子里是一个很感性的人，但我其实很理性。我没有觉得你不好，我就是觉得完全不可行。
+其实要说谈段恋爱也不是不行，毕竟我家人都有点着急了。可这样做的话就太自私了，毕竟
+我觉得不可行那我就不会投入，而你在现在的这个年龄，应该是会想谈认真严肃的感情了把。
+我和我姐姐她们一直都觉得你是很体贴很真诚的人，我也不希望到了最后结下一个仇人。
+
+你看，真正的我和你想的大概完全不一样吧。要是我们是很自然的相识相知，这些麻烦尴尬
+可能就都不会有了。我其实也不习惯对着不熟悉的人做这样的自我剖白，把这么讨厌的自己
+直接展示给别人看。毕竟如果只是做朋友，很多事情根本就不需要了解到的。不过要是你觉
+得哪怕我这么讨厌都还可以做朋友的话，以后就叫我一同或者直接说“你”就可以了。真的很
+谢谢你。
+
+*** art of the command line
+some examples:
+
+1. bash下，用tab补全，ctrl-r 搜索命令历史
+2. ctrl-w删除当前命令的一个单词，ctrl-u
+   删除到行首，ctrl-k删除行尾，ctrl-a移动到行首，ctrl-e移动到行尾
+3. ctrl-x
+   ctrl-e 可以调用自己定义的编辑器来编辑当前命令行，当你要写一串超长的命令的时候
+   就知道有多好用了
+4. cd -回到上次的目录
+5. 输入命令不想立即执行，但是又想保存到
+   history中供搜索，怎么办？ ctrl-a跳到行首，加一个#，回车，搞定
+6. pgrep搜索进
+   程
+7. nohup让进程忽略HUP信号，disown让后台启动的进程忽略HUP
+8. 自定义命令别名，
+   alias ll='ls -latr'
+9. 用tmux或者screen来让你的进程不会因为ssh连接终端而被干掉
+
+*** 2nd letter 
+一同（这么称呼现在有点别扭，我慢慢改）：
+
+首先，我想说，一个人选择单身可能有很多原因：觉得一个人状态不错，没有合适的人，或
+者不在合适的时间，等等。但不管是哪种，其他任何人都没有权利去强迫她/他开始。就是
+我的老同学里都还有几位非常独立的女性，到现在都还享受着单身的状态（问过她们基本说
+目前的目标是多赚钱= =），我特别欣赏。而你才二十三呢，完全没有必要因为家庭和周围
+的压力去勉强开始一段恋情。至于我个人，虽然家里在催了，不过也就是在老妈面前说好好
+好哄哄她，骨子里我不会急，觉得急了更没用，要找一定还是要找自己真的喜欢的，不能随
+便就让他们给介绍了。找不到的话，一个人也有一个人的过法。
+
+总之，在我看来，恋爱/结婚与否，何时开始，和谁开始，这些归根结底应该是一个人的独
+立选择。虽然因为历史、文化、地域的限制不总是这样，但一个人发自内心地愿意，主动地
+做出的选择，在大部分时候都要比被迫去选择的情况结果要好的多。
+
+你说“这样的相遇真的是很遗憾。我想，如果我们是慢慢熟悉起来，在了解对方的喜恶之后
+再这样长时间的相处大概会更好一些吧”，前半句在我看来并不是这样。我想，我们这样的
+相遇是奇妙的。其实这个圣诞我本来是想回绝杨叔叔的，而我也确实原定二十三号开车去普
+度。可不曾想到我那边的朋友临时和我说他要一月七号才从国内回来，我只好把行程改到那
+天。然后二十号左右杨叔叔又给我打了几个电话，挨不过他的热情，最后一次我问他有没有
+同龄人（当时想不然我一个小辈过去要是面对的都是他这样的长辈咋办），他说有，然后把
+你联系方式告诉我看我能不能和你一起过来。所以才有了之后的相遇，在我看来还真有些奇
+妙。当然也不是相遇那天就产生了追你的想法，那天只是觉得你是个可爱的小妹子（帮女生
+拎箱子啥的是我向来的作风＝＝），真正有了这个想法是在你们送我礼物的那天晚上（当然
+后来我也猜到了估计多半是你姐的主意）。
+
+人和人的相遇很难预先设定一种方式，更别说是最好的那种了。我们既然这样相遇，那就是
+缘分。不管命运如何流变，我会去把握我所能把握的，我想，到回首的时候，我们一定已经
+成为了相知相惜的朋友。所以啊，哪有什么相遇的遗憾，我们的相知才刚刚开始呢。
+
+你说你”太过冷漠“，首先我并不觉得，其次能消融冷漠的不也就只有热情吗？难道要以冷漠
+对冷漠？不管是恋人的相处还是朋友相处，出现了问题，总有一个人要主动先走出一步才能
+解决问题。至于”慢热“，可解者唯有时间和相伴。
+
+你还提到了恋爱的可行性。我理解你觉得不可行的最主要原因一是还不真正的了解对方，二
+是地点——你决定了回国，而我目前在美国好好的，两人很难在一个地方开始。我是这么想的：
+
+我本来就想和你相知，所以去真正的了解对方本就是要做的。所以这个原因并非不可行的绝
+对理由，我们边接触边了解对方，如果到了某个点我们有了默契，这个自然就不是问题了。
+至于地点，这个有可能成为不可行的绝对理由，因为两个人最后若不能长时间在一起，谈什
+么恋爱嘛！所以在我的理解，可行与否关键在于地点。不知你是否同意。
+
+其实我有回国的想法很久了，自从两三年前我想清楚毕业后不做学术去业界之后，毕业后长
+期留美对我的意义就不大了，因为文化上我真的对美国没啥留恋的，也就只有做学术让我觉
+得非在美国不可。在遇到你之前我的想法就是毕业后如果这边有好的offer那就工作一两年
+回去，不会拖到三五年；如果没有好的offer那就直接回国，理想的城市是珠三角那三个以
+及上海（北京的雾霾让我没那么想去），珠三角是因为离家近同学朋友多，上海是因为如果
+去那边做金融的话有不少好的connection能用上。当然我也想到了唯一的变数——未来可能的
+那位姑娘，如果她是想留美的，那我想我也会决定留美；当然如果她想回国，那自然就按之
+前回国的想法走。我不知道你回国后最想去哪，现在你也不必告诉我，因为我们还不熟：）
+我和你说我的想法是想告诉你，如果我们在一起然后我回国了，也并没有为你特别放弃什么
+牺牲什么，你完全没有需要心里过不去的地方。
+
+说到这我想可以理一理了。你觉得现在的状态就很舒服，我其实也觉得我自己现在一个人的
+状态不错（虽然能和喜欢的姑娘开始是更让人开心的）。目前至少我们可以在做朋友的过程
+中去把可行性中的第一个问题解决掉。最后能不能两个都解决，使你觉得可行，那我就尽人
+事而安天命吧。
+
+既然试图去解决，那我自然就要提议咯。我不知道你现在想何时回国，我就假设在四五月吧。
+那这样的话在你回国前大概还有三个月，三个月中我觉得你应该抓紧时间再去多看看美帝的
+大好河山。我现在上班是part time，所以每两周出去走走都是有时间的。在美东这边自然
+风光的话尼亚加拉大瀑布，仙那度(DC附近）、大烟山（田纳西州）国家公园都很不错，大
+瀑布之前听你是想去的，而实际上这三处我都没有去过。我想在三个月中，我推荐你可以考
+虑二月或者三月去尼亚加拉大瀑布，四月初樱花节的时候去DC看看樱花然后顺道去仙那度。
+至于大烟山，五六月份的时候那儿有共鸣萤火虫的festival（而且从我们新泽西这去那的路
+上可以开美国最漂亮的国家景观公路——蓝岭高速），可如果你回国的话我不知道你来不来得
+及了＝＝　你可以约上你的一个同学或者朋友（如果住店正好你们share），然后我们三或
+四个人（我也可以再叫上一个我的朋友和我share房间）一起road trip这几个地方。至于小
+一点的地方，我之前也和你提了普林斯顿值得一看，这个地儿等你从LA回来后咱随便找一周
+周四到周末的时间就能带你当天游遍。
+
+远一点美西的话我去过的地方不少（我主要是和基友刷国家公园去的），如果你有想去但还
+没去的也可以告诉我，我刚说了我现在part time，每两周都有一周的时间可以自己支配，
+只要合理的计划，去西部也是没问题的。
+
+平时的话如果周末你有空我也会找时间约你吃饭或者去看看其他的（比如百老汇看剧）。
+
+恩，能想到的暂时就这么多。相信我现在的想法通过这信都能传达到了。
+
+*** 2nd 回信
+不好意思川哥，可能我昨天没有说清楚。我现在真的一点都不想谈恋爱，想交朋友也是想交
+只会成为朋友的那种。还有我二月底就会回国，所以时间上可能真的来不及了。不好意思
+
+*** last response
+明白啦。等你LA回来还是告诉我，说好带你去普林的~~
+** 1.21 
+
+“Rebounding isn't about the size of your body, it's about the size of your heart。”
+
+*** body strength training
+**** 引体向上:pull-up
+very efficient way to improve strength!
+**** rope skipping
+
+*** Plan to prepare code interview
+
+**** read *The Algorithm Design Manual* 
+
+**** read *Cracking the code interview*
+
+**** TODO Princeton 2016 spring Algorithm Course 
+
+*** reconcile with Leila 
+
+** 1.23 Ex Machina 
+ 
+*** python code in movie *Ex Machina*
+
+#BlueBook code decryption
+import sys
+def sieve(n):
+    x = [1] * n
+    x[1] = 0
+    for i in range(2,n/2):
+            j = 2 * i
+            while j < n:
+                    x[j]=0
+                    j = j+i
+    return x
+
+def prime(n,x):
+    i = 1
+    j = 1
+    while j <= n:
+            if x[i] == 1:
+                    j = j + 1
+            i = i + 1
+    return i - 1
+x=sieve(10000)
+code = [1206,301,384,5]
+key =[1,1,2,2,]
+
+sys.stdout.write("".join(chr(i) for i in [73,83,66,78,32,61,32]))
+for i in range (0,4):
+    sys.stdout.write(str(prime(code[i],x)-key[i]))
+
+print
+
+** 1.24 编程入门指南  
+
+*** 编程入门指南 v1.4 by 萧井陌   
+[[http://zhuanlan.zhihu.com/xiao-jing-mo/19959253][编程入门指南 v1.4]]
+
+阅读此文最基本的收获即是————编程能力的提高是三位一体密不可分的：计算机硬件系统原理，算法和数据结构以及编程语言。文中开出了不少很好的书目和资源，我会尽量选择性地拿来精读或略读。
+
+** 1.25 
+
+*** 超市结账请留心打折商品
+今天在Hmart买笋，看到原价5.99/lb而现在特价3.99/lb所以买了两个，check out后回家看
+receipt发现实际还是按5.99收的。以后对这种特价或者打折的东西在最后结账时一定要仔
+细确认一遍。我之前在Hmart也遇到过这样的事，看来Hmart可以放入黑名单了,除非在其他
+中国超市买不到的或者没有更新鲜，以后尽量不去那~~
+
+*** Mountain Blanc in Alps 
+Know about it from today's google frontpage recommendation
+
+*** got response from Yitong 
+** 1.26 The Witness 
+
+*** *the witness* game by Jonathan Blow
+
+**** some players' remark
+
+***** 1
+Here’s a Hint, *Think outside of the box*. Not only think but walk around the box,
+Think what the box is? Think how did the box get here? What does the box think
+about me? Do you love the box? Does the box love you? Then walk away from the
+box because you have no idea what you’re doing. - Luke Rising 2016
+
+***** 2
+This game is not going to be for everyone. If you're looking for a game that has
+action, violence, and an engaging plot that will keep you on the edge of your
+seat, look elsewhere. If you're impatient, and if you don't want your brain to
+hurt, this isn't the game for you. With that being said, in the amount of time
+I've invested in The Witness so far, it's already one of my favorite puzzle
+games of all time. The game takes the basic concept of maze puzzles, and
+introduces new mechanics to them to make you think. It then takes those new
+mechanics, and gives them a little twist, to make you think even more. And then
+once you think you've mastered that mechanic, it mixes it with another mechanic
+that you've previously learned, or even a brand new one. This game is hard, and
+it doesn't make any attempt to hold your hand. This game is going to make you
+want to smash your head onto your desk, but in a good way, because you want to
+conquer this latest puzzle so badly.
+
+The game has an incredible atmosphere, with gorgeous visuals and ambient sounds
+immersing you into this island world. There aren't any graphics settings, which
+is a huge bummer, but hopefully that is something that could be patched into the
+game. The vibrant colors of the island really pop off the screen, and the
+different locations throughout the game are really neat. You can also listen to
+some audio diaries located throughout the island, which have different quotes
+from all sorts of different people. This would be a great game to have a podcast
+on in the background. Not that the sounds are bad, they do a good enough job to
+keep you immersed in the game while you're playing, but it might be nice to have
+something else to listen to as well. The controls work great, on both a
+controller and a keyboard and mouse. Pick whichever one you're more comfortable
+with. I know a lot of people have been complaining about the $40 price tag, but
+from what I've played so far, it seems absolutely worth it. There are a ton of
+puzzles in here, and it's going to take you awhile to beat the game.
+
+tl;dr I you want something different than a complex puzzle game that keeps you
+on your toes with a great atmosphere, you're going to want to look elsewhere.
+But if you've been craving a game like The Talos Principle or Portal, you should
+absolutely pick this up. This game is worth the price tag, and it's going to be
+a long time before you forget your time in The Witness.
+
+*** HTML basics
+<!DOCTYPE html>
+<a hef=""> </a> 
+<ul>
+<ol>
+<img src="" width="" alt=""/>
+<div id= class=> </div>
+<h1> </h1> 
+<span class="red"> </span>
+
+**** to specify the related CSS file
+<link rel="stylesheet" type="text/css" href="../style.css" /> 
+*** CSS basics 
+
+*** Does that *interest* you?
+
+*** How to deblur an image?
+
+前面的回答都是关于抓包，如何截取还没有经过模糊的图。我打算讲一个更通用的，即便服
+务端给了模糊的图，照样能还原。不要以为CSI里的照片还原技术只是个特效。目前所用的
+模糊，基本都是卷积，而且几乎都是用gaussian kernel卷积。而根据卷积定理，离散信号x
+与y的圆周卷积对偶于频域上x与y离散傅里叶变换（DFT）的乘积。用公式表达就是
+............
+所以，gaussian blur可以对原图和gaussian kernel的图像做DFT，按像素乘起来，再做一
+次逆DFT。这种方法和gaussian kernel的半径无关。所以一般在需要超大半径模糊的时候，
+速度快于传统的separatable gaussian blur。用DFT做卷积的另一个好处是，同样用这个算
+法/代码，就能做反卷积！改成DFT{x} / DFT{y}，其中x是已经经过模糊的图像，y仍是
+gaussian kernel的图像，照样那么做，就能得到清晰地图像。唯一需要的参数就是
+gaussian kernel的半径。这个需要根据实际情况动态调整。做好的话，就能像CSI那样做实
+时连续的模糊到清晰的还原。当然，因为在模糊的过程中很多信息已经丢失，这里得到的是
+个可能的原图。换句话说，存在两个不同的输入，模糊后图像相同。这时候用这个算法是无
+法得到正确结果的。而且，FFT可以在GPU上实现，即便是手机级别的GPU也能做到接近实时。
+所以，可以做一个deblur的camera app，然后，大家都知道怎么用了。
+
+** 1.27 Useful inequalities in statistics 
+
+*** Useful inequalities in statistics 
+Here then, cerebrating, is a list of inequalities I would wish to know, if I
+were a graduate student working on statistical theory today. They are generally
+grouped by topics; analysis, matrices, probability, moments, limit theorems,
+statistics.
+
+1	Cauchy–Schwarz
+2	Jensen
+3	Hölder and triangular
+4	Fatou
+5	Bessel
+6	Hausdorff–Young
+7	Basic Sobolev inequality in three dimensions only
+8	Frobenius
+9	Sylvestre
+10	Determinant bounds, e.g., Hadamard
+11	Kantorovich
+12	Courant–Fischer
+13	Boole’s inequality, from both directions
+14	Chebyshev and Markov
+15	Bernstein
+16	Hoeffding in the Rademacher case, 1963
+17	Bounds on Mills ratio from both directions
+18	Upper tail of Binomial and Poisson
+19	Slepian’s lemma, 1962
+20	Anderson’s inequality on probabilities of symmetric convex sets, 1955
+21	Rosenthal, 1970
+22	Kolmogorov’s basic maximal inequality
+23	Basic Berry-Esseen in one dimension
+24	Le Cam’s bound on Poisson approximations (Le Cam, 1960)
+25	DKW with a mention of Massart’s constant (Massart, 1990)
+26	Bounds on expectation of normal maximum from both directions
+27	Comparison lemma on multinormal CDFs (Leadbetter, Lindgren, and Rootzén, 1983)
+28	Talagrand (as in 1995, Springer)
+29	Inequality between Hellinger and Kullback–Leibler distance
+30	Cramér-Rao
+31	Rao–Blackwell (which is an inequality)
+32	Wald’s SPRT inequalities.
+
+Truly going back to my student days, I recall how useful matrix inequalities
+were in that period, when linear inference was such an elephant in the room.
+Inequalities on CLTs and metrics played pivotal roles in the sixties, and then
+again, as the bootstrap and later, MCMC, emerged. Concentration inequalities
+came to the forefront with the advent of empirical process theory, and then as
+high dimensional problems became important. It seems as though the potential of
+analytic inequalities in solving statistical and probabilistic problems hasn’t
+yet been efficiently tapped. The recent book by Peter Bühlmann and Sara van de
+Geer (2011) has many modern powerful inequalities. There are of course new
+editions of the classics, e.g., Hardy, Littlewood and Pólya (1988), Marshall,
+Olkin and Arnold (2011).
+
+Quite possibly, on another day I would include some other phenomenal
+inequalities, and drop some that I chose today. Can anyone vouch that
+Efron–Stein (1981), Gauss (for unimodal distributions), FKG (Fortuin, Kasteleyn,
+Ginibre, 1971), Chernoff ’s variance inequality (1981), or a basic prophet or
+log-Sobolev inequality, or even a basic Poincaré, need not be in the essential
+list? Defining what is the most useful or the most beautiful is about the most
+hopeless task one can have. Beauty and use are such indubitably personal
+choices. We have, in front of us, an ocean of remarkable inequalities. You can’t
+cross the sea, said Nobel Laureate Poet Tagore, merely by standing and staring
+at the water. I figure I need to jump!
+
+*** Looking forward to see the match of Lee Sedol vs AlphaGo this March!   
