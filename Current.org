@@ -329,13 +329,15 @@ hesitate to present the points which block you for some time.
 **** Finish the remaining Python problems in edx MIT 6.001 Course
 *** Tools
 **** Emacs and Vim
-**** Org mode 
+***** Org mode 
+***** Helm & Magit
 **** Git & Github
 **** TODO Regular Expressions
 **** Latex & TeXmacs
 **** Edx & Coursera
 **** Google Scholar
 **** SQL
+**** Spark, Scala, Clojure
 **** Jekyll, Markdown & other Web tools
 *** Discussion/Community Groups 
 **** SICP and Emacs qq group

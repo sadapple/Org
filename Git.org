@@ -8,7 +8,14 @@
 *** How to update local repositories changes via Git and push it to remote server?
 *** How to fork, clone, submit *pull request* locally in *command line*?
 *** How to maintain different branches locally and remotely?
-*** TODO what is *untracked* file in git sense?
+*** TODO what is *untracked*, *staged*, *unstaged* files in git sense?
+** general procedure
+*** local repositories
+**** create repositories, initialize
+**** create/modify the files
+**** stage the changes
+**** commit the changes
+**** push to remote 
 ** remote repositories
 A remote URL is Git's fancy way of saying "the place where your code is stored."
 That URL could be your repository on GitHub, or another user's fork, or even on

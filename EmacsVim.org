@@ -140,8 +140,31 @@ already know. It’s just like learning a language.
 /incline/
 _underline_
 *** org capture
+*** embed and run code in org mode
+use *<s* to create a source code block snippet
+use *C-c C-c* to execute the code block
+
+#+BEGIN_SRC python :results output
+a = 1+1
+print a
+#+END_SRC
+
+#+RESULTS:
+: 2
+
+
+#+BEGIN_SRC R
+a = 1
+b = 1
+print((a+b))
+#+END_SRC
+
+#+RESULTS:
+
+
 ** helm 
 *** TODO pratice navigation via helm in emacs regularly 
+** magit
 * Spacemacs
 ** commands
 *** shorthand

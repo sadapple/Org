@@ -216,7 +216,8 @@ e^{i\pi} = -1
 Add the previous line to the head of the org file, it would load the CSS.
 #+END_EXAMPLE
 ** org interaction with other programming languages	    :org:programming:
-
+use *<s* to create a source code block snippet
+use *C-c C-c* to execute the code block
 #+BEGIN_SRC emacs-lisp
 (+ 1 2 3 4)
 #+END_SRC
