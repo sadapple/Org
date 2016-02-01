@@ -160,6 +160,7 @@ print((a+b))
 #+END_SRC
 
 #+RESULTS:
+: 2
 
 
 ** helm 
