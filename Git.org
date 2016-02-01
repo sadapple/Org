@@ -8,3 +8,23 @@
 *** How to update local repositories changes via Git and push it to remote server?
 *** How to fork, clone, submit *pull request* locally in *command line*?
 *** How to maintain different branches locally and remotely?
+** remote repositories
+A remote URL is Git's fancy way of saying "the place where your code is stored."
+That URL could be your repository on GitHub, or another user's fork, or even on
+a completely different server.
+
+You can only push to two types of URL addresses:
+
+An HTTPS URL like https://github.com/user/repo.git An SSH URL, like
+git@github.com:user/repo.git
+
+Git associates a remote URL with a name, and your default remote is usually called origin.
+
+** git pull & push
+*** an interesting real case
+I changed a file via Github online directly while that repository have not been
+updated for a while. The next day try to do *git push origin master* locally but
+faild with error message stating that there is a remote commit which is not
+reflected in the local repository. Problem solved by first use *git pull origin*
+to merge the change locally then use *git push origin master* to update the
+remote repository.
