@@ -41,6 +41,10 @@ CLOSED: [2016-01-18 Mon 17:18]
 *** DONE Learn basics
    CLOSED: [2015-02-17 Tue 10:10]
 *** TODO gmail via markdown
+** Clojure
+*** install via Leiningen
+Once it’s installed you can start a REPL with:
+*lein repl*
 * Algorithm & Data Structure
 ** Cracking the code interview
 *** TODO 1st discussion

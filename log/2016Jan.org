@@ -64,8 +64,8 @@ CLOSED: [2016-01-24 Sun 21:40]
 ** DONE Apply AMEX golden reward card with special offer
 
 CLOSED: [2016-01-26 Tue 14:35]
-** TODO Contact Lisa & Rutgers HR to check about how to continue the spring TA health insurance 
-SCHEDULED: <2016-02-02 Tue>
+** DONE Contact Lisa & Rutgers HR to check about how to continue the spring TA health insurance 
+CLOSED: [2016-02-01 Mon 21:11] SCHEDULED: <2016-02-02 Tue>
 ** customize my new room
 *** DONE over head earphones
 CLOSED: [2016-01-23 Sat 04:39]
@@ -76,7 +76,8 @@ since I live in rented house, it's not a good idea to drill-install
 *** arrange my rare-used books and package them
 *** buy two towels for upper stairs use
 * 1.16 
-** TODO study Wishart property and finish the LPD uniqueness notes
+** DONE study Wishart property and finish the LPD uniqueness notes
+CLOSED: [2016-02-01 Mon 21:12]
 :LOGBOOK:
 CLOCK: [2016-01-16 Sat 13:45]--[2016-01-16 Sat 13:59] =>  0:14
 :END:

@@ -214,7 +214,7 @@ CLOSED: [2016-01-31 Sun 12:23]
 **** TODO study causal inference & structural models
 ***** think about how to model time dependent treatment data in survival problem context 
 ***** search related R packages
-*** in the future
+*** Future
 **** Improve simulation technique
 ***** TODO R problems, hard section
 **** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words
@@ -227,6 +227,10 @@ SCHEDULED: <2016-01-31 Sun>
 ***** Bootstrap Method
 ***** PCA & Factor Models
 ***** EM algorithm
+**** ATE(average treatment effects) estimation literature review [0/3]
+***** TODO why use *regression adjustment* ?
+***** TODO study the simulation part of professor Zhang's 2015 paper on Lasso adjustment of ATE 
+***** TODO solve the ATE project main problem in professor Zhang's 663 course in 2015 Fall
 ** Communication with advisor
 *** TODO discuss thesis and graduation with advisor
 ** Tao of learning
