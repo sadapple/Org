@@ -45,6 +45,10 @@ c$  : note that the "c" command would switch to insert mode
 *** retrieve and merge file
 :r FILENAME
 
+*** automatic line changing
+1. = 自动格式化对齐样式，对于有代码洁癖强迫症的人来说绝对是福音。
+
+2. gq家族 根据 textwidth 自动换行。gqgq: 换行当前段。gqap: 格式化整个段。{Visual}gq: 格式化选定的部分。对于每行字符数量不能超过 80 的人来说，又一个福音。
 ** vim text objects(like words, sentences, paragraphs & user-defined objects)
 In Vim, editing commands have the following structure:
   <number><command><text object or motion>
@@ -154,6 +158,7 @@ print a
 
 
 #+BEGIN_SRC R
+
 a = 1
 b = 1
 print((a+b))

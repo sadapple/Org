@@ -1,9 +1,18 @@
 * Other Tasks 
-** TODO pay TD card bill
-SCHEDULED: <2016-02-01 Mon>
+** TODO Time Series TA office hour
+SCHEDULED: <2016-02-11 Thu 17:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-02-05 Fri 00:57]
+:END:
+- State "DONE"       from "TODO"       [2016-02-05 Fri 00:57]
+** DONE call TD reward team & pay TD card remaining bill
+CLOSED: [2016-02-04 Thu 10:42] SCHEDULED: <2016-02-04 Thu>
 
-** TODO timberland shoe repair
-SCHEDULED: <2016-02-01 Mon>
+** DONE visit Princeton with Yitong 
+CLOSED: [2016-02-05 Fri 00:57] SCHEDULED: <2016-02-04 Thu>
+
+** DONE call home on spring festival
+CLOSED: [2016-02-07 Sun 23:55] SCHEDULED: <2016-02-06 Sat>
 ** tax report 
 *** DONE have all the forms?
 CLOSED: [2016-01-26 Tue 21:20] SCHEDULED: <2016-02-01 Mon>
@@ -20,8 +29,8 @@ CLOSED: [2016-01-26 Tue 21:19]
 ***** BOA
 *** TODO File through Turbo Tax
 SCHEDULED: <2016-02-01 Mon>
+
+** TODO Woodbury outlet & timberland shoe repair
+SCHEDULED: <2016-02-12 Fri>
 ** TODO schedule to see a dermitology doctor for my long existed skin issue
 As I have never seen a doctor in US. Here I intentionally do this to gain such life experience. 
-
-** TODO visit Princeton with Yitong 
-SCHEDULED: <2016-02-04 Thu>

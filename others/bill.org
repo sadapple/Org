@@ -3,9 +3,9 @@
 *** keep the important record for reference
 *** do not always try to pay a bill all on your own
 ** With Friends:
-Chengrui 16, Shanghai, 5. 22
 Jiawei Bai 1500$
 Long Feng 15, Hunan House, 1.29
+Spring Festival 2016 shared expense: 51.23+37.67=89
 *** Geng Jia(shared plan bill)
 
 **** DONE Feb to March 2015
@@ -37,7 +37,6 @@ CLOSED: [2016-01-24 Sun 21:38] SCHEDULED: <2016-01-24 Sun>
 confirmation #: 4YX7MYW9Q0494Z8
 ** With Roomate:
 Luo Yue 9 movie
-1.2 Fire Alarm Battery 5$
 ** vermont
 *** for all
 1st night hotel	 195.4

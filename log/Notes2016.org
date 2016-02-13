@@ -11,6 +11,38 @@
 入了“好的思考”，因为我发现很多时候先有了“好的思考”，才有“好的表达”。“好的思考”常
 常需要是深入的，不应该浅尝辄止，只看表象。坚持去做“好的思考”，就可能使自己分析判
 断的能力越来越强。这样，才是真正通往“自己的正解”的路。
+
+** 火花卷首语
+
+塞林格写过一部名作叫《麦田里的守望者》，里面的主人公是一个被学校开除的中学生，他
+貌似玩世不恭，厌倦现存的平庸的一切，但他并非没有理想。他想象悬崖边有一块大麦田，
+一大群孩子在麦田里玩，而他的理想就是站在麦田边作一个守望者，专门捕捉朝悬崖边上乱
+跑的孩子，防止他们掉下悬崖。
+
+我很喜欢“守望者”这个名称，它使我想起守林人。守林人的心境总是非常宁静的，他长年与
+树木、松鼠、啄木鸟这样一些最单纯的生命为伴，他自己的生命也变得单纯了。他的全部生
+活就是守护森林，瞭望云天，这守望的生涯使他心明眼亮，不染尘嚣。“守望者”的名称还使
+我想起守灯塔人。在奔流的江河中，守灯塔人日夜守护灯塔，瞭望潮汛，保护着船只的安全
+航行。当然，与都市人相比，守林人的生活未免冷清。与弄潮儿相比，守灯塔人的工作未免
+平凡。可是，你决不能说他们是人类中可有可无的一员。如果没有这些守望者的默默守望，
+森林消失，地球化为沙漠，都市人到哪里去寻欢作乐，灯塔熄灭，航道变为墓穴，弄潮儿如
+何还能大出风头？
+
+人做事情，或出于利益，或出于性情。凡出于性情做的事情，大都仅仅是为了满足心灵需求，
+如写作、艺术欣赏、交友等等。我们做这个主页也是如此，愉快是最基本的标准。如果什么
+时候我们在这里找不到愉快，就必须怀疑是否有利益的强制在其中起着作用，使性情生活蜕
+变成了功利行为。火花是这样一个地方，它不想在踌躇满志的游戏精英网站中挤自己的一块
+地盘，而是很安静的，与世无争的，但也因此在普遍的热闹和竞争中有了存在的价值。我们
+只想开辟一块园地，让火炎玩家们找到回家的感觉。
+
+如果一个人有自己的心灵追求，又在世界上闯荡了一番，有了相当的人生阅历，那么，他就
+会逐渐意识到自己在这个世界上的位置。世界无限广阔，诱惑永无止境，然而，属于每一个
+人的现实可能性终究是有限的。你不妨对一切可能性保持着开放的心态，因为那是人生魅力
+的源泉，但同时你也要早一些在世界之海上抛下自己的锚，找到最合适自己的领域。一个人
+不论伟大还是平凡，只要他顺应自己的天性，找到了自己真正喜欢做的事，并且一心把自己
+喜欢做的事做到尽善尽美，他在这个世界上就有了牢不可破的家园。于是，他不但会有足够
+的勇气去承受外界的压力，并且会有足够的清醒来面对形形色色的机会的诱惑。我们当然没
+有理由怀疑，这样的一个人必能获得生活的充实和心灵的宁静。
 * Jan 
 ** 1.2 结束Boston之行
 短短11天，没想到发生了那么多事。无论在 *做事* 和 *感情* 上都有很多体会和收获，同时也让我明确了今年的一些目标和打算。我会好好吸收这些收获和体会，变得更好。
@@ -771,3 +803,209 @@ cross the sea, said Nobel Laureate Poet Tagore, merely by standing and staring
 at the water. I figure I need to jump!
 
 *** Looking forward to see the match of Lee Sedol vs AlphaGo this March!   
+
+* Feb
+
+** 2.4 Princeton vist with Yitong & the movie *Room*
+
+** 2.5 *学而不思则罔，思而不学则殆*
+
+*** thoughts on reading books like *数学与联想* ， *啊哈灵机一动*
+近来想起了当年读《数学与联想》，《啊哈灵机一动》，/Basic Algebra/(Jacobson)这些
+书时探索心超强求知欲旺盛的时候。也有点重新发现了如何读书如何求知。加上最近读
+Rubin的 /Causal Inference/ 以及Lugosi的 /Concentration Inequlities/ 很有感觉，使
+我相信自己仍能做一个热爱探索求知的人。
+
+*** /学/ , /思/ 还有 /表达/ 三者的关系 
+*** 火花卷首语
+
+塞林格写过一部名作叫《麦田里的守望者》，里面的主人公是一个被学校开除的中学生，他
+貌似玩世不恭，厌倦现存的平庸的一切，但他并非没有理想。他想象悬崖边有一块大麦田，
+一大群孩子在麦田里玩，而他的理想就是站在麦田边作一个守望者，专门捕捉朝悬崖边上乱
+跑的孩子，防止他们掉下悬崖。
+
+我很喜欢“守望者”这个名称，它使我想起守林人。守林人的心境总是非常宁静的，他长年与
+树木、松鼠、啄木鸟这样一些最单纯的生命为伴，他自己的生命也变得单纯了。他的全部生
+活就是守护森林，瞭望云天，这守望的生涯使他心明眼亮，不染尘嚣。“守望者”的名称还使
+我想起守灯塔人。在奔流的江河中，守灯塔人日夜守护灯塔，瞭望潮汛，保护着船只的安全
+航行。当然，与都市人相比，守林人的生活未免冷清。与弄潮儿相比，守灯塔人的工作未免
+平凡。可是，你决不能说他们是人类中可有可无的一员。如果没有这些守望者的默默守望，
+森林消失，地球化为沙漠，都市人到哪里去寻欢作乐，灯塔熄灭，航道变为墓穴，弄潮儿如
+何还能大出风头？
+
+人做事情，或出于利益，或出于性情。凡出于性情做的事情，大都仅仅是为了满足心灵需求，
+如写作、艺术欣赏、交友等等。我们做这个主页也是如此，愉快是最基本的标准。如果什么
+时候我们在这里找不到愉快，就必须怀疑是否有利益的强制在其中起着作用，使性情生活蜕
+变成了功利行为。火花是这样一个地方，它不想在踌躇满志的游戏精英网站中挤自己的一块
+地盘，而是很安静的，与世无争的，但也因此在普遍的热闹和竞争中有了存在的价值。我们
+只想开辟一块园地，让火炎玩家们找到回家的感觉。
+
+如果一个人有自己的心灵追求，又在世界上闯荡了一番，有了相当的人生阅历，那么，他就
+会逐渐意识到自己在这个世界上的位置。世界无限广阔，诱惑永无止境，然而，属于每一个
+人的现实可能性终究是有限的。你不妨对一切可能性保持着开放的心态，因为那是人生魅力
+的源泉，但同时你也要早一些在世界之海上抛下自己的锚，找到最合适自己的领域。一个人
+不论伟大还是平凡，只要他顺应自己的天性，找到了自己真正喜欢做的事，并且一心把自己
+喜欢做的事做到尽善尽美，他在这个世界上就有了牢不可破的家园。于是，他不但会有足够
+的勇气去承受外界的压力，并且会有足够的清醒来面对形形色色的机会的诱惑。我们当然没
+有理由怀疑，这样的一个人必能获得生活的充实和心灵的宁静。
+*** need to install /ispell/
+
+*** *你喜欢哪种类型的数学和统计？*
+
+** 2.6 饺子的包法
+
+*** 饺子的包法
+
+** 2.7 过年
+
+*** 新年对自己的承诺
+
+**** 合格的完成thesis毕业！
+
+**** 在自己真正想做的领域找到一份好的工作，不必是大牛公司，但希望是有好同事能很快成长学习的地方
+
+**** 成为一个更好的programmer!
+
+**** 成为更好的problem solver!
+**** 感情有进展
+*** 狼人杀的策略
+** 2.8 The Danger of Copy-and-Paste Learning
+*** Successfully install and setup the *ispell* problem(Aspell) on my Windows 10
+Note that on Ubuntu, the *ispell* is installed by default.
+**** From EmacsWiki
+Once you’ve set up GNU EmacsW32 you will probably want to add spell checking ability.  aspell is not an especially good choice; but alternatives at this point are unclear. True, it integrates seamlessly with Emacs; but the last version of it for Windows was compiled in 2002 and is hopelessly out of date.
+
+Although it might be out of date it seems to work well. I installed Aspell according to the instructions below, yesterday (today is 2015-09-23), and it works fine, in a quite recent Emacs 25. – MaDa
+
+Setup for 64-bit Windows 7
+First you need to download and install both the aspell executable and at least one dictionary from http://aspell.net/win32/.  These will be two separate downloads, be sure to get both.  Under the 64-bit version of Windows 7 the default install directory for both of them is “C:\Program Files (x86)\Aspell\dict\”.  “C:\Program Files (x86)” is used for 32-bit executables, while “C:\Program Files” is for the 64-bit ones.
+
+Next we need to make a series of changes in your InitFile.  You need to add the path of the aspell exec to your emacs exec-path.  I tried the path string without the C: at the beginning but it did not work consistently.
+
+    (add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
+We need tell emacs to use aspell, and where your custom dictionary is.
+
+    (setq ispell-program-name "aspell")
+    (setq ispell-personal-dictionary "C:/path/to/your/.ispell")
+Then, we need to turn it on.
+
+    (require 'ispell)
+Lastly you need some way of invoking it.  “M-$” is the default method, which will check the word currently under the point.  If a region is active “M-$ will check all words within the region.  However, I like to customize all the keybindings.  So, here’s an example to use it with FlySpell:
+
+    (global-set-key (kbd "<f8>") 'ispell-word)
+    (global-set-key (kbd "C-<f8>") 'flyspell-mode)
+*** The spacemacs manual *inside* spacemacs is a good resource to learn org-mode!
+check it out inside spacemacs yourself!
+*** install clojure(inside *lein*) on Ubuntu 
+to call clojure in CMD, enter *lein repl* 
+*** spacemacs *shell* layer 
+SPC ‘	Open, close or go to the default shell
+SPC a s e	Open, close or go to an eshell
+SPC a s i	Open, close or go to a shell
+SPC a s m	Open, close or go to a multi-term
+SPC a s t	Open, close or go to a ansi-term
+SPC a s T	Open, close or go to a term
+SPC m H	browse history with helm (works in eshell and shell)
+C-j	next item in history
+C-k	previous item in history
+*** 罗平县
+罗平县是中国云南省曲靖市下属的一个县，位于滇、黔、桂三省交界处，素有“鸡鸣三省”、“滇黔锁钥”、“滇东明珠”之称。
+*** setup the auctex & Okular syncing feature on Ubuntu spacemacs
+**** the script
+  ;; set up tex pdf viewer
+  (cond
+   ((string-equal system-type "darwin")
+    (progn (setq TeX-view-program-selection '((output-pdf "Skim")))))
+   ((string-equal system-type "gnu/linux")
+    (progn (setq TeX-view-program-selection '((output-pdf "Okular"))))))
+
+  ;; sync between auctex & Okular
+  (setq TeX-source-correlate-mode t)
+  (setq TeX-source-correlate-start-server t)
+  (setq TeX-source-correlate-method 'synctex)
+  (setq TeX-view-program-list
+        '(("okular --unique %o#src:%n`pwd`/./%b")    ;; do you understand this line?
+          ("Skim" "displayline -b -g %n %o %b")))
+*** The Danger of Copy-and-Paste Learning
+I have mentioned above that for small code, you can copy-and-paste and tweak to
+learn what the code does. However, make sure that you understand what the code
+does, line by line. This might not help you now but it will in the future. At
+this point, try to explore what the default settings of the LaTeX classes book,
+article and report have to offer. In most cases, you will be working with the
+article class a lot.
+
+What helps me when learning a new code is I comment on what each line does. I
+find this helpful especially coming from a non-programming background. There are
+instances, too, that copy-and-paste approach introduces invisible characters
+that introduce errors. In the long run, typing the code character-by-character,
+line-by-line makes you think more about what goes into your code and what fix
+you can do in instances of errors.
+*** Revisit Emacs' *bookmark* feature later  
+Emacs bookmarking makes use of three things that are related but different: a
+bookmark list, a bookmark file, and a bookmark-list display. Understanding these
+is important to using Emacs bookmarks. They are explained at Bookmark Basics.
+
+Some bookmarking commands to get you started:
+
+‘C-x r m’ – set a bookmark at the current location (e.g. in a file)
+
+‘C-x r b’ – jump to a bookmark
+
+‘C-x r l’ – list your bookmarks
+
+‘M-x bookmark-delete’ – delete a bookmark by name
+
+Your personal bookmark file is defined by option ‘bookmark-default-file’, which
+defaults to `~/.emacs.d/bookmarks` in the most recent Emacs versions and to
+`~/.emacs.bmk’ in older versions. The file is maintained automatically by Emacs
+as you create, change, and delete bookmarks.
+
+The bookmark list (buffer ‘*Bookmark List*’) is like Dired or BufferMenu for
+bookmarks. You access it using ‘C-x r l’. (Emacs sometimes calls it the
+“bookmark menu list”, which is a misnomer.)
+
+Some keys in ‘*Bookmark List*’:
+
+‘a’ – show annotation for the current bookmark
+‘A’ – show all annotations for your bookmarks
+‘d’ – mark various entries for deletion (‘x’ – to delete them)
+‘e’ – edit the annotation for the current bookmark
+‘m’ – mark various entries for display and other operations, (‘v’ – to visit)
+‘o’ – visit the current bookmark in another window, keeping the bookmark list open
+‘C-o’ – switch to the current bookmark in another window
+‘r’ – rename the current bookmark
+*** Revisit YASnippet later
+check this [[http://tex.stackexchange.com/questions/51204/working-with-templates/51250#51250][link]]
+*** TODO Learn to integrate Org-mode & AucTeX mode for daily writing/brainstorming 
+The following paragraphs can be found [[http://tex.stackexchange.com/questions/22431/everyday-latex-and-workflow/22443#22443][here]]
+
+*I think outlining and drafting is best done in Org-mode. AUCTeX is best later in the process.*
+
+When drafting you can use Org-mode to outline your document. This is basically
+to make some headlines that represent content you want to include in your
+document and then you work by filling in content under each headline. The
+headlines are foldable so that you may get an overview of your document's
+structure. You can also mark the headlines with "DONE" or "TODO" to track your
+progress. See for instance this tutorial for details.
+
+Once you are happy with a draft you can use Org-mode's export function to export
+the document to LaTeX (you can export from Org-mode with a preamble of your
+choice). I have written about this in detail in another answer. Then you can
+fine-tune the document with AUCTeX. Note that AUCTeX also has an outline feature
+for getting an overview of the document.
+
+The idea for this approach is to take advantage of Org-mode's functions that
+eases the process of recording, organizing and developing ideas and also benefit
+from AUCTeX many functions that helps in editing LaTeX files. I believe that
+this is a good approach but it requires the user to know the basics of Emacs,
+Org-mode and AUCTeX. Fortunately there are good tutorials and manuals for them.
+One just need to know the basics, which are not hard to learn, to start out.
+Then one can learn the rest as one goes. For how to learn Emacs and some more
+notes on workflow see A simpleton's guide to (...)TeX workflow with emacs.
+*** TODO think about the global structure of the *thesis* 
+** 2.9 *Aha! Insight*
+** 2.10 *Kata* challenge & efficient coding
+** 2.11 first discovery of gravitational wave  
+*** the pronunciation of *the*  
+通常发本音，只有在后面的单词是元音开头时才发thi，元音的话就要自己看书啦，不过基本上什么a,o,u,e开头的大部分都是元音开头的单词。
+另外强调的时候也可以发thi ,还是那句话，专业。另外，搞笑时一般也发thi 

@@ -40,10 +40,7 @@ Mon to Friday start at 8:30 am
 ** pharmarcutical company
 * OPT prepare
 ** TODO attend OPT workshop
-SCHEDULED: <2016-02-09 Tue>
 Post-Completion Employment Workshop
-10:30 a.m. - 12 noon
-College Avenue Student Center - Room 411 (A,B)
 
 * Other Tasks
 ** DONE renew library books

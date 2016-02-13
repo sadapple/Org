@@ -21,10 +21,11 @@ called tonal languages.
 ** small habits
 
 *** TODO call grandparents
-SCHEDULED: <2016-01-28 Thu +1m>
+SCHEDULED: <2016-02-28 Sun +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2016-01-02 Sat 21:56]
+:LAST_REPEAT: [2016-02-03 Wed 22:14]
 :END:
+- State "DONE"       from "TODO"       [2016-02-03 Wed 22:14]
 - State "DONE"       from "TODO"       [2016-01-02 Sat 21:56]
 * Voc
 cortical: of or relating to a cortex
@@ -54,3 +55,5 @@ He said he would hang himself. (suicide)
 
 
 revenant: gui lai zhe
+
+Pegasus: 天馬座

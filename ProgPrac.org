@@ -48,7 +48,6 @@ Once it’s installed you can start a REPL with:
 * Algorithm & Data Structure
 ** Cracking the code interview
 *** TODO 1st discussion
-SCHEDULED: <2016-01-31 Sun>
 * Thoughts
 ** Tools/Skills/Knowledge worth achieving expertise for programming in 10 years
 *** Emacs & Vim
