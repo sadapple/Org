@@ -10,7 +10,7 @@ caw: same effect + insert mode
 
 *** undo & redo
 u & Ctrl+r
-*** change word 
+*** change word
 cw
 c$  : note that the "c" command would switch to insert mode
 *** change errors
@@ -24,7 +24,7 @@ c$  : note that the "c" command would switch to insert mode
       Some useful examples are:
           :!ls  or  :!dir                 -  shows a directory listing.
           :!rm  or  :!del FILENAME        -  removes file FILENAME.
-*** selective write 
+*** selective write
            ** To save part of the file, type  :#,# w FILENAME  **
 
   1. Once again, type  :!ls  or  :!dir  to obtain a listing of your directory
@@ -104,8 +104,8 @@ Don’t be discouraged by the large number of text objects, their conventions ma
 them intuitive and easy to learn. After some practice, like every other Vim
 command, they’ll quickly become just another muscle memory.
 
-*** vim script can be used to define new text objects 
-like in [[https://github.com/vim-scripts/argtextobj.vim][VimTextObj]], it provides a text object for function arguments.  
+*** vim script can be used to define new text objects
+like in [[https://github.com/vim-scripts/argtextobj.vim][VimTextObj]], it provides a text object for function arguments.
 aa – an argument
 ia – inner argument
 
@@ -166,10 +166,11 @@ print((a+b))
 
 #+RESULTS:
 : 2
+*** backward jump to higher order heading
+Use "C-c C-u"
 
-
-** helm 
-*** TODO pratice navigation via helm in emacs regularly 
+** helm
+*** TODO pratice navigation via helm in emacs regularly
 ** magit
 * Spacemacs
 ** commands
@@ -185,23 +186,23 @@ print((a+b))
 * Analogy & Comparison
 ** Quotes
 *** Mastering Emacs
-1) What makes /LISP/ such a fantastic language is that source code and data structures are 
-intrinsically one and the same: the /LISP/ source code you read as a human is almost identical 
-to how the code is manipulated as a data structure by /LISP/ ----- the distinction between the 
+1) What makes /LISP/ such a fantastic language is that source code and data structures are
+intrinsically one and the same: the /LISP/ source code you read as a human is almost identical
+to how the code is manipulated as a data structure by /LISP/ ----- the distinction between the
 questions "What is data?" and "What is code?" is nil.
 
-* Voc & Terminology 
+* Voc & Terminology
 tinkerer: a person who enjoys fixing and experimenting with machines and their parts
 esoteric: confined to and understandable by only an enlightened inner circle
 
-* Questions 
-** TODO how to search a keyword in a batch of files inside emacs? 
+* Questions
+** TODO how to search a keyword in a batch of files inside emacs?
 ** TODO "It’s best to use search commands for searching and not editing". why?
 * Problems/Projects for Pratising
 
 ** DONE study how to enter Chinese in Emacs across possible platform(Windows, Mac and Linux)
 CLOSED: [2016-01-11 Mon 00:47] SCHEDULED: <2015-11-25 Wed>
 Also need to figure out what *encoding* format to use. Unicode-8 or Unicode-16
-or else?  
+or else?
 
 If I figure out this, then from 2016, I'll keep my daily notes in Emacs instead of Lyx.

@@ -1,36 +1,93 @@
-* Other Tasks 
+* Other Tasks
 ** TODO Time Series TA office hour
-SCHEDULED: <2016-02-11 Thu 17:00 +1w>
+SCHEDULED: <2016-03-10 Thu 17:00 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-02-05 Fri 00:57]
+:LAST_REPEAT: [2016-03-04 Fri 13:18]
 :END:
+- State "DONE"       from "TODO"       [2016-03-04 Fri 13:18]
+- State "DONE"       from "TODO"       [2016-02-26 Fri 21:44]
+- State "DONE"       from "TODO"       [2016-02-19 Fri 11:12]
+- State "DONE"       from "TODO"       [2016-02-13 Sat 13:42]
 - State "DONE"       from "TODO"       [2016-02-05 Fri 00:57]
 ** DONE call TD reward team & pay TD card remaining bill
 CLOSED: [2016-02-04 Thu 10:42] SCHEDULED: <2016-02-04 Thu>
 
-** DONE visit Princeton with Yitong 
-CLOSED: [2016-02-05 Fri 00:57] SCHEDULED: <2016-02-04 Thu>
+** DONE visit Princeton with Yitong
+CLOSED: [2016-02-14 Sun 22:07] SCHEDULED: <2016-02-04 Thu>
 
 ** DONE call home on spring festival
 CLOSED: [2016-02-07 Sun 23:55] SCHEDULED: <2016-02-06 Sat>
-** tax report 
-*** DONE have all the forms?
-CLOSED: [2016-01-26 Tue 21:20] SCHEDULED: <2016-02-01 Mon>
-**** DONE Rutgers
-CLOSED: [2016-01-26 Tue 21:19]
-Online pdf received
-**** DONE Pro Unlimited
-CLOSED: [2016-01-26 Tue 21:18]
-Received
-**** Banks
-***** DONE Discover, received
-CLOSED: [2016-01-26 Tue 21:19]
-***** Chase
-***** BOA
-*** TODO File through Turbo Tax
-SCHEDULED: <2016-02-01 Mon>
-
-** TODO Woodbury outlet & timberland shoe repair
-SCHEDULED: <2016-02-12 Fri>
-** TODO schedule to see a dermitology doctor for my long existed skin issue
-As I have never seen a doctor in US. Here I intentionally do this to gain such life experience. 
+** DONE Woodbury outlet & timberland shoe repair
+CLOSED: [2016-02-13 Sat 13:42] SCHEDULED: <2016-02-12 Fri>
+** DONE pick up TA homework 4
+CLOSED: [2016-02-22 Mon 10:18] SCHEDULED: <2016-02-22 Mon>
+* OPT workshop
+** Overview
+1. Should be related to your field of study
+2. Maintaining legal status
+3. Less than 12 months full CPT
+*** Some Details
+**** work experience must be directly related to your field of study and commensurate with your level of study
+**** Total of 12 months of full-time OPT during or following each *advancing degree level*
+**** Must be full-time(more than 20 hours/week)
+*** OPT terms
+**** Program end date on your I-20
+The date you are expected to finish your degree
+**** Coursework completion date
+The date you complete all your required coursework
+**** *Degree requirement completion date*
+The last day of your on-campus employment
+***** may degree with assistantship is a special case
+**** Graduation date
+Date you receive your degree(May/October/January)
+*** Regulations & Responsibilities while on post OPT
+**** RU is still your status sponsor
+**** May not enroll in a new degree program while on OPT
+**** Obliged by law to notify Center of change to any other non-immigrant status
+**** Have 60 day grace period after the end date
+*** Unemployment
+Not more than 90 days, accumulative during OPT, 30 days more during OPT extension
+**** the job does not need to be paid
+*** Reporting requirement
+obliged by law to notify the Center(within 10 days of the change taking effect):
+**** change of address
+**** any legal name changes
+**** all employment related information
+***** each new employment
+***** ending employment
+***** period of unemployment
+**** use *OPT Data update form*
+*** Travel
+**** Reach out to the advisor for travel issue during OPT
+**** Some Notes
+1. Travel after completion but before receiving the receipt notice,
+2. With receipt/approval notice/EAD card: travel with job letter indicating
+   employer's intention to employ you for the period limited to your OPT
+*** Start date vs Application date
+*start date*: when your employment
+*application date*:
+**** For PhD
+1. Can request a start date up to 60 days AFTER your *degree completion date*
+2. Can ALSO request a start date after *coursework completion date*
+3. must complete all degree requirements before your OPT expires. Especially if
+   you are looking to apply for STEM extension
+4. You can apply: up to 90 days prior to *coursework completion* or 90 days
+   prior to *degree-completion*
+5. Everyone must apply within 30 days from the date your new OPT I-20 is issued
+*** Preparing for you application
+*** Sending the documents
+send with *certified mail, return receipt requested*
+*** Now what?
+Eligible to work only after you have the EAD card in hand and the OPT start date
+printed on the card has arrived
+*** Can we expedite the applications?
+Usually *NO*. In case of real emergency, need to provide *proof*.
+*** OPT Extensions
+need to have a job with a company with *e-verified*
+*** H-1B Cap Gap Extension, Check with advisor for detail
+H-1B Cap
+April 1st, Oct 1st
+**** could apply an OPT-extion and H1-B at the same time
+** General Procedure
+** Important Issues
+** Application

@@ -7,6 +7,7 @@
 ** Bridging the gap
 * Collect Job Information
 
+** Take the initiative & be actively involved in your goal!
 ** When? Where? From whom? How?
 
 *** Indeed.com
@@ -14,8 +15,17 @@
 **** TODO Study how to use indeed
 *** Linkedin
 
-**** TODO Polish my linkedin profile
-
+**** sth explicit, sth implicit, make potential hunter easy to find you
+**** DONE Polish my linkedin profile
+CLOSED: [2016-03-01 Tue 20:31]
+**** develop network 
+** TODO Really try to think about, investigate & understand the general procedure of tricks of Finding Jobs
+SCHEDULED: <2016-03-06 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-03-01 Tue 20:32]
+:END:
+- State "DONE"       from "TODO"       [2016-03-01 Tue 20:32]
+- State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
 * Building connections
 ** Finance
 Chunhong, Jianning Fan, Xialu, Kun Chang, Wenqian Qiao, Shuhao Chen,
@@ -118,7 +128,110 @@ finance or IT area.
 *** Present good knowledge and skills
 *** Good CV
 *** Good interpersonal skills
+* OPT workshop
+** Overview
+1. Should be related to your field of study
+2. Maintaining legal status
+3. Less than 12 months full CPT
+*** Some Details
+**** work experience must be directly related to your field of study and commensurate with your level of study
+**** Total of 12 months of full-time OPT during or following each *advancing degree level*
+**** Must be full-time(more than 20 hours/week)
+*** OPT terms
+**** Program end date on your I-20
+The date you are expected to finish your degree
+**** Coursework completion date
+The date you complete all your required coursework
+**** *Degree requirement completion date*
+The last day of your on-campus employment
+***** may degree with assistantship is a special case
+**** Graduation date
+Date you receive your degree(May/October/January)
+*** Regulations & Responsibilities while on post OPT
+**** RU is still your status sponsor
+**** May not enroll in a new degree program while on OPT
+**** Obliged by law to notify Center of change to any other non-immigrant status
+**** Have 60 day grace period after the end date
+*** Unemployment
+Not more than 90 days, accumulative during OPT, 30 days more during OPT extension
+**** the job does not need to be paid
+*** Reporting requirement
+obliged by law to notify the Center(within 10 days of the change taking effect):
+**** change of address
+**** any legal name changes
+**** all employment related information
+***** each new employment
+***** ending employment
+***** period of unemployment
+**** use *OPT Data update form*
+*** Travel
+**** Reach out to the advisor for travel issue during OPT
+**** Some Notes
+1. Travel after completion but before receiving the receipt notice,
+2. With receipt/approval notice/EAD card: travel with job letter indicating
+   employer's intention to employ you for the period limited to your OPT
+*** Start date vs Application date
+*start date*: when your employment
+*application date*:
+**** For PhD
+1. Can request a start date up to 60 days AFTER your *degree completion date*
+2. Can ALSO request a start date after *coursework completion date*
+3. must complete all degree requirements before your OPT expires. Especially if
+   you are looking to apply for STEM extension
+4. You can apply: up to 90 days prior to *coursework completion* or 90 days
+   prior to *degree-completion*
+5. Everyone must apply within 30 days from the date your new OPT I-20 is issued
+*** Preparing for you application
+*** Sending the documents
+send with *certified mail, return receipt requested*
+*** Now what?
+Eligible to work only after you have the EAD card in hand and the OPT start date
+printed on the card has arrived
+*** Can we expedite the applications?
+Usually *NO*. In case of real emergency, need to provide *proof*.
+*** OPT Extensions
+need to have a job with a company with *e-verified*
+*** H-1B Cap Gap Extension, Check with advisor for detail
+H-1B Cap
+April 1st, Oct 1st
+**** could apply an OPT-extion and H1-B at the same time
+** General Procedure
+** Important Issues
+** My Application
+*** ideas
+**** for Oct Degree, start apply from June
+**** for Jan Degree, start apply from Sep, which is the *last month* to apply OPT for my current I-20 expiration date(Jan 31, 2017)
+**** from Feb to May, really important to prepare myself for the potential interviews
+***** TODO Data Science Area [1/5]
+****** TODO Familiarity with common ML & Data Mining models and applications
+****** TODO prepare for real world application questions in the interview(like the Google Question chengrui was asked)
+****** DONE Algorithm & Data Structure
+CLOSED: [2016-03-04 Fri 13:44]
+****** TODO programming languages & tools
+******* Python
+******* SQL
+****** TODO whiteboard coding practice
+***** TODO Biostatistics [0/4]
+****** TODO what to present if you were given an on site interview?
+****** TODO GLM
+****** TODO dose-response
+****** TODO Bayesian Methodology
+***** TODO Finance [0/2]
+****** TODO study/review important math finance notions, methods & models
+******* martingale
+******* stochastic calculus
+******* volatility
+******* factor models
+******* covariance matrix estimation
+****** TODO programming technique
+******* C++
+******* Python
+*** From advisor Lauren
+**** talk to her & plan to apply 4 months prior to defense or intended OPT start date
+**** TODO the program end date on 1st page I-20 would not be extended even if you apply the OPT
+***** then what will be the I-20 expiration date after I apply the OPT?
 * Previous
+
 
 ** Vertex Pharmaceutical
 *** Intern Topics
@@ -210,9 +323,36 @@ Not available
 *** DONE Ask Hongwei to send Kolassa feedback
 CLOSED: [2016-01-25 Mon 18:44]
 * Current
+
+** Thoughts after OPT workshop
+*Feb to May are the really important timings to prepare myself for the potential interviews*
+*** TODO Data Science Area [0/5]
+**** TODO Familiarity with common ML & Data Mining models and applications
+**** TODO prepare for real world application questions in the interview(like the Google Question chengrui was asked)
+**** TODO Algorithm & Data Structure
+**** TODO programming languages & tools
+***** Python
+***** SQL
+***** Hadoop & Scala
+**** TODO whiteboard coding practice
+*** TODO Biostatistics [0/4]
+**** TODO what to present if you were given an on site interview?
+**** TODO GLM
+**** TODO dose-response
+**** TODO Bayesian Methodology
+*** TODO Finance [0/2]
+**** TODO study/review important math finance notions, methods & models
+***** marti
+***** stochastic calculus
+***** volatility
+***** factor models
+***** covariance matrix estimation
+**** TODO programming technique
+***** C++
+***** Python
 ** 2016 Interview Prep
-*** Data Mining
-**** Regression
+*** Data Mining & Machine Learning [0/2]
+**** TODO Regression
 ***** Linear Reg Review
 ***** DONE GLM      CLOSED: [2015-08-15 Sat 13:49]
 
@@ -221,14 +361,14 @@ CLOSED: [2016-01-25 Mon 18:44]
 
       SCHEDULED: <2015-06-30 Tue>
 
-**** Classification
+**** TODO Classification
 
 ***** LDA, QDA, Logit Reg, NB, Fisher's Rule
 
 ***** SVM
 
 ***** Trees & Boosting
-*** Baysian
+*** Bayesian
 **** Review Common Distribution(characterization, properties and relasionship)
 **** Computation of Posterior Dist, solve some examples
 **** Hierarchical Models
@@ -237,6 +377,12 @@ CLOSED: [2016-01-25 Mon 18:44]
 ***** MC
 ***** MCMC
 ***** R implementation examples
+*** Algorithm & Data Structure [0/4]
+**** TODO *Algorithm Design* Ch3,4 including exercises
+**** TODO *leetcode*, at least finish all the easy problems
+SCHEDULED: <2016-02-20 Sat +2d>
+**** TODO accumulate some real world applications & case studies
+**** TODO some knowledge about *regular expressions*
 *** Programming
 **** R
 ***** Familiar with apply function family
@@ -260,9 +406,18 @@ CLOSED: [2016-01-25 Mon 18:44]
 **** Analysis Technique
 **** Nonlinear Programming
 **** Asymptotics
-
+*** TODO More Discussion with all the *Good Sources*
+SCHEDULED: <2016-03-06 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-02-29 Mon 00:53]
+:END:
+- State "DONE"       from "TODO"       [2016-02-29 Mon 00:53]
+- State "DONE"       from "TODO"       [2016-02-22 Mon 10:18]
 *** Knowledge of Biostat
 **** What is Meta Analysis
+**** TODO common trial designs
+**** ANCOVA
+**** application of Random/Fixed effects model 
 *** Others
 
 **** Body
@@ -291,7 +446,7 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 我认为有几个大方面
 
-1）学好python。 
+1）学好python。
 
 现在几乎所以公司的数据都可以api给你，而python的数据处理能力强大且方便。加之在machine learning的很多算法上，python也独俏一方。另外，它的简明方便迅速迭代开发，15分钟写完个算法就可以看效果了。
 
@@ -301,7 +456,7 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 简而言之，对于数据科学面临的挑战，python可以让你短平快地解决手中的问题，而不是担心太多实现细节。
 
-2）学好统计学习 
+2）学好统计学习
 
 略拗口。统计学习的概念就是“统计机器学习方法”。 统计和计算机科学前几十年互相平行着，互相造出了对方造出的一系列工具，算法。但是直到最近人们开始注意到，计算机科学家所谓的机器学习其实就是统计里面的prediction而已。因此这两个学科又开始重新融合。
 
@@ -319,15 +474,15 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 读完以上的书是个长期过程。但是大概读了一遍之后，我个人觉得是非常值得的。如果你只是知道怎么用一些软件包，那么你一定成不了一个合格的data scientist。因为只要问题稍加变化，你就不知道怎么解决了。
 
-如果你感觉自己是一个二吊子数据科学家（我也是）那么问一下下面几个问题，如果有2个答不上来，那么你就跟我一样，真的还是二吊子而已，继续学习吧。 
+如果你感觉自己是一个二吊子数据科学家（我也是）那么问一下下面几个问题，如果有2个答不上来，那么你就跟我一样，真的还是二吊子而已，继续学习吧。
 
-• 为什么在神经网络里面feature需要standardize而不是直接扔进去 
+• 为什么在神经网络里面feature需要standardize而不是直接扔进去
 
-• 对Random Forest需要做Cross-Validatation来避免overfitting吗？ 
+• 对Random Forest需要做Cross-Validatation来避免overfitting吗？
 
-• 用naive-bayesian来做bagging，是不是一个不好的选择？为什么？ 
+• 用naive-bayesian来做bagging，是不是一个不好的选择？为什么？
 
-• 在用ensembe方法的时候，特别是Gradient Boosting Tree的时候，我需要把树的结构变得更复杂（high variance, low bias)还是更简单（low variance, high bias)呢？为什么？ 
+• 在用ensembe方法的时候，特别是Gradient Boosting Tree的时候，我需要把树的结构变得更复杂（high variance, low bias)还是更简单（low variance, high bias)呢？为什么？
 
 如果你刚开始入门，没有关系，回答不出来这些问题很正常。如果你是一个二吊子，体会一下，为什么你跟一流的data scientist还有些差距——因为你不了解每个算法是怎么工作，当你想要把你的问题用那个算法解决的时候，面对无数的细节，你就无从下手了。
 
@@ -335,19 +490,19 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 其实学数据科学也一样，沉下心来，练习匠艺。
 
-3）学习数据处理 
+3）学习数据处理
 
 这一步不必独立于2）来进行。显然，你在读这些书的时候会开始碰到各种算法，而且这里的书里也会提到各种数据。但是这个年代最不值钱的就是数据了（拜托，为什么还要用80年代的“加州房价数据”？），值钱的是数据分析过后提供给决策的价值。那么与其纠结在这么悲剧的80年代数据集上，为什么不自己搜集一些呢？
 
-• 开始写一个小程序，用API爬下Twitter上随机的tweets（或者weibo吧。。。） 
+• 开始写一个小程序，用API爬下Twitter上随机的tweets（或者weibo吧。。。）
 
-• 对这些tweets的text进行分词，处理噪音（比如广告） 
+• 对这些tweets的text进行分词，处理噪音（比如广告）
 
-• 用一些现成的label作为label，比如tweet里会有这条tweet被转发了几次 
+• 用一些现成的label作为label，比如tweet里会有这条tweet被转发了几次
 
-• 尝试写一个算法，来预测tweet会被转发几次 
+• 尝试写一个算法，来预测tweet会被转发几次
 
-• 在未见的数据集上进行测试 
+• 在未见的数据集上进行测试
 
 如上的过程不是一日之功，尤其刚刚开始入门的时候。慢慢来，耐心大于进度。
 
@@ -359,17 +514,17 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 最好的变法，是把你自己武装成一个全能工作师。你不需要成为各方面的专家，但是你一定需要各方面都了解一点，查一下文档可以上手就用。
 
-• 会使用NoSQL。尤其是MongoDB 
+• 会使用NoSQL。尤其是MongoDB
 
-• 学会基本的visualization，会用基础的html和javascript，知道d3【6】这个可视化库，以及highchart【7】 
+• 学会基本的visualization，会用基础的html和javascript，知道d3【6】这个可视化库，以及highchart【7】
 
-• 学习基本的算法和算法分析，知道如何分析算法复杂度。平均复杂度，最坏复杂度。每次写完一个程序，自己预计需要的时间（用算法分析来预测）。推荐普林斯顿的算法课【8】（注意，可以从算法1开始，它有两个版本） 
+• 学习基本的算法和算法分析，知道如何分析算法复杂度。平均复杂度，最坏复杂度。每次写完一个程序，自己预计需要的时间（用算法分析来预测）。推荐普林斯顿的算法课【8】（注意，可以从算法1开始，它有两个版本）
 
-• 写一个基础的服务器，用flask【9】的基本模板写一个可以让你做可视化分析的backbone。 
+• 写一个基础的服务器，用flask【9】的基本模板写一个可以让你做可视化分析的backbone。
 
 • 学习使用一个顺手的IDE，VIM， pycharm都可以。
 
-4）读，读，读！ 
+4）读，读，读！
 
 除了闭门造车，你还需要知道其它数据科学家在做些啥。涌现的各种新的技术，新的想法和新的人，你都需要跟他们交流，扩大知识面，以便更好应对新的工作挑战。
 
@@ -381,7 +536,7 @@ betaworks首席数据科学家，Gilad Lotan的博客，我从他这里要的int
 
 在它们这里看够了之后，你会发现还有很多值得看的blog（他们会在文章里面引用其它文章的内容），这样滚雪球似的，你可以有够多的东西早上上班的路上读了：）
 
-5）要不要上个研究生课程？ 
+5）要不要上个研究生课程？
 
 先说我上的网络课程： Coursera.org https://www.coursera.org/course/machlearning 前者就不说了，人人都知道。后者我则更喜欢，因为教得更广阔，上课的教授也是世界一流的机器学习学者，而且经常会有一些很妙的点出来，促进思考。
 
@@ -400,23 +555,23 @@ betaworks首席数据科学家，Gilad Lotan的博客，我从他这里要的int
 
 这个问题思考了很久，作为过来人谈一谈，建议先看下以前的一些回答。 什么是数据挖掘？ 怎么培养数据分析的能力？ 如何成为一名数据科学家？
 
-磨刀不误砍柴工。在学习数据挖掘之前应该明白几点： 
+磨刀不误砍柴工。在学习数据挖掘之前应该明白几点：
 
-• 数据挖掘目前在中国的尚未流行开，犹如屠龙之技。 
+• 数据挖掘目前在中国的尚未流行开，犹如屠龙之技。
 
-• 数据初期的准备通常占整个数据挖掘项目工作量的70%左右。 
+• 数据初期的准备通常占整个数据挖掘项目工作量的70%左右。
 
-• 数据挖掘本身融合了统计学、数据库和机器学习等学科，并不是新的技术。 
+• 数据挖掘本身融合了统计学、数据库和机器学习等学科，并不是新的技术。
 
-• 数据挖掘技术更适合业务人员学习（相比技术人员学习业务来的更高效） 
+• 数据挖掘技术更适合业务人员学习（相比技术人员学习业务来的更高效）
 
-• 数据挖掘适用于传统的BI（报表、OLAP等）无法支持的领域。 
+• 数据挖掘适用于传统的BI（报表、OLAP等）无法支持的领域。
 
 • 数据挖掘项目通常需要重复一些毫无技术含量的工作。
 
 如果你阅读了以上内容觉得可以接受，那么继续往下看。
 
-学习一门技术要和行业靠拢，没有行业背景的技术如空中楼阁。技术尤其是计算机领域的技术发展是宽泛且快速更替的（十年前做网页设计都能成立公司），一般人没有这个精力和时间全方位的掌握所有技术细节。但是技术在结合行业之后就能够独当一面了，一方面有利于抓住用户痛点和刚性需求，另一方面能够累计行业经验，使用互联网思维跨界让你更容易取得成功。不要在学习技术时想要面面俱到，这样会失去你的核心竞争力。 
+学习一门技术要和行业靠拢，没有行业背景的技术如空中楼阁。技术尤其是计算机领域的技术发展是宽泛且快速更替的（十年前做网页设计都能成立公司），一般人没有这个精力和时间全方位的掌握所有技术细节。但是技术在结合行业之后就能够独当一面了，一方面有利于抓住用户痛点和刚性需求，另一方面能够累计行业经验，使用互联网思维跨界让你更容易取得成功。不要在学习技术时想要面面俱到，这样会失去你的核心竞争力。
 
 一、目前国内的数据挖掘人员工作领域大致可分为三类。 1）数据分析师：在拥有行业数据的电商、金融、电信、咨询等行业里做业务咨询，商务智能，出分析报告。 2）数据挖掘工程师：在多媒体、电商、搜索、社交等大数据相关行业里做机器学习算法实现和分析。 3）科学研究方向：在高校、科研单位、企业研究院等高大上科研机构研究新算法效率改进及未来应用。
 
@@ -448,4 +603,4 @@ betaworks首席数据科学家，Gilad Lotan的博客，我从他这里要的int
 
 *** Be comfortable and efficient with SQL
 
-*** Spark & Scala 
+*** Spark & Scala

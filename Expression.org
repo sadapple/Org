@@ -57,3 +57,5 @@ He said he would hang himself. (suicide)
 revenant: gui lai zhe
 
 Pegasus: 天馬座
+
+discern: perceive, recognize

@@ -17,19 +17,17 @@ LPD paper.
 *** DONE Uniqueness of the LPD estimator
 CLOSED: [2015-11-15 Sun 18:43]
 *** TODO prove LPD type asymptotics results for correlation matrices
+**** do not expect better results than the covariance matrix version, but in practice use the correlation version is better
 ** comparison of our algorithm with related algorithms like LPD & ROAD
 *** what is the pros & cons?
 
-*** TODO Can LPD select the best marginal feature? How about ROAD? [1/3]
+*** TODO Can LPD select the best marginal feature? How about ROAD? [1/2]
 when the tuning parameter is near lambda_max, L0 norm = 1 implies the best
 marginal feature is in the active set
 **** DONE study whether whenever L0 norm = 1, the nonzero feature is the best marginal feature
      CLOSED: [2015-09-09 Wed 16:33] SCHEDULED: <2015-08-28 Fri>
 The answer is no, counter example exists.
 **** TODO try to find counter example for covariance matrix via simulation construction
-
-**** TODO write down the results in latex you've got so far 
-SCHEDULED: <2016-02-07 Sun>
 
 *** piecewise lineararity of the LPD problem & uniqueness
 
@@ -42,8 +40,7 @@ CLOSED: [2015-11-18 Wed 16:13]
 
 *** TODO singular case
     SCHEDULED: <2015-12-04 Fri>
-    
-** regularly write & organize the notes into latex for thesis writing
+
 ** TODO Analyze leukemia data
 *** Original dataset vs golub dataset in mulltest package?
 No conflict, since I found the script which the autors of mulltest used to
@@ -71,15 +68,18 @@ it?
 **** idea
 Read the code of ROAD and see whether we could modify it to use in the
 weighted scenario.
-*** DONE Cross Validation
-    CLOSED: [2015-08-18 Tue 15:34] SCHEDULED: <2015-08-16 Sun>
+*** TODO Cross Validation
 How to do CV for the current problem?
 ** TODO Find other implementation code of CLASSO to compare
 *** Matlab version for ROAD
 *** Tony Cai's LPD
 **** DONE Find/write code to solve the LP problem in the paper
      CLOSED: [2015-07-21 Tue 11:40] SCHEDULED: <2015-05-14 Thu>
-** estimation of conditional heteroscedastic time series
+** TODO study two version of *Partial Least Square*
+** complexity results [1/2]
+*** DONE one constrain lasso(classo special case)
+CLOSED: [2016-02-14 Sun 23:03]
+*** TODO LPD
 * Current needed background/technique/skill
 ** convex optimization(like l0,l1,l2...), KKT condition
 *** Langrange Multiplier Theory
@@ -87,7 +87,7 @@ to the extent that I can derive the all the dual problems in the
 recent papers I read(ROAD,Cai,LARS,etc) swiftly
 
 know how to derive dual form and solve langrange multiplier equations
-**** Duality and Application 
+**** Duality and Application
 *** gradient descent & stochastic gradient descent(SGD)
 ** analysis
 *** basic skills
@@ -119,46 +119,33 @@ like stopping rule
    CLOSED: [2015-02-20 Fri 15:14]
 using the lars package, for p=4, the number of pieces doesn't meet the expected 42
 * Temporary aside
-** TODO Gradually export the texmacs version of the CLASSO notes to a latex version
 ** TODO Think about how to apply our algorithm in classification
 ** TODO Think about how to modify the algorithm for extension
+** estimation of conditional heteroscedastic time series
 * Long Term Improvement
-** habit of solving problems 
+** habit of solving problems
 ** habit of make abstraction, combination & generalization
-* Thoughts on Thesis
-
-** Take initiative & Communicate Efficiently
-*** if stuck when trying to prove sth, try find help
-Consider people like Boss Xiao, Shetou, Chunhong, Feng Long, Li Qian
-Also consider the internet community
-*** find more chances to talk to Boss Xiao
-Try to do twice a week, like on Wednesday afternoon
-** Practise *mental calculation*
-** Work hard & consistently
-** Persistently improve on the related math skills
-I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much higher level!!!
-** Aha & Crystal Clear Moments!
-** Two Trinities: "Body, Skill, Heart", "Math, Stat, Programming"
-** What results have you got?
-*** written down formally?
-**** the ROAD exact algorithm for nonsingular case
-**** a result of best marginal feature 
-*** scratch or in mind
-**** counter example for best marginal feature
-**** algorithm for singular covariance matrix
-** What results are you currently aiming to obtain?
-*** easy ones
-**** uniqueness of the LPD 
-*** hard ones
-**** LPD asymptotics results for correlation matrices 
-** Any idea about extension/generalization?
-** Idea about data analysis?
-** Have the results necessary for a paper? How to organize them?
 * Fun Things Learned
 ** Asymptotic equivalence between White Noise Model & Nonparametric Regression
 A fun reading experience with professor Zhang's regression project notes
-* Research Habits, Idea & Challenge Plan
-** Habits
+* Thoughts compilation
+** Tao of learning
+*** motivation
+If you really wanna learn something, always find/generate the *motivation*
+first! Then spending enough time/efforts/good communications with others(if possible)
+should follow.
+*** time, squeeze time!
+no skill can be developed without enough time
+read and think about Peter Norvig's intriguing article *learn programming in 10
+years* .
+*** find the right/good questions and direction
+*** find the right/good circle to discuss and learn
+*** build your knowledge/skill tree from in some systematic way(like using a few but good book in the field)
+*** be avid to solve problems, accumulate problem solving strategies in the field you're interested in(same as in life)
+keep notes in a timely manner
+*** keep thinking, possibly everyday!
+*** be brave to focus, to compromise, to make trade-off, to give up
+** Research Habits
 *** save time & squeeze time
 **** ban wechat moments, news checking, etc
 **** avoid unnecessary meet and appointment
@@ -173,77 +160,180 @@ Total: 46 hours/week
 Deduction: Sep-Oct, 6 hours lecture preparing per week
 *** improve related problem solving skill
 as often as possible, better be everyday
-****  math/stat problem solving
-      SCHEDULED: <2015-09-16 Wed 22:30-23:30 +2d>
-**** programming problem solving
-     SCHEDULED: <2015-09-17 22:30-23:30 +2d>
-*** express your learning and finding in timely manner
+**** TODO math/stat problem solving
+      SCHEDULED: <2015-09-18 Fri 22:30-23:30 +2d>
+      :PROPERTIES:
+      :LAST_REPEAT: [2016-02-29 Mon 00:54]
+      :END:
+      - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
+**** TODO programming problem solving
+     SCHEDULED: <2015-09-29 Tue 22:30-23:30 +2d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2016-03-04 Fri 12:51]
+     :END:
+     - State "DONE"       from "TODO"       [2016-03-04 Fri 12:51]
+     - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
+     - State "DONE"       from "TODO"       [2016-02-26 Fri 21:45]
+     - State "DONE"       from "TODO"       [2016-02-23 Tue 15:53]
+*** express/organize your learning and finding in timely manner, through onenote/org/latex, etc
 *** back up your findings(notes and script) in a timely manner
 **** using github
 currently I'm maintaining backup repositories for my org, lyx and research r
 scripts on github.
 *** find projects to challenge yourself in timely manner
 
-** Challenge Plan
-*** 9.14 - 9.24
-**** DONE primal dual problems examples
-     CLOSED: [2015-09-30 Wed 15:11]
-**** how can you generalize the sign pattern method for proving piecewise linearity
-**** the homotopy idea
-*** 11.18 - 12.1 [1/2]
-**** DONE write down the uniqueness proof for LPD 
-CLOSED: [2015-12-16 Wed 19:22]
-**** TODO Study Lagrangian Duality Theory and accumlate more examples
-*** 12.16 - 12.23 [2/4]
+** on thesis
+*** Take initiative & Communicate Efficiently
+**** if stuck when trying to prove sth, try find help
+Consider people like Boss Xiao, Shetou, Chunhong, Feng Long, Li Qian
+Also consider the internet community
+**** find more chances to talk to Boss Xiao
+Try to do twice a week, like on Wednesday afternoon
+*** Practise *mental calculation*
+*** Work hard & consistently
+*** Persistently improve on the related math skills
+I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much higher level!!!
+*** Aha & Crystal Clear Moments!
+*** Two Trinities: "Body, Skill, Heart", "Math, Stat, Programming"
+*** What results have you got?
+**** written down formally?
+***** the ROAD exact algorithm for nonsingular case
+***** a result of best marginal feature
+**** scratch or in mind
+***** counter example for best marginal feature
+***** algorithm for singular covariance matrix
+*** What results are you currently aiming to obtain?
+**** easy ones
+***** uniqueness of the LPD
+**** hard ones
+***** LPD asymptotics results for correlation matrices
+*** Any idea about extension/generalization?
+*** Idea about data analysis?
+*** Have the results necessary for a paper? How to organize them?
+** Stage thoughts
+*** 2.14
+1. squeeze time to think about research everyday this year!
+2. your focus shall not be more than two at a time
+3. gain is accompanied by loss
+**** focus
+***** thesis
+****** LPD asymptotics
+***** job skill
+****** data mining review
+***** job information
+** build your knowledge & skill trees on a few but good books/projects/tools/community groups
+*** Stat [0/4]
+**** TODO ESL
+**** TODO Theory of Multivariate Statistics by Bilodeau & Brenner
+**** Statistical Learning with Sparsity
+**** TODO Time Series by Brockwell
+**** TODO Essentials of Stochastic Finance
+*** Math & Prob [0/3]
+**** TODO Concentration Inequalities by Lugosi
+**** TODO Principle of Math Analysis, Rudin
+**** TODO Tao's probability course notes & book on random matrix 
+*** Programming [0/4]
+**** TODO SICP(with *the little scheme* as reference)
+**** TODO C++ primer
+**** Intro to Algorithm
+**** TODO Algorithm Design Manual
+**** TODO Algorithm by Dasgupta
+**** Code Complete
+**** The Pragmatic Programmer
+**** The Linux Command Line
+*** Projects [0/3]
+**** TODO leetcode
+**** Codewar Kata
+**** SICP problems
+**** Github Blog(to maintain actively)
+**** TODO Data Mining Hw problems revisit
+**** TODO Cracking the code interview problems
+**** Finish the remaining Python problems in edx MIT 6.001 Course
+*** Tools [0/4]
+**** Emacs and Vim
+***** Org mode
+***** Helm & Magit
+**** Git & Github
+**** TODO Regular Expressions
+**** TODO Latex & TeXmacs
+**** TODO Edx & Coursera
+**** Google Scholar
+**** TODO SQL
+**** Spark, Scala, Clojure
+**** Jekyll, Markdown & other Web tools
+*** Discussion/Community Groups [0/3]
+**** TODO SICP and Emacs qq group
+**** Emacs Google+ group
+**** TODO Codewar & Kaggle
+**** StackOverflow
+**** Zhihu Programming Language group
+**** TODO Some Friends, Fellow Students & Mentor
+* Thesis Writing [1/2]
+** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
+CLOSED: [2016-03-04 Fri 12:50]
+Done by modify some export options inside Texmacs
+** TODO finish the notes on best marginal feature property for correlation version LPD
+*** the counter example
 
-**** TODO read the concentration inequality section of Tao's random matrix book
-**** TODO LPD asymptotics for correlation matrices
-***** how to formulate the problem correctly
-***** what types of inequality do I need
-**** DONE read the recent two latex notes
-CLOSED: [2016-01-29 Fri 18:19]
-**** revise CV
-**** DONE think about professor Zhang's 663 second project
-CLOSED: [2015-12-19 Sat 21:05]
-*** 1.4 - 1.7 [1/2]
-**** DONE finish the pdf notes on LPD uniqueness
-CLOSED: [2016-01-31 Sun 12:23]
-**** TODO study & try to reproduce the proof of Theorem 2 in the LPD paper
-*** 1.29 - 2.3 [/]
-**** TODO study Ch2 of Lugosi's *concentration inequality* book, exclude the problem section
-**** TODO study causal inference & structural models
-***** think about how to model time dependent treatment data in survival problem context 
-***** search related R packages
-*** Future
-**** Improve simulation technique
-***** TODO R problems, hard section
-**** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words
-***** Typical questions to be asked
-****** Derivation, Estimation, Interpretation
-****** When to use it?
-****** How do you think about it?
-***** TODO Logistic Regression
-SCHEDULED: <2016-01-31 Sun>
-***** Bootstrap Method
-***** PCA & Factor Models
-***** EM algorithm
-**** ATE(average treatment effects) estimation literature review [0/3]
-***** TODO why use *regression adjustment* ?
-***** TODO study the simulation part of professor Zhang's 2015 paper on Lasso adjustment of ATE 
-***** TODO solve the ATE project main problem in professor Zhang's 663 course in 2015 Fall
 ** Communication with advisor
+*** Meet Memos
+**** 2.14
+1. make progress on LPD asymptotics, don't expect better result than covariance version
+2. finish the notes on best marginal feature
 *** TODO discuss thesis and graduation with advisor
-** Tao of learning
-*** motivation
-If you really wanna learn something, always find/generate the *motivation*
-first! Then spending enough time/efforts/good communications with others(if possible)
-should follow.
-*** time, squeeze time!
-no skill can be developed without enough time
-read and think about Peter Norvig's intriguing article *learn programming in 10
-years* . 
-*** find the right/good questions and direction
-*** find the right/good circle to discuss and learn
-*** build your knowledge/skill tree from in some systematic way(like using a few but good book in the field)
-*** be avid to solve problems, accumulate problem solving strategies in the field you're interested in(same as in life)
-keep notes in a timely manner 
+* Challenge Plan
+** 9.14 - 9.24 [1/3]
+*** DONE primal dual problems examples
+     CLOSED: [2015-09-30 Wed 15:11]
+*** TODO how can you generalize the sign pattern method for proving piecewise linearity
+*** TODO the homotopy idea
+** 11.18 - 12.1 [1/2]
+*** DONE write down the uniqueness proof for LPD
+CLOSED: [2015-12-16 Wed 19:22]
+*** TODO Study Lagrangian Duality Theory and accumlate more examples
+** 12.16 - 12.23 [2/4]
+
+*** TODO read the concentration inequality section of Tao's random matrix book
+*** DONE read the recent two latex notes
+CLOSED: [2016-01-29 Fri 18:19]
+*** revise CV
+*** DONE think about professor Zhang's 663 second project
+CLOSED: [2015-12-19 Sat 21:05]
+** 1.4 - 1.7 [1/1]
+*** DONE finish the pdf notes on LPD uniqueness
+CLOSED: [2016-02-14 Sun 22:43]
+** 1.29 - 2.3 [1/2]
+*** DONE study Ch2 of Lugosi's *concentration inequality* book, exclude the problem section
+CLOSED: [2016-02-14 Sun 22:41]
+*** TODO study causal inference & structural models
+**** think about how to model time dependent treatment data in survival problem context
+**** search related R packages
+** 2.14 - 2.18 [0/3]
+*** TODO study & try to reproduce the proof of Theorem 2 in the LPD paper
+SCHEDULED: <2016-02-15 Mon>
+
+*** TODO LPD asymptotics for correlation matrices
+**** how to formulate the problem correctly
+**** what types of inequality do I need
+**** formulate & prove the inequality on tail probability of correlation terms
+
+** Future
+*** Improve general coding & simulation technique
+
+**** TODO R problems, hard section
+SCHEDULED: <2016-02-15 Mon>
+*** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words
+**** Typical questions to be asked
+***** Derivation, Estimation(point type & C.I. type), Testing, Interpretation
+***** When to use it?
+***** How do you think about it?
+**** TODO Logistic Regression
+SCHEDULED: <2016-01-31 Sun>
+**** Bootstrap Method
+**** PCA & Factor Models
+**** EM algorithm
+**** two versions of Partial Least Square
+*** ATE(average treatment effects) estimation literature review [0/3]
+**** TODO why use *regression adjustment* ?
+**** TODO study the simulation part of professor Zhang's 2015 paper on Lasso adjustment of ATE
+**** TODO solve the ATE project main problem in professor Zhang's 663 course in 2015 Fall

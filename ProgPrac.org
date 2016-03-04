@@ -1,6 +1,6 @@
-* Programming Langranges 
+* Programming Langranges
 ** Python
-*** Follow edx course MIT 6.002 [/]
+*** Follow edx course MIT 6.002 [3/6]
 **** DONE 1st week
     CLOSED: [2015-06-24 Wed 22:54] SCHEDULED: <2015-06-13 Sat>
 
@@ -22,21 +22,38 @@
 **** Divide and conquer
 
 *** mutable & immutable objects
+** Cpp
+*** Data Types
+**** The differences in the representation of positive & negative integers
+原码和补码（原码各位取反加1)
+**** representation of floating numbers, note its "precision"
+***** 避免很大的数和很小的数直接相加减
+*** Operators
+**** 赋值
+***** 两边类型不同时的类型转换
+***** 长数赋短数
+***** 短数赋长数
+***** 符号位的赋值处理
+*** TODO Array
+SCHEDULED: <2016-03-04 Fri>
 ** R
-*** TODO Finish the Hard Function problems
-*** TODO study dplyr packag for SAC(split-apply-combine) procedure
+*** Finish the Hard Function problems
+*** TODO study dplyr package for SAC(split-apply-combine) procedure
+*** TODO study ggplot2
 ** SAS
 *** DONE Level up to write some easy sas programs
    CLOSED: [2014-10-07 Tue 10:49]
 *** TODO Improve SAS skill via the IPD NMA case study[1/4]
 **** TODO data manipulation, SQL
+SCHEDULED: <2016-02-15 Mon>
 **** DONE GLM, logistic & poisson regression procedure in SAS
 CLOSED: [2016-01-18 Mon 17:18]
-**** TODO write macros
+**** TODO write macros intro
+SCHEDULED: <2016-02-15 Mon>
 **** TODO accumulate and summary SAS tricks you learn
-** Cpp
-** SICP
 
+** Lisp
+*** SICP
 ** Markdown
 *** DONE Learn basics
    CLOSED: [2015-02-17 Tue 10:10]
@@ -48,6 +65,32 @@ Once it’s installed you can start a REPL with:
 * Algorithm & Data Structure
 ** Cracking the code interview
 *** TODO 1st discussion
+** TODO Leetcode
+** TODO Implement the important/fun algorithms you encountered by yourself via C++ or Python 
+** Questions
+*** what is the "unit time" in this particular algorithm problem?
+* Software Architecture & Design
+** SICP
+*** TODO MIT Lecture Videos
+SCHEDULED: <2016-03-06 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-02-29 Mon 00:53]
+:END:
+- State "DONE"       from "TODO"       [2016-02-29 Mon 00:53]
+- State "DONE"       from "TODO"       [2016-02-22 Mon 10:18]
+*** Problems
+* Data Science
+** Kaggle Projects
+*** check out some of the tutorials there! [/]
+**** TODO deep learning
+*** warm-up
+**** TODO Digit Recognizer
+**** Facial Keypoints Detection
+**** SF crime classification
+*** featured
+**** 2nd Annual Data Science Bowl
+**** May 2015 Reddit comments
+**** Predicting 2016 NCAA
 * Thoughts
 ** Tools/Skills/Knowledge worth achieving expertise for programming in 10 years
 *** Emacs & Vim

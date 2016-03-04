@@ -164,6 +164,21 @@ ctrl-c TAB : open the auctex manual
         ("restartlist" "{")))
 * Case study 
 
+** setup Chinese language support in Latex
+
+*** install tex-live & make sure the *xeCJK* package is installed
+
+#+BEGIN_SRC LaTeX
+\documentclass{article}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\begin{document}
+你好，TeX Live 2009！
+\end{document}
+#+END_SRC
+*** setup the TEX engine to *XeTeX* 
+use "M-x TeX-engine-set"
+
 ** from Xiaolin Wang's video
  
 *** linux command
@@ -173,6 +188,13 @@ tree my-projects/
 dict heaven
 wget http://path-to-style-file/sample.cls
 
+** DONE study the general functionality provided by *TeXstudio*
+CLOSED: [2016-03-01 Tue 16:47]
+
+** DONE have some ideas about the interaction between Latex & Bibtex
+CLOSED: [2016-03-01 Tue 16:42]
+ I read some *.aux*, *.bbl*, *.blg*, *.log* produced, have some idea about what these files
+are about 
 * Web Notes 
 
 ** an advice from TeX exchange 
@@ -284,4 +306,11 @@ see [[  http://tex.stackexchange.com/questions/50827/a-simpletons-guide-to-tex-w
 
 **** FlySpell
 *** summary
-
+* Key questions [/]
+** useful package/preamble
+*** AMS packages
+** high frequency commands/macros/environments
+*** environments
+array, align, figure,tabular, enumerate
+** write your own snippets/template/macros
+** why do we need *cross reference*? 

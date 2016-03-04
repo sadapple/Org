@@ -116,20 +116,25 @@ When will Bayes Rule be good?
 
 ** Long term
 
-*** ESL(also solve problems in this book as many as possible)
-*** Nonlinear Programing by Bertsekas
-*** Statistical Learning with Sparsity by Tibshirani
-*** Analysis of Finantial Time Series
-*** Theory of Multivariate Stat(problems in Ch1&2 are mandatory)
-*** Regression Notes and Problems by Cunhui Zhang
-*** Mathematical Statistics by Jun Shao(focus on solving problems of Ch1&2)
-*** Topics in Random Matrix theory by Tao
+*** current 
+**** ESL(also solve problems in this book as many as possible)
+**** Nonlinear Programing by Bertsekas
+**** Statistical Learning with Sparsity by Tibshirani
+**** Time Series by Brockwell
+**** Theory of Multivariate Stat(problems in Ch1&2 are mandatory)
 
-*** SICP
-*** Advanced R Programming
-*** Algorithm Design Manual
-*** The Linux Command Line
 
+**** Regression Notes and Problems by Cunhui Zhang
+**** Mathematical Statistics by Jun Shao(focus on solving problems of Ch1&2)
+**** Concentration Inequalities by Lugosi
+**** Probability Course Notes/The book *Topics in Random Matrix theory* by Tao
+
+**** SICP
+**** Advanced R Programming
+**** Algorithm Design Manual
+**** Algorithm by Dasgupta
+**** The Linux Command Line
+*** archive
 ** Short term
 
 *** Art of R programming
@@ -299,17 +304,27 @@ reserve your understanding for a problem for most people who want to
 know your perspectives.
 Don't hesitate to take the initiative when meeting the advisor. Don't
 hesitate to present the points which block you for some time.
-* Some TODO habits in 2016 new year  
-** study at home efficiently, go to the library if needed  
-** think deep about the career in 10 years, gather information and prepare for interviews   
-** build your knowledge & skill trees on a few but good books/projects/tools/community groups
-*** Stat 
+* Some TODO habits in 2016 new year
+** TODO Take the initiative & be actively involved in your goal!
+SCHEDULED: <2016-02-24 Wed +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2016-02-29 Mon 00:54]
+:END:
+- State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
+- State "DONE"       from "TODO"       [2016-02-23 Tue 15:54]
+- State "DONE"       from "TODO"       [2016-02-23 Tue 15:53]
+- State "DONE"       from "TODO"       [2016-02-23 Tue 15:52]
+- State "DONE"       from "TODO"       [2016-02-23 Tue 15:52]
+** study at home efficiently, go to the library if needed
+** think deep about the career in 10 years, gather information and prepare for interviews
+** build your knowledge & skill trees on a few but good books/projects/tools/community groups(complete version see Research.org)
+*** Stat
 **** ESL
 **** Theory of Multivariate Statistics by Bilodeau & Brenner
 **** Statistical Learning with Sparsity
 *** Math & Prob
 **** Concentration Inequalities by Lugosi
-**** Principle of Math Analysis, Rudin 
+**** Principle of Math Analysis, Rudin
 
 *** Programming
 **** SICP(with *the little scheme* as reference)
@@ -329,7 +344,7 @@ hesitate to present the points which block you for some time.
 **** Finish the remaining Python problems in edx MIT 6.001 Course
 *** Tools
 **** Emacs and Vim
-***** Org mode 
+***** Org mode
 ***** Helm & Magit
 **** Git & Github
 **** TODO Regular Expressions
@@ -339,13 +354,13 @@ hesitate to present the points which block you for some time.
 **** SQL
 **** Spark, Scala, Clojure
 **** Jekyll, Markdown & other Web tools
-*** Discussion/Community Groups 
+*** Discussion/Community Groups
 **** SICP and Emacs qq group
 **** Emacs Google+ group
 **** Codewar & Kaggle
 **** StackOverflow
 **** Zhihu Programming Language group
-**** Some Friends, Fellow Students & Mentor 
-** do meditation & memory training as much as possible, like before sleep everyday 
-** express your research feelings/daily fun things in written and oral form! 
+**** Some Friends, Fellow Students & Mentor
+** do meditation & memory training as much as possible, like before sleep everyday
+** express your research feelings/daily fun things in written and oral form!
 ** maintain 7 hours sleep as regularly as you can, stay up late can be allowed on rare occasions
