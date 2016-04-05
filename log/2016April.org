@@ -1,4 +1,3 @@
-
 * Plan to road trip Shenandoah NP & Blue Ridge Pkwy(and Great Smoky Mountain if possible) this April or May
 [[./fireflies-great-smoky-mountains.jpg]]
 
@@ -7,3 +6,11 @@ check [[http://www.heysmokies.com/synchronous-fireflies-in-great-smoky-mountains
 ** TODO important dates
 SCHEDULED: <2016-04-10 Sun>
 4.10, 4.24, 4.25
+
+* Others
+
+** TODO Xinxin's book reminder
+SCHEDULED: <2016-04-25 Mon>
+
+** TODO summer CPT 
+SCHEDULED: <2016-04-25 Mon>

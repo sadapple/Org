@@ -305,16 +305,18 @@ know your perspectives.
 Don't hesitate to take the initiative when meeting the advisor. Don't
 hesitate to present the points which block you for some time.
 * Some TODO habits in 2016 new year
-** TODO Take the initiative & be actively involved in your goal!
-SCHEDULED: <2016-02-24 Wed +1d>
+** DONE Take the initiative & be actively involved in your goal!
+CLOSED: [2016-04-03 Sun 10:51] SCHEDULED: <2016-03-06 Sun>
 :PROPERTIES:
-:LAST_REPEAT: [2016-02-29 Mon 00:54]
+:LAST_REPEAT: [2016-04-02 Sat 14:03]
 :END:
+- State "DONE"       from "TODO"       [2016-04-02 Sat 14:03]
+- State "DONE"       from "TODO"       [2016-03-25 Fri 14:38]
+- State "DONE"       from "TODO"       [2016-03-10 Thu 19:06]
+- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
+- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
 - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
 - State "DONE"       from "TODO"       [2016-02-23 Tue 15:54]
-- State "DONE"       from "TODO"       [2016-02-23 Tue 15:53]
-- State "DONE"       from "TODO"       [2016-02-23 Tue 15:52]
-- State "DONE"       from "TODO"       [2016-02-23 Tue 15:52]
 ** study at home efficiently, go to the library if needed
 ** think deep about the career in 10 years, gather information and prepare for interviews
 ** build your knowledge & skill trees on a few but good books/projects/tools/community groups(complete version see Research.org)

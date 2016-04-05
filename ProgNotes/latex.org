@@ -190,11 +190,14 @@ wget http://path-to-style-file/sample.cls
 
 ** DONE study the general functionality provided by *TeXstudio*
 CLOSED: [2016-03-01 Tue 16:47]
-
 ** DONE have some ideas about the interaction between Latex & Bibtex
 CLOSED: [2016-03-01 Tue 16:42]
  I read some *.aux*, *.bbl*, *.blg*, *.log* produced, have some idea about what these files
 are about 
+
+** DONE maintain a macro preamble file to improve the efficiency of academic writing in latex
+CLOSED: [2016-03-10 Thu 22:15]
+** TODO record those high frequency commands and think whether I should give it an alias in my preamble
 * Web Notes 
 
 ** an advice from TeX exchange 
@@ -291,7 +294,6 @@ am still learning a lot. I think I learned more in five months about LaTeX more
 than I have learned in the three years of using it before joining here. So use
 LaTeX, read the manuals/books, and ask if you have a problem that you can't
 solve on your own. And your learning will be tremendous.
-
 ** a wonderful answer to TeX workflow  
 see [[  http://tex.stackexchange.com/questions/50827/a-simpletons-guide-to-tex-workflow-with-emacs#][here]]
 
@@ -306,6 +308,7 @@ see [[  http://tex.stackexchange.com/questions/50827/a-simpletons-guide-to-tex-w
 
 **** FlySpell
 *** summary
+** \textsc, here *sc* means *small cap*
 * Key questions [/]
 ** useful package/preamble
 *** AMS packages

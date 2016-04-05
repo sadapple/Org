@@ -1,12 +1,52 @@
-* Book for Multivariate Statistics
-** TODO Ch1&2
-
-* Data Mining Homework by Han Xiao
-** DONE LDA and Logistic Regression
+* Machine Learning & Data Mining
+** ESL book problems [0/9]
+*** TODO Ch3 
+*** TODO Ch4
+*** TODO Ch5 Smoothing Splines, RKHS, etc
+*** TODO Ch6 Kernel Smoothing Methods
+*** TODO Ch7 CV & Bootstrap, etc
+*** TODO Ch8 EM, MCMC, Bagging, etc
+*** TODO Ch9&10 Tree related Methods
+*** TODO Ch12 SVM
+*** TODO Ch15 Random Forest
+** Data Mining Notes & Homework by Han Xiao [1/9]
+*** TODO Lasso, SCAD, Penalized Regression
+*** TODO PCA and Factor Model
+*** DONE LDA and Logistic Regression
    CLOSED: [2015-02-27 Fri 02:13] DEADLINE: <2015-02-25 Wed>
-** TODO PCA and Factor Model
-** Lasso, SCAD, Penalized Regression
-* Data Mining by Yang Dan
-* Familiar with common distribution charaterization and facts
-* Math Expectation Calculation & Moment Inequalites
-* MGF and Charateristic Function
+*** TODO EM algorithm
+*** TODO Portfolio Optimization & Cov Matrix Estimation
+*** TODO SVM
+SCHEDULED: <2016-04-03 Sun>
+*** TODO Cointegration & Arbitrage
+*** TODO Not covered: Boosting & Random Forest
+*** TODO hw 1-5
+** Data Mining by Yang Dan [0/6]
+*** TODO hw1
+*** TODO hw2
+*** TODO hw3
+*** TODO hw4
+*** TODO hw5
+*** TODO Lectures 1-13
+** Data Mining by Zhang Tong
+*** worthwhile to take a look at his lecture slides from 8 to the end
+* Stat
+** Book for Multivariate Statistics [0/4]
+*** TODO Ch1&2 (Linear Algebra & Random Vector)
+*** TODO Ch3 (Invariance Principle)
+*** TODO Ch6&7 (Multivariate Sampling & Wishart)
+*** TODO Ch10&11 (PCA & Canonical Correlation)
+** TODO 663 Notes & Problems by Professor Zhang 
+* Probability [0/4]
+** TODO Familiar with common distribution charaterization and facts
+** Some Math Expectation Calculation Techniques & Tricks
+** TODO Conditional Expectation
+** Martingale
+** TODO Concentration Inequalities
+** TODO Asymptotic Theory 
+** MGF and Characteristic Function
+* Important Math Techniques [0/4]
+** TODO Generating Functions
+** TODO Solve common recurrent equations
+** TODO Difference Equation
+** TODO Tao's Probability Course Lecture Notes  

@@ -172,7 +172,256 @@ Use "C-c C-u"
 ** helm
 *** TODO pratice navigation via helm in emacs regularly
 ** magit
+** Gnus
+Gnus is a good email client. Sometimes I found it more friendly than Gmail’s own
+UI.
+
+Those people who think it hard simply get lost in its countless features. It
+will be much easier if they only learn only the essential 5% of Gnus and ignore
+the other 95%.
+*** why *Gnus*?
+From Bin Chen:
+- Gnus is as reliable as other email client
+- Less hardware resource required
+- Email search and filter is good, even compared to Gmail’s native UI
+- Bundled with Emacs, no extra installing overhead if you have Emacs
+- Gnus is usable when there is no internet connection. Check the “offline” part in the section “Advanced tips”
+- I can use other Emacs plugin like yasnippet
+
+More good things:
+1. yasnippet is really cool when you need write similar emails daily (replying to job agents, for example).
+2. press c to mark all the email in inbox READ is really handy (Gmail's own interface sucks)
+3. search, filter (in gnus it's called limit) email is good (search is not as handy as gmail,but filter is much better)
+4. you can install another software called popfile to categorize your email, it's much much much better than google's own (filter rules or their auto-labelling)
+5. Attach files in email is efficient in Gnus (1 or 2 seconds)
+6. Forward email or attach email is easy
+7. you can use another software called davmail to get email (please use pop3 instead of imap because gnus has some bug) from outlook exchange server. And don't forget keep the copy on server because you are using POP3!
+8. reading html email is easy, just use emacs-w3m
+9. writing html email is actually much more efficient than other softwares., just use org-mime, especially when you want to create html tables, which could be ten times faster.
+*** before interact with gmail server, need to turn on the *less secured app* feature from google
+*** also need to configure if you want Gnus to display *all* the emails in the group
+an alternative would be *C-u RET* or *SPC-u RET*(for spacemacs)
+*** you might want to *disable* evil by *C-z* since there are some key conflicts between gnus and evil
+*** cache emails
+Use "!"
+*** Essential 5%
+Don't memorize all the key bindings. Only pick up what you actually use.
+
+At the end of this article, I provide *my [[https://github.com/abo-abo/hydra][Hydra]] setup to help you avoid remembering key bindings *.
+
+Please check section "Use Hydra to avoid remembering key bindings".
+**** Search mails
+***** Search mails on Server
+Press =G G= or =M-x gnus-group-make-nnir-group= to search mails at *server side* in "Group Buffer".
+
+You can press =#= to mark the groups.  Search will be limited to marked groups. =M-#= to unmark.
+
+If no group marked, the group under cursor is searched.
+
+Place the cursor before the first group, all groups will be searched.
+
+To search certain fields in the mail, press =C-u G G= or =C-u M-x gnus-group-make-nnir-group= instead. This is a very useful technique.
+
+You can apply [[http://tools.ietf.org/html/rfc3501#section-6.4.4][more advanced search syntax]] by:
+- Press =C-u G G= or =C-u M-x gnus-group-make-nnir-group=
+- Input query statements, press Enter
+- Type "imap", press Enter
+
+***** Filter mails locally
+Press =/ /= to limit the mails by subject at "Summary Buffer". "Limiting" means *filtering mails locally*.
+
+Press =/ a= to limit the mails by author at "Summary Buffer".
+
+=/ w= to cancel the current filter.
+
+You can apply the limits sequentially and cancel them in reverse order by pressing =/ w=.
+
+"Limiting" is cool. [[http://www.gnu.org/software/emacs/manual/html_mono/gnus.html#Limiting]] has more tricks.
+
+See [[http://sachachua.com/blog/2008/05/emacs-gnus-searching-mail/]] for technical details.
+
+**** Subscribe groups
+Press =A A= or =M-x gnus-group-list-active= in "Group Buffer" to fetch groups list on *all connected server*. It take a while. I suggest pressing "L" to use local cache instead after =A A= once.
+
+After =A A= or =L=, press =u= to subscribe/unsubscribe specific group.
+
+In order to see all the mails in "INBOX" folder/group, you need *MANUALLY* subscribe the group "INBOX"!
+
+Pressing =o= is *much better*. It is the hotkey I created for =C-u 5 M-x gnus-group-list-all-groups=, as mentioned in previous sections.
+
+Press =g= or =M-x gnus-group-get-new-news= to refresh groups list.
+
+You can also subscribe programmatically in ~/.gnus.el:
+#+begin_src elisp
+(gnus-subscribe-hierarchically "nnimap+hotmail:Inbox")
+#+end_src
+**** Reply email
+Press =R= or =M-x gnus-summary-reply-with-original= to reply with quoted text. Press =r= or =M-x gnus-summary-reply= to reply without quoted text.
+
+Press =S W= (captalized S then captalized W) or =M-x gnus-summary-wide-reply-with-original=to reply all with quoted text. It's called "wide reply" in Emacs.
+
+Press =S w= or =M-x gnus-summary-wide-reply= to reply all without quoted text.
+**** Compose new email
+Press =m= or =M-x gnus-new-mail= in "Summary Buffer".
+
+You could also =C-x m= or =M-x componse-mail= anywhere in Emacs without bugging Gnus.
+**** Re-send as new mail
+Press =S D e= or =M-x gnus-summary-resend-message-edit=. Useful if you re-send mail in Draft folder.
+**** Attach a file
+Press =C-c C-a= or =M-x mml-attach-file=.
+
+The attached file is actually plain text embedded in mail body. You can copy and modify the text.
+**** Save attachment
+Move *focus over the attachment* and press =o= or =M-x gnus-mime-save-part=. See "[[http://www.gnu.org/software/emacs/manual/html_node/gnus/Using-MIME.html][Using Mime]]" in Emacs manual for details.
+**** Open attachment
+Move *focus over the attachment* and press =Enter= or =M-x gnus-article-press-button=.
+
+The flag =[[https://www.gnu.org/software/emacs/manual/html_node/emacs-mime/mailcap.html][mailcap-mime-data]]= controls what program is used to open the attachment.
+
+You can change the flag directly at Window or OSX.
+
+At Linux, use =M-x mailcap-parse-mailcaps= to load data from ~/.mailcap into =mailcap-mime-data=.
+
+My ~/.mailcap:
+#+begin_src conf
+# url
+text/html; w3m -I %{charset} -T text/html; copiousoutput;
+
+# image viewer
+image/*; feh -F -d -S filename '%s';
+
+# pdf
+application/pdf; zathura '%s';
+image/pdf; zathura '%s'
+
+# video
+video/* ; mplayer '%s'
+audio/* ; mplayer '%s'
+
+# Office files.
+application/msword; soffice '%s'
+application/rtf; soffice '%s'
+text/richtext; soffice '%s'
+application/vnd.ms-excel; soffice '%s'
+application/vnd.ms-powerpoint; soffice '%s'
+#+end_src
+
+**** Send email
+Press =C-c C-c= or =M-x message-send-and-exit=.
+**** Refresh "Summary Buffer" (check new mails)
+hotkey =/ N= or =M-x gnus-summary-insert-new-articles=.
+**** Make all mails visible (IMPORTANT)
+Press =C-u RET= on the selected group in "Group Buffer", or =C-u M-g= in "Summary Buffer".
+
+That's the *most important part* of this article! By default, Gnus only displays unread mails.
+
+Check [[http://stackoverflow.com/questions/4982831/i-dont-want-to-expire-mail-in-gnus]] for details.
+**** Forward mail
+Press =C-c C-f= or =M-x gnus-summary-mail-forward= in "Summary Buffer".
+
+You can mark multiple mails to forward (hotkey is "#") and forward them in one mail. [[https://plus.google.com/112423173565156165016/posts][Holger Schauer]] provided the tip.
+
+After the forwarded email is created, you may copy the body of that email without sending it. The copied content could be inserted into new mail.
+**** Mark mails as read
+Press =c= either in "Summary Buffer" or "Group Buffer". This is *my most frequently used command* because it's easier Gmail's own UI!
+**** Tree view of mail folders
+[[http://www.gnu.org/software/emacs/manual/html_node/gnus/Group-Topics.html][Group Topics]] is used re-organize the mail folder into tree view.
+
+For example, you can place mail folders from Gmail into "gmail" topic, mails from Outlook.com into "hotmail" topic, place "gmail" and "hotmail" under root topic "Gnus".
+
+The setup is only one line,
+#+begin_src elisp
+(add-hook 'gnus-group-mode-hook 'gnus-topic-mode)
+#+end_src
+
+Though you can read [[http://www.gnu.org/software/emacs/manual/html_node/gnus/Topic-Commands.html][offical manual]] to learn its command, my way is much better.
+
+Insert below code into ~/.gnus.el and you are done,
+#+begin_src elisp
+(eval-after-load 'gnus-topic
+  '(progn
+     (setq gnus-message-archive-group '((format-time-string "sent.%Y")))
+     (setq gnus-topic-topology '(("Gnus" visible)
+                                 (("misc" visible))
+                                 (("hotmail" visible nil nil))
+                                 (("gmail" visible nil nil))))
+
+     (setq gnus-topic-alist '(("hotmail" ; the key of topic
+                               "nnimap+hotmail:Inbox"
+                               "nnimap+hotmail:Drafts"
+                               "nnimap+hotmail:Sent")
+                              ("gmail" ; the key of topic
+                               "INBOX"
+                               "[Gmail]/Sent Mail"
+                               "Drafts")
+                              ("misc" ; the key of topic
+                               "nnfolder+archive:sent.2015-12"
+                               "nnfolder+archive:sent.2016"
+                               "nndraft:drafts")
+                              ("Gnus")))))
+#+end_src
+
+Instead remembering topic commands, editing about snippet is more straightforward. The only requirement is a little bit of Emacs Lisp knowledge.
+
+The flag =gnus-message-archive-group= defines archive folder of sent mail. By default new folder is created *monthly*. My setup make it created *yearly*.
+*** reference keys
+| function                          | keys                                           |
+|-----------------------------------+------------------------------------------------|
+| reply email                       | R(with quoted), r(without), *S W*, *S w*       |
+| compose new email                 | m                                              |
+| new email anywhere inside Emacs   | C-x m                                          |
+| send email                        | C-c C-c                                        |
+| resend as new                     | *S D e*                                        |
+| attach file                       | C-c C-a                                        |
+| forward email                     | C-c C-f                                        |
+| save attachment                   | Move *focus over the attachment* and press *o* |
+| fetch group list from all servers | *A A*, then *u* to sub/unsubscribe             |
+| search                            | *G G*                                          |
+| refresh *Summary Buffer*          | */ N*                                          |
+| make all mails visible            | C-u RET                                        |
+| cache email                       | *!*                                            |
+** YASnippet & auto-YASnippet
+|-----------+-------------------------------------------------------------------------|
+| M-/       | 	Expand a snippet if text before point is a prefix of a snippet        |
+| SPC i s   | 	List all current yasnippets for inserting                             |
+| SPC i S c | create a snippet from an active region                                  |
+| SPC i S e | Expand the snippet just created with SPC i y                            |
+| SPC i S w | Write the snippet inside private/snippets directory for future sessions |
+*** create a snippet
+M-x yas-new-snippet
+*** save snippet in *new snippet* buffer
+C-c C-c
+
+** Auto-complete $ Company mode 
+** tricks
+*** evaluate lisp expressions
+"M-:"
 * Spacemacs
+
+** layers
+
+*** intro
+Layers and packages. What gives?
+
+- Package :: A set of Emacs Lisp files that, taken together, provide some
+     feature. Packages may be available on a package repository, such as ELPA or
+     MELPA or on a third-party service provider (such as github) or even
+     locally on the disk.
+- Layer :: A collected unit of configuration that can be enabled (or disabled)
+     in Spacemacs. A layer typically brings together one or more packages, as
+     well as the glue configuration code required to make them play well with
+     each other and Spacemacs in general.
+
+Before writing a layer, it is helpful to consider what you are trying to
+achieve. Is there a package that provides the functionality you are after, and
+you want to integrate it in Spacemacs? If yes, you should write a layer. Are you
+trying to implement a new feature that would be useful for the Emacs community
+at large? In that case, consider whether it wouldn't be more appropriate to
+write a package first, and then a layer that uses your package.
+
+
+** packages
+By using helm-spacemacs with *SPC h SPC* you can quickly search for a package and get the name of the layers using it.
 ** commands
 *** shorthand
 - S - spelling
@@ -183,6 +432,67 @@ Use "C-c C-u"
 - g - git/version control
 - w - manage windows
 - h - help
+*** universal command 
+In original emacs, it is *C-u*, but in spacemacs, it is *SPC-u*.
+*** navigation 
+C-u, C-d, C-b, C-f
+*** describe functions 
+| Key Binding | Description       |
+|-------------+-------------------|
+| ~SPC h d f~ | describe-function |
+| ~SPC h d k~ | describe-key      |
+| ~SPC h d m~ | describe-mode     |
+| ~SPC h d v~ | describe-variable |
+
+
+*** key bindings discovery
+It is also possible to search for specific key bindings by pressing:
+
+SPC ?
+To narrow the bindings list to those prefixed with SPC, type a pattern like this regular expression:
+
+SPC\ b
+which would list all buffer related bindings.
+** questions
+*** user-init & user-config, what the differences?
+Any variable that layer configuration code will read and act on must be set in
+user-init, and any variable that Spacemacs explicitly sets but you wish to
+override must be set in user-config.
+
+Anything that isn't just setting a variable should 99% be in user-config.
+*** macro vs function?
+* Visual Studio
+** useful keys
+ctrl+-（shift+ctrl+-）：移动光标到上次位置或相反，比如定位一个函数，转到函数定义后想回到函数使用处，则用ctrl+-，若又想回到函数定义处则可以按shift+ctrl+-
+
+F12：Go to Definition，到变量或函数定义的地方，如变量声明处，函数实现处。与ctrl+-配合使用非常方便
+
+Ctrl+]：匹配选中的括号（大括号、小括号都行），在多层循环+判断语句时非常方便
+
+ctrl+Space：代码补全
+
+ctrl+tab：在VS中切换打开的窗口，即切换各个文件
+
+ctrl+I：递增搜索，与ctrl+F不同的是搜索期间不显示搜索对话框，且ctrl+F搜索下一个直接按Enter即可，而ctrl+I搜索下一个按ctrl+I或F3，Escape退出，连续按两次ctrl+I重复上次搜索
+Ctrl+Shift+F：旧式的文件搜索对话框（与记事本中的搜索替换框差不多，可以替换）
+Ctrl+F3：为当前选中的部分进行搜索（不需要再输入要搜索的内容）
+
+Shift+Alt+Enter：最大化代码编写区域（代码全屏模式），即去掉所有其它辅助窗口只留下代码编写窗口，再按一次返回到原来界面
+
+ctrl+K，Ctrl+C：注释一段代码块（先要选中一段代码）
+ctrl+K，Ctrl+U：取消注释一段代码块
+ctrl+K，Ctrl+D：代码自动格式化（整个文档）
+ctrl+K，Ctrl+F：只格式化你选中的部分
+
+
+Ctrl+K，Ctrl+K：在当前行创建一个书签
+Ctrl+K, Ctrl+N：去下一个书签处
+ 
+
+Ctrl+C, Ctrl+V：在当前行的下一行复制当前行内容（不用选中当前行），即复制当前行并粘贴到下一行，在两行内容差不多时很有用，可以先复制再改
+Ctrl+L：删除当前行
+
+Ctrl+M, Ctrl+M：展开或关闭当前的代码
 * Analogy & Comparison
 ** Quotes
 *** Mastering Emacs
@@ -198,6 +508,7 @@ esoteric: confined to and understandable by only an enlightened inner circle
 * Questions
 ** TODO how to search a keyword in a batch of files inside emacs?
 ** TODO "It’s best to use search commands for searching and not editing". why?
+** TODO how to insert file/snippets into current buffer?
 * Problems/Projects for Pratising
 
 ** DONE study how to enter Chinese in Emacs across possible platform(Windows, Mac and Linux)
@@ -206,3 +517,4 @@ Also need to figure out what *encoding* format to use. Unicode-8 or Unicode-16
 or else?
 
 If I figure out this, then from 2016, I'll keep my daily notes in Emacs instead of Lyx.
+

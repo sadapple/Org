@@ -20,10 +20,11 @@
 CLOSED: [2016-03-01 Tue 20:31]
 **** develop network 
 ** TODO Really try to think about, investigate & understand the general procedure of tricks of Finding Jobs
-SCHEDULED: <2016-03-06 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-03-01 Tue 20:32]
+:LAST_REPEAT: [2016-03-19 Sat 14:16]
 :END:
+- State "DONE"       from "TODO"       [2016-03-19 Sat 14:16]
+- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
 - State "DONE"       from "TODO"       [2016-03-01 Tue 20:32]
 - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
 * Building connections
@@ -119,6 +120,13 @@ of their comfort zone),
 8.	what do they have in terms of advice for a new PhD graduate, etc.
 
 **** Ask questions so that you can show your strength!
+** Suggestion from friends [0/4]
+*** TODO SVM, Random Forest detail
+*** TODO Kernel functions
+*** TODO ROC curve
+*** TODO SQL table operation
+*** Useful R packages
+dplyr, ggplot2
 * Find a good starting job
 ** What job do you want and what choice do you have
 A job which I could apply my knowledge about stat modelling and interpretation, like in
@@ -367,7 +375,7 @@ CLOSED: [2016-01-25 Mon 18:44]
 
 ***** SVM
 
-***** Trees & Boosting
+***** Trees, Boosting, Random Forest
 *** Bayesian
 **** Review Common Distribution(characterization, properties and relasionship)
 **** Computation of Posterior Dist, solve some examples
@@ -377,10 +385,16 @@ CLOSED: [2016-01-25 Mon 18:44]
 ***** MC
 ***** MCMC
 ***** R implementation examples
-*** Algorithm & Data Structure [0/4]
+*** Algorithm & Data Structure [1/4]
 **** TODO *Algorithm Design* Ch3,4 including exercises
-**** TODO *leetcode*, at least finish all the easy problems
-SCHEDULED: <2016-02-20 Sat +2d>
+**** DONE *leetcode*, at least finish all the easy problems
+CLOSED: [2016-03-31 Thu 23:54] SCHEDULED: <2016-02-26 Fri>
+:PROPERTIES:
+:LAST_REPEAT: [2016-03-25 Fri 14:38]
+:END:
+- State "DONE"       from "TODO"       [2016-03-25 Fri 14:38]
+- State "DONE"       from "TODO"       [2016-03-21 Mon 21:52]
+- State "DONE"       from "TODO"       [2016-03-04 Fri 19:28]
 **** TODO accumulate some real world applications & case studies
 **** TODO some knowledge about *regular expressions*
 *** Programming
@@ -407,10 +421,13 @@ SCHEDULED: <2016-02-20 Sat +2d>
 **** Nonlinear Programming
 **** Asymptotics
 *** TODO More Discussion with all the *Good Sources*
-SCHEDULED: <2016-03-06 Sun +1w>
+SCHEDULED: <2016-03-27 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-02-29 Mon 00:53]
+:LAST_REPEAT: [2016-04-02 Sat 14:02]
 :END:
+- State "DONE"       from "TODO"       [2016-04-02 Sat 14:02]
+- State "DONE"       from "TODO"       [2016-03-19 Sat 14:16]
+- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
 - State "DONE"       from "TODO"       [2016-02-29 Mon 00:53]
 - State "DONE"       from "TODO"       [2016-02-22 Mon 10:18]
 *** Knowledge of Biostat

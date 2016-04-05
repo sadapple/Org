@@ -1,9 +1,11 @@
 * Other Tasks
-** TODO Time Series TA office hour
-SCHEDULED: <2016-03-10 Thu 17:00 +1w>
+** DONE Time Series TA office hour
+SCHEDULED: <2016-03-17 Thu 17:00>
 :PROPERTIES:
-:LAST_REPEAT: [2016-03-04 Fri 13:18]
+:LAST_REPEAT: [2016-03-21 Mon 21:51]
 :END:
+- State "DONE"       from "TODO"       [2016-03-21 Mon 21:51]
+- State "DONE"       from "TODO"       [2016-03-10 Thu 19:05]
 - State "DONE"       from "TODO"       [2016-03-04 Fri 13:18]
 - State "DONE"       from "TODO"       [2016-02-26 Fri 21:44]
 - State "DONE"       from "TODO"       [2016-02-19 Fri 11:12]

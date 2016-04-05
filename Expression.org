@@ -21,10 +21,12 @@ called tonal languages.
 ** small habits
 
 *** TODO call grandparents
-SCHEDULED: <2016-02-28 Sun +1m>
+SCHEDULED: <2016-04-28 Thu +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2016-02-03 Wed 22:14]
+:LAST_REPEAT: [2016-04-02 Sat 14:02]
 :END:
+- State "DONE"       from "TODO"       [2016-04-02 Sat 14:02]
+- State "DONE"       from "TODO"       [2016-03-04 Fri 19:28]
 - State "DONE"       from "TODO"       [2016-02-03 Wed 22:14]
 - State "DONE"       from "TODO"       [2016-01-02 Sat 21:56]
 * Voc
@@ -59,3 +61,15 @@ revenant: gui lai zhe
 Pegasus: 天馬座
 
 discern: perceive, recognize
+
+verbatim: 逐字翻译
+
+myriad: 无数的; 多种的，各式各样的
+
+discretionary: 任意的; 自由决定的; 酌情行事的; 便宜行事的
+
+idiosyncratic: 乖僻的; 怪异的
+
+plethora: 过多，过剩
+
+impediment: 妨碍，阻止; 口吃，结巴; 障碍物

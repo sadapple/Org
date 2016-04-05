@@ -1,0 +1,5 @@
+* Other
+** Jinjing's birthday
+SCHEDULED: <2016-05-21 Sat>
+** TODO Cancel Barnes Membership 
+SCHEDULED: <2016-05-16 Mon>

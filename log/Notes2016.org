@@ -1222,3 +1222,1027 @@ inlined on opening a org buffer. M-x org-redisplay-inline-images will refresh
 inlined image if needed.
 *** what is the "unit time" in this particular algorithm problem?
 *** the power of "wishful thinking"
+** 3.4 study spacemacs documentations & relearn *gnus*
+*** study spacemacs documentations & relearn *gnus*
+**** the *SPC h* key is very powerful
+Like *SPC h SPC*, *SPC h d f*, *SPC h d v*
+** 3.5 Peter Liang, Zootopia
+*** To Wu Rui Ge
+吴锐哥你这问题一来就问“怎么看”这真不是一两句话能表达清楚的事情，所以那天看到你消息觉得短时间说不清就放一边了。梁警官的事件最近我没有跟踪，但总的来说我觉得他很大程度上是被纽约警局所牺牲的。因为前两年和种族歧视有关几次骚乱的发生，所有涉案警官都没有被起诉，这次给人的感觉至少是纽约警局选择性地放弃了梁警官。
+
+在大部分美国人的印象里，亚裔属于“好好”公民，很多时候也不是特别团结地维护自生的权益，这在我看当然是偏见，但若非有无数的例子也不会给人以这样的印象。我觉得这次梁警官的事件至少让我开始思考在美国这个地方，少数群体应不应该抱团，应该怎样抱团这些问题。以前我觉得无关紧要，现在看法有些改变。
+
+华人不爱抱团，总爱彰显自己特别公平公正，大是大非帮离不帮亲，这在目前阶段非常不利于整个群体被接纳。这次的梁警官事件我在微信转发的意思也是希望周围的朋友一起关注这件事，做些力所能及的事情，改变很多美国人多亚裔的偏见。我个人没有用“歧视”这个词是因为我接触过很多不错的美国人，我觉得美国社会中能够理性思考的本土人还是有很多很多的。
+*** Zootopia
+** 3.9 coder的成长
+*** debugging
+老鸟和新手的一个很大区别来自于debug的能力。其中最主要又可以从两方面看出来：
+1. 从高层往底层找错。
+2. 科学方法。
+
+很多新手遇到程序执行结果不对（尤其是图形程序员），先认为是机器毛病（浮点精度、硬
+件故障），然后认为是驱动有错，再认为是系统有错，最后才开始排查自己的程序。其实
+99%的情况下是自己程序有错，然后那1%里面的99%是系统有bug，再接着那1%里的99%是驱动
+有bug，最后到硬件问题，已经微乎其微了。应该从高层往底层查，而不是反过来。
+
+debug一般来说是知道现象，但原因未知。这一点和很多自然科学的情况一样，所以完全也
+可以用科学的方法来：提假说->根据假说做出预言->做实验肯定或否定预言。对应于debug，
+那就是假设是某个地方有问题，那么推断它一定会导致除了你看到的现象之外的其他现象，
+运行程序看你的推断是否成立。掌握这个方法后debug不在变成瞎找瞎试，而是有迹可循有
+系统可依赖的方法。
+*** coder的成长 
+用三年时间成长为顶级 Coder 是有可能的。
+
+不信？排名第二的答案是酱紫说的，快速成为顶级 Coder，你需要的是「自律」和「坚持」。
+请注意，我们说的是「Coder」，而不是「Programmer」或「Software Engineer」。对于
+Coder，我们是有客观评价标准的，那就是参加「编程比赛」。
+
+楼主研究了一下所谓的「编程比赛」或「算法大赛」：除了国内的各种程序设计大赛，如百
+度之星、有道难题，更推荐参加国外的编程比赛网站，如「topcoder」、「codeforeces」。
+这些网站上每个月都有比赛，只要你有一台能上网的电脑就可以免费参加，和全球的 Coder
+竞争，赢得了比赛还有美金拿哦。
+
+简单来说，你至少需要做到以下几点：• 进入 topCoder 的练习室，每天花 4-6 个小时练
+习编程。
+
+• 制定一个计划，比如：每天解决 10 个初级问题，每周搞定 3 个中级问题、1 个高级问
+题。
+
+• 如果在某个问题上困住了，马上去论坛求助。要知道，问问题体现了你的思维逻辑，问出
+好问题也是需要练习的。试着每周在问答网站stack over flow 上问一个问题吧！
+
+• 不要闭门造车，把你的代码展示给别人看，他们提出的意见会让你事半功倍，推荐免费网
+站 coder review。
+
+• 学会看别人的代码，看代码其实比自己写代码更难，但是高手是可以轻易调用别人的代码
+的，推荐 github，可以轻松地找到海量的开源代码。
+
+• 建议采取一些外部的措施克服拖延症，比如开通一个博客、或微博，每天在上面记下你今
+天做过的一件重要的事情，保证每天晚上都带着巨大的满足感入睡。
+
+如果坚持做到以上这些，你完全成为一名顶级 Coder。需要注意的是，编程比赛关注的是算
+法能力；但是，要成为一名Programmer 或 Software Engineer，你还需要项目经验。正如
+Facebook 喜欢雇佣所谓的「Full stack programmer」，就是一个人从设计、到交互、html、
+css、javascript、server、sql、架构，以及数据统计都能做。成为 Full Stack
+Programmer 最好的方式就是不断做个人项目。
+
+参加 Hackathons 或 game jams 就是锻炼项目能力的好方法。在规定的时间内，一群开发
+者分享、讨论、组队、分工协作，用创意思维完成项目任务。无论是制作一个游戏，还是网
+站，在整个项目的进程中，你会不断经历发现问题、解决问题、获得经验的过程，从而保证
+在实际工作中也能轻松解决问题。
+
+总之，楼主以为，入行时间并不是衡量人才能力的绝对标准，碌碌无为的「老人」在各行业
+都不鲜见。在 3 年之内能否成长为一名优秀的 Coder 或Programmer，其实取决于你对所做
+事情的理解程度。对所做事情理解的越深，你就会做的越好。
+
+成为一名优秀的程序员和成为其他行业的高手一样，都需要不停地学习、练习、反省和总结。
+这不仅是最初 3 年的要求，而是贯穿整个职业生涯的要义。
+
+所以，初级程序员想要获得快速成长，一定要拥有不怕麻烦的责任心，和不满足于现状的上
+进心。
+** 3.12 AlphaGo defeated Lee Sedol
+*** Google vs Facebook（田渊栋）
+我半年前从谷歌X的无人车组跳到Facebook的人工智能实验室（FAIR），感触良多，这里写
+一些分享给大家。
+
+虽然F和G并称一流的IT公司，但是其实内部是很不一样的，甚至可以说完全相反。加入FB之
+前，问过很多朋友，大家的意见综合起来是FB有点“乱”，没有统一的平台，各组管各组忙，
+代码质量比G差很多，文档也少。这听起来挺吓人的，但认真想想，反过来说乱才有机会。G
+最大的问题恰恰是一切都井然有序，能出大成果的地方都出完了，员工就像螺丝钉，只要在
+自己的岗位上做好修补就行了。
+
+F没有五花八门的内部工具，用的大多是开源的略作修改，所以F的员工流动性非常大，因为
+工具和平台熟悉了，到外面一样可以用。举个例子，我半年前加入，现在已经比三分之一的
+员工来得早了。相比之下G的内部工具太多，待久了习惯了这些工具，再加上成年累月的股
+票，往往跳走不易。我们组的分布式平台当然没有G的复杂，还有好多地方做得不好，然而
+正因为简单才容易理解，也容易给它动手术学到东西。那个写平台的人，往往就是坐在邻座
+的邻座的的工程师，哪天需要加新功能了，打个招呼就行了，甚至自己可以动手写完让他审
+核。要是在G碰到这样的问题只能举双手投降，因为那是远在校区另一头某个人某个组的事
+情。
+
+F太多项目可以做，合作也很容易，往往是吃顿饭大家聊聊就开干了。而在G大家抢项目做，
+员工并没有太大的自由度，一般指望老板还有老板的老板和别的组抢。我加入F这半年，在
+没有提前通知自己老板的情况下，单独和产品组的成员合作了一个项目，思路简单但是非常
+有用，单机处理100G数据，花了三个月发布了，还上了VP和Engineer Director当月的Top
+List，备受大家关注，这在G是完全不可想像的。
+
+作为研究员，我再也不用为代码格式和变量名字伤脑筋，再也不用因为别人没来及审核自己
+的代码而无法工作，因为存在一个实验目录，可以不经审核提交代码。G对代码的严格对公
+司是有好处的，但它太过死板的规定经常限制发挥。我有时真弄不明白，为什么在两三天后
+审核回来时，还要改变量名改接口设计呢？我分明已经在这个基础上写了四五个扩展了，再
+花时间改回去，真心是很伤士气和进度的。
+
+这半年说话比原来多了。作为码工只要和同事把现有的平台搞清楚，然后照着写程序就行了；
+但作为研究员需要不停地和各种人交流，同事，访问教授，实习生，理解他们的工作，提出
+意见和建议。你不愿意说话，别人（甚至Yann）会找你说话，久而久之就发现，自己永远得
+要对自己的工作，即便是正在进行中的工作，有一番概括和推广，自己的工作得要自己吹起
+来，别人才会知道并且欣赏，长远来说，这对个人的发展更有利。
+
+我们组做深度学习主要用torch/lua。一开始学习曲线比较陡峭，但用惯了则相当好用。这
+个语言有趣的地方是，它很简单，简单到你可以理解语言设计的每个细节，对每个出现的
+bug都会有相对深刻的理解。我曾帮过我们组的工程师设计一个特殊的用来做profiling的
+lua类，身为研究员还可以在设计上帮到工程师，是挺自豪的。
+
+我加入之后，经常从早上十点干到晚上八九点，然后锻炼完之后回家继续忙，经常周末加班，
+带几个实习生再加上做自己的研究。看起来工作强度是更大了，但为了自己的事业，有什么
+不可以的呢？最重要的原因是，相比在无人车组一心二用，白天做应用晚上自己折腾研究，
+我的内心深处，还是想集中精力花几年去理解深度学习本身，做一做它的理论框架。我的老
+板也非常支持这样长期的研究，这个是FAIR真正让人心动的地方所在。
+
+这两天绩效考核，我老婆评论说我这半年干的事情比在G家一年还多，有产品发布也有研究，
+我想这就是真正把兴趣用在工作上的结果。我还记得自己最后一天在G的日子，HR小姑娘最
+后问我为啥离开，是不是因为X的工作太辛苦，需要一些工作和生活的平衡？我笑了笑，敷
+衍了几句，心里想起了《冰与火之歌》里的那一句台词——
+
+雪诺，你什么也不懂。
+
+2015-07-14
+** 3.13 Lee Sedol strikes back on my birthday!
+*** 小李，人类的胜负师
+这几天真是一个跌宕起伏的故事，从轻敌到惨败，再到不屈不挠的反杀，昨天天才少年的落
+寞，和那一句，这是我李世石的失败，不是人类的。到今天战胜alphago狗，不动声色的复
+盘，这就是一个人类可以有的全部自尊，不屈，才能，冷静。可以想象以后会有许多以这为
+原形的文学吧。是的，我们从未放弃。
+
+作者：张三
+链接：https://www.zhihu.com/question/41325834/answer/90532996
+来源：知乎
+
+
+虽然是老生常谈，还是忍不住感叹一句。处于上风的时候（做顺手的项目，交佩服自己的朋
+友，调戏不爱的姑娘）浑身的机灵劲儿怎么抖怎么有根本不是本事。像李世石那样也得意过
+也张狂过，但是在最不得意最不张狂，被虐得体无完肤信心体力都落在最低点的时候，还能
+咬着牙槽反戈一击，才算是真男人啊。 --- 木遥
+*** Run time, compile time, link time & load time
+**** how to avoid run-time error
+The following guidelines show how to avoid run-time errors. These are only
+guidelines, as the conditions under which run-time errors occur are dependent on
+the context of your application.
+
+If, for example, you use the GET function to locate a record, you must be
+prepared handle the possibility that a run-time error can occur if there are
+situations where no record is found. If you are certain that the specific
+context precludes this situation, you can omit handling a possible run-time
+error. (The context could be that the existence of a record is verified before
+the GET function is used.)
+
+There are two categories of run-time errors:
+1) Errors that are related to the use of data types
+
+2)Errors that occur if a function does not succeed in doing what it is supposed
+to do
+
+Division by zero does not fit into either of these categories, but it has been
+placed in the first one.
+
+You can only prevent some errors (mainly related to data types) from occurring.
+Other errors cannot always be avoided, but you can write code that shields the
+user from the error. Instead of the default error handling (which displays a
+message, closes the form that was active when the error occurred, and rolls back
+any changes to the database), you can write an error handler that, for example,
+gives the user an opportunity to correct the input that caused the error. This
+error will display a message that explains why the error occurred.
+** 3.16 Have some idea about the vast land beyond *SICP* after read a tutorial introduction to Lambda Cal by *Raul Rojas*
+*** vast land beyond SICP and current thoughts 
+各种各样的类型推导，想懂得多一点的话已经进入数理逻辑和代数里的范畴论。其中的一种，
+即lambda calculus，就已经是functional programming的基石。
+
+我很有兴趣，但我也明白现在这个阶段没有必要也没有时间深入了解，所以大概能通过深入
+阅读SICP理解functional programming的原理并能根据原理写一些有用有意思的程序就够了。
+以后再图深入Programming Language这个领域。
+
+我觉得今天阅读SICP section 3.1 以及 lambda cal tutorial最大的体会就是————怎样去
+定义语言中的“替换法则”确实很subtle，而如果想在语言中引入赋值，那变量环境/域以及
+相关scoping rule就不可避免要准确来定义了。
+*** 向热爱计算机科学的你推荐SICP(转)
+先谈谈关于《计算机程序的构造和解释》（后面简称为SICP）的几个八卦。
+
+本书曾经是MIT本科第一门课的教材。前两年被Python取代，在geek中引发了轩然大波。有
+兴趣可以Google一下[sicp mit python]。 本书在Amazon上的评分严重两极分化，五星
+（>90）和一星（>50）为主，彻底反正态分布。 本书在Amazon上排名最高的书评出自Peter
+Norvig，当然是强烈推荐，顺便狠狠地鄙视了给一颗星的同学们；第二篇出自Paul Graham，
+还是强烈推荐。 本书别名紫书（The Purple Book），巫师书（The Wizard Book），或者
+干脆The Book。
+
+这是一本什么样的书？
+
+前言说，这是一本给MIT学生的入门级（entry-level）计算机科学教材。作者的出发点有两
+条：
+
+语言首先是写给人看的，只是恰巧（incidentally）能够运行。这当然是个修辞，格外强调
+代码之可读。 语言的语法，漂亮的算法，数学的分析，这些统统都不重要。最打紧的是如
+何控制复杂度（The techniques used to control the intellectual complexity of
+large software systems）。
+
+在本书成书的年代（1984），以上言论即使不算正邪不两立，也够的上离经叛道了。
+
+通俗的说，这本书教你如何用最基本的构造和原则，解决复杂和多样的问题。用摄影打比方，
+这本书不比较尼康和佳能，不介绍繁杂的机型和参数，不介绍后期处理的技巧。这本书只讨
+论光线、色彩和构图，以及如何在不同场景拿捏这些基本原则组合出美妙的照片。
+
+
+这本书适合初学者吗？
+
+不好说。Amazon上的一颗星评价大多鄙视本书已经过时或者太过高深。我个人看法，它很适
+合一部分初学者，但是需要满足几个条件：
+
+热爱计算机科学 有时间和耐心 受过（高中水平）数学和抽象思维的训练
+
+所以，如果只是想领一份程序员的薪水，这本书完全可以略过。并不是说这本书有多么不实
+用，只是计算机科学与写代码并不是一码事。
+
+这本书广而不深，讨论到了非常多重要的思想，有些甚至冷不丁出现在注释里（比如Y算子）。
+内容安排很照顾初学者，循循善诱；语言直白简单；代码大多简明自然。
+
+至于习题，个人认为只要认真思考，大部分都不是很难，需要耐心多于智力。有时间不妨多
+做几道。 这本书适合有经验的程序员吗？
+
+还行。如此庖丁解牛般的讲解，其他书中不多见；内容简单，思想却不过时。另外，国内绝
+大部分程序员都从命令式语言入门，不妨接触一些函数式思想，开开眼界。如果时间不多，
+至少看看前两章，学习一些解决复杂问题和编写优雅代码的技巧。
+
+为什么我们要学习这本书？因为这本书告诉我们如何抽象。为什么我们要学习如何抽象？因
+为抽象是我们控制软件复杂性的重要手段。软件是人类有史以来最复杂的系统。其一、软件
+系统本身规模庞大，参与人手众多，难以管理；其二、环境和需求不断变化，且错误难以避
+免。
+
+人类无法驾驭过于复杂的事物，于是只能寻找方法简化软件系统：把系统分为许多子部分，
+人们开发一个部分的时候，系统其他部分都是一种抽象，无需了解其细节。
+
+本书讨论的就是系统的组织和设计，有哪些方法可以帮助我们控制软件的复杂度。 Scheme
+好学吗？
+
+其实Scheme是一门异常简单的语言。直来直去，除了括号多，基本没有旁门左道（比如指针）
+和撕心裂肺的语言构造（比如模版、多重继承、Monad）。再者，这本书的内容和具体的语
+言基本没有关系，思想才是重头戏。如果实在有顾虑，推荐先读两本薄薄的小册子：The
+Little Schemer和The Seasoned Schemer。 这本书到底讲什么？
+
+本书按照内容可以分为三个部分：过程抽象（第一章）；数据抽象（第二、三章）和语言抽
+象（第四、五章）。
+
+过程抽象部分比较简单，先介绍了Scheme的基本语法，让读者初步领略函数式编程的风采。
+对于有一定编程基础（相信国内极少有人入门就读这个）的读者来说，会有耳目一新的感觉，
+原来递归和迭代可以有另一种表现形式，但并不难理解。习题也比较简单，不会用掉太多的
+时间。过程抽象的概念也很简单，就是编程语言中的函数，目的是封装计算过程的细节。关
+于何时应该用过程抽象的原则是：一切可以定义为过程的计算片段都应该定义为过程。
+
+数据抽象是我认为的本书的核心，也是最值得我们仔细研读的部分。关于数据抽象最直接的
+理解就是面向对象编程，如C++，而Java和C#则是更彻底的数据抽象。把一组过程抽象（类
+的方法）集中考虑，并加入内部状态（类的变量），就是一个数据抽象。每个数据抽象都应
+该把自己的内部对象状态和对象的实现隐藏起来，对外通过一组接口进行消息传递。这样听
+起来好像本书与一般的面向对象书没有区别，但实际上，这些都是我自己的总结，书里面不
+会把这些概念直接罗列出来，而是通过一个个巧妙的例子，让读者一步步深入，感叹原来A
+还可以这样抽象，原来B还可以这样封装。个人认为如果时间有限，读完前三章已经可以领
+会本书大部分思想了，后两章可以不读。
+
+语言抽象是指自己发明一门语言，以解决某一特定应用领域的问题。在这一领域中，自己发
+明的语言会比其他通用语言更方便。定义了新语言的语法后，就要自己去实现该语言的编译
+器或解释器，可以通过现有的语言去构造。这一部分包含了许多编译方面的知识，但又与编
+译原理中的构造方法有不少区别，自己看书很容易看得云里雾里，听老师讲课才好一些。大
+部分习题很难做，一部分习题非常难。
+
+第一章讨论程序设计的最基本原则：原语（primitive expressions）、组合（means of
+composition）和抽象（means of abstraction），以及如何利用这些基本原则化解复杂度。
+重点是过程抽象和高阶过程（high-order procedures）。本章的例题十分精彩，抽象和组
+合的过程十分清晰。有关递归和迭代的讨论也非常耐读。
+
+第二章讨论数据抽象，即利用基本数据构造复杂结构。Scheme里的基本构造能力只有cons，
+但由此可以组合出所有实用的结构。图像语言、符号运算、集合表示、哈夫曼编码和复数系
+统都是经典实用的例子。顺带还介绍了data-directed方法，与面向对象中的封装有异曲同
+工之妙。
+
+即使没有太多时间，我觉得前两章也值得值得细读。尤其是例子。
+
+第三章主要讨论了状态（local state）和环境（environment model），可变数据结构
+（mutable data），以及状态和时间的交互（concurrency和laziness）。前两章用到语言
+是Scheme的一个没有副作用的子集，从这一章开始涉及解释器的核心机制，尤其是状态的管
+理，及其优缺点。
+
+第四章用Scheme实现了一个简单的Scheme解释器。重点是讨论语言的解释过程，以及如何针
+对问题（领域）创造和修改语言，从中可见DSL（Domain Specific Language）的思想。后
+三节各自讨论一个工程中不常见但高效解决特定问题的语言变种及其实现。
+
+第五章介绍将Scheme编译为现实中的寄存器机器模型（register machine）。重点不是编译
+技巧（Scheme压根不需要文法分析），而是基本构造（条件、过程，等等）对应于寄存器模
+型的实现。略带讨论了最简单的垃圾回收。
+
+后三章较深，最好略有一点语言、编译和体系结构的基础，或者多些耐心。 语言会影响思维
+
+如果要问现代数学最重要的概念是什么，那毫无疑问就是函数了，或者更确切地说，是映射。
+泛函这个词，或许对非数学系的同学来说有些陌生，但如果写成英语 functional, 看起来
+就眼熟多了。狭隘一点地说，泛函就是以函数为参数，返回值是数值的一类函数。看到这里
+相信不少同学都发现了，这就是在很多语言中被称为高阶函数（high-order function）的
+那个东西。泛函在数学中是如此普遍的概念，现代数学几乎无处不会用到。数学家们很自然
+地在集合上添加运算，构造空间；从一个空间映射到另一个空间，创造泛函。对泛函做变换，
+构造泛函的泛函等等。
+
+为什么我要在这里提到数学和泛函？因为在我看来， lisp 是一门以表达数学为己任的语言。
+正如 SICP 中希望表达的一种观点：语言会影响思维。如果数学推理过程中最频繁应用到的
+泛函，在计算机语言中却没有对应的表达，换言之数学思维不能很自然地表述为计算机语言
+的话，那么计算机对于数学研究的意义就显得很可疑了，毕竟那时候的计算机可不是用来玩
+大菠萝3的。所以这里就有了两拨人，务实的一拨人开发出了 fortran ，力主解决数值计算；
+务虚的一拨人则创造了 lisp ，试图一举解决符号计算的难题。在 John McCarthy 所作的
+history of lisp 中这样写到：
+
+Then mathematical neatness became a goal and led to pruning some features from
+the core of the language.（保证数学上的简洁性成为我们的目标，并因此拒绝了将一些
+特性加入到语言核心中。）
+
+This was partly motivated by esthetic reasons and partly by the belief that it
+would be easier to devise techniques for proving programs correct if the
+semantics were compact and without exceptions.（这部分是基于美学上的考虑，部分是
+因为我们相信，紧凑而没有特例的语法才更有可能设计出一种从数学上证明程序正确的方
+法。）
+
+之所以讲了这么多关于数学和历史的东西，是因为我觉得在看这本书前，最重要的是理解：
+lisp 是什么。而我又一直相信理解一样事物最好的办法就是理解其历史。（顺带说一句，
+以上历史都是在看过书以后才找的，所以也是我的血泪教训……）如上所示， lisp 是一门为
+了表达数学推导过程而诞生的语言，所以不可避免地使得 SICP 前两章的例子几乎全是数学
+问题。代码只是其形，而其神是纯粹的数学。所以这里似乎就陷入了一种两难的境地：如果
+执意于写代码的话，那看起来做的都是形而下的工作；而如果只思考问题的数学原理的话，
+那姑且不说是舍本逐末，至少也是偏离主题了。在看完 SICP 以后我始终怀着这种疑问而不
+解——看的时候是不会有这种感觉的，因为注意力全部纠结于书中的题目了——不过在写这篇书
+评时又翻了一下第一章，似乎明白了。
+
+小节1.1写到：
+
+一个强有力的程序设计语言，不仅是一种指挥计算机执行任务的方式，它还应该成为一种框
+架，使我们能够在其中组织自己有关计算过程的思想。每一种强有力的语言都为此提供了三
+种机制：基本表达形式，组合的方法，抽象的方法。
+
+所以我认为 SICP 这本书最主要的目的，就是“教你用 lisp 的语言，来组织，来抽象，来
+表达想法”。从这个意义上来说， SICP 和一本 Learning Python ，或者一本 C
+Programming Language 并没有太多的区别，依然讲授的是“用特定的语言求解特定的问题”。
+不过略有不同的是， lisp 太特殊了，导致从 c 转向 python 或许不需要太多的思维转换，
+但从 c 转向 lisp 却需要对思维习惯大改造一番，这我想就是 SICP 地位如此之高的原因
+吧。我也同意，学习 SICP 确实很锻炼思维，以及培养一种更加高度的抽象习惯。其实在看
+SICP 的过程中，很多时候我都会感慨，“如果我不是数学系的，这一段到底会怎么理解呢”。
+一个典型例子就是习题2.6，初看我也一头雾水，后来才意识到 zero 是 f->id 的泛函，正
+是零映射， one 是 f->f 的泛函，正是恒同映射，也就是函数空间的1。如果没有学过泛函
+分析的我来看这道题目，估计只能好不容易推导出规律后，感慨于 Church 计数的“巧妙”了。
+所以从好的层面来看， SICP 至少能够带来泛函的直观感受，因此我才说 SICP 是一本写给
+CS人的泛函数。但是从坏的层面上说，数学抽象毕竟是象牙塔里的产物，当好不容易抽象出
+一个优雅的模型却发现手头的语言难以表达或者效率上有种种顾虑的时候，还是很郁闷的吧。
+
+前面貌似说了 SICP 的不少坏话，其实只是想拉低一下 SICP 的评价，至少使得后人不至于
+期待过高。SICP 是一本好书，至少是一本有趣的书，这点我是非常赞同的。就冲着她那创
+意的封面图和作者头像，每章开篇都会引用一段（非常利于装逼）的名言，以及用半页的篇
+幅讲述和主题完全无关的 MIT 第一任校长的生平，想不有趣都难啊。不过我还是世俗一下，
+列一下自己看过这本书以后比较"现实"的收获：
+
+对于构造递归式的训练。相信做过的都深有体会…… 列表处理流程，也就是
+map-filter-reduce 。 流处理这一节让我终于明白了 generator 的意义。 从另一个角度
+看程序和程序设计中的问题 函数式程序设计 多种多样的程序组织方式 丰富多彩的编程模
+式 对一些基础问题的理解 ……
+
+关于习题
+
+最后说一下习题，习题的重要性想来大家都很清楚。
+
+本书共有5章，每章都有近100道习题。这本书可以说是时间黑洞。每章分为4-5节，每节有
+几个小节，全书有一百小节（即X.X.X）左右。我以小节为单位进行了估算，包括完成习题，
+每小节大约需要一个小时。当然不同小节难度不同，有的耗时长些，有的短些。于是读完本
+书并做完大部分习题需要上百个小时。再加上听课或看视频教程的时间则会更长。所以我觉
+得恐怕只有在校学生才有时间和精力来完成这本书的学习。
+
+不过对于 SICP 来说，我觉得习题未必都要写成代码，在纸上写出思路和关键代码也未为不
+可。因为 scheme 的编码效率实在不高（就是 scheme 逼得我给 vim 装上 surround 插
+件……），而习题重要的还是整个抽象的过程。另外就是，要找个好一点的解释器，我下了
+MIT 的 scheme 解释器发现各种操作太不人性了…… 为什么推荐SICP？
+
+向大家推荐 SICP，不知道有多少人看了，也不知道有多少人明白了，更不知道有多少人惊
+叹了。或者你根本不屑一顾，或者你看见 Lisp 那层层括号心生畏惧，又或者你了了一瞥，
+觉得没什么精彩之处。那我真的很失望。
+
+我为什么要推荐SICP，而且为什么如此执着？这本不算厚的书带给我的观念，是从未有过的，
+是关乎于软件本质的。曾几何时，我觉得我看到了计算机编程书中没有的哲学观，但这一次
+我的梦破灭了，那些已经被写进书里差不多快 30 年了。
+
+我现在就来谈谈我的心得，以再次向你展现这本书的魔力。
+
+第一章作为基础，作者并没有象后续章节写太多的软件思想，主要还是介绍 Scheme 语言，
+所以草草看去，没什么精辟之处。不过在第一章中，作者用了大量的篇幅来探讨数学问题，
+因为他想向你揭示程序设计中的核心哲学：抽象。而数学无疑是最好的例子。
+
+了解数学史的人，应该知道整个数学史，就是一个不断抽象的历史。古希腊人将字母引入计
+算，使数学不再只是算术，而且具有表达抽象规则的能力。近代数学对函数和微积分的探求
+中，用 f(x) 替代了多项式表达式，函数更一般了，然后 n 维空间、复分析、映射、泛函，
+抽象代数、群论，等等等等，直到集合论，摧毁了数学的基石，使数学界再次陷入沉思。
+
+构造程序的方法也是抽象。从最简单的元素开始，基本元素(自演算表达式，包括数字，字
+符串和布尔值），然后定义基本过程（基本运算符，四则运算和布尔运算），进一步，自定
+义标识符（如同代数），再自定义过程（函数），再将过程作为值参与运算（高阶过程）。
+一步步的抽象，形成了整个程序的结构。而我们编程，无非就是从现实世界抽象出模型，再
+将模型不断的提炼抽象，属性、方法、类、继承、层次、框架。
+
+编程就是一个不断抽象的过程。我再次把作者在第一章末写下的结论抄在这里，作为最后的
+注脚。
+
+“作为编程者，我们应该对这类可能性保持高度敏感，设法从中设别出程序中的基本抽象，
+基于它们去进一步构造，并推广它们以创建威力更强大的抽象。当然，这并不是说总应该采
+用尽可能抽象的方式去写程序，程序设计专家们知道如何根据工作中的情况，去选择合适的
+抽象层次。但是，能基于这种抽象去思考确实是最重要的，只有这样才可能在新的上下文中
+去应用它们。高阶过程的重要性，就在于我们能显式地用程序设计语言的要素去描述这些抽
+象，使我们能像操作其他计算元素一样去操作它们。”
+*** Perils of the Java school(Joel)
+Lazy kids.
+
+Whatever happened to hard work?
+
+A sure sign of my descent into senility is bitchin' and moanin' about "kids
+these days," and how they won't or can't do anything hard any more.
+
+“You were lucky. We lived for three months in a brown paper bag in a septic
+tank. We had to get up at six in the morning, clean the bag, eat a crust of
+stale bread, go to work down the mill, fourteen hours a day, week-in week-out,
+and when we got home our Dad would thrash us to sleep with his belt.” — Monty
+Python's Flying Circus, Four Yorkshiremen When I was a kid, I learned to program
+on punched cards. If you made a mistake, you didn't have any of these modern
+features like a backspace key to correct it. You threw away the card and started
+over.
+
+When I started interviewing programmers in 1991, I would generally let them use
+any language they wanted to solve the coding problems I gave them. 99% of the
+time, they chose C.
+
+Nowadays, they tend to choose Java.
+
+Now, don't get me wrong: there's nothing wrong with Java as an implementation
+language.
+
+Wait a minute, I want to modify that statement. I'm not claiming, in this
+particular article, that there's anything wrong with Java as an implementation
+language. There are lots of things wrong with it but those will have to wait for
+a different article.
+
+Instead what I'd like to claim is that Java is not, generally, a hard enough
+programming language that it can be used to discriminate between great
+programmers and mediocre programmers. It may be a fine language to work in, but
+that's not today's topic. I would even go so far as to say that the fact that
+Java is not hard enough is a feature, not a bug, but it does have this one
+problem.
+
+If I may be so brash, it has been my humble experience that there are two things
+traditionally taught in universities as a part of a computer science curriculum
+which many people just never really fully comprehend: pointers and recursion.
+
+You used to start out in college with a course in data structures, with linked
+lists and hash tables and whatnot, with extensive use of pointers. Those courses
+were often used as weedout courses: they were so hard that anyone that couldn't
+handle the mental challenge of a CS degree would give up, which was a good
+thing, because if you thought pointers are hard, wait until you try to prove
+things about fixed point theory.
+
+All the kids who did great in high school writing pong games in BASIC for their
+Apple II would get to college, take CompSci 101, a data structures course, and
+when they hit the pointers business their brains would just totally explode, and
+the next thing you knew, they were majoring in Political Science because law
+school seemed like a better idea. I've seen all kinds of figures for drop-out
+rates in CS and they're usually between 40% and 70%. The universities tend to
+see this as a waste; I think it's just a necessary culling of the people who
+aren't going to be happy or successful in programming careers.
+
+The other hard course for many young CS students was the course where you
+learned functional programming, including recursive programming. MIT set the bar
+very high for these courses, creating a required course (6.001) and a textbook
+(Abelson & Sussman's Structure and Interpretation of Computer Programs) which
+were used at dozens or even hundreds of top CS schools as the de facto
+introduction to computer science. (You can, and should, watch an older version
+of the lectures online.)
+
+The difficulty of these courses is astonishing. In the first lecture you've
+learned pretty much all of Scheme, and you're already being introduced to a
+fixed-point function that takes another function as its input. When I struggled
+through such a course, CSE121 at Penn, I watched as many if not most of the
+students just didn't make it. The material was too hard. I wrote a long sob
+email to the professor saying It Just Wasn't Fair. Somebody at Penn must have
+listened to me (or one of the other complainers), because that course is now
+taught in Java.
+
+I wish they hadn't listened.
+
+Think you have what it takes? Test Yourself Here! Therein lies the debate. Years
+of whinging by lazy CS undergrads like me, combined with complaints from
+industry about how few CS majors are graduating from American universities, have
+taken a toll, and in the last decade a large number of otherwise perfectly good
+schools have gone 100% Java. It's hip, the recruiters who use "grep" to evaluate
+resumes seem to like it, and, best of all, there's nothing hard enough about
+Java to really weed out the programmers without the part of the brain that does
+pointers or recursion, so the drop-out rates are lower, and the computer science
+departments have more students, and bigger budgets, and all is well.
+
+The lucky kids of JavaSchools are never going to get weird segfaults trying to
+implement pointer-based hash tables. They're never going to go stark, raving mad
+trying to pack things into bits. They'll never have to get their head around
+how, in a purely functional program, the value of a variable never changes, and
+yet, it changes all the time! A paradox!
+
+They don't need that part of the brain to get a 4.0 in major.
+
+Am I just one of those old-fashioned curmudgeons, like the Four Yorkshiremen,
+bragging about how tough I was to survive all that hard stuff?
+
+Heck, in 1900, Latin and Greek were required subjects in college, not because
+they served any purpose, but because they were sort of considered an obvious
+requirement for educated people. In some sense my argument is no different that
+the argument made by the pro-Latin people (all four of them). "[Latin] trains
+your mind. Trains your memory. Unraveling a Latin sentence is an excellent
+exercise in thought, a real intellectual puzzle, and a good introduction to
+logical thinking," writes Scott Barker. But I can't find a single university
+that requires Latin any more. Are pointers and recursion the Latin and Greek of
+Computer Science?
+
+Now, I freely admit that programming with pointers is not needed in 90% of the
+code written today, and in fact, it's downright dangerous in production code.
+OK. That's fine. And functional programming is just not used much in practice.
+Agreed.
+
+But it's still important for some of the most exciting programming jobs. Without
+pointers, for example, you'd never be able to work on the Linux kernel. You
+can't understand a line of code in Linux, or, indeed, any operating system,
+without really understanding pointers.
+
+Without understanding functional programming, you can't invent MapReduce, the
+algorithm that makes Google so massively scalable. The terms Map and Reduce come
+from Lisp and functional programming. MapReduce is, in retrospect, obvious to
+anyone who remembers from their 6.001-equivalent programming class that purely
+functional programs have no side effects and are thus trivially parallelizable.
+The very fact that Google invented MapReduce, and Microsoft didn't, says
+something about why Microsoft is still playing catch up trying to get basic
+search features to work, while Google has moved on to the next problem: building
+Skynet^H^H^H^H^H^H the world's largest massively parallel supercomputer. I don't
+think Microsoft completely understands just how far behind they are on that
+wave.
+
+But beyond the prima-facie importance of pointers and recursion, their real
+value is that building big systems requires the kind of mental flexibility you
+get from learning about them, and the mental aptitude you need to avoid being
+weeded out of the courses in which they are taught. Pointers and recursion
+require a certain ability to reason, to think in abstractions, and, most
+importantly, to view a problem at several levels of abstraction simultaneously.
+And thus, the ability to understand pointers and recursion is directly
+correlated with the ability to be a great programmer.
+
+Nothing about an all-Java CS degree really weeds out the students who lack the
+mental agility to deal with these concepts. As an employer, I've seen that the
+100% Java schools have started churning out quite a few CS graduates who are
+simply not smart enough to work as programmers on anything more sophisticated
+than Yet Another Java Accounting Application, although they did manage to squeak
+through the newly-dumbed-down coursework. These students would never survive
+6.001 at MIT, or CS 323 at Yale, and frankly, that is one reason why, as an
+employer, a CS degree from MIT or Yale carries more weight than a CS degree from
+Duke, which recently went All-Java, or U. Penn, which replaced Scheme and ML
+with Java in trying to teach the class that nearly killed me and my friends,
+CSE121. Not that I don't want to hire smart kids from Duke and Penn -- I do --
+it's just a lot harder for me to figure out who they are. I used to be able to
+tell the smart kids because they could rip through a recursive algorithm in
+seconds, or implement linked-list manipulation functions using pointers as fast
+as they could write on the whiteboard. But with a JavaSchool Grad, I can't tell
+if they're struggling with these problems because they are undereducated or if
+they're struggling with these problems because they don't actually have that
+special part of the brain that they're going to need to do great programming
+work. Paul Graham calls them Blub Programmers.
+
+It's bad enough that JavaSchools fail to weed out the kids who are never going
+to be great programmers, which the schools could justifiably say is not their
+problem. Industry, or, at least, the recruiters-who-use-grep, are surely
+clamoring for Java to be taught.
+
+But JavaSchools also fail to train the brains of kids to be adept, agile, and
+flexible enough to do good software design (and I don't mean OO "design", where
+you spend countless hours rewriting your code to rejiggle your object hierarchy,
+or you fret about faux "problems" like has-a vs. is-a). You need training to
+think of things at multiple levels of abstraction simultaneously, and that kind
+of thinking is exactly what you need to design great software architecture.
+
+You may be wondering if teaching object oriented programming (OOP) is a good
+weed-out substitute for pointers and recursion. The quick answer: no. Without
+debating OOP on the merits, it is just not hard enough to weed out mediocre
+programmers. OOP in school consists mostly of memorizing a bunch of vocabulary
+terms like "encapsulation" and "inheritance" and taking multiple-choice
+quizzicles on the difference between polymorphism and overloading. Not much
+harder than memorizing famous dates and names in a history class, OOP poses
+inadequate mental challenges to scare away first-year students. When you
+struggle with an OOP problem, your program still works, it's just sort of hard
+to maintain. Allegedly. But when you struggle with pointers, your program
+produces the line Segmentation Fault and you have no idea what's going on, until
+you stop and take a deep breath and really try to force your mind to work at two
+different levels of abstraction simultaneously.
+
+The recruiters-who-use-grep, by the way, are ridiculed here, and for good
+reason. I have never met anyone who can do Scheme, Haskell, and C pointers who
+can't pick up Java in two days, and create better Java code than people with
+five years of experience in Java, but try explaining that to the average HR
+drone.
+
+But what about the CS mission of CS departments? They're not vocational schools!
+It shouldn't be their job to train people to work in industry. That's for
+community colleges and government retraining programs for displaced workers,
+they will tell you. They're supposed to be giving students the fundamental tools
+to live their lives, not preparing them for their first weeks on the job. Right?
+
+Card Punch -- yes, I learned Fortran on one of these when I was 12.Still. CS is
+proofs (recursion), algorithms (recursion), languages (lambda calculus),
+operating systems (pointers), compilers (lambda calculus) -- and so the bottom
+line is that a JavaSchool that won't teach C and won't teach Scheme is not
+really teaching computer science, either. As useless as the concept of function
+currying may be to the real world, it's obviously a prereq for CS grad school. I
+can't understand why the professors on the curriculum committees at CS schools
+have allowed their programs to be dumbed down to the point where not only can't
+they produce working programmers, they can't even produce CS grad students who
+might get PhDs and compete for their jobs. Oh wait. Never mind. Maybe I do
+understand.
+
+Actually if you go back and research the discussion that took place in academia
+during the Great Java Shift, you'll notice that the biggest concern was whether
+Java was simple enough to use as a teaching language.
+
+My God, I thought, they're trying to dumb down the curriculum even further! Why
+not spoon feed everything to the students? Let's have the TAs take their tests
+for them, too, then nobody will switch to American Studies. How is anyone
+supposed to learn anything if the curriculum has been carefully designed to make
+everything easier than it already is? There seems to be a task force underway
+(PDF) to figure out a simple subset of Java that can be taught to students,
+producing simplified documentation that carefully hides all that EJB/J2EE crap
+from their tender minds, so they don't have to worry their little heads with any
+classes that you don't need to do the ever-easier CS problem sets.
+
+The most sympathetic interpretation of why CS departments are so enthusiastic to
+dumb down their classes is that it leaves them more time to teach actual CS
+concepts, if they don't need to spend two whole lectures unconfusing students
+about the difference between, say, a Java int and an Integer. Well, if that's
+the case, 6.001 has the perfect answer for you: Scheme, a teaching language so
+simple that the entire language can be taught to bright students in about ten
+minutes; then you can spend the rest of the semester on fixed points.
+
+Feh.
+
+I'm going back to ones and zeros.
+
+(You had ones? Lucky bastard! All we got were zeros.)
+*** Bad Habits for C++ programmers 
+说说我见到的一些不良现象吧。有些程序员干了十多年还这样。
+
+1.不用namespace。导致全局空间被污染。或组织混乱带来维护障碍。或使用不便。
+
+2.不使用接口隔离实现/头文件设计不当。文件间依赖过度紧密难于分离。或过于松散造成使用困难。以及包含次序耦合带来的编译问题。
+
+3.不使用预编译头。
+要么不用造成编译慢;要么“隐藏”了一些定义，使库外部无法使用。
+
+4.拒绝使用c++11及高新的语言特性。
+即使编译器支持也不用auto，不用lambda表达式，不用override。
+
+5.对c/c++盲目推崇。
+比如用性能问题贬低他们其实并不了解的C#和Java;比如认为所有有GC的语言都是解释执行的;直到被piapia打脸。
+
+6.不会或不爱使用性能分析手段。
+很多人你跟他谈结构不好，他开口闭口说为了性能。然后你一问具体数据就不吭声了。变成了:我觉得会更快。。。
+
+7.滥用内嵌汇编。
+迷信asm的效率和逼格。常常只是把简单问题复杂化，复杂问题天书化。
+
+8.不写或滥用防御代码。
+或不检查指针有效性。函数依赖传入参数决定是否崩溃。
+或用assert代替，崩溃后连日志输出都没有。发布后出了问题就抓瞎。
+或有检查，但失败后保持沉默，把问题隐患扩散到其他地方。
+
+9.不用或滥用exception。
+或完全不用导致某些逻辑复杂。
+或混淆c++异常与操作系统异常。
+或随意catch并忽视异常。
+或没有对应防御机制造成内存泄露/漏过初始化等问题。
+
+10.夸张的参数表。
+不对参数封装或抽象为对象。使得接口难用/易出错/无谓的参数copy。
+
+11.盲目使用c的不良遗产。
+如随意的类型转换/类型擦除/函数参数默认值/函数变参/滥用union代替转换函数等等。代码建立在过多的隐喻上。
+
+12.滥用const关键字。
+过分强调实用const，近乎原教旨主义。绑架别人的接口无谓提升复杂度。
+
+13.不了解/不愿用stl。
+排序，搜索，数组，字符串都单写一套。问题多，效率差，还不方便使用。就是懒得看看stl手册。造一些无聊的轮子。
+
+14.滥用继承机制。
+从不组合。一说扩展功能就想到继承，甚至多重继承。把类型写得庞大臃肿。最后发现很难不动接口做任何改动。然后完蛋。
+
+15.不封装数据成员;滥用静态/全局成员。
+代码中飞线如乱麻。高度耦合。一有新需求就傻眼。
+
+16.滥用虚函数。
+鼓吹一切皆虚。直到某天在构造函数里调了一下。。。
+
+17.从不画图。
+业务逻辑混乱，代码层次模糊，对象生存期说不清楚。
+
+18.滥用operator/滥用模板机制/滥用宏。
+追求语法糖。把简单代码写到编辑器推导不出才满意。
+
+19.不理解浮点值。
+最常见的是把经过运算的float直接和定值比较。出现问题怪CPU不靠谱。
+
+20.无视warning。
+总认为认为能通过编译就大功告成了。然后埋一个如分枝无返回值之类的雷到运行时。
+
+21.分不清平台API与C/C++标准库函数。
+比如用MFC在win下写服务器。然后发现在Linux上无法部署。
+
+22.不写或不会写测试。
+从不用代码测试代码，拿测试人员或用户当小白鼠。
+或把一段简陋的临时代码插到程序某处运行。觉得能跑就删除了。
+
+23.过度具象的盲目追求“性能”。
+设计时言必提性能。
+茴字100种写法全都为性能。
+高估函数调用开销。
+高估new/delete的开销。
+使用dowhile处理分枝。
+把代码搞得像狗屎。
+
+24.只用一种技术/语言/平台。
+一切没听过的东西都不存在。
+
+25.常见问题不想了解。
+比如不理解字符编码与传输格式的区别;不知道各种调用约定的区别。这种太多了。其实就是花几分钟看看书的事。
+
+26.自己的代码是金口玉言。
+代码从不重构。也不许别人动。
+
+27.注释与代码对不上，命名与作用都不上，变量名与类型对不上。
+看到如“军衔”(rank)与“角色等级”(playerLevel)两个变量相比较就想抽人。
+
+28.神奇的变量前缀。
+当你看到m_lprpglpmcCur时，会想到这事啥？会理解成当前的RPGLocalPlayerMotionController吗？这缩写完全是把人搞昏。
+另外即使没有IDE提示，我也认为这东西一点用都没有。缩小变量作用范围才是更好的选择。
+
+作者：大狐狸
+链接：https://www.zhihu.com/question/26134373/answer/91025385
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+*** Foreword of SICP by Alan Perlis 
+教育者、将领、饮食专家、心理学家，以及父母们，皆编程（规划）。士兵、学生和某些社
+群，皆被编程（规划）。攻克大型问题，要使用一系列程序，其中大部分产生于求解问题的
+途中。程序充斥着各种状况，于着手的问题，状况各异。编程作为一项智力活动，为了自个
+儿能领会，你必须开始使用计算机去编程;你必须阅读、书写大量的计算机程序。程序是怎
+样的，又是干什么的，这些都不大重要。重要的是，执行有多快，在构造更大规模的程序过
+程中，配合其他程序有多流畅。 程序员必须努力寻求部分的完善性以及整体的融洽性。本
+书中，”程序设计(program)”一词的使用将集中于程序的创建、执行和研究，这些程序用
+Lisp写就，运行于数字式计算机。使用Lisp，不会限制我们的编程范围，这仅是程序的一种
+描述记号罢了。
+
+纵观本书主旨，我们将涉及三大关键点:人的思维方式，计算机程序集，以及计算机本身。
+程序皆模型，它诞生于人的心智，是真实世界或精神世界的进程。此些进程，起于人的经验
+和思考，数目巨大，细节复杂，无论何时，都仅能被部分理解。进程通过计算机程序进行模
+拟，并不能一劳永逸。即便程序是精雕细琢的离散符号集，是交织嵌套的函数，它们依然需
+要不断演化:当对模型的理解深化了，扩大了，推广了，我们就修改模型，直到取得相对稳
+定的状态。接着，又得探寻另一个更好的模型。用计算机编程的欢欣之源，在于思维的不断
+拓展，在于计算机装置的程序表示，在于其激发的理解力之飞升 。艺术诠释梦想，计算机
+化用程序，实现梦想！
+
+尽管计算机功能强大，它却是个苛刻的工头。它要求程序必须正确，我们的表述必须精细无
+误。正如其他使用符号的场合，通过论证，我们也将相信程序的正确性。Lisp本身就能被赋
+予一套语义(也就是另一个模型)，如果将程序的函数加以规范化，那么就能用逻辑学的证明
+方法——谓词演算，来做经得起考验的论证。遗憾的是，一直以来，程序都在变大、变复杂，
+规范本身的适用性、兼容性，以及正确性也变得值得怀疑。因此，正确性的完全形式化论证
+很少出现在大型程序中。由于大型程序源于小程序，那么，建立正确性业已确定的、标准化
+的程序结构的仓库就显得尤其重要了。我们称其为惯用语。接着学习将其组合成更大型的结
+构，而这就要利用到有价值的组织技术。这些技术都充分展现在本书中，理解它们，对于投
+入编程这项创造性事业来说，是不可或缺的。最为重要的是，发现并掌握强有力的组织技术，
+以增进我们创建大型、重要之程序的能力。反过来说，正是因写大型程序太过费力，才刺激
+我们去发明新方法，来减少大型程序中的大量函数和细节。
+
+与程序不同，计算机必须遵守物理定律。如果计算机想快速执行——几个纳秒一次状态转换，
+那么传输的电子就必须限制在小距离内(最多1.5英尺)。热量因大量元器件而产生并汇聚，
+这必须消除。精湛的工程技艺的开发，平衡了功能多样性与器件密集性间的矛盾。不论何种
+情况，硬件都比我们所关注的软件工作在更底层。将Lisp程序转换为“机器”程序的过程，本
+身就是用程序所设计的抽象模型。对此过程的研究和创建，为设计其他模型的相关组织技术
+提供了大量真知灼见。当然，计算机本身亦能被如此建模。试想:最小的物理开关元件用量
+子力学建模，量子力学可用微分方程组来描述，微分方程的的细节特性能用数值逼近获得，
+数值逼近能用计算机上执行的程序来表示，计算机程序由……组成 ，……！
+
+区分上述三大关键点，不仅是为了方法上的便捷。虽然有人说它们皆存于自然人之头脑，但
+逻辑上的划分导致三者间符号流动的加速。这使得它们的丰富性、鲜活性，以及无限可能性
+远胜于其在人类实践中的自然演化（Even though, as they say, it's all in the head,
+this logical separation induces an acceleration of symbolic traffic between
+these foci whose richness, vitality, and potential is exceeded in human
+experience only by the evolution of life itself.）。在最好情况下，三者间的关系是
+相对稳定的。计算机内存永远不够大，计算速度永远不够快。每一次硬件技术的突破都产生
+更大规模的程序设计产业，产生新的组织技术，产生更丰富的抽象模型。每个读者都应定期
+反问自己，“到哪儿才是头，到哪才是头？”——但不要问得太频繁，不然这会让你泥淖在悲喜
+交加之中，从而丧失编程的乐趣。
+
+我们所写的程序中，有些(但不够多)具有精确的数学的功能。比如:数列排序，找出数列中
+的的最大值，素数检验，或者计算平方根。我们称如上述的程序为算法，其中大量的因其具
+有最优性能而被大家所熟知，这里要特别提及两个重要性能参数，程序的执行时间和数据存
+储要求。程序员应该追求良好的算法和惯用法。虽然有些程序难以精确描述，但程序员有责
+任去估计并不断地设法改进程序的性能。
+
+Lisp是个幸存者，已被使用了约四分之一世纪。在用的语言中，只有Fortran比它久远。这
+两语言都支持某些重要的应用领域的程序设计需要。Fortran用于科学和工程计算，Lisp用
+于人工智能。这两领域将一如既往地重要，其中程序员是如此倾心于Lisp和Fortran，以致
+它们可能继续被活跃使用至少四分之一世纪。
+
+Lisp一直在改变着。本书使用的方言Scheme就是演化自最初的Lisp，并与后者在若干重要方
+面有所不同，包括变量约束的静态作用域，以及允许函数生成函数作为函数值。在语义结构
+方面，与早期Lisp族相比，Scheme更加接近于Algol 60。Algol 60再也不能重新流行了，只
+能存活在Scheme和Pascal的基因里。 比起萦绕其周围的其他语言，很难找到像这样两种语
+言去更好地沟通两个差异如此之巨大的文化。（It would be difficult to find two
+languages that are the communicating coin of two more different cultures than
+those gathered around these two languages.）Pascal是用来建造金字塔的——由大群人推
+笨重的大石到指定地点，壮丽辉煌、令人震撼、静态的结构。Lisp是用来建造有机体的——由
+小分队把无数更简单的处于变化之中的有机体安置在指定位置，壮丽辉煌、令人震撼、动态
+的结构。组织原理在两语言中是相同的，除了极其重要的一点不同外:把自由输出功能托付
+给Lisp程序员个体。这在Pascal程序员那里也能找到，却降低了不止一个数量级。Lisp程序
+大大充实了函数库，这些函数的实用性超过了催生它们的应用。表，Lisp的固有数据结构，
+为函数实用性的提升贡献巨大。表的简单结构和天然的适用性反映在函数，就是函数那令人
+惊讶的普适性。而在Pascal，数据结构的过度声明导致函数的专用性，这阻碍并恶化了函数
+间的临时配合。拥有100个函数，工作在1个数据结构之上，好过拥有10个函数，工作在10种
+数据结构之上。结果，金字塔必定是矗立千年而不变，有机体要么演化，要么死亡。
+
+为了看清上述差异，请试着比较Pascal入门书与本书对材料和练习的处理方法。不要困于假
+象，说，这是本仅适用于MIT的教科书，它的独特性只不过是因为它出自MIT.准确地说，任
+何一本Lisp编程书籍都应该如本书，无论其学生是谁，书本在何处使用。
+
+注意，本书是关于程序设计的，异于大多数Lisp书籍，因那些书是为人工智能准备的。总之，
+随着被研究的系统的不断扩大，程序设计的关键问题，在软件工程和人工智能之间将趋于统
+一。这就解释了为何在人工智能领域之外，对Lisp的兴趣也正不断地在提高。
+
+从人工智能的目标出发，可以预见，其研究将产生大量有意义的程序设计问题。在其他程序
+设计文化里，这一连串的问题将引生新的语言。诚然，在任何极大型的程序设计工作中，一
+个有效的组织原理就是控制并隔离任务(作业)模块间的信息流动，而这要通过新语言的发明
+方可实现。当人们接近到与之最常交互的系统的边界时，这些语言趋于变得高级。结果，这
+些系统就包含了大量重复的复杂的语言处理功能。Lisp拥有简洁的语法和语义，这使得语法
+分析被看作是一项基本任务。这使得语法分析技术在Lisp程序里几乎没有地位，同时使得语
+言处理器的构造对大型Lisp系统的发展变更速度而言，鲜有阻碍。最后，正是语法和语义的
+极端简洁性，导致了Lisp程序员的自由以及负担。任何规模的Lisp程序，除了寥寥数行的之
+外，无不充盈着各类函数。发明函数，组装函数;得到函数，再利用之发明函数（Invent
+and fit; have fits and reinvent!）！让我们举杯庆贺那些将思想写进层层括号之巢的
+Lisp程序员吧。
+
+Alan J. Perlis
+
+纽黑文市,康涅狄格
+
+作者：拉曼卡
+链接：https://www.zhihu.com/question/20246883/answer/45506752
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+** 3.18 efficient c++ notes
+*** efficient c++ notes
+**** 1
+什么 RAII、异常已经有人说了，我再补充一些。。。（顺便反对某些回答不懂装懂，什么面向对象啊到底写没写过 C++ = =）
+1. 在写一个 raw loop 之前，一定要考虑：我要写的东西 <algorithm> 能不能搞定？一定要善于利用 <algorithm>，一定！（而且利用 <algorithm> 可以秒杀各种笔试、面试题，部分可参考陈硕大大的文章）而且要意识到 iterator 与 algorithm 组合的强大威力，例如倒序打印字符串：
+copy(crbegin(str), crend(str), std::ostream_iterator<char>{std::cout});
+2. 在可能的情况下，要尽量使用非成员版函数（当年 STL 之父本来就是要把 begin() end() 这些做成非成员函数的，就是怕和标准委员会打起来才做成了成员函数。当然，现在开始陆陆续续擦屁股了。。。）例如 
+using std::begin;
+using std::end;
+sort(begin(vec), end(vec));
+当然，对于 std::list/forward_list 这种特殊的数据结构可能需要使用成员函数（例如 sort、reverse）以效率最大化。
+3. 意识到 C++ 的“多态”远远不止所谓的虚函数（Tutorial - 1.60.0【伪处贴】关于C++14后boost::variant变得异常好用の件）
+
+作者：刘雨培
+链接：https://www.zhihu.com/question/41424757/answer/91037477
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+**** 2 
+不光是不能学成“C风格的C++”，更重要的是不能学成“Java风格的C++”，前者还可以抢救一下，后者就只能放弃治疗了……
+0、不要用裸指针，实在忍不住就用“世界上最傻的smart pointer”
+1、不要用malloc/free，也不要用new/delete，用smart pointer管理对象的所有权和生存期
+2、不要用函数指针，也不要用pure interface
+3、不要用原生数组，用STL里的容器
+
+作者：徐辰
+链接：https://www.zhihu.com/question/41424757/answer/91048974
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+** 3.18 需要更多的“好的表达”
+*** 需要更多的“好的表达”
+今晚灯下仔细反思今年的关键词里有什么没做的好的，对于“好的习惯，好的思考”都还满意，而“好的表达，好的交流”实践的太少。那我今后就要努力地贯彻这两点。
+*** TODO Aim to study ESL & Data Mining notes & HWs from 3.21 to end of April
+This is an important step toward future interview. Should start early!
+*** TODO 翻译project 
+*** 简单明快
+** 3.19 "乐"的境界
+*** "乐"的境界
+1. 学而时习之，不亦乐乎
+2. 知之者不如好之者，好之者不如乐之者
+*** 编程语言的"语感"(坑)
+*** "志，气，力"的三位一体与"if.... then ...."的思考范式
+*** It is better to learn C++(and any complicated thing) by concrete examples/projects
+If you want to finish reading all the rules first then start writing code, it is going to be late and unnecessary.
+** 3.22 忠实的、快乐的自我表达
+*** 忠实的、快乐的自我表达
+今天上完班早早的回到家就拿起了篮球一个人在小区球场练球。练着练着，就发现手感这些
+的找回和单纯快乐地打球的关系太大了，不是说不该有争胜心，而是哪怕的争胜的时候也应
+该去享受打球那种纯粹的快乐。推而广之，在做任何事情之前，或许都可以问问自己，这件
+事自己能快乐开心地去做吗？如果可以，怎么去从中发掘最大的快乐和有趣？
+
+编程和算法有趣且让我快乐，所以我一定会在这条路上走下去，不断提升自己。数学的很多
+分支和问题对我来说也是如此。统计呢？统计的不少东西让目前的我觉得tedius（比如在公
+司读的不少paper），但概率论在博弈等方面的应用我有兴趣，再比如在公司接触的因果推
+断我也觉得蛮有意思的。
+
+至于机器学习，统计学习，不得不说我虽然觉得很有用，但我在这方面积累的让我“开眼界”
+或者说“震撼我”的例子太少了。说到底还是太浅尝辄止了。前两天下了决心这两月好好整一
+整这块的内容，就要从实际的例子出发，相信通过努力一定能见识到让我“开眼界”的东西！
+** 3.25 Principle of Inclusion & Exclusion(really powerful)
+
+*** PIE
+**** Probability form
+**** Waring formula
+**** He Min's master qualifying problems
+*** Kenneth Lange's *Applied Probability* book is dense and fun
+I plan to buy the book from the following link:
+http://www.barnesandnoble.com/p/applied-probability-kenneth-lange/1119397767/2672928983758
+** 3.31 代码的反编译
+*** 代码的反编译
+要理解这个问题，先要看「正」编译的过程是怎样的。
+你有一个想法，这是一种人类自然语言可以表达出来的东西。你利用编程技能，把它「翻译」成你熟悉的一种编程语言:
+
+然后编译器（compiler）将它翻译成机器所能理解的语言:
+
+这中间的每一步都是一个「信息丢失」的过程。比如你说，我要把这些数排个序。然后你轻车熟路地写了个冒泡排序。你的原始动机其实已经一定程度上从你的代码里丢失了——有经验的人可能可以一眼看出你这段代码是在排序，而新手小明看到的只有一些for和if之类的东西。如果是更复杂的功能，那么可能过一段时间你自己都看不懂自己当时是想干什么。从程序语言到机器语言的过程其实也是一样的。这两个过程其实都是把「做什么」转换成「怎么做」的过程，转换完成之后，究竟一开始是要做什么，这个信息已经丢失了。
+
+所谓「反编译」，其实就是找回这些丢失的信息的过程。从这个角度上来说，你阅读一段代码的过程，其实就是在将它「反编译」成自然语言。如果要完美地反编译，那只存在一种可能，就是信息完全没有丢失——比如说你阅读的这段代码有充分的注释，或者它使用了一种你所知晓的模式（这也是为什么大家一再强调注释和设计模式的重要性）。对于从机器语言到程序语言的反编译过程，也是一样。
+
+
+作者：hillin
+链接：https://www.zhihu.com/question/21853681/answer/74134768
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+*** 如何在VS中正确输出中文，或者说使其支持Unicode?
+**** code example(check the storage allocation in bytes for most primitive types)
+//// to see the storage allocation in bytes for most primitive types
+//#include<iostream>  
+//#include<string>  
+//#include <limits>  
+//using namespace std;
+//
+//int main()
+//{
+//	cout << "type: \t\t" << "************size**************" << endl;
+//	cout << "bool: \t\t" << "所占字节数：" << sizeof(bool);
+//	cout << "\t最大值：" << (numeric_limits<bool>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<bool>::min)() << endl;
+//	cout << "char: \t\t" << "所占字节数：" << sizeof(char);
+//	cout << "\t最大值：" << (numeric_limits<char>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<char>::min)() << endl;
+//	cout << "signed char: \t" << "所占字节数：" << sizeof(signed char);
+//	cout << "\t最大值：" << (numeric_limits<signed char>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<signed char>::min)() << endl;
+//	cout << "unsigned char: \t" << "所占字节数：" << sizeof(unsigned char);
+//	cout << "\t最大值：" << (numeric_limits<unsigned char>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<unsigned char>::min)() << endl;
+//	cout << "wchar_t: \t" << "所占字节数：" << sizeof(wchar_t);
+//	cout << "\t最大值：" << (numeric_limits<wchar_t>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<wchar_t>::min)() << endl;
+//	cout << "short: \t\t" << "所占字节数：" << sizeof(short);
+//	cout << "\t最大值：" << (numeric_limits<short>::max)();
+//	cout << "\t\t最小值：" << (numeric_limits<short>::min)() << endl;
+//	cout << "int: \t\t" << "所占字节数：" << sizeof(int);
+//	cout << "\t最大值：" << (numeric_limits<int>::max)();
+//	cout << "\t最小值：" << (numeric_limits<int>::min)() << endl;
+//	cout << "unsigned: \t" << "所占字节数：" << sizeof(unsigned);
+//	cout << "\t最大值：" << (numeric_limits<unsigned>::max)();
+//	cout << "\t最小值：" << (numeric_limits<unsigned>::min)() << endl;
+//	cout << "long: \t\t" << "所占字节数：" << sizeof(long);
+//	cout << "\t最大值：" << (numeric_limits<long>::max)();
+//	cout << "\t最小值：" << (numeric_limits<long>::min)() << endl;
+//	cout << "unsigned long: \t" << "所占字节数：" << sizeof(unsigned long);
+//	cout << "\t最大值：" << (numeric_limits<unsigned long>::max)();
+//	cout << "\t最小值：" << (numeric_limits<unsigned long>::min)() << endl;
+//	cout << "double: \t" << "所占字节数：" << sizeof(double);
+//	cout << "\t最大值：" << (numeric_limits<double>::max)();
+//	cout << "\t最小值：" << (numeric_limits<double>::min)() << endl;
+//	cout << "long double: \t" << "所占字节数：" << sizeof(long double);
+//	cout << "\t最大值：" << (numeric_limits<long double>::max)();
+//	cout << "\t最小值：" << (numeric_limits<long double>::min)() << endl;
+//	cout << "float: \t\t" << "所占字节数：" << sizeof(float);
+//	cout << "\t最大值：" << (numeric_limits<float>::max)();
+//	cout << "\t最小值：" << (numeric_limits<float>::min)() << endl;
+//	cout << "size_t: \t" << "所占字节数：" << sizeof(size_t);
+//	cout << "\t最大值：" << (numeric_limits<size_t>::max)();
+//	cout << "\t最小值：" << (numeric_limits<size_t>::min)() << endl;
+//	cout << "string: \t" << "所占字节数：" << sizeof(string) << endl;
+//	// << "\t最大值：" << (numeric_limits<string>::max)() << "\t最小值：" << (numeric_limits<string>::min)() << endl;  
+//	cout << "type: \t\t" << "************size**************" << endl;
+//	return 0;
+//}
+**** comparison & comments 
+以上code，在VS 2015下编译打印出来的中文皆乱码，而在spacemacs下编译打印则完全正确显示。
+* April
+** 4.1 Use Mathematica to produce function plots
+*** Mathematica plotting eg
+Plot[{Exp[x], x^2}, {x, 0, 4}]
+*** Plan to get more familiar with Latex math writing by recording down notes via Latex
+** 4.3 Tax Return filed
+*** Tax Return information
+**** state tax
+Confirmation Number: 1707036
+** 4.4 肚子胀,需要开始坚持跑步还有更规律地饮食
+*** 肚子胀,需要开始坚持跑步还有更规律地饮食
+原因未知，不知道和四五天前吃了二十颗multivitamin有关。如果通过跑步健身也消不下去就得去看医生。
+还有就是，减少坐的时间，一天即使不跑步也尽量不要久坐，散散步也好。
+

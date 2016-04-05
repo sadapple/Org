@@ -1,0 +1,8 @@
+* General Question: How to define a language?
+** My idea
+*** basic types
+*** operations defined over basic types
+*** *binding rules* & *transformation rules* or *substitution rules*
+* Can you convey the magic of Lambda Cal in a few sentences?
+** the recursive definition of *expression*
+** *expression*, *name*, *function*, *application*

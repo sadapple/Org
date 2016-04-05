@@ -122,9 +122,12 @@ using the lars package, for p=4, the number of pieces doesn't meet the expected 
 ** TODO Think about how to apply our algorithm in classification
 ** TODO Think about how to modify the algorithm for extension
 ** estimation of conditional heteroscedastic time series
-* Long Term Improvement
-** habit of solving problems
-** habit of make abstraction, combination & generalization
+* Long Term Improvement [0/4]
+
+** TODO habit of making connections and analogies
+** TODO habit of solving problems
+** TODO habit of make abstraction, combination & generalization
+** TODO habit of visualizing a general procedure/algorithm or anything useful
 * Fun Things Learned
 ** Asymptotic equivalence between White Noise Model & Nonparametric Regression
 A fun reading experience with professor Zhang's regression project notes
@@ -221,6 +224,12 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 ***** job skill
 ****** data mining review
 ***** job information
+*** 4.3
+**** two main focus
+***** TODO wrap up thesis material, target at finishing no later than October
+SCHEDULED: <2016-04-03 Sun +1w>
+***** TODO spend regular time to know about the data science job market
+SCHEDULED: <2016-04-03 Sun +1w>
 ** build your knowledge & skill trees on a few but good books/projects/tools/community groups
 *** Stat [0/4]
 **** TODO ESL
@@ -268,13 +277,15 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 **** StackOverflow
 **** Zhihu Programming Language group
 **** TODO Some Friends, Fellow Students & Mentor
-* Thesis Writing [1/2]
+* Thesis Writing [1/4]
 ** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
 CLOSED: [2016-03-04 Fri 12:50]
 Done by modify some export options inside Texmacs
 ** TODO finish the notes on best marginal feature property for correlation version LPD
 *** the counter example
-
+** TODO simulation section
+*** LPD implementation
+** TODO acknowledgment  
 ** Communication with advisor
 *** Meet Memos
 **** 2.14
@@ -291,7 +302,7 @@ Done by modify some export options inside Texmacs
 *** DONE write down the uniqueness proof for LPD
 CLOSED: [2015-12-16 Wed 19:22]
 *** TODO Study Lagrangian Duality Theory and accumlate more examples
-** 12.16 - 12.23 [2/4]
+** 12.16 - 12.23 [2/3]
 
 *** TODO read the concentration inequality section of Tao's random matrix book
 *** DONE read the recent two latex notes
@@ -302,21 +313,35 @@ CLOSED: [2015-12-19 Sat 21:05]
 ** 1.4 - 1.7 [1/1]
 *** DONE finish the pdf notes on LPD uniqueness
 CLOSED: [2016-02-14 Sun 22:43]
-** 1.29 - 2.3 [1/2]
+** 1.29 - 2.3 [2/2]
 *** DONE study Ch2 of Lugosi's *concentration inequality* book, exclude the problem section
 CLOSED: [2016-02-14 Sun 22:41]
-*** TODO study causal inference & structural models
+*** DONE study causal inference & structural models
+CLOSED: [2016-03-10 Thu 19:13]
 **** think about how to model time dependent treatment data in survival problem context
 **** search related R packages
-** 2.14 - 2.18 [0/3]
+** 3.10 - 3.13 [1/3]
 *** TODO study & try to reproduce the proof of Theorem 2 in the LPD paper
-SCHEDULED: <2016-02-15 Mon>
+SCHEDULED: <2016-03-12 Sat>
 
 *** TODO LPD asymptotics for correlation matrices
 **** how to formulate the problem correctly
 **** what types of inequality do I need
 **** formulate & prove the inequality on tail probability of correlation terms
+*** DONE algorithm design book Ch3 & 4
+CLOSED: [2016-03-20 Sun 21:48]
+** 3.14 - 3.20 [3/3]
 
+*** DONE SICP section 2.1 - 2.3, section 3.1
+CLOSED: [2016-03-20 Sun 21:50]
+*** DONE C++ coursera video learning, cover *functions*, *recursion*, *pointers*
+CLOSED: [2016-03-20 Sun 21:50]
+*** DONE intro to lambda calculus
+CLOSED: [2016-03-20 Sun 21:50]
+** 4.2 - 4.5 [0/3]
+*** TODO understand the related proof in Cai's 2011 precision matrix estimation paper
+*** TODO review some elementary inequalites 
+*** TODO brief summarize the state of the art of the inequality manipulation in the LPD related paper  
 ** Future
 *** Improve general coding & simulation technique
 
@@ -324,11 +349,10 @@ SCHEDULED: <2016-02-15 Mon>
 SCHEDULED: <2016-02-15 Mon>
 *** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words
 **** Typical questions to be asked
-***** Derivation, Estimation(point type & C.I. type), Testing, Interpretation
+***** Intuition, Derivation, Estimation(point type & C.I. type), Testing, Interpretation
 ***** When to use it?
 ***** How do you think about it?
 **** TODO Logistic Regression
-SCHEDULED: <2016-01-31 Sun>
 **** Bootstrap Method
 **** PCA & Factor Models
 **** EM algorithm

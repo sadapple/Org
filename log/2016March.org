@@ -15,11 +15,11 @@ CLOSED: [2016-01-26 Tue 21:19]
 ***** Chase
 ***** BOA
 *** TODO File through Turbo Tax
-SCHEDULED: <2016-03-11 Fri>
+SCHEDULED: <2016-03-26 Sat>
 ** TODO schedule to see a dermitology doctor for my long existed skin issue
 
 As I have never seen a doctor in US. Here I intentionally do this to gain such life experience.
-** TODO talk with Lauren to find the best time to apply OPT 
-SCHEDULED: <2016-03-04 Fri>
+** DONE talk with Lauren to find the best time to apply OPT 
+CLOSED: [2016-03-06 Sun 16:07] SCHEDULED: <2016-03-04 Fri>
 ** DONE proctor exam for Yi Fan
 CLOSED: [2016-03-03 Thu 10:22] SCHEDULED: <2016-03-03 Thu>

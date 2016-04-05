@@ -34,8 +34,32 @@
 ***** 长数赋短数
 ***** 短数赋长数
 ***** 符号位的赋值处理
-*** TODO Array
-SCHEDULED: <2016-03-04 Fri>
+**** 算术运算符
+**** 自加减 
+*++* 只能用于变量，不能用于表达式
+**** 关系运算符
+**** 逻辑运算符
+***** 逻辑运算的取舍
+****** 逻辑表达式求解时，并不总是执行所有运算
+***** 逻辑运算符两侧可以是任何类型
+**** 逗号，条件，强制类型转换
+**** 位运算
+note that for *xor* operator *^*, we have 0^0=0, 1^1=1.
+***** 左移 <<，右移 >>
+***** 异或运算
+****** 交换两个值而不使用临时变量
+**** 优先级
+算术运算符 > 关系运算符 > 赋值运算符
+逻辑非 > 算术运算符 > 关系运算符 > && > || > 赋值运算符
+***** 剪刀法
+*** DONE Array
+CLOSED: [2016-03-06 Sun 16:07] SCHEDULED: <2016-03-04 Fri>
+**** initialization
+**** 2-dim array
+**** 数组下标的运用
+***** sieve method application
+*** DONE string & vector class 
+CLOSED: [2016-03-08 Tue 20:05]
 ** R
 *** Finish the Hard Function problems
 *** TODO study dplyr package for SAC(split-apply-combine) procedure
@@ -53,7 +77,7 @@ SCHEDULED: <2016-02-15 Mon>
 **** TODO accumulate and summary SAS tricks you learn
 
 ** Lisp
-*** SICP
+*** Scheme
 ** Markdown
 *** DONE Learn basics
    CLOSED: [2015-02-17 Tue 10:10]
@@ -66,18 +90,34 @@ Once it’s installed you can start a REPL with:
 ** Cracking the code interview
 *** TODO 1st discussion
 ** TODO Leetcode
-** TODO Implement the important/fun algorithms you encountered by yourself via C++ or Python 
+*** array
+*** linked list
+*** divide and conquer
+*** math
+*** dynamic programming
+*** pointer
+** TODO Implement the important/fun algorithms you encountered by yourself via C++ or Python
+*** linked list
+*** stack & queue
+*** binary search tree
+*** dictionary
+*** priority queue
+*** graph via adjacent matrix or adjacent linked list
 ** Questions
 *** what is the "unit time" in this particular algorithm problem?
 * Software Architecture & Design
 ** SICP
 *** TODO MIT Lecture Videos
-SCHEDULED: <2016-03-06 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-02-29 Mon 00:53]
+:LAST_REPEAT: [2016-03-19 Sat 14:16]
 :END:
+- State "DONE"       from "TODO"       [2016-03-19 Sat 14:16]
+- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
 - State "DONE"       from "TODO"       [2016-02-29 Mon 00:53]
 - State "DONE"       from "TODO"       [2016-02-22 Mon 10:18]
+*** Questions
+**** Ch2
+***** how to subset a list? construct your own procedure
 *** Problems
 * Data Science
 ** Kaggle Projects
