@@ -14,8 +14,8 @@ Received
 CLOSED: [2016-01-26 Tue 21:19]
 ***** Chase
 ***** BOA
-*** TODO File through Turbo Tax
-SCHEDULED: <2016-03-26 Sat>
+*** DONE File through Turbo Tax
+CLOSED: [2016-04-13 Wed 14:49] SCHEDULED: <2016-03-26 Sat>
 ** TODO schedule to see a dermitology doctor for my long existed skin issue
 
 As I have never seen a doctor in US. Here I intentionally do this to gain such life experience.

@@ -11,13 +11,19 @@ Need to figure out how the inequalites in lemma 1 were derived in
 LPD paper.
 
 **** Berstein Inequality(2 types of conditions)
+*** DONE Uniqueness of the LPD estimator
+CLOSED: [2015-11-15 Sun 18:43]
 
 *** Obtain similar results like (26) and (27) in LPD paper
 
-*** DONE Uniqueness of the LPD estimator
-CLOSED: [2015-11-15 Sun 18:43]
+*** TODO Is the proof of Theorem 5 in the LPD paper missing? 
+SCHEDULED: <2016-04-13 Wed>
 *** TODO prove LPD type asymptotics results for correlation matrices
 **** do not expect better results than the covariance matrix version, but in practice use the correlation version is better
+** CLIME paper
+*** result on bounding the absolute difference between true sigma_ij & estimated sigma_ij^hat
+** Given results on MGF, how to obtain results for moments and the *converse* problem
+*** For motivation, see my PaperCalculation.pdf file 
 ** comparison of our algorithm with related algorithms like LPD & ROAD
 *** what is the pros & cons?
 
@@ -227,9 +233,22 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 *** 4.3
 **** two main focus
 ***** TODO wrap up thesis material, target at finishing no later than October
-SCHEDULED: <2016-04-03 Sun +1w>
+SCHEDULED: <2016-04-24 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-04-26 Tue 20:01]
+:END:
+- State "DONE"       from "TODO"       [2016-04-26 Tue 20:01]
+- State "DONE"       from "TODO"       [2016-04-13 Wed 14:49]
+- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
 ***** TODO spend regular time to know about the data science job market
-SCHEDULED: <2016-04-03 Sun +1w>
+SCHEDULED: <2016-05-01 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2016-04-26 Tue 20:01]
+:END:
+- State "DONE"       from "TODO"       [2016-04-26 Tue 20:01]
+- State "DONE"       from "TODO"       [2016-04-23 Sat 00:26]
+- State "DONE"       from "TODO"       [2016-04-13 Wed 14:49]
+- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
 ** build your knowledge & skill trees on a few but good books/projects/tools/community groups
 *** Stat [0/4]
 **** TODO ESL
@@ -291,7 +310,61 @@ Done by modify some export options inside Texmacs
 **** 2.14
 1. make progress on LPD asymptotics, don't expect better result than covariance version
 2. finish the notes on best marginal feature
+**** 4.20
+***** 用LPD的想法做portfolio construction
+***** 搞清在LPD中如何做CV
 *** TODO discuss thesis and graduation with advisor
+** Ph.D Degree Checklist [0/9]
+*** TODO Candidacy form
+SCHEDULED: <2016-06-01 Wed>
+You must pick up your original candidacy form from the *Graduate School Dean's
+Office* (25 Bishop Place, CAC) for your final defense.
+
+After a successful defense, return your completed candidacy form along with one
+original title page (with signatures in black ink) to the Graduate School, as
+well as three extra copies of the title page and abstract (photocopies are
+acceptable) by the degree deadline.
+
+
+1. The graduate school must grant approval of your outside member.
+2. Committee members and program director must sign page three.
+3. Both course and research credits must be listed on page four.
+*** TODO STYLE GUIDE FOR DISSERTATION
+SCHEDULED: <2016-05-07 Sat>
+The guide contains information regarding style, format, margins, footnotes, etc. and should be followed *explicitly*.
+*** TODO Payment Form
+1. Complete payment forms in triplicate.
+2. Pay at Cashier’s Office. The publishing fee is mandatory but the additional copyright fee is optional.
+3. Return one (1) stamped copy to the Graduate School (25 Bishop Place, New Brunswick, NJ 08901).
+*** TODO Publishing Agreement
+1. Print pages four and five if you choose to only pay for publishing.
+2. Print pages four, five, and six if you choose to also pay for copyrighting.
+*** TODO Doctoral Program Evaluation Survey
+Print and return the Verification Sheet (OIRAP) at the end of the survey.
+If you are not able to login to complete the survey please contact OIRAP at Rutgers-IR_Surveys@instlres.rutgers.edu or 848-932-7305.
+*** TODO Degree Candidate Responsibility Statement
+*** TODO Survey of Earned Doctorates
+Print and return the Certificate of Completion at the end of the survey.
+*** TODO Submit Your Dissertation
+Submit your dissertation online to the Rutgers Electronic Theses and Dissertation system
+*** Deadlines 
+**** Candidacy Form Deadlines
+
+October 1, 2015, for an October-dated degree
+January 13, 2016, for a January-dated degree
+April 15, 2016, for a May-dated degree
+**** Online Diploma Application Deadlines
+
+October 1, 2015, for an October-dated degree
+January 6, 2016, for a January-dated degree
+April 1, 2016, for a May-dated degree
+*** TODO Final Note
+Final electronic submissions will only be reviewed after all above forms are
+completed and returned to the Graduate School. Your dissertation *must be*
+submitted and approved by the deadline for the degree date listed on your title
+page.
+
+All forms must be submitted by 4:30 p.m.
 * Challenge Plan
 ** 9.14 - 9.24 [1/3]
 *** DONE primal dual problems examples
@@ -338,10 +411,14 @@ CLOSED: [2016-03-20 Sun 21:50]
 CLOSED: [2016-03-20 Sun 21:50]
 *** DONE intro to lambda calculus
 CLOSED: [2016-03-20 Sun 21:50]
-** 4.2 - 4.5 [0/3]
-*** TODO understand the related proof in Cai's 2011 precision matrix estimation paper
+** 4.2 - 4.5 [1/3]
+*** DONE understand the related proof in Cai's 2011 precision matrix estimation paper
+CLOSED: [2016-04-05 Tue 17:13]
 *** TODO review some elementary inequalites 
-*** TODO brief summarize the state of the art of the inequality manipulation in the LPD related paper  
+*** TODO brief summarize the state of the art of the inequality manipulation in the LPD related paper
+** 4.22-4.24 [0/2]
+*** TODO study BDA appendix C.3, simulation of Gibbs and Metropolis in R
+*** TODO how to carry out MC simulation in G-formula 
 ** Future
 *** Improve general coding & simulation technique
 

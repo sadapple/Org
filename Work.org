@@ -421,15 +421,26 @@ CLOSED: [2016-03-31 Thu 23:54] SCHEDULED: <2016-02-26 Fri>
 **** Nonlinear Programming
 **** Asymptotics
 *** TODO More Discussion with all the *Good Sources*
-SCHEDULED: <2016-03-27 Sun +1w>
+SCHEDULED: <2016-05-01 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-04-02 Sat 14:02]
+:LAST_REPEAT: [2016-04-26 Tue 20:01]
 :END:
+- State "DONE"       from "TODO"       [2016-04-26 Tue 20:01]
+- State "DONE"       from "TODO"       [2016-04-23 Sat 00:26]
+- State "DONE"       from "TODO"       [2016-04-13 Wed 14:50]
+- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
+- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
 - State "DONE"       from "TODO"       [2016-04-02 Sat 14:02]
 - State "DONE"       from "TODO"       [2016-03-19 Sat 14:16]
 - State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
 - State "DONE"       from "TODO"       [2016-02-29 Mon 00:53]
 - State "DONE"       from "TODO"       [2016-02-22 Mon 10:18]
+*** Knowledge of Finantial Statistics [0/4]
+**** TODO Option and Future Modelding
+***** Ito integration & B-S formula derivation
+**** TODO Extreme Value 
+**** TODO State Space Model & Kalman Filter
+**** TODO MCMC
 *** Knowledge of Biostat
 **** What is Meta Analysis
 **** TODO common trial designs

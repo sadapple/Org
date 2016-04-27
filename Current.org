@@ -90,11 +90,14 @@ Good example: <under the dome> by Chai Jing
 *** See through fake/wrong conclusions draw from data
 Good example: Simpson's paradox
 *** An ideal condition would be able to see whether the conclusion drawing from data analysis is reliable or not
-*** Data Mining
-Classification Rules
+*** Machine Learning & Data Mining
+**** Classification Rules
 When will Bayes Rule be good?
-** Math is fun
+** Math is fun [/]
 *** strategies in game theory, statistics(see Ferguson's math stat book) and daily life
+*** be familiar with math logic operation is really a plus to boost daily life thinking 
+*** probability theory is fun! [0/1]
+**** TODO the power of concentration inequalities in Machine Learning
 ** Emacs, Linux, anything that is clever, playful and fun
 ** Body training
 *** Hiking

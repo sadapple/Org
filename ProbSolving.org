@@ -9,15 +9,15 @@
 *** TODO Ch9&10 Tree related Methods
 *** TODO Ch12 SVM
 *** TODO Ch15 Random Forest
-** Data Mining Notes & Homework by Han Xiao [1/9]
+** Data Mining Notes & Homework by Han Xiao [2/9]
 *** TODO Lasso, SCAD, Penalized Regression
 *** TODO PCA and Factor Model
 *** DONE LDA and Logistic Regression
    CLOSED: [2015-02-27 Fri 02:13] DEADLINE: <2015-02-25 Wed>
 *** TODO EM algorithm
 *** TODO Portfolio Optimization & Cov Matrix Estimation
-*** TODO SVM
-SCHEDULED: <2016-04-03 Sun>
+*** DONE SVM
+CLOSED: [2016-04-22 Fri 13:29] SCHEDULED: <2016-04-03 Sun>
 *** TODO Cointegration & Arbitrage
 *** TODO Not covered: Boosting & Random Forest
 *** TODO hw 1-5
