@@ -114,23 +114,43 @@ When will Bayes Rule be good?
 ** Trinity: Statistics, Mathematics, Programming
 ** Love yourself, concentrate on your own stuff, stay focused
 ** Know more things about the finance,  economics. Try apply to daily life.
+* current key files maintained
+ 
+** Org files
+*** Current
+*** Expression
+*** self-challenge
+*** Research
+   
+*** ProgPrac
+    
+*** ProbSolving
+    
+*** Work
+    
+*** Fun
 
-* Book List
+*** Log-Todo
+    
+** LaTex files
+
+* Book/Notes List
 
 ** Long term
 
 *** current 
+    
+**** Wasserman 702 and 705 lecture notes and videos
+**** Regression Notes and Problems by Cunhui Zhang
 **** ESL(also solve problems in this book as many as possible)
 **** Nonlinear Programing by Bertsekas
+**** Theory of Multivariate Stat(problems in Ch1&2 are mandatory)
 **** Statistical Learning with Sparsity by Tibshirani
 **** Time Series by Brockwell
-**** Theory of Multivariate Stat(problems in Ch1&2 are mandatory)
-
-
-**** Regression Notes and Problems by Cunhui Zhang
 **** Mathematical Statistics by Jun Shao(focus on solving problems of Ch1&2)
 **** Concentration Inequalities by Lugosi
 **** Probability Course Notes/The book *Topics in Random Matrix theory* by Tao
+
 
 **** SICP
 **** Advanced R Programming
@@ -141,15 +161,13 @@ When will Bayes Rule be good?
 ** Short term
 
 *** Art of R programming
-*** R in action
 *** Little SAS book
-*** Learn Python the hard way
 
 
 ** Fun & Meditation
 
-*** Statistics and Truth(C.R.Rao)
-*** Beyond Feelings
+*** TODO Beyond Feelings
+*** TODO Statistics and Truth(C.R.Rao)
 *** Design of everyday things
 *** Conquest of Happiness
 *** Hiker's guide
@@ -165,46 +183,7 @@ When will Bayes Rule be good?
 ** teaching
 *** always try to include some concrete examples to illustrate the theory(definition, notion, property, theorem, etc)
 *** show your example & logic not only by words, but also by writing on the blackboard
-* Daily Time Analysis
-** March 2nd 2015
-1. sleep : 6-7 hours, weekend could be longer
-2. cook and eat : 2 hours
-3. exercise : minimum 45 minutes
-4. road time : 30 minutes
-5. email time : 30 minutes
-6. dressing, bathing, teeth brushing, face washing, shopping etc :
-   maximum 1.25 hour average
-7. remaining time for other things : 12 hours
-*** How to spend the remaining time?
-**** Routine Habit Time
-1 hour problem solving everyday
-30 minutes minimum for visual memory and meditation
-**** Mon
-1:30 hours for holding the office hour
-**** Tuesday
-need 3-4 hours to prepare the lecture
-**** Wed
-1 hour for meeting with advisor
-**** Thur
-**** Fri
-3 hours for Inference course
-1 hour video chatting with parents
-**** Sat
-**** Sun
-30 minutes call with Leila
-**** Conclusion
-All the previous entries would consume 1.5*7+11=21.5 hours, the
-remaining hours would be 12*7-21.5=62.5 hours per week, 9 hours per day.
-*** What time category is more important, what could be shortened or saved?
-| Important Categories  | Priority | Time Range per day                                      | Comments                                      |
-|-----------------------+----------+---------------------------------------------------------+-----------------------------------------------|
-| problem solving       |        1 | 1 hour                                                  | for sharpening skills and technique           |
-| critical thinking     |        2 | not defined                                             | for becoming a better thinker                 |
-| visual memory traning |        3 | 30 minutes                                              | for retrieve the old good feeling             |
-| sleep                 |        4 | min 6 hours, max 8 hours                                | for healthy and effcient living               |
-| research              |        5 | under the previous four constraint, as much as possible | for better thinker, graduation and better job |
-| exercise              |        6 | 45 minutes                                              | for healthy and efficent living               |
-
+* Time Analysis
 ** July 13 2015
 
 *** work
@@ -228,63 +207,6 @@ spare time 30+28=58 hours per week
 
 *** summary
 spare time 14*7-20=78 hours per week
-* Persistent Habit/Reflex 2015
-** Body
-*** running
-*** upper limb, abdominal muscle, waist strength
-*** martial art basics
-** Skill
-*** Asymptotics
-*** Matrix calculus
-*** Machine Learning
-*** Write better program
-*** Suitable knowledge about Algorithm
-*** Visual Memory Skills
-** Heart
-*** Oral expression and communication
-*** Beyond Feelings, Critical Thinking
-*** Fun and Humor
-What does playful mean?
-Learn from RMS!
-* a plan 8.22 2015
-** good attitude
-*** less is more
-*** yi wang bu gu yue ben!
-*** find your own answers!
-*** *fight with the weakness that father pointed out long time ago*
-
-*** be playful in life, find beauty in life!
-*** have vision, plan early
-*** two trinity: body/skill/heart & math/stat/programming
-*** Wind, Forest, Fire, Mountain
-** good habit, good expression
-*** morning and night
-get up around 7am, go to sleep around 1am
-In the morning, consider recite some good paragraphs I read recently.
-Before sleep, try to solve some problems(could be research related or
-just brain speed training) or practise virtual memorization.
-*** *Make deep meditation and calculations as an Conditioned Reflex*
-*** Find a suitable topic to express yourself(could be written/oral) *faithfullly* & *efficiently* everyday!
-*** Find good problem/project to challenge myself(programming, math, stat or anything interesting) regularly
-*** Realize at many occassions, the thing you feel reluctant to do is the exactly the thing you should do first!
-
-** learn the tao of Fun & Humor!
-*** What things are truly fun or humorous?
-*** Accumulate fun/humorous materials
-*** How to express them?
-** task priorites
-1) research and thesis related
-2) self-improvement or job related skill
-3) intern projects
-4) teaching
-** books/videos which shall be read and meditate on regularly
-*Note*: need to add more math books, but don't have much idea at present(8.22)
-*** beyond feelings
-*** ESL
-*** problem solving strategies
-*** algorithm design manual
-*** SICP
-*** advanced R
 * Building good habits for research
 ** Representations
 *** An appetite of solving problems by hand or by mental calculation
@@ -307,65 +229,124 @@ reserve your understanding for a problem for most people who want to
 know your perspectives.
 Don't hesitate to take the initiative when meeting the advisor. Don't
 hesitate to present the points which block you for some time.
-* Some TODO habits in 2016 new year
-** DONE Take the initiative & be actively involved in your goal!
-CLOSED: [2016-04-03 Sun 10:51] SCHEDULED: <2016-03-06 Sun>
-:PROPERTIES:
-:LAST_REPEAT: [2016-04-02 Sat 14:03]
-:END:
-- State "DONE"       from "TODO"       [2016-04-02 Sat 14:03]
-- State "DONE"       from "TODO"       [2016-03-25 Fri 14:38]
-- State "DONE"       from "TODO"       [2016-03-10 Thu 19:06]
-- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
-- State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
-- State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
-- State "DONE"       from "TODO"       [2016-02-23 Tue 15:54]
-** study at home efficiently, go to the library if needed
-** think deep about the career in 10 years, gather information and prepare for interviews
-** build your knowledge & skill trees on a few but good books/projects/tools/community groups(complete version see Research.org)
-*** Stat
-**** ESL
-**** Theory of Multivariate Statistics by Bilodeau & Brenner
-**** Statistical Learning with Sparsity
-*** Math & Prob
-**** Concentration Inequalities by Lugosi
-**** Principle of Math Analysis, Rudin
 
-*** Programming
-**** SICP(with *the little scheme* as reference)
-**** C++ primer
-**** Intro to Algorithm
-**** Algorithm Design Manual
-**** Algorithm by Dasgupta
-**** Code Complete
-**** The Pragmatic Programmer
-**** The Linux Command Line
-*** Projects
-**** Codewar Kata
-**** SICP problems
-**** Github Blog(to maintain actively)
-**** Data Mining Hw problems revisit
-**** Cracking the code interview problems
-**** Finish the remaining Python problems in edx MIT 6.001 Course
-*** Tools
-**** Emacs and Vim
-***** Org mode
-***** Helm & Magit
-**** Git & Github
-**** TODO Regular Expressions
-**** Latex & TeXmacs
-**** Edx & Coursera
-**** Google Scholar
-**** SQL
-**** Spark, Scala, Clojure
-**** Jekyll, Markdown & other Web tools
-*** Discussion/Community Groups
-**** SICP and Emacs qq group
-**** Emacs Google+ group
-**** Codewar & Kaggle
-**** StackOverflow
-**** Zhihu Programming Language group
-**** Some Friends, Fellow Students & Mentor
-** do meditation & memory training as much as possible, like before sleep everyday
-** express your research feelings/daily fun things in written and oral form!
-** maintain 7 hours sleep as regularly as you can, stay up late can be allowed on rare occasions
+* Archive
+** Persistent Habit/Reflex 2015
+*** Body
+**** running
+**** upper limb, abdominal muscle, waist strength
+**** martial art basics
+*** Skill
+**** Asymptotics
+**** Matrix calculus
+**** Machine Learning
+**** Write better program
+**** Suitable knowledge about Algorithm
+**** Visual Memory Skills
+*** Heart
+**** Oral expression and communication
+**** Beyond Feelings, Critical Thinking
+**** Fun and Humor
+ What does playful mean?
+ Learn from RMS!
+** a plan 8.22 2015
+*** good attitude
+**** less is more
+**** yi wang bu gu yue ben!
+**** find your own answers!
+**** *fight with the weakness that father pointed out long time ago*
+
+**** be playful in life, find beauty in life!
+**** have vision, plan early
+**** two trinity: body/skill/heart & math/stat/programming
+**** Wind, Forest, Fire, Mountain
+*** good habit, good expression
+**** morning and night
+ get up around 7am, go to sleep around 1am
+ In the morning, consider recite some good paragraphs I read recently.
+ Before sleep, try to solve some problems(could be research related or
+ just brain speed training) or practise virtual memorization.
+**** *Make deep meditation and calculations as an Conditioned Reflex*
+**** Find a suitable topic to express yourself(could be written/oral) *faithfullly* & *efficiently* everyday!
+**** Find good problem/project to challenge myself(programming, math, stat or anything interesting) regularly
+**** Realize at many occassions, the thing you feel reluctant to do is the exactly the thing you should do first!
+
+*** learn the tao of Fun & Humor!
+**** What things are truly fun or humorous?
+**** Accumulate fun/humorous materials
+**** How to express them?
+*** task priorites
+ 1) research and thesis related
+ 2) self-improvement or job related skill
+ 3) intern projects
+ 4) teaching
+*** books/videos which shall be read and meditate on regularly
+ *Note*: need to add more math books, but don't have much idea at present(8.22)
+**** beyond feelings
+**** ESL
+**** problem solving strategies
+**** algorithm design manual
+**** SICP
+**** advanced R
+** Some TODO habits in 2016 new year
+*** DONE Take the initiative & be actively involved in your goal!
+    CLOSED: [2016-04-03 Sun 10:51] SCHEDULED: <2016-03-06 Sun>
+    :PROPERTIES:
+    :LAST_REPEAT: [2016-04-02 Sat 14:03]
+    :END:
+ - State "DONE"       from "TODO"       [2016-04-02 Sat 14:03]
+ - State "DONE"       from "TODO"       [2016-03-25 Fri 14:38]
+ - State "DONE"       from "TODO"       [2016-03-10 Thu 19:06]
+ - State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
+ - State "DONE"       from "TODO"       [2016-03-06 Sun 16:45]
+ - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
+ - State "DONE"       from "TODO"       [2016-02-23 Tue 15:54]
+*** study at home efficiently, go to the library if needed
+*** think deep about the career in 10 years, gather information and prepare for interviews
+*** build your knowledge & skill trees on a few but good books/projects/tools/community groups(complete version see Research.org)
+**** Stat
+***** ESL
+***** Theory of Multivariate Statistics by Bilodeau & Brenner
+***** Statistical Learning with Sparsity
+**** Math & Prob
+***** Concentration Inequalities by Lugosi
+***** Principle of Math Analysis, Rudin
+
+**** Programming
+***** SICP(with *the little scheme* as reference)
+***** C++ primer
+***** Intro to Algorithm
+***** Algorithm Design Manual
+***** Algorithm by Dasgupta
+***** Code Complete
+***** The Pragmatic Programmer
+***** The Linux Command Line
+**** Projects
+***** Codewar Kata
+***** SICP problems
+***** Github Blog(to maintain actively)
+***** Data Mining Hw problems revisit
+***** Cracking the code interview problems
+***** Finish the remaining Python problems in edx MIT 6.001 Course
+**** Tools
+***** Emacs and Vim
+****** Org mode
+****** Helm & Magit
+***** Git & Github
+***** TODO Regular Expressions
+***** Latex & TeXmacs
+***** Edx & Coursera
+***** Google Scholar
+***** SQL
+***** Spark, Scala, Clojure
+***** Jekyll, Markdown & other Web tools
+**** Discussion/Community Groups
+***** SICP and Emacs qq group
+***** Emacs Google+ group
+***** Codewar & Kaggle
+***** StackOverflow
+***** Zhihu Programming Language group
+***** Some Friends, Fellow Students & Mentor
+*** do meditation & memory training as much as possible, like before sleep everyday
+*** express your research feelings/daily fun things in written and oral form!
+*** maintain 7 hours sleep as regularly as you can, stay up late can be allowed on rare occasions

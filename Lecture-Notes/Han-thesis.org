@@ -1,0 +1,10 @@
+* Did Hurricane Katrina affect the fertility rate
+** D-D: difference-in-difference
+** Multi-logit regression
+* What determines the supply of education in China
+* What are the determinants of application, admission and matriculation decisions during college going process
+** conditional Logit Model
+** how would you design the FASA system
+* Questions
+** Endogeneity
+** Selectivity

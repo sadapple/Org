@@ -3,7 +3,7 @@
 *** keep the important record for reference
 *** do not always try to pay a bill all on your own
 ** With Friends:
-Long Feng 15, Hunan House, 1.29
+Xialu(get from Xinyan) 40, Chicago Aug 2nd
 Spring Festival 2016 shared expense: 51.23+37.67=89
 *** Geng Jia(shared plan bill)
 
@@ -111,3 +111,28 @@ car rental 138.16
 iphone 849
 *** Feng Long
 1350 tiffany
+** Great Smoky Mountain 2017 June
+| Source    | Category             | bill amount |
+|-----------+----------------------+-------------|
+| Tianxin   | Shopping and Others  |       156.8 |
+| Liu Han   | Lodging and Others   |         660 |
+| Liu Chuan | Car Rental and Tolls |      378.43 |
+| Liu Chuan | Gas                  |       169.3 |
+| Liu Chuan | Outside Eating       |      416.23 |
+| Liu Chuan | Shopping             |       44.21 |
+
+| Source    |  amount |
+|-----------+---------|
+| Tianxin   |   156.8 |
+| Liu Han   |     660 |
+| Liu Chuan | 1008.17 |
+
+
+7个人平摊下来每个人的bill amount: 260.6$ 
+
+大家可以把钱给涵姐，再由涵姐给我。天心只需要给涵姐260.6-156.8=103.8。
+** Cape May 2017 July
+   costco:50
+   gas: 25
+   toll:12
+   parking:5

@@ -1,27 +1,70 @@
 * Programming Langranges
 ** Python
-*** Follow edx course MIT 6.002 [3/6]
-**** DONE 1st week
-    CLOSED: [2015-06-24 Wed 22:54] SCHEDULED: <2015-06-13 Sat>
+*** tasks
+**** Follow edx course MIT 6.002 [3/6]
+***** DONE 1st week
+      CLOSED: [2015-06-24 Wed 22:54] SCHEDULED: <2015-06-13 Sat>
 
-**** DONE problem set 1
-    CLOSED: [2015-06-25 Thu 21:30]
+***** DONE problem set 1
+      CLOSED: [2015-06-25 Thu 21:30]
 
-**** DONE problem set 2
-    CLOSED: [2015-07-01 Wed 08:47] SCHEDULED: <2015-06-28 Sun>
+***** DONE problem set 2
+      CLOSED: [2015-07-01 Wed 08:47] SCHEDULED: <2015-06-28 Sun>
 
-**** TODO problem set 3
+***** TODO problem set 3
 
-**** TODO problem set 4
+***** TODO problem set 4
 
-**** TODO problem set 5
-*** Learn python the hard way
+***** TODO problem set 5
 
-*** Recursion
+*** topics
 
-**** Divide and conquer
+**** Recursion
 
-*** mutable & immutable objects
+***** Divide and conquer
+
+     
+**** on python flatten
+     eg. how to flatten a list of lists?
+**** mutable & immutable objects
+    
+**** package management
+ pip3 install 
+ pip3 list
+ brew tap
+ brew install
+
+*** python packages
+**** functools
+***** eg 高楼扔鸡蛋
+一幢 200 层的大楼,给你两个鸡蛋. 如果在第 n 层扔下鸡蛋,鸡蛋不碎,那么从前 n-1 层扔鸡蛋都不碎.
+这两只鸡蛋一模一样,不碎的话可以扔无数次. 已知鸡蛋在0层扔不会碎.
+提出一个策略, 要保证能测出鸡蛋恰好会碎的楼层, 并使此策略在最坏情况下所扔次数最少.
+
+以下代码python3 only:
+
+
+#+BEGIN_SRC python
+import functools
+@functools.lru_cache(maxsize=None)
+def f(n, m):
+    if n == 0:
+        return 0
+    if m == 1:
+        return n
+
+    ans = min([max([f(i - 1, m - 1), f(n - i, m)]) for i in range(1, n + 1)]) + 1
+    return ans
+
+print(f(100, 2))	# 14
+print(f(200, 2))	# 20
+#+END_SRC
+
+作者：吴育昕
+链接：https://www.zhihu.com/question/19690210/answer/18079633
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 ** Cpp
 *** Data Types
 **** The differences in the representation of positive & negative integers
@@ -64,16 +107,15 @@ CLOSED: [2016-03-08 Tue 20:05]
 *** Finish the Hard Function problems
 *** TODO study dplyr package for SAC(split-apply-combine) procedure
 *** TODO study ggplot2
+*** TODO implement 2048 in R
 ** SAS
 *** DONE Level up to write some easy sas programs
    CLOSED: [2014-10-07 Tue 10:49]
 *** TODO Improve SAS skill via the IPD NMA case study[1/4]
 **** TODO data manipulation, SQL
-SCHEDULED: <2016-02-15 Mon>
 **** DONE GLM, logistic & poisson regression procedure in SAS
 CLOSED: [2016-01-18 Mon 17:18]
 **** TODO write macros intro
-SCHEDULED: <2016-02-15 Mon>
 **** TODO accumulate and summary SAS tricks you learn
 
 ** Lisp
@@ -86,16 +128,28 @@ SCHEDULED: <2016-02-15 Mon>
 *** install via Leiningen
 Once it’s installed you can start a REPL with:
 *lein repl*
+** Matlab [0/3]
+*** TODO manipulate arrays and matrices
+*** how to write good control flows?
+*** TODO function usage
+*** TODO write a research related function file in Matlab
 * Algorithm & Data Structure
-** Cracking the code interview
-*** TODO 1st discussion
 ** TODO Leetcode
+
 *** array
 *** linked list
 *** divide and conquer
 *** math
 *** dynamic programming
 *** pointer
+*** problem solving schedule with Jieli [2/2]
+
+**** DONE week 1, array
+     CLOSED: [2016-11-14 Mon 17:03]
+
+**** DONE week 2
+     CLOSED: [2017-06-12 Mon 21:07]
+** Cracking the code interview
 ** TODO Implement the important/fun algorithms you encountered by yourself via C++ or Python
 *** linked list
 *** stack & queue
@@ -120,27 +174,86 @@ Once it’s installed you can start a REPL with:
 ***** how to subset a list? construct your own procedure
 *** Problems
 * Data Science
-** Kaggle Projects
-*** check out some of the tutorials there! [/]
-**** TODO deep learning
-*** warm-up
-**** TODO Digit Recognizer
-**** Facial Keypoints Detection
-**** SF crime classification
-*** featured
-**** 2nd Annual Data Science Bowl
-**** May 2015 Reddit comments
-**** Predicting 2016 NCAA
+** Kaggle 
+
+*** Use Kaggle efficiently
+
+**** follow other good kagglers
+so that you could study their scripts and ask questions
+
+**** attend competitions regularly
+
+**** ask questions + attend discussions
+*** Projects
+**** check out some of the tutorials there! [/]
+***** TODO deep learning
+**** warm-up
+***** TODO Digit Recognizer
+      SCHEDULED: <2017-10-11 Wed>
+***** Facial Keypoints Detection
+***** SF crime classification
+**** kernel recommendation
+    check [[https://www.quora.com/What-Kaggle-Kernels-do-you-recommend-for-an-aspiring-data-scientist/answer/Sudalai-Rajkumar-S][this]] Quora link
 * Thoughts
 ** Tools/Skills/Knowledge worth achieving expertise for programming in 10 years
-*** Emacs & Vim
-*** Git & Github
-*** CMD(Bash, Win, etc)
+*** Algorithm & Data Structure
+*** Different Paradigms of Programming
 *** Lisp & Scheme
 *** C & C++
 *** Python & R
-*** Algorithm & Data Structure
-*** Different Paradigms of Programming
+*** Emacs & Vim
+*** Git & Github
+*** CMD(Bash, Win, etc)
 *** Org Mode & Notes Keeping/Project Managing/Time Tracking/Self Evaluation
 *** Reproducible Research(Org, Latex, Texmacs, Knitr integration)
 *** Web, Server related tools & language
+** Solving Programming Problems
+*** Reinterpret the problem prompt
+Read and reinterpret the question. Usually, we begin with a description of the
+problem to be solved. What's important is not just reading the problem, but
+thinking critically about the implications of the details in the problems and
+clear up any ambiguities. When we jump into coding directly without first
+thinking through the problem and posing questions for ourselves, we often run
+into scenarios where we get stuck and need to ask ourselves, "What should I put
+here?" or "What is the right loop end condition?" This increases the cognitive
+load by requiring us to context-switch and remove ourselves from the problem
+while we answer a side question.
+
+A couple concrete starting questions to ask yourself on any problem include:
+
+1. What is the domain (input) and range (output) of the program?
+2. Restate the intended behavior of the program in your own words.
+3. How will the values in this program change as the program executes?
+
+
+Verify your understanding by studying the doctests. In computer science, the
+mental representation for a problem is often closely related to its solution.
+
+Big hints are always given away in the doctest! The doctests inform us about the
+shape and format of the solution. If we look closely enough for the patterns in
+the doctest, we'll often expose details in the structure of how the problem is
+meant to be solved.
+
+Although they provide many hints, the doctests are not exhaustive and they
+usually don't show the most important cases. Develop examples that cover at
+least the following situations:
+
+1. What's the smallest or simplest possible input I could give to this function?
+ 
+2. Is there a similar small input that is invalid for this problem? How is it related to or different from the earlier case?
+
+3. Can we come up with any larger inputs to the program that are related to or rely on smaller cases? The idea is to come up with some of the subproblems we might have to solve with recursion or other techniques.
+
+*** Search for analogous problems
+ Does this problem look similar to something you've seen before? Armed with your experience from homework, lab, and discussion, develop a general idea of how to solve the problem.
+ Once we've identified a similar problem, we can then extract the general strategy for solving the problem. While details are useful, copy-and-pasting the solution from the analogous problem usually won't get us very far. Instead, verbalize the code and reinterpret it in English by asking, "What's the purpose of including this code?"
+*** Adapting previous solutions
+ Implement a solution by applying the problem solving techniques you've learned alongside your experience with analogous problems. With recursion, for example, it helps to try to follow the steps of finding a base case, identifying the recursive calls, and then combining the results. However, the particular implementation in code will depend upon the specific details of the problem.
+ This is where our rigorous understanding of the problem will come in handy. We found an analogous problem that has a similar, but not exactly the same behavior, so we have a general approach in mind. We know the domain, range, and behavior in the correct program. Using problem-solving techniques learned in class, apply the general approach to the particular problem to come up with a rough draft that is a step towards the solution.
+ It might not be fully correct, but that's fine and completely normal; refining mental representations of the problem takes time and practice.
+*** Evaluating solutions
+ Analyze and test the resulting implementation. We'd like to answer two central questions:
+ Is my approach on the right track? If not, maybe we should consider another analogous problem.
+ If my approach is in the right direction, let's evaluate and verify the correctness of the solution.
+ To improve our code, we just need to ask ourselves the right questions. What input would break the program? Think like Python: run through the code step-by-step until there's a problem. We have examples of what the output should look like, so make sure the actual result matches expectations.
+ If the results aren't consistent, let's try to identify why and make adjustments by asking more specific questions. Where is the root of problem? Let's trace back through the code to find the source of the problem. Then, once we've found the problem, let's try the same approach of searching for analogous problems, except on this one, particular subproblem.

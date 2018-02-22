@@ -1,0 +1,62 @@
+* Why Git?
+** Important Features
+*** Collaboration via *pull request*
+* Git Notes
+** Questions
+*** How to create repositories locally & remotely?
+*** How to get repositories from server?
+*** How to update local repositories changes via Git and push it to remote server?
+*** How to fork, clone, submit *pull request* locally in *command line*?
+*** How to maintain different branches locally and remotely?
+*** TODO what is *untracked*, *staged*, *unstaged* files in git sense?
+*** DONE git: fatal: I don't handle protocol '​​http'
+    CLOSED: [2018-02-22 Thu 15:34]
+
+    The character between git clone and http://... looks like a space, but it is a special Unicode character!
+** general procedure
+*** local repositories
+**** create repositories, initialize
+**** create/modify the files
+**** stage the changes
+**** commit the changes
+**** push to remote 
+** remote repositories
+A remote URL is Git's fancy way of saying "the place where your code is stored."
+That URL could be your repository on GitHub, or another user's fork, or even on
+a completely different server.
+
+You can only push to two types of URL addresses:
+
+An HTTPS URL like https://github.com/user/repo.git An SSH URL, like
+git@github.com:user/repo.git
+
+Git associates a remote URL with a name, and your default remote is usually called origin.
+
+** git pull & push
+*** an interesting real case
+I changed a file via Github online directly while that repository have not been
+updated for a while. The next day try to do *git push origin master* locally but
+faild with error message stating that there is a remote commit which is not
+reflected in the local repository. Problem solved by first use *git pull origin*
+to merge the change locally then use *git push origin master* to update the
+remote repository.
+** git reset
+** git checkout
+*** real case: error with *git head detached from origin/master*
+A useful answer from StackOverflow:
+
+No you're not on the master branch, your on some kind of "newly invented" branch without a name that was once the master.
+
+You simply need to switch back to the master:
+
+*git checkout master*
+
+However if you wish to fix a bug, you should work at your own branch (according to most git workflows). Thus checkout the master and branch from it:
+
+git checkout master
+git checkout -b fix-issue #give the branch a name that refers to the bug
+
+then fix the bug and run:
+
+git checkout master
+git merge --no-ff fix-issue -m "Fixed some strange issue, here follows a description"

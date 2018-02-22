@@ -1,0 +1,10 @@
+* Fighting Game Design
+** 2D 
+* Practice
+** 2017-2-8 SFV rank match 五连胜, 但找到了improvement方向
+    输了几局casual match, 从败局中更利于找到欠缺的地方
+*** 需要提高之处
+**** use less DP, design some useful mixups for close range attack instead
+**** play more patiently, defense when necessary
+**** practice *jump in attack* and *anti-air moves*
+**** practice combos and punish your opponents with your best combos(here *best* means the most effective ones you have mastered in the situation)

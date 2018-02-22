@@ -1,0 +1,17 @@
+* 565 course questions
+** can an nontrivial ARMA(p,q) model has ACF or PACF cutoff property?
+** how to derive the autocov func for general ARMA(p,q)
+** order determination, given a time series is generated from ARIMA(or seasonal ARIMA, multiplicative ARIMA, etc)
+** how to tune the *xreg* argument in the *arima* R function
+* Linear Models
+** ARMA model
+** Properties of random walk 
+* Nonlinear Models
+** TAR
+** ARCH
+** GARCH
+* Estimation
+* Predictions
+* Spectral Analysis
+* Cautions
+** Clear ACF/PACF might be caused by *outliers*

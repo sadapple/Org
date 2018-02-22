@@ -1,0 +1,14 @@
+* LDA vs Logistic Reg
+** comparison problem in 588 Hw
+*** Findings
+**** When delta = 0
+If pi=0.5, then the miss rate is very high for both methods. If
+pi=0.2, the miss rate is kind of relieved. *Why?*
+
+I think when pi is getting far away from 0.5(in both direction), the
+miss rate would be relieved.
+**** Fix others, let delta change
+delta increase, miss rate decreace, very intuitive
+**** Fix others, let dimension p change 
+p increase, miss rate for training data tends to decrease, while miss
+rate for test data tends to increase. *Why?*

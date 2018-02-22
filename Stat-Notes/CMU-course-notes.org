@@ -1,0 +1,8 @@
+* 702 Statistical Machine Learning
+
+** lecture notes
+
+*** 1. intro
+
+*** linear classification
+* 705 Intermediate Stat

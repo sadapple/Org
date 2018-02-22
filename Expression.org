@@ -1,35 +1,33 @@
-* Reading Notes
-** Music
-*** pitched accent
-Pitch accent is a feature of certain languages whereby variations in pitch
-(linguistic tones) can be used to differentiate words, but where the potentially
-distinctive tones are restricted to only one or two syllables within a word – as
-opposed to fully tonal languages like Standard Chinese, where each syllable can
-have an independent tone. In a pitch accent language, the syllable with phonemic
-tone is typically one that is acoustically prominent (stressed). Also many words
-may not be marked for tone at all.
-*** tonal language
-Tone is the use of pitch in language to distinguish lexical or grammatical
-meaning – that is, to distinguish or to inflect words.[1] All verbal languages
-use pitch to express emotional and other paralinguistic information and to
-convey emphasis, contrast, and other such features in what is called intonation,
-but not all languages use tones to distinguish words or their inflections,
-analogously to consonants and vowels. Languages that do have this feature are
-called tonal languages.
+* Writing Projects
+** math
+*** probability learning series 
+*** optimization learning series
+** stat 
+*** high dimension stat learning series
+*** ESL book notes
+** Machine Learning
+*** machine learning general notes file
+** programming
+*** sicp and function programming learning series
+*** python and R programming
 * Oral Expression
-
 ** small habits
-
+*** TODO recite a nice paragraph
+    SCHEDULED: <2017-07-21 Fri +1w>
+    :PROPERTIES:
+    :LAST_REPEAT: [2017-09-27 Wed 18:08]
+    :END:
+    - State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
+    - State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
+    - State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
 *** TODO call grandparents
-SCHEDULED: <2016-04-28 Thu +1m>
+SCHEDULED: <2017-07-30 Sun +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2016-04-02 Sat 14:02]
+:LAST_REPEAT: [2017-09-27 Wed 18:08]
 :END:
-- State "DONE"       from "TODO"       [2016-04-02 Sat 14:02]
-- State "DONE"       from "TODO"       [2016-03-04 Fri 19:28]
-- State "DONE"       from "TODO"       [2016-02-03 Wed 22:14]
-- State "DONE"       from "TODO"       [2016-01-02 Sat 21:56]
+- State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
 * Voc
+** before 2017 Oct
 cortical: of or relating to a cortex
 cortex: the tissue forming the outer layer of an organ or structure in plant or animal;
         the layer of unmyelinated neurons (the grey matter) forming the cortex of the cerebrum 
@@ -68,8 +66,23 @@ myriad: 无数的; 多种的，各式各样的
 
 discretionary: 任意的; 自由决定的; 酌情行事的; 便宜行事的
 
-idiosyncratic: 乖僻的; 怪异的
+*idiosyncratic*: 乖僻的; 怪异的
 
 plethora: 过多，过剩
 
 impediment: 妨碍，阻止; 口吃，结巴; 障碍物
+
+laminate: vt.（将薄片砌合在一起）制成（材料）； 将（金属）锻压成薄片； n.层压材料； 叠层，层压；
+
+relegate: dismiss to an inferior rank or position
+
+hereditary:of or relating to inheritance
+** 2017 
+masochism/mæsəkɪzəm/ : 受虐狂； 被虐待狂； 自虐
+gimmick: a trick or device intended to attract attention, publicity, or business
+** 2018
+   spank 掴
+   juggle
+
+   step into one's shoe
+   jockey 驾驶，操作； 欺骗，欺诈； 骑马，驾驭

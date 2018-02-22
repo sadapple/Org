@@ -1,0 +1,5 @@
+* model specification language
+** the loop indexing variable can NOT be logical nodes
+But there are possible ways to get around it.
+** parameters of the model distribution
+ Certain parameters of distributions must be constants, that is they can not be learnt. 

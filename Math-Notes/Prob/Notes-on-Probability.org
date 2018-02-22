@@ -1,0 +1,30 @@
+# #+OPTIONS: toc:nil num:nil
+#+LATEX_CMD: xelatex
+#+LaTeX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setmainfont{SimSun}
+
+
+
+
+
+* Classical Probability
+
+* Measure Theory
+
+* Convergence and Asymptotics
+
+** bounded in prob and modes of convergence
+
+*** 以不同mode收敛(或依概率有界)的rv series组合起来的收敛性
+** LLN and CLT
+
+*** classical CLT(de Moivre-Laplace)
+
+**** can derive Stirling's formula as a by product
+
+* Inequalities
+
+* Martingale
+
+
+

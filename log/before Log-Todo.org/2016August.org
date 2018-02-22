@@ -1,0 +1,51 @@
+
+
+* 2016 JSM Talk Notes
+** Seasonal factor models, Dynamic factor models
+
+** VAR models limitations
+
+*** easily be misspecified
+
+** the price puzzle
+
+** Factor augmented vector autoregression(FAVAR)
+
+** static factor models
+
+** model selection for multivariate time series
+
+*** Akaike's FPE, Rissanen's APE
+
+*** information based, AIC and BIC
+
+*** Matching ACFs and other features
+
+** time series PCA
+* 2016 JSM learning
+** work and interview
+** stat research
+*** big picture
+*** data oriented
+** dressing
+** social networking
+** English practicing
+** others
+* Interviews
+** DONE att
+CLOSED: [2016-10-02 Sun 19:36] SCHEDULED: <2016-08-09 Tue>
+* Others
+
+** Unchanged address
+
+*** DONE Insurance
+CLOSED: [2016-08-26 Fri 02:59]
+
+*** DONE proudwolflc1987 AMEX
+CLOSED: [2016-08-26 Fri 02:58]
+
+** DONE Liyue's SAS book 
+CLOSED: [2016-08-25 Thu 12:12] SCHEDULED: <2016-08-15 Mon>
+
+** DONE return Causal Inference book 
+CLOSED: [2016-08-25 Thu 12:12] SCHEDULED: <2016-08-13 Sat>

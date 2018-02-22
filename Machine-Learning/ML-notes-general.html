@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-04-24 Mon 12:27 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Chuan Liu" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org414817d">1. GAN</a>
+<ul>
+<li><a href="#orgbe0fcb0">1.1. what are GANs?</a>
+<ul>
+<li><a href="#org4449684">1.1.1. an answer by Ofir Nachum from Google Brain</a></li>
+<li><a href="#orgf6a2699">1.1.2. an brief summary from zhihu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org414817d" class="outline-2">
+<h2 id="org414817d"><span class="section-number-2">1</span> GAN</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgbe0fcb0" class="outline-3">
+<h3 id="orgbe0fcb0"><span class="section-number-3">1.1</span> what are GANs?</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-org4449684" class="outline-4">
+<h4 id="org4449684"><span class="section-number-4">1.1.1</span> an answer by <a href="https://www.quora.com/What-are-Generative-Adversarial-Networks">Ofir Nachum</a> from Google Brain</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+Generative Adversarial Networks (GANs) are neural networks that are trained in
+an adversarial manner to generate data mimicking some distribution.
+</p>
+
+<p>
+To understand this deeply, first you'll have to understand what a generative
+model is. In machine learning, the two main classes of models are generative and
+discriminative. A discriminative model is one that discriminates between two (or
+more) different classes of data - for example a convolutional neural network
+that is trained to output 1 given an image of a human face and 0 otherwise. A
+generative model on the other hand doesn't know anything about classes of data.
+Instead, its purpose is to generate new data which fits the distribution of the
+training data - for example, a Gaussian Mixture Model is a generative model
+which, after trained on a set of points, is able to generate new random points
+which more-or-less fit the distribution of the training data (assuming a GMM is
+able to mimic the data well). More specifically, a generative model gg trained
+on training data XX sampled from some true distribution DD is one which, given
+some standard random distribution ZZ, produces a distribution D′D′ which is
+close to DD according to some closeness metric (a sample z∼Zz∼Z maps to a sample
+g(z)∼D′g(z)∼D′).
+</p>
+
+<p>
+The 'standard' way to determine a generative model gg given training data XX is
+maximum-likelihood, which requires all sorts of calculations of marginal
+probabilities, partition functions, most-likely estimates, etc. This may be
+feasible when your generative model is a GMM, but if you want to try to make a
+generative model out of a deep neural network, this quickly becomes intractable.
+</p>
+
+<p>
+Adversarial training allows you to train a generative model without all of these
+intractable calculations. Let's assume our training data X⊂ℝdX⊂Rd. The basic
+idea is that you will have two adversarial models - a generator g:ℝn→ℝdg:Rn→Rd
+and a discriminator d:ℝd→{0,1}d:Rd→{0,1}. The generator will be tasked with
+taking in a given sample from a standard random distribution (e.g. a sample from
+an nn-dimensional Guassian) and producing a point that looks sort of like it
+could come from the same distribution as XX. The discriminator, on the other
+hand, will be tasked with discriminating between samples from the true data XX
+and the artificial data generated by gg. Each model is trying to best the
+other - the generator's objective is to fool the discriminator and the
+discriminator's objective is to not be fooled by the generator.
+</p>
+
+<p>
+In our case, both gg and dd are neural nets. And what happens is that we train
+them both in an alternating manner. Each of their objectives can be expressed as
+a loss function that we can optimize via gradient descent. So we train gg for a
+couple steps, then train dd for a couple steps, then give gg the chance to
+improve itself, and so on. The result is that the generator and the
+discriminator each get better at their objectives in tandem, so that at the end,
+the generator is able to or is close to being able to fool the most
+sophisticated discriminator. In practice, this method ends up with generative
+neural nets that are incredibly good at producing new data (e.g. random pictures
+of human faces).
+</p>
+</div>
+</div>
+<div id="outline-container-orgf6a2699" class="outline-4">
+<h4 id="orgf6a2699"><span class="section-number-4">1.1.2</span> an brief summary from zhihu</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+G和D分别为三层的全链接的神经网络，其中G的激活函数分别为，relu，sigmoid，liner，这里前两层只是因为考虑到数据的非线性转换，并没有什么特别选择这两个激活函数的原因。其次D的三层分别为relu，sigmoid，sigmoid。
+</p>
+
+<p>
+接下来就引出GAN的训练问题。GAN的思想源于博弈论，直白一点就是套路与反套路。
+</p>
+
+<p>
+先从D开始分析，D作为辨别器，它的职责就是区分于真实的高斯分布和G生成的”假”高斯分布。所以很显然，针对D来说，其需要解决的就是传统的二分类问题。
+</p>
+
+<p>
+在二分类问题中，我们习惯用交叉熵来衡量分类效果。从公式中不难看出，在全部分类正确时，交叉熵会接近于0，因此，我们的目标就是通过拟合D的参数来最小化交叉熵的值。
+</p>
+
+<p>
+D既然是传统的二分类问题，那么D的训练过程也很容易得出了
+</p>
+
+<ul class="org-ul">
+<li>即先把真实数据标识为‘1’(真实分布)，由生成器生成的数据标识为’0‘(生成分布)，反复迭代训练D -------&#x2013;&#x2014; (1)</li>
+</ul>
+
+<p>
+说G的训练之前先来打个比方，假如一男一女在一起了，现在两人性格出现矛盾了，女生并不愿意改变，但两个人都想继续在一起，这时，唯一的方法就是男生改变了。先忽略现实生活的问题，但从举例的角度说，显然久而久之男生就会变得更加fit这个女生。
+</p>
+
+<p>
+G的训练也是如此：
+</p>
+
+<ul class="org-ul">
+<li>先将G拼接在D的上方，即G的输出作为D的输入（男生女生在一起），而同时固定D的参数（女生不愿意改变），并将进入G的噪音样本标签全部改成'1'（目标是两个人继续在一起，没有其他选择），为了最小化损失函数，此时就只能改变G的每一层权重，反复迭代后G的生成能力因此得以改进。（男生更适合女生） -------&#x2013;&#x2014; (2)</li>
+</ul>
+
+<p>
+反复迭代（1）（2），最终G就会得到较好的生成能力。
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Chuan Liu</p>
+<p class="date">Created: 2017-04-24 Mon 12:27</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

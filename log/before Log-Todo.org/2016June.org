@@ -1,0 +1,13 @@
+
+* TODO US visa application
+SCHEDULED: <2016-09-22 Thu>
+
+* DONE revise CV
+CLOSED: [2016-07-16 Sat 09:42] SCHEDULED: <2016-06-18 Sat>
+* other tasks
+
+** DONE cancel altima insurance 
+CLOSED: [2016-06-13 Mon 10:50] SCHEDULED: <2016-06-12 Sun>
+
+** DONE Xinyan U-haul fee 
+CLOSED: [2016-07-02 Sat 15:40] SCHEDULED: <2016-07-02 Sat>

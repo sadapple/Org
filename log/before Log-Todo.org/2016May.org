@@ -1,0 +1,13 @@
+* Other
+** DONE Jinjing's birthday
+CLOSED: [2016-06-01 Wed 21:59] SCHEDULED: <2016-05-21 Sat>
+** DONE Cancel Barnes Membership 
+CLOSED: [2016-05-03 Tue 15:43] SCHEDULED: <2016-05-16 Mon>
+** DONE Summer Tuition Remission & talk with professor Kolassa
+CLOSED: [2016-05-12 Thu 09:04] SCHEDULED: <2016-05-11 Wed>
+** DONE time series appoitment with Ao Shen, Linlin Zhang 
+CLOSED: [2016-05-03 Tue 15:43] SCHEDULED: <2016-05-02 Mon>
+** DONE cancel JSM registration 
+CLOSED: [2016-05-20 Fri 16:53] SCHEDULED: <2016-05-22 Sun>
+** DONE inquire Geico about the policy premium increase
+CLOSED: [2016-05-20 Fri 16:52] SCHEDULED: <2016-05-20 Fri>

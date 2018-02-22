@@ -1,0 +1,10 @@
+* examples
+** sum of r.v.
+Even when the series is dependent, we can construct a martingale.
+** products of independent r.v.
+In Wald's sequential testing theory, we can contruct a LRS to be a
+martingale under some testing situation.
+** martingale difference
+** Doob's martingale
+* martingale convergence
+* Doob inequality

@@ -1,3 +1,200 @@
+* Readings
+** Papers 
+
+*** by category
+**** portfolio optimization
+**** classification
+**** factor models
+***** yao2012factor, factor model for high dim time series
+****** what is factor strength
+****** *blessing of dimensionality*?
+**** R package *rgl*
+**** sum of gamma distributions
+***** independent 
+***** correlated
+*** by date
+**** 2017
+***** April
+****** CycleGAN2017 by Jun-Yan Zhu
+       [[https://github.com/junyanz/CycleGAN][Project Github Page]] , very interesting project
+******* what is distribution of image from G(X)
+******* to me, the idea of *cycle consistency* resembles some ideas in *abstract algebra*
+        this is the idea of using *transitivity* as a way to regularize structured data
+******* it seems now we are able to learn an artist's *painting style*
+******* I believe this kind of technique would have some application in creating photo/anime and also in *game industry*
+****** what is *tensor PCA*?
+       notice Anru Zhang's arxiv paper *Guaranteed Tensor PCA with Optimality in Statistics and Computation*
+** Books and Notes
+*** Lagrange multiplier and KKT theory
+    
+**** ch2 of *Optimization-theory and practice(Forst-SUMAT)*
+**** ch5 of *Optimization(Lange-STS)*
+*** Wasserman 705 Notes
+**** uniform bounds
+***** VC dimension
+****** TODO Q: when will VC dim be finite?
+****** TODO Q: what does a large VC dim generally indicate?
+**** bounded in probability and converge in probability
+***** TODO are these two concepts natural? what interesting things can you use these concepts to characterize?
+**** consistency of MLE
+     see *lecture notes 9*
+***** regularity conditions
+***** when MLE fails to be consistent
+*** Cunhui Zhang 663 Regression Notes
+**** linear model setup
+     老张从空间和基的角度来讲linear model setup的方法还是蛮有高代和几何的感觉的
+***** SVD of the design matrix *X* 蛮有用的
+***** Moore-Penrose pseudoinverse
+*** TODO Anderson's Multivariate book chapter on *correlation* 
+*** *Linear Regression Analysis* by Seber
+** Essay, Report and others
+*** *infinite exchangeability* and De Finetti's Theorem
+*** interview with Gromov
+**** on mathematical work style
+     Raussen and Skau:You have been described as a mathematician who introduces a profoundly
+     original viewpoint to any subject you work on. Do you have an underlying
+     philosophy of how one should do mathematics and, specifically, how one should go
+     about attacking problems?
+
+     Gromov:The only thing I can say is that *you have to work hard and that’s what we do*.
+     You work and work, and think and think. *There is no other recipe for that*. The
+     only general thing I can say is that when you have a problem then—as mathemati-
+     cians in the past have known—one has to *keep the balance* between how much you
+     think yourself and how much you learn from others. Everybody has to find the
+     *right balance according to his or her abilities*.
+
+
+     Raussen and Skau: Concerning your mathematical work style, do you think about
+     mathematics all the time?
+
+     Gromov: Yes, except when I have some problems of a personal nature; if there is
+     something else that disturbs me then I cannot think. But if everything is okay
+     and, at least, if there is nothing else to do at the moment, I immerse myself
+     in mathematics, or other subjects, like biology, but in a mathematical way, so
+     to say.
+
+     Raussen and Skau: How many hours per day do you work with mathematics?
+
+     Gromov: Not as much as I used to. When I was young I could go on all day,
+     sometimes from nine in the morning to eleven at night. Nothing could distract
+     me. Of course, now I cannot do that any longer. I can only do five, six hours a
+     day without getting tired.
+
+     Raussen and Skau: When you were younger, you had more energy, but now you are a
+     lot wiser, right?
+
+     Gromov: You can say you become more experienced and wiser when you get older.
+     But you also lose your mental powers and you become weaker. You certainly just
+     have to accept that. *Whether you become wiser is questionable. But it is obvious that you become weaker.*
+
+     Raussen and Skau: We are surprised that you are so modest by playing down your
+     own achieve- ments. Maybe your ideas are naíve, as you yourself say; but to get
+     results from these ideas, that requires some ingenuity, doesn’t it?
+
+     Gromov: It is not that I am terribly modest. I don’t think I am a complete
+     idiot. *Typically when you do mathematics you don’t think about yourself.* A
+     friend of mine was complaining that anytime he had a good idea he became so
+     excited about how smart he was that he could not work afterwards. So naturally,
+     I try not to think about it.
+
+     Raussen and Skau: Having worked so hard as you say, have you ever suffered from
+     depression because you have overexerted yourself?
+
+     Gromov: No. Sometimes some outside unhappy things have distracted my work. Of
+     course, sometimes you get very tired and you are glad that someone interrupts
+     your work but other times you cannot stop. *You work and work, like an alcoholic, so then it is good to get some rest.*
+**** on Abel
+     Raussen and Skau: There is a posthumous paper by Abel where he writes about the
+     theory of equa- tions, which later became Galois theory, and in the introduction
+     he says something very interesting. He says something like: “A problem that
+     seems insur- mountable is just seemingly so because we have not asked the right
+     question. You should always ask the right question and then you can solve the
+     problem”.
+
+     Gromov: Absolutely. He changed the perspec- tive on how we ask questions. I do
+     not know enough about the history of mathematics but it is obvious that the work
+     of Abel and his way of thinking about spaces and functions has changed
+     mathematics. I do not know enough history to say exactly when this happened, but
+     the concept of underlying symmetries of structures comes very much from his
+     work. We still follow that develop- ment. It is not exhausted yet. This
+     continued with Galois theory and in the development of Lie group theory, due to
+     Lie, and, in modern times, it was done at a higher level, in particular by
+     Grothendi- eck. This will continue, and we have to go through all that to see
+     where it brings us before we go on to the next stage. It is the basis of all we
+     do now in mathematics.
+**** Education Systems 
+     Raussen and Skau: Education is apparently a key factor. You have earlier
+     expressed your distress about realizing that the minds of gifted youths are not
+     developed effectively enough. Any ideas about how education should change to get
+     better adapted to very different minds?
+
+     Gromov: Again I think you have to study it. There are no absolutes. Look at the
+     number of people like Abel who were born two hundred years ago. Now there are no
+     more Abels. On the other hand, the number of educated people has grown
+     tremendously. It means that they have not been educated properly because where
+     are those people like Abel? It means that they have been destroyed. The
+     education destroys these potential geniuses—we do not have them! This means that
+     education does not serve this particular function. The crucial point is that you
+     have to treat every- body in a different way. That is not happening today. We
+     don’t have more great people now than we had one hundred, two hundred, or five
+     hundred years ago, starting from the Renaissance, in spite of a much larger
+     population. This is probably due to education. This is maybe not the most
+     serious problem with education. Many people believe in very strange things and
+     accordingly make very strange decisions. As you know, in the UK, in some of the
+     universities, there are faculties of homeopa- thy that are supported by the
+     government. They are tremendously successful in terms of numbers of students.
+     And anybody can learn that nonsense. It is very unfortunate.
+
+     Raussen and Skau: You mentioned that you first got interested in mathematics after reading the book Numbers and Figures by Rademacher and Toeplitz. We could also mention the book What Is Mathematics? by Courant and Robbins. Should we encourage pupils in high school who show an inter- est in mathematics to read books like that?
+
+     Gromov: Yes. We have to produce more such books. Already there are some well-written books, by Martin Gardner, by Yakov Perelman (Mathemat- ics Can Be Fun), by Yaglom and co-authors—very remarkable books. Other mathematicians can contribute by writing such books and combine this with the possibilities of the Internet, in particular visualization.
+     It is relatively simple to write just one page of in- teresting mathematics. This should be done so that many different subjects in mathematics become easily available. As a community we should go out and create such structures on the Internet. That is relatively easy. The next level is more complicated; writing a book is not easy. Within the community we should try to encourage people to do that. It is a very honorable kind of activity. All too often mathematicians say: “Just vulgarization, not seri- ous”. But that is not true; it is very difficult to write books with a wide appeal, and very few mathemati- cians are actually able to do that. You have to know things very well and understand them very deeply to present them in the most evident way.
+**** on Future
+     Raussen and Skau: If you try to look into the future, fifty or one hundred years
+     from now...
+
+     Gromov: Fifty and one hundred is very differ- ent. We know more or less about
+     the next fifty years. We shall continue in the way we go. But in fifty years
+     from now, the Earth will run out of the basic resources, and we cannot predict
+     what will happen after that. We will run out of water, air, soil, rare metals,
+     not to mention oil. Everything will essentially come to an end within fifty
+     years. What will happen after that? I am scared. It may be okay if we find
+     solutions, but if we don’t then everything may come to an end very quickly!
+     Mathematics may help to solve the problem, but if we are not successful, there
+     will not be any mathematics left, I am afraid!
+
+     Raussen and Skau: Are you pessimistic?
+
+     Gromov: I don’t know. It depends on what we do. If we continue to move blindly
+     into the future, there will be a disaster within one hundred years, and it will
+     start to be very critical in fifty years al- ready. Well, fifty is just an
+     estimate. It may be forty or it may be seventy, but the problem will definitely
+     come. If we are ready for the problems and manage to solve them, it will be
+     fantastic. I think there is potential to solve them, but this potential should
+     be used, and this potential is education. It will not be solved by God. People
+     must have ideas and they must prepare now. In two generations people must be
+     educated. Teachers must be educated now, and then the teachers will educate a
+     new generation. Then there will be sufficiently many people who will be able to
+     face the difficulties. I am sure this will give a result. If not, it will be a
+     disaster. It is an exponential process. If we run along an exponential process,
+     it will explode. That is a very simple com- putation. For example, there will be
+     no soil. The soil is being exhausted everywhere in the world. It is not being
+     said often enough. Not to mention water. It is not an insurmountable problem,
+     but it requires solutions on a scale we have never faced before, both socially
+     and intellectually.
+**** Poetry
+     Raussen and Skau: You have mentioned that you like poetry. What kind of poetry
+     do you like?
+
+     Gromov: Of course, most of what I know is Rus- sian poetry—the so-called Silver
+     Age of Russian Poetry at the turn of the twentieth century. There were some
+     poets but you, probably, do not know them. They are untranslatable, I guess.
+     People in the West know Akhmatova, but she was not the greatest poet. The three
+     great poets were Tsvetaeva (also a woman), Blok, and Mandelstam.
+
+     Raussen and Skau: *What about Pushkin?*
+
+     Gromov: You see, with Pushkin, the problem is as follows. *He was taught at school, and that has a tremendously negative impact. But forty years later I rediscovered Pushkin and found him fantastic when I had forgotten what I had learned in school.*
 * Current Tasks
 
 ** TODO Read the LPD & ROAD papers(do the necessary calculations)and figure out a strategy to establish our result
@@ -16,15 +213,28 @@ CLOSED: [2015-11-15 Sun 18:43]
 
 *** Obtain similar results like (26) and (27) in LPD paper
 
-*** TODO Is the proof of Theorem 5 in the LPD paper missing? 
-SCHEDULED: <2016-04-13 Wed>
+*** DONE Is the proof of Theorem 5 in the LPD paper missing? 
+CLOSED: [2016-04-29 Fri 14:39] SCHEDULED: <2016-04-13 Wed>
+Not missing, see the official paper version
 *** TODO prove LPD type asymptotics results for correlation matrices
 **** do not expect better results than the covariance matrix version, but in practice use the correlation version is better
-** CLIME paper
-*** result on bounding the absolute difference between true sigma_ij & estimated sigma_ij^hat
-** Given results on MGF, how to obtain results for moments and the *converse* problem
-*** For motivation, see my PaperCalculation.pdf file 
-** comparison of our algorithm with related algorithms like LPD & ROAD
+** TODO LPD performance comparison
+
+*** methods involved in comparison
+
+**** LPD (several versions)
+
+***** motivations of variants
+**** ROAD
+**** FAC, factor models
+**** IND, independence rule
+**** NSS
+**** SAM 
+*** Questions [0/2]
+**** TODO on what kind of convariance matrix will it perform better than NSS?
+
+**** TODO how to choose the lambda in LPD 
+** TODO comparison of our algorithm with related algorithms like LPD & ROAD
 *** what is the pros & cons?
 
 *** TODO Can LPD select the best marginal feature? How about ROAD? [1/2]
@@ -39,14 +249,8 @@ The answer is no, counter example exists.
 
 **** DONE professor Lee Dicker's Danzig Selector uniqueness reference
 CLOSED: [2015-11-18 Wed 16:13]
-** implementation of our algorithm
-
-*** DONE nonsingular case
-    CLOSED: [2015-08-15 Sat 14:06]
-
-*** TODO singular case
-    SCHEDULED: <2015-12-04 Fri>
-
+** Given results on MGF, how to obtain results for moments and the *converse* problem
+*** For motivation, see my PaperCalculation.pdf file 
 ** TODO Analyze leukemia data
 *** Original dataset vs golub dataset in mulltest package?
 No conflict, since I found the script which the autors of mulltest used to
@@ -62,8 +266,8 @@ for a lambda>0.
 The current update method relies on the invertibility of the active
 set covariance matrix.
 ***** TODO Q: when will the solution be unique when Sig is singular?
+      SCHEDULED: <2017-10-01 Sun>
 Not easy at current stage
-      SCHEDULED: <2015-05-16 Sat>
 ***** DONE When Sig is singular, starting from an initial solution, how to update the optimal solutions and subgradients?
       CLOSED: [2015-04-16 Thu 16:26] SCHEDULED: <2015-04-08 Wed>
 For gamma1 vector, it is easy. But for gamma2 vector, how to choose
@@ -76,39 +280,28 @@ Read the code of ROAD and see whether we could modify it to use in the
 weighted scenario.
 *** TODO Cross Validation
 How to do CV for the current problem?
-** TODO Find other implementation code of CLASSO to compare
-*** Matlab version for ROAD
-*** Tony Cai's LPD
-**** DONE Find/write code to solve the LP problem in the paper
-     CLOSED: [2015-07-21 Tue 11:40] SCHEDULED: <2015-05-14 Thu>
-** TODO study two version of *Partial Least Square*
+** CLIME paper
+*** result on bounding the absolute difference between true sigma_ij & estimated sigma_ij^hat
+** implementation of our algorithm
+
+*** DONE nonsingular case
+    CLOSED: [2015-08-15 Sat 14:06]
+
+*** TODO ROAD exact algorithm: singular case
+    SCHEDULED: <2017-10-11 Wed>
+** study two version of *Partial Least Square*
 ** complexity results [1/2]
 *** DONE one constrain lasso(classo special case)
 CLOSED: [2016-02-14 Sun 23:03]
 *** TODO LPD
-* Current needed background/technique/skill
-** convex optimization(like l0,l1,l2...), KKT condition
-*** Langrange Multiplier Theory
-to the extent that I can derive the all the dual problems in the
-recent papers I read(ROAD,Cai,LARS,etc) swiftly
-
-know how to derive dual form and solve langrange multiplier equations
-**** Duality and Application
-*** gradient descent & stochastic gradient descent(SGD)
-** analysis
-*** basic skills
-*** real & functional analysis
-*** matrix analysis
-** inequalities
-*** elementary inequality
-*** norm inequality
-*** concentration inequality
-** asymptotics
-*** familiarize with the rate of convergence language
-** bayesian
-*** BDA book
-focus on the examples and the computation chapters
 * Previous work
+
+** DONE Find other implementation code of CLASSO to compare
+   CLOSED: [2017-01-25 Wed 03:35]
+*** Matlab version for ROAD
+*** Tony Cai's LPD
+**** DONE Find/write code to solve the LP problem in the paper
+     CLOSED: [2015-07-21 Tue 11:40] SCHEDULED: <2015-05-14 Thu>
 ** Classo Project Special Case
 
 *** DONE Algorithm
@@ -124,19 +317,26 @@ like stopping rule
 **** DONE LARS package implementation
    CLOSED: [2015-02-20 Fri 15:14]
 using the lars package, for p=4, the number of pieces doesn't meet the expected 42
+
+** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
+CLOSED: [2016-03-04 Fri 12:50]
+Done by modify some export options inside Texmacs
 * Temporary aside
 ** TODO Think about how to apply our algorithm in classification
 ** TODO Think about how to modify the algorithm for extension
 ** estimation of conditional heteroscedastic time series
-* Long Term Improvement [0/4]
-
-** TODO habit of making connections and analogies
-** TODO habit of solving problems
-** TODO habit of make abstraction, combination & generalization
-** TODO habit of visualizing a general procedure/algorithm or anything useful
-* Fun Things Learned
+* Fun Stuff Learned
 ** Asymptotic equivalence between White Noise Model & Nonparametric Regression
 A fun reading experience with professor Zhang's regression project notes
+** coupon collector's problem
+   see [[https://en.wikipedia.org/wiki/Coupon_collector%27s_problem][this link]]
+*** compute the expectation and variance of the r.v.
+*** also notice *Lawrence Shepp's* generalization on this problem
+** approximate the probability of the *birthday problem*
+   see [[https://en.wikipedia.org/wiki/Birthday_problem][this link]]
+** general ways to construct two random vectors which are *uncorrelated* but *dependent*
+   see Casella's *statistical inference* 2nd Ed, exercise 4.49
+*** how strong is the notion of *independent*? what fascinating things does it imply?
 * Thoughts compilation
 ** Tao of learning
 *** motivation
@@ -149,6 +349,7 @@ read and think about Peter Norvig's intriguing article *learn programming in 10
 years* .
 *** find the right/good questions and direction
 *** find the right/good circle to discuss and learn
+*** *deliberate practise*
 *** build your knowledge/skill tree from in some systematic way(like using a few but good book in the field)
 *** be avid to solve problems, accumulate problem solving strategies in the field you're interested in(same as in life)
 keep notes in a timely manner
@@ -159,31 +360,33 @@ keep notes in a timely manner
 **** ban wechat moments, news checking, etc
 **** avoid unnecessary meet and appointment
 **** prepare good breakfast, eat quick lunck
-*** time analysis
-Mon - Wed: 5 hours at night
-Thur - Friday: 12 hours per day
-Saturday: 9 hours
-Sunday: 10 hours
-
-Total: 46 hours/week
-Deduction: Sep-Oct, 6 hours lecture preparing per week
 *** improve related problem solving skill
 as often as possible, better be everyday
 **** TODO math/stat problem solving
-      SCHEDULED: <2015-09-18 Fri 22:30-23:30 +2d>
-      :PROPERTIES:
-      :LAST_REPEAT: [2016-02-29 Mon 00:54]
-      :END:
-      - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
-**** TODO programming problem solving
-     SCHEDULED: <2015-09-29 Tue 22:30-23:30 +2d>
+     SCHEDULED: <2018-02-23 Fri +2d>
      :PROPERTIES:
-     :LAST_REPEAT: [2016-03-04 Fri 12:51]
+     :LAST_REPEAT: [2018-02-22 Thu 10:54]
      :END:
-     - State "DONE"       from "TODO"       [2016-03-04 Fri 12:51]
-     - State "DONE"       from "TODO"       [2016-02-29 Mon 00:54]
-     - State "DONE"       from "TODO"       [2016-02-26 Fri 21:45]
-     - State "DONE"       from "TODO"       [2016-02-23 Tue 15:53]
+     - State "DONE"       from "TODO"       [2018-02-22 Thu 10:54]
+     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
+     - State "DONE"       from "TODO"       [2018-02-18 Sun 09:21]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:37]
+     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+     - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
+**** TODO programming problem solving
+     SCHEDULED: <2018-02-24 Sat +2d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2018-02-22 Thu 14:25]
+     :END:
+     - State "DONE"       from "TODO"       [2018-02-22 Thu 14:25]
+     - State "DONE"       from "TODO"       [2018-02-20 Tue 19:19]
+     - State "DONE"       from "TODO"       [2018-02-19 Mon 11:04]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
 *** express/organize your learning and finding in timely manner, through onenote/org/latex, etc
 *** back up your findings(notes and script) in a timely manner
 **** using github
@@ -213,14 +416,19 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 ***** algorithm for singular covariance matrix
 *** What results are you currently aiming to obtain?
 **** easy ones
-***** uniqueness of the LPD
+***** DONE uniqueness of the LPD
+      CLOSED: [2017-01-25 Wed 01:08]
 **** hard ones
 ***** LPD asymptotics results for correlation matrices
 *** Any idea about extension/generalization?
 *** Idea about data analysis?
 *** Have the results necessary for a paper? How to organize them?
 ** Stage thoughts
-*** 2.14
+*** 2017-June-报答肖老师
+**** 改变目前讨论和交流的一些方式，使得更有效率
+**** 抓紧在美国的时间学点肖老师的真功夫
+**** 抓紧在美国的时间做出点东西来
+*** 2016-2.14
 1. squeeze time to think about research everyday this year!
 2. your focus shall not be more than two at a time
 3. gain is accompanied by loss
@@ -232,91 +440,300 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 ***** job information
 *** 4.3
 **** two main focus
-***** TODO wrap up thesis material, target at finishing no later than October
-SCHEDULED: <2016-04-24 Sun +1w>
-:PROPERTIES:
-:LAST_REPEAT: [2016-04-26 Tue 20:01]
-:END:
-- State "DONE"       from "TODO"       [2016-04-26 Tue 20:01]
-- State "DONE"       from "TODO"       [2016-04-13 Wed 14:49]
-- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
+***** TODO wrap up thesis material, target at finishing no later than October, 2017
 ***** TODO spend regular time to know about the data science job market
-SCHEDULED: <2016-05-01 Sun +1w>
+SCHEDULED: <2018-02-25 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2016-04-26 Tue 20:01]
+:LAST_REPEAT: [2018-02-18 Sun 15:45]
 :END:
-- State "DONE"       from "TODO"       [2016-04-26 Tue 20:01]
-- State "DONE"       from "TODO"       [2016-04-23 Sat 00:26]
-- State "DONE"       from "TODO"       [2016-04-13 Wed 14:49]
-- State "DONE"       from "TODO"       [2016-04-04 Mon 20:29]
-** build your knowledge & skill trees on a few but good books/projects/tools/community groups
-*** Stat [0/4]
-**** TODO ESL
-**** TODO Theory of Multivariate Statistics by Bilodeau & Brenner
-**** Statistical Learning with Sparsity
-**** TODO Time Series by Brockwell
-**** TODO Essentials of Stochastic Finance
-*** Math & Prob [0/3]
-**** TODO Concentration Inequalities by Lugosi
-**** TODO Principle of Math Analysis, Rudin
-**** TODO Tao's probability course notes & book on random matrix 
-*** Programming [0/4]
-**** TODO SICP(with *the little scheme* as reference)
-**** TODO C++ primer
-**** Intro to Algorithm
-**** TODO Algorithm Design Manual
-**** TODO Algorithm by Dasgupta
-**** Code Complete
-**** The Pragmatic Programmer
-**** The Linux Command Line
-*** Projects [0/3]
-**** TODO leetcode
-**** Codewar Kata
-**** SICP problems
-**** Github Blog(to maintain actively)
-**** TODO Data Mining Hw problems revisit
-**** TODO Cracking the code interview problems
-**** Finish the remaining Python problems in edx MIT 6.001 Course
-*** Tools [0/4]
-**** Emacs and Vim
-***** Org mode
-***** Helm & Magit
-**** Git & Github
-**** TODO Regular Expressions
-**** TODO Latex & TeXmacs
-**** TODO Edx & Coursera
-**** Google Scholar
-**** TODO SQL
-**** Spark, Scala, Clojure
-**** Jekyll, Markdown & other Web tools
-*** Discussion/Community Groups [0/3]
-**** TODO SICP and Emacs qq group
-**** Emacs Google+ group
-**** TODO Codewar & Kaggle
-**** StackOverflow
-**** Zhihu Programming Language group
-**** TODO Some Friends, Fellow Students & Mentor
-* Thesis Writing [1/4]
-** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
-CLOSED: [2016-03-04 Fri 12:50]
-Done by modify some export options inside Texmacs
-** TODO finish the notes on best marginal feature property for correlation version LPD
-*** the counter example
-** TODO simulation section
+- State "DONE"       from "TODO"       [2018-02-18 Sun 15:45]
+- State "DONE"       from "TODO"       [2018-02-17 Sat 21:10]
+- State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+- State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+- State "DONE"       from "TODO"       [2017-12-08 Fri 16:42]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-05 Sun 09:34]
+- State "DONE"       from "TODO"       [2017-11-04 Sat 14:06]
+- State "DONE"       from "TODO"       [2017-10-28 Sat 17:06]
+- State "DONE"       from "TODO"       [2017-10-15 Sun 01:06]
+- State "DONE"       from "TODO"       [2017-10-10 Tue 02:05]
+- State "DONE"       from "TODO"       [2017-10-03 Tue 21:27]
+- State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
+- State "DONE"       from "TODO"       [2017-09-04 Mon 20:06]
+- State "DONE"       from "TODO"       [2017-08-28 Mon 17:43]
+- State "DONE"       from "TODO"       [2017-08-21 Mon 01:59]
+- State "DONE"       from "TODO"       [2017-08-14 Mon 11:17]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-07-16 Sun 17:10]
+- State "DONE"       from "TODO"       [2017-07-11 Tue 15:30]
+- State "DONE"       from "TODO"       [2017-07-09 Sun 15:57]
+- State "DONE"       from "TODO"       [2017-06-25 Sun 11:58]
+- State "DONE"       from "TODO"       [2017-06-18 Sun 01:01]
+- State "DONE"       from "TODO"       [2017-06-16 Fri 09:56]
+- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
+- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
+- State "DONE"       from "TODO"       [2017-05-21 Sun 00:07]
+*** 5.18
+**** current priority brief table
+| Feature    | Important                                           | Unimportant                   |
+|------------+-----------------------------------------------------+-------------------------------|
+| urgent     | Thesis Research, Data Mining Knowledge and Practice | Job information, Work Project |
+| not urgent | build a solid probability foundation                | Money                         |
+**** research motivations
+***** classification
+****** lpd vs road
+****** lpd correlation version
+****** best marginal feature property
+***** portfolio optimization
+****** can lpd beat road? what version of lpd?
+*** 6.7
+**** Whenever you learned any interesting methods/algorithms, try implementing it yourself if possible. *Get your hands dirty*!
+**** If you don't have time to learn the detail of something, at least try to know *its main idea*, *its main application* (with some examples) and one or two *its current implementation usage*
+**** accumulate useful/interesting ideas in the field and think about combine/extend them whenever possible
+**** 增强你的统计直觉，编程技巧与熟练度
+**** write your scratch down on papers might very much improve your thinking
+*** 6.30
+**** thoughts after talk with Chengrui [0/4]
+***** TODO focus on representing solid stat knowledge during interviews!
+***** TODO take initiative to make connections, like contact recruiter directly
+***** TODO practice interview and presentation skills
+***** TODO practice problem solving everyday
+**** priority
+***** job finding/networking & interview preparing
+***** thesis research
+***** sanofi last project
+* Thesis Writing [0/1]
+** what to discuss?
+*** unfinished [0/3]
+**** TODO singular covariance matrix case for one constraint classo
+**** TODO LPD correlation version asymptotics
+**** TODO theory for the LPD variants
+*** CLASSO
+*** LPD
+*** Comparison
+** general writing principle
+*** explain your problem setup and motivation
+*** discuss your finding/contribution in detail
+*** make connections with your work and other related works/papers
+*** discuss the key idea of the proof, but put the detailed proof in separate section
+*** show examples
+** structure [0/6]
+*** TODO Introduction
+*** TODO ROAD/CLASSO and its algorithms
+    SCHEDULED: <2017-10-25 Wed>
+
+**** intro
+
+**** properties
+
+***** piecewise linearity 
+***** complexity for one constraint CLASSO
+**** approximate algorithm in Fan's paper
+***** choice of lambda-max
+**** exact algorithm
+***** nonsingular case
+***** singular case
+*** TODO LPD and its variants
+    SCHEDULED: <2017-10-18 Wed>
+
+**** Intro
+**** Properties
+
+***** connection with Dantzig Selector
+***** uniqueness
+***** best marginal feature for correlation matrix version LPD
+**** Asymptotic theorems for LPD with correlation matrix
+**** Two different approach to weight the components of estimator *w*
+**** LPD variants
+***** intuition behind the variants
+***** can you prove any property of the variants?
+*** ROAD and LPD analogy/comparison(optional?)
+*** TODO A White Noise Test
+*** TODO Numerical Analysis
+**** two kind of application: portfolio allocation & classification
+**** methods to compare or serve as benchmark
+**** real data analysis
+**** simulations [/]
+***** TODO what covariance matrix patterns are considered
+*** title
+*** TODO acknowledgment  
+** TODO simulation
 *** LPD implementation
-** TODO acknowledgment  
+**** DONE via R lpSolve package
+CLOSED: [2016-05-14 Sat 15:35]
+**** Weidong Liu's Matlab code 
+*** LPD application to Portfolio selection
+** doctoral thesis worth reading
+*** Asif
+*** Anru Zhang
+*** Tingni Sun
 ** Communication with advisor
-*** Meet Memos
-**** 2.14
-1. make progress on LPD asymptotics, don't expect better result than covariance version
-2. finish the notes on best marginal feature
-**** 4.20
-***** 用LPD的想法做portfolio construction
-***** 搞清在LPD中如何做CV
-*** TODO discuss thesis and graduation with advisor
-** Ph.D Degree Checklist [0/9]
+*** Meeting Memos
+**** 2016
+***** 2016-2.14
+ 1. make progress on LPD asymptotics, don't expect better result than covariance version
+ 2. finish the notes on best marginal feature
+***** 4.20
+****** 用LPD的想法做portfolio construction
+****** 搞清在LPD中如何做CV
+***** 12.28
+****** questions
+ Just a few questions after rethinking about the points you mentioned yesterday.
+ Q1:
+ In part (1) what I understand is we are using a new quantity to do regularized parameter selection,
+ but the mu_hat in the numerator of the picture should be the inner product of
+ mu_hat and the weight vector *w*, am I right?
+ Q2:
+ In part (3), what I understand is we are using the true misclassification rate
+ of the weight direction *w* to do regularized parameter selection in LPD and
+ ROAD, and once the parameters are selected, we are still calculating the
+ variance()transpose(w)%*%Sigma%*%w) for all methods and produce the boxplots of
+ the variances. Or, are we no longer calculate the variances but calculate the
+ misclassification rate for all methods and produce the boxplots of the
+ misclassification rate quantities of the different methods?
+**** 2017
+***** 2017-1-12 [1/3]
+
+****** TODO do the data analysis with two different ways of penalization(one is simply penalize *w_i* with sigma_ii, another is with |sigma_ii/mu_i| ) 
+ does boss mean *two different penalization for ROAD*? the two different penalization have been implemented for LPD
+****** DONE r6306 real data analysis
+       CLOSED: [2017-01-24 Tue 12:15]
+******* after obtain the selected lambda/parameter, solve the optimization problems one more time for the estimated *w* one more time with the 11 years data combined
+******** for several *p* setup, LPD V1 to V4 and ROAD all yield zero solutions in some year(which means no feasible solution)
+ this will cause the return curve to stable for a while
+******** for some *p*, ROAD and LPD produce a solution with lead to consecutive negative return
+ this should be the reason behind the sudden drop of curve in the cumulative return plot
+******** for some *p*, LPD-V3, LPD-V4 and FAC1 can produce a curve plot at a much larger level than other methods
+******* plot boxplots for the predicted returns, not the variance
+****** TODO find and read some papers which cite the papers that my research is based on(like LPD and ROAD), summarize those important/interesting ones in formal latex notes
+***** 1-25 [2/4]
+
+****** DONE modify the code to save the indices of the *p* stocks selected for each iteration, this would enable us to test our code when we observe something peculiar
+       CLOSED: [2017-01-27 Fri 21:09]
+****** TODO check the *unusual cumulative plot curve pattern* appeared in SAM, FAC-r and LPD-V3 when analyzing r6306
+******* it seems like the current LPD, ROAD and REG implementation tend to produce a return with magnitude > 0.1(some are even observed with value >0.5 which is weird)
+******* the NSS and EW approaches tend to produce a return at the 0.01-0.1 level
+******* check the "r6306-p120-predicted-return-Jan-2-v5.rds" example, LPD, ROAD and REG all turns out to be negative at the last date 
+****** TODO try more covariance matrices patterns
+ like in Jun Shao's SLDA paper, they use a sample covariance matrix from the leukemia data(Golub) as the true matrix
+****** DONE include equal weights and S&P 500 as benchmark
+       CLOSED: [2017-01-27 Fri 21:09]
+******* now the EW results seems to be very good, like the IND, Jan-27
+***** 2-8 [0/2]
+****** TODO find out the cause of the current weird scale issue in the cumulative return plot
+******* think about whether it is because of the *FACTOR* model
+****** TODO try other lambda grid patterns when do parameter selection
+******* log scale
+******* dense in some interval
+***** 3-9 [1/5]
+****** TODO think about how to weight the positive and negative return components better
+****** collect thesis related papers and put them in the bib file(also in shared folder)
+****** one page of literature review everyday
+
+****** DONE finish the outline of the thesis
+       CLOSED: [2017-03-29 Wed 14:49]
+****** TODO write the notes for variants of LPD
+***** 3-29 [0/3]
+****** TODO improve the risk bound of ROAD(unlike in the original ROAD paper, try to find a independent constant *c*)
+****** TODO make different sections of the thesis self contained(like notations) and consistent
+****** TODO consider three types of application in the thesis
+******* classification
+******* portfolio allocation without the return constraint(so only one constraint for the toal weights)
+******* portfolio allocation with the return constraint(so two constraints involved)
+***** 4-5 [/]
+****** TODO make the references style consistent, the BibTex entries from MathSciNet is prefered
+***** 4-20 complete the draft of the thesis [2/4]
+****** DONE add notes for LPD variants
+       CLOSED: [2017-04-25 Tue 21:33] SCHEDULED: <2017-04-23 Sun>
+****** DONE add notes for the numerical analysis
+       CLOSED: [2017-05-18 Thu 17:05] SCHEDULED: <2017-04-25 Tue>
+****** TODO add notes for the asymptotic of correlation version of LPD
+****** TODO add notes for the exact algorithm when the sample covariance matrix is singular
+       SCHEDULED: <2017-10-11 Wed>
+***** 4-26 [/]
+****** why weight the pca part and lpd part in lpd-v3? compare with the *POET* approach of Fan
+****** how to better choose the number of factors *r* in the pca part? check Yao's 2012 paper on factor models for high-dim time series
+***** 5-11 [/]
+****** normalize the columns of the covariance matrix in *model 2*
+       actually this have already been done in the previous code, but I do notice in previous code I set *s0=p/5* while *s0=10* in the original paper
+****** for the classification simulation, regenerate the precision matrix in each replication 
+****** TODO implement Jun Shao's SLDA
+***** 5-24
+****** we found our a mistake in the *model 2 specification details* of the LPD paper
+ for any off diagonal entry b_ij satisfying i <= s0 and j <= s0, it should be generated to 0.5
+ for all other off diagonal entry b_ij should be generated by 0.5*Bernoulli(p)
+***** 6-8 [0/1]
+****** improve the classification performance of LPD-V2
+******* increase the signal in the delta vector  
+******* consider other covariance matrix patterns
+****** try model 2, with true Sigma set as Omega in the LPD original paper
+****** after CV, use only the first ten features to form vector direction to access the classification performance on test sample
+****** TODO put your thesis file in the shared folder and update it daily
+***** 6-15 [3/3]
+****** DONE do the simulation for several signal levels and produce the table
+       CLOSED: [2017-06-20 Tue 19:26]
+****** DONE include the results in a columan for pretending only know the first 10 features and use LDA to do classification
+       CLOSED: [2017-06-20 Tue 19:26]
+****** DONE increase the size of the test sample
+       CLOSED: [2017-06-20 Tue 19:26]
+***** 8-9 [0/1]
+****** TODO include ROAD and SLDA into the classification simulations
+***** 8-23 [/]
+****** TODO implement Xiao's new idea, use CV to select
+       for Model 3, check whether the new idea would enable us to select out the 11th feature
+******* how to do CV here?
+***** 9-27 [2/3]
+****** DONE read the proof of the asymptotic distribution of the squared sample canonical correlation for the iid case 
+       CLOSED: [2017-10-12 Thu 07:36]
+****** TODO think about how to prove under our time series setup
+****** DONE verify the LS approach yield the same result with the CC approach
+       CLOSED: [2017-10-12 Thu 07:36]
+***** 10-11 [0/3]
+****** for the univariate case, if we regress X(has only one variable) on Y(has *p* variables), then the regression R^2 is equivalent to the CC. Why?
+****** TODO for the univariate case, check whether the RegSS/RSS(RSS means *residual sum of square) --> F dist for the non-normal distribution
+       search some asymptotic or theoretical regression books for such a result
+******* Bickel: Math Stat Vol I, 2nd Ed
+         p313 eg 5.3.3
+         p321 eg 5.3.7 
+         p355 problem 31
+****** TODO think whether the above approach could be used to establish the asymptotic dist for the CC under our setup
+****** TODO how about the multivariate case(CC between two subset of variables with cardinality > 1)
+***** 11-1 [0/3]
+****** TODO extend the current univariate CC testing result to stationary ergodic time series setup
+       book references:
+       *Stochastic Processes and Long Range Dependence*
+****** TODO think about the CC testing problem under the multivariate time series setup
+****** TODO finish the complete version of result
+***** 12-6 [0/3]
+****** TODO search the literature for extensions on the general i.i.d case(the normal case is solved in Anderson's book)
+****** TODO prove the two covariance matrix constructed from the two sequence are asymptotically indep, do it in *entrywise* fashion
+****** TODO check out Peter Hall and Heyde's book on *Martingale CLT* and its application
+***** 12-22 [0/3]
+****** TODO do some classification application using the *forward stagewise regression* idea under logistic regression setup
+******* initially choose feature most correlated with response *y*
+****** TODO how to recast the *martingale framework* for our problem setup
+****** TODO For the two sample covariance matrix constructed from the two sub time series
+ prove cov(A_ij,B_kl) = 0 asymptotically for all i,j,k,l, then apply Corollary 3.1 in the book *martingale limit theory and its application* and *Cramer-Wold* device to prove our needed results
+**** 2018
+***** 1-11 [1/4]
+****** DONE finish the entriwise uncorrelated proof
+       CLOSED: [2018-02-20 Tue 19:25]
+****** TODO apply the Martingale CLT to obtain the asymptotic normality
+to apply the 2nd condition in Corollary 3.2, consider *Markov Inequality*
+****** TODO consider the case when the mean vector is not zero
+****** TODO for the univariate case, write down notes on the equivalence between the projection interpretation of CC and usual CC definition
+***** 2-21 [0/2]
+****** TODO in the multi-case, assume iid multi-normal, calculate the lag-1 canonical correlation 
+****** TODO besides the martingale CLT approach, the CLT for m-dependent r.v. series can also be used to establish the *asymptotic normality* under our current iid setup
+*** DONE discuss thesis and graduation with advisor
+    CLOSED: [2017-01-25 Wed 01:01]
+**** 2017.1.12 agreed on finish in the 2nd half of 2017, possibly September or October
+** Ph.D Degree Checklist [1/9]
 *** TODO Candidacy form
-SCHEDULED: <2016-06-01 Wed>
 You must pick up your original candidacy form from the *Graduate School Dean's
 Office* (25 Bishop Place, CAC) for your final defense.
 
@@ -329,8 +746,8 @@ acceptable) by the degree deadline.
 1. The graduate school must grant approval of your outside member.
 2. Committee members and program director must sign page three.
 3. Both course and research credits must be listed on page four.
-*** TODO STYLE GUIDE FOR DISSERTATION
-SCHEDULED: <2016-05-07 Sat>
+*** DONE STYLE GUIDE FOR DISSERTATION
+CLOSED: [2016-05-12 Thu 09:04] SCHEDULED: <2016-05-07 Sat>
 The guide contains information regarding style, format, margins, footnotes, etc. and should be followed *explicitly*.
 *** TODO Payment Form
 1. Complete payment forms in triplicate.
@@ -365,76 +782,3 @@ submitted and approved by the deadline for the degree date listed on your title
 page.
 
 All forms must be submitted by 4:30 p.m.
-* Challenge Plan
-** 9.14 - 9.24 [1/3]
-*** DONE primal dual problems examples
-     CLOSED: [2015-09-30 Wed 15:11]
-*** TODO how can you generalize the sign pattern method for proving piecewise linearity
-*** TODO the homotopy idea
-** 11.18 - 12.1 [1/2]
-*** DONE write down the uniqueness proof for LPD
-CLOSED: [2015-12-16 Wed 19:22]
-*** TODO Study Lagrangian Duality Theory and accumlate more examples
-** 12.16 - 12.23 [2/3]
-
-*** TODO read the concentration inequality section of Tao's random matrix book
-*** DONE read the recent two latex notes
-CLOSED: [2016-01-29 Fri 18:19]
-*** revise CV
-*** DONE think about professor Zhang's 663 second project
-CLOSED: [2015-12-19 Sat 21:05]
-** 1.4 - 1.7 [1/1]
-*** DONE finish the pdf notes on LPD uniqueness
-CLOSED: [2016-02-14 Sun 22:43]
-** 1.29 - 2.3 [2/2]
-*** DONE study Ch2 of Lugosi's *concentration inequality* book, exclude the problem section
-CLOSED: [2016-02-14 Sun 22:41]
-*** DONE study causal inference & structural models
-CLOSED: [2016-03-10 Thu 19:13]
-**** think about how to model time dependent treatment data in survival problem context
-**** search related R packages
-** 3.10 - 3.13 [1/3]
-*** TODO study & try to reproduce the proof of Theorem 2 in the LPD paper
-SCHEDULED: <2016-03-12 Sat>
-
-*** TODO LPD asymptotics for correlation matrices
-**** how to formulate the problem correctly
-**** what types of inequality do I need
-**** formulate & prove the inequality on tail probability of correlation terms
-*** DONE algorithm design book Ch3 & 4
-CLOSED: [2016-03-20 Sun 21:48]
-** 3.14 - 3.20 [3/3]
-
-*** DONE SICP section 2.1 - 2.3, section 3.1
-CLOSED: [2016-03-20 Sun 21:50]
-*** DONE C++ coursera video learning, cover *functions*, *recursion*, *pointers*
-CLOSED: [2016-03-20 Sun 21:50]
-*** DONE intro to lambda calculus
-CLOSED: [2016-03-20 Sun 21:50]
-** 4.2 - 4.5 [1/3]
-*** DONE understand the related proof in Cai's 2011 precision matrix estimation paper
-CLOSED: [2016-04-05 Tue 17:13]
-*** TODO review some elementary inequalites 
-*** TODO brief summarize the state of the art of the inequality manipulation in the LPD related paper
-** 4.22-4.24 [0/2]
-*** TODO study BDA appendix C.3, simulation of Gibbs and Metropolis in R
-*** TODO how to carry out MC simulation in G-formula 
-** Future
-*** Improve general coding & simulation technique
-
-**** TODO R problems, hard section
-SCHEDULED: <2016-02-15 Mon>
-*** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words
-**** Typical questions to be asked
-***** Intuition, Derivation, Estimation(point type & C.I. type), Testing, Interpretation
-***** When to use it?
-***** How do you think about it?
-**** TODO Logistic Regression
-**** Bootstrap Method
-**** PCA & Factor Models
-**** EM algorithm
-**** two versions of Partial Least Square
-*** ATE(average treatment effects) estimation literature review [0/3]
-**** TODO why use *regression adjustment* ?
-**** TODO study the simulation part of professor Zhang's 2015 paper on Lasso adjustment of ATE
-**** TODO solve the ATE project main problem in professor Zhang's 663 course in 2015 Fall

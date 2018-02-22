@@ -1,0 +1,81 @@
+
+* preview
+
+** go to the top/bottom of pdf
+fn+arrow left/right
+* homebrew
+
+** update homebrew
+
+** brew tap
+The tap command allows Homebrew to tap into another repository of formulae. Once you've done this you've expanded your options of installable software.
+
+These additional Git repos (inside usr/local/Library/Taps) describe sets of package formulae that are available for installation.
+
+E.g.
+
+brew tap                     # list tapped repositories
+brew tap <tapname>           # add tap
+brew untap <tapname>         # remove a tap
+* software version control
+
+** python
+
+* miscellaneous
+
+** Combining PDF files on the command line in OSX
+It turns out that from Tiger onwards, OSX ships with a Python script that does exactly what you need. The script is already executable, and Python is pre-installed on OS X, so all you need to do to run it is opening the Terminal and typing
+
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o PATH/TO/YOUR/MERGED/FILE.pdf /PATH/TO/ORIGINAL/1.pdf /PATH/TO/ANOTHER/2.pdf /PATH/TO/A/WHOLE/DIR/*.pdf
+
+Benjamin Han recommends setting up a symbolic link to make typing easier. I prefer putting the link in /usr/local/bin, as it is in the $PATH and therefore I can run the command from anywhere. To setup the link, you need to navigate to the directory where you want the link.
+
+cd /usr/local/bin
+sudo ln "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" PDFconcat
+
+Terminal will ask you for your password (you need Admin rights to do this). After the command is run, you will be able to concatenate PDF files anywhere on Terminal by typing
+PDFconcat -o PATH/TO/YOUR/MERGED/FILE.pdf /PATH/TO/ORIGINAL/1.pdf /PATH/TO/ANOTHER/2.pdf /PATH/TO/A/WHOLE/DIR/*.pdf
+
+You can even pass a ‘shuffle’ argument to make the script take one page per document in turn instead:
+PDFconcat -s -o PATH/TO/YOUR/MERGED/FILE.pdf  /PATH/TO/DIR/*.pdf
+
+*** at first the "sudo ln ...." command fails, after some search, found the following solution
+    [[http://www.jianshu.com/p/22b89f19afd6][Mac OS X 11中的/usr/bin 的“Operation not permitted”]]
+更新了 Mac OS X 11后发现，MacVim 不再能够通过Terminal用命令打开了。
+
+mvim hello.txt
+于是尝试将 mvim 重新复制到/usr/bin/中去
+
+sudo cp -f mvim /usr/bin/
+然而出现了权限问题：
+
+cp: /usr/bin/mvim: Operation not permitted
+搜索之后发现，是El Capitan 加入了Rootless机制，不再能够随心所欲的读写很多路径下了。设置 root 权限也不行。
+
+Rootless机制将成为对抗恶意程序的最后防线
+于是尝试关闭 Rootless。重启按住 Command+R，进入恢复模式，打开Terminal。
+
+csrutil disable
+重启即可。如果要恢复默认，那么
+
+csrutil enable
+附录:
+
+csrutil命令参数格式：
+
+csrutil enable [--without kext | fs | debug | dtrace | nvram][--no-internal]
+
+禁用：csrutil disable
+
+（等同于csrutil enable --without kext --without fs --without debug --without dtrace --without nvram）
+其中各个开关，意义如下：
+
+B0: [kext] 允许加载不受信任的kext（与已被废除的kext-dev-mode=1等效）
+B1: [fs] 解锁文件系统限制
+B2: [debug] 允许task_for_pid()调用
+B3: [n/a] 允许内核调试 （官方的csrutil工具无法设置此位）
+B4: [internal] Apple内部保留位（csrutil默认会设置此位，实际不会起作用。设置与否均可）
+B5: [dtrace] 解锁dtrace限制
+B6: [nvram] 解锁NVRAM限制
+B7: [n/a] 允许设备配置（新增，具体作用暂时未确定）
+

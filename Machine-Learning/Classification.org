@@ -1,0 +1,6 @@
+* credit card default example
+** notice the interesting confounding effect 
+when include the balance and student as input together and run the
+logistic regression, then the coefficient for student is negative,
+unlike the marginal estimate.
+

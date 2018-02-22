@@ -1,0 +1,383 @@
+* Study Notes
+** finding help
+*** manual
+ In command line, type texdoc + package name   
+eg. texdoc hyperref
+*** advanced
+如果你只是想要实现一个功能，既不知道用什么命令，也不知道用什么宏包，那么这个时候
+你需要 Google。到搜索引擎中去把你想要的功能加上 LaTeX 作为关键词就可以搜到很多有
+用的资料。在阅读这些资料的时候一定要注意两点：（1）最好阅读英文，更容易找到你要
+的内容；（2）注意时效性，太旧的文章要辩证接受。当你知道相关的命令和相关的宏包时，
+你就可以在本地查阅相关的文档了。
+
+如果你找遍了搜索引擎和文档都没有自己想要的，这时就可以选一个社区去提问了。LaTeX
+是一个开源软件，拥有完善的文档体系和庞大的社区，只要你有需要，基本都可以得到帮助
+解决。但是提问之前一定要注意以下几点：
+
+你的帖子题目一定要包含要点，千万不要发个帖子标题叫“大家帮帮忙”“跪求大神帮助，在
+线等”，这种问题一定是没有人会点进来看的。好的问题比如“如何排版横向并排的表格？”，
+总之一定要具体。
+
+提问的时候你需要说明你查阅了哪些文档，搜索到了哪些其他人提出的解决方案，它们为什
+么没有起作用。这样可以让愿意帮助你的人更了解你的情况，也避免他们提出你尝试过的解
+决方案。总之就是要说明你做了哪些努力。
+
+如果是你遇到了一个错误，你要提供给大家一个复现你遇到问题的途径。你应该在问题中说
+明你使用的电脑型号、操作系统、TeX 版本、编译引擎等。同时你最好能提供一个“最小错
+误示例”——即用最少的源代码来重现你遇到的问题。
+
+最好能够再提供你的编译日志（.log文件），一般情况下应该在编译后它会出现在你的源文
+件旁边。
+
+不要做伸手党，可以自己搜索到的内容不要问别人。没有人有义务来帮助你。
+** 数学符号规范
+首先要跟大家说明的是数学模式中的文字规范。在数学公式中， *只有变量才使用意大利体* 。
+而数学常数 e、i，微分符号 d，函数名 sin、cos、log、ln 等都需要用 *罗马正体* 来表示。
+另外表示数集的字母 R、C、Q、N 等，需要用空心字体来表示。还有一些特殊的花体，使用
+场合比较有限，大家可以查阅相关的资料和书籍来了解使用方式。
+
+一般的拉丁字母大家都可以方便地用键盘输入。而数学中常用的希腊字母就不太好用美式键
+盘输入了。在 LaTeX 中输入小写希腊字母时，只需要用反斜杠加上字母的读音就可以输入
+相应的希腊字母了。比如用 \alpha 输入 α，用 \beta 输入 β 等。对应的大写字母只需要
+将读音的首字母大写即可（LaTeX 中提供的大写希腊字母只有11个，不过已经够用了）。通
+常我们还会用到希伯来字母 א，可以用 \aleph 来输入。
+
+对于特殊的符号，我们在这里作一个简单的列举，大家可以自己在电脑上尝试输入一下。
+
+普朗克常数，\hbar
+无穷符号，\infty
+空集符号，\emptyset（也可以调用 amssymb 宏包后使用 \varnothing）
+偏微分符号，\partial
+积分符号，\int，\iint，\iiint，\iiiint，分别对应一重、二重、三重、四重积分；更多重积分可以用 \idotsint
+环路积分符号，\oint
+求和符号，\sum
+求积符号，\prod
+交集符号，\cap；并集符号，\cup
+乘号，\times；除号，\div
+不等号，\neq；小于等于，\leq；大于等于，\geq；
+属于，\in；
+
+另外还有很多函数名，应该用罗马正体书写的，都可以用反斜杠加函数名来实现。比如 \sin，\cos，\log，\ln。还有一些算子也需要这样实现，如 \lim，\max、\min、\gcd 等。
+
+
+* Spacemacs latex layer
+** a web note
+The keybingings of build is SPC m b and view is SPC m v. If you press build
+keybinding, it will build your tex file using latex and generate a pdf file. By
+default, it will use pdflatex. However, I use xelatex sometimes to build beamer
+source code. To do this, add a local variable in the end of a tex file can tell
+auctex to build as xetex.
+
+ Local Variables:
+ coding: utf-8
+ TeX-master: t
+ TeX-command-extra-options: "-shell-escape"
+ TeX-engine: xetex
+
+** latexmk
+Latexmk (whose current released version is 4.43a dated 5 February 2015) is a
+perl script for running LaTeX the correct number of times to resolve cross
+references, etc; it also runs auxiliary programs (bibtex, makeindex if
+necessary, and dvips and/or a previewer as requested). It has a number of other
+useful capabilities, for example to start a previewer and then run latex
+whenever the source files are updated, so that the previewer gives an up-to-date
+view of the document.
+
+** useful key bindings
+ctrl-c TAB : open the auctex manual
+
+** sample .emacs setups
+
+*** Brent Longborough
+;;; Brent.Longborough's .emacs
+
+(global-visual-line-mode 1); Proper line wrapping
+(global-hl-line-mode 1); Highlight current row
+(show-paren-mode 1); Matches parentheses and such in every mode
+(set-fringe-mode '(0 . 0)); Disable fringe because I use visual-line-mode
+(set-face-background hl-line-face "#f2f1f0"); Same color as greyness in gtk
+(setq inhibit-splash-screen t); Disable splash screen
+(setq visible-bell t); Flashes on error
+(setq calendar-week-start-day 1); Calender should start on Monday
+(add-to-list 'default-frame-alist '(height . 59)); Default frame height.
+
+;;; AUCTeX
+;; Customary Customization, p. 1 and 16 in the manual, and http://www.emacswiki.org/emacs/AUCTeX#toc2
+(setq TeX-parse-self t); Enable parse on load.
+(setq TeX-auto-save t); Enable parse on save.
+(setq-default TeX-master nil)
+
+(setq TeX-PDF-mode t); PDF mode (rather than DVI-mode)
+
+(add-hook 'TeX-mode-hook 'flyspell-mode); Enable Flyspell mode for TeX modes such as AUCTeX. Highlights all misspelled words.
+(add-hook 'emacs-lisp-mode-hook 'flyspell-prog-mode); Enable Flyspell program mode for emacs lisp mode, which highlights all misspelled words in comments and strings.
+(setq ispell-dictionary "english"); Default dictionary. To change do M-x ispell-change-dictionary RET.
+(add-hook 'TeX-mode-hook
+          (lambda () (TeX-fold-mode 1))); Automatically activate TeX-fold-mode.
+(setq LaTeX-babel-hyphen nil); Disable language-specific hyphen insertion.
+
+;; " expands into csquotes macros (for this to work babel must be loaded after csquotes).
+(setq LaTeX-csquotes-close-quote "}"
+      LaTeX-csquotes-open-quote "\\enquote{")
+
+;; LaTeX-math-mode http://www.gnu.org/s/auctex/manual/auctex/Mathematics.html
+(add-hook 'TeX-mode-hook 'LaTeX-math-mode)
+
+;;; RefTeX
+;; Turn on RefTeX for AUCTeX http://www.gnu.org/s/auctex/manual/reftex/reftex_5.html
+(add-hook 'TeX-mode-hook 'turn-on-reftex)
+
+(eval-after-load 'reftex-vars; Is this construct really needed?
+  '(progn
+     (setq reftex-cite-prompt-optional-args t); Prompt for empty optional arguments in cite macros.
+     ;; Make RefTeX interact with AUCTeX, http://www.gnu.org/s/auctex/manual/reftex/AUCTeX_002dRefTeX-Interface.html
+     (setq reftex-plug-into-AUCTeX t)
+     ;; So that RefTeX also recognizes \addbibresource. Note that you
+     ;; can't use $HOME in path for \addbibresource but that "~"
+     ;; works.
+     (setq reftex-bibliography-commands '("bibliography" "nobibliography" "addbibresource"))
+;     (setq reftex-default-bibliography '("UNCOMMENT LINE AND INSERT PATH TO YOUR BIBLIOGRAPHY HERE")); So that RefTeX in Org-mode knows bibliography
+     (setcdr (assoc 'caption reftex-default-context-regexps) "\\\\\\(rot\\|sub\\)?caption\\*?[[{]"); Recognize \subcaptions, e.g. reftex-citation
+     (setq reftex-cite-format; Get ReTeX with biblatex, see http://tex.stackexchange.com/questions/31966/setting-up-reftex-with-biblatex-citation-commands/31992#31992
+           '((?t . "\\textcite[]{%l}")
+             (?a . "\\autocite[]{%l}")
+             (?c . "\\cite[]{%l}")
+             (?s . "\\smartcite[]{%l}")
+             (?f . "\\footcite[]{%l}")
+             (?n . "\\nocite{%l}")
+             (?b . "\\blockcquote[]{%l}{}")))))
+
+;; Fontification (remove unnecessary entries as you notice them) http://lists.gnu.org/archive/html/emacs-orgmode/2009-05/msg00236.html http://www.gnu.org/software/auctex/manual/auctex/Fontification-of-macros.html
+(setq font-latex-match-reference-keywords
+      '(
+        ;; biblatex
+        ("printbibliography" "[{")
+        ("addbibresource" "[{")
+        ;; Standard commands
+        ;; ("cite" "[{")
+        ("Cite" "[{")
+        ("parencite" "[{")
+        ("Parencite" "[{")
+        ("footcite" "[{")
+        ("footcitetext" "[{")
+        ;; ;; Style-specific commands
+        ("textcite" "[{")
+        ("Textcite" "[{")
+        ("smartcite" "[{")
+        ("Smartcite" "[{")
+        ("cite*" "[{")
+        ("parencite*" "[{")
+        ("supercite" "[{")
+        ; Qualified citation lists
+        ("cites" "[{")
+        ("Cites" "[{")
+        ("parencites" "[{")
+        ("Parencites" "[{")
+        ("footcites" "[{")
+        ("footcitetexts" "[{")
+        ("smartcites" "[{")
+        ("Smartcites" "[{")
+        ("textcites" "[{")
+        ("Textcites" "[{")
+        ("supercites" "[{")
+        ;; Style-independent commands
+        ("autocite" "[{")
+        ("Autocite" "[{")
+        ("autocite*" "[{")
+        ("Autocite*" "[{")
+        ("autocites" "[{")
+        ("Autocites" "[{")
+        ;; Text commands
+        ("citeauthor" "[{")
+        ("Citeauthor" "[{")
+        ("citetitle" "[{")
+        ("citetitle*" "[{")
+        ("citeyear" "[{")
+        ("citedate" "[{")
+        ("citeurl" "[{")
+        ;; Special commands
+        ("fullcite" "[{")))
+
+(setq font-latex-match-textual-keywords
+      '(
+        ;; biblatex brackets
+        ("parentext" "{")
+        ("brackettext" "{")
+        ("hybridblockquote" "[{")
+        ;; Auxiliary Commands
+        ("textelp" "{")
+        ("textelp*" "{")
+        ("textins" "{")
+        ("textins*" "{")
+        ;; supcaption
+        ("subcaption" "[{")))
+
+(setq font-latex-match-variable-keywords
+      '(
+        ;; amsmath
+        ("numberwithin" "{")
+        ;; enumitem
+        ("setlist" "[{")
+        ("setlist*" "[{")
+        ("newlist" "{")
+        ("renewlist" "{")
+        ("setlistdepth" "{")
+        ("restartlist" "{")))
+* Case study [3/5]
+
+** setup Chinese language support in Latex
+
+*** install tex-live & make sure the *xeCJK* package is installed
+
+#+BEGIN_SRC LaTeX
+\documentclass{article}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\begin{document}
+你好，TeX Live 2009！
+\end{document}
+#+END_SRC
+*** setup the TEX engine to *XeTeX* 
+use "M-x TeX-engine-set"
+
+** from Xiaolin Wang's video
+ 
+*** linux command
+mkdir -p my-projects/{src,doc}
+tree my-projects/
+
+dict heaven
+wget http://path-to-style-file/sample.cls
+
+** DONE study the general functionality provided by *TeXstudio*
+CLOSED: [2016-03-01 Tue 16:47]
+** DONE have some ideas about the interaction between Latex & Bibtex
+CLOSED: [2016-03-01 Tue 16:42]
+ I read some *.aux*, *.bbl*, *.blg*, *.log* produced, have some idea about what these files
+are about 
+
+** DONE maintain a macro preamble file to improve the efficiency of academic writing in latex
+CLOSED: [2016-03-10 Thu 22:15]
+** TODO record those high frequency commands and think whether I should give it an alias in my preamble
+** TODO learn the art of inserting graphs and tables 
+* Web Notes 
+
+** an advice from TeX exchange 
+About credible sources To address the concern of the investor of the bounty, I
+think the most credible sources are the books written for learning LaTeX and the
+manuals written for learning the packages. We can also say that the package and
+class writers are credible sources, since they have enough experience with LaTeX
+and TeX to create the packages. But the thing is, most of them learned LaTeX
+through different paths. Many people who use LaTeX don't have a programming
+background--like me. See for instance the post:
+
+Most significant reasons that led us to (La)TeX On learning LaTeX efficiently
+Most of the other answers have already dealt with this. So I will divide my
+answer into sources available here in TeX.sx and my own experience for
+efficiently(?) learning LaTeX. I can't say though that I have been learning it
+efficiently enough. I still consider myself a newbie.
+
+For related reading There have been related posts regarding your question. Look
+for Linked and Related at the right sidebar, notably the following:
+
+Best Way to Start Using LaTeX/TeX? How much time does it take to learn LaTeX?
+Keks Dose mentioned about buying a book. You can see a list of free and
+commercial books and manuals in the following posts.
+
+What is the best book to start learning LaTeX? Best practices references Is
+there a comprehensive and complete LaTeX reference? I agree with the other posts
+and comments to start with small examples that you can either copy-and-paste or
+manually type in a short time. Try deleting small numbers of characters from the
+code and compile, and see what happens. If an error occurs, ask yourself what
+happened wrong by deleting such characters. In some manuals, this strategy is
+sometimes used. Some examples are suggested in a recent post.
+
+Examples with the purpose of learning LaTeX? LaTeX-aware editors I agree with
+Harish Kumar. Coming from a non-programming, MS Word/OpenOffice background, I
+find that text-completion was a big help (but now somewhat irritating). You can
+see a big list of them from this post.
+
+LaTeX Editors/IDEs From a non-programming background, I am somewhat biased in
+favor of TeXMaker/TeXStudio. Some people, especially professional programmers
+would say emacs or vim though, although they can be frustratingly hard to set
+up. Just see related posts regarding editors in this site ;).
+
+Give yourself time to learn The truth of the matter is, I love to procrastinate.
+Learning LaTeX, for me, is a form of creative procrastination. Having said that,
+it is still possible to learn LaTeX efficiently without procrastinating.
+
+I am a high school teacher and I have successfully taught some basic LaTeX to
+four of my students who have shown some willingness to learn LaTeX and alot some
+of their time to learn it. They use LaTeX to typeset their assignments (if they
+have time).
+
+The following are the only things I demonstrated to them:
+
+Setting up the basic source code, that one provided in Harish Kumar's answer.
+Setting up the margin using the geometry package. Setting up list environments
+(enumerate and itemize) Setting up equation environments. (My students are from
+an elective math class.) The rest they learned on their own. But it will help
+you to know that they finished writing their math assignments by hand, ready for
+submission, before typesetting it in LaTeX. That way, they were doing the LaTeX
+part for fun (and for beautifully printed assignments). They don't get
+additional credits for typing it in LaTeX, but the same is true, too, if they
+typed it in MS Word.
+
+Since essays are required often in high school and they are not that hard to
+type, I suggest you adapt the strategy mentioned above. Write them by hand
+first, then type them in LaTeX if you have the time. Or just for fun, even if
+you have already submitted your assignment but have a draft copy of it, type
+that in LaTeX if you have the time. The thing is, you should not try to learn it
+if you are rushing to submit what you are trying to learn it for. In that case,
+learning LaTeX becomes a burden and you might get discouraged.
+
+The Danger of Copy-and-Paste Learning I have mentioned above that for small
+code, you can copy-and-paste and tweak to learn what the code does. However,
+make sure that you understand what the code does, line by line. This might not
+help you now but it will in the future. At this point, try to explore what the
+default settings of the LaTeX classes book, article and report have to offer. In
+most cases, you will be working with the article class a lot.
+
+What helps me when learning a new code is I comment on what each line does. I
+find this helpful especially coming from a non-programming background. There are
+instances, too, that copy-and-paste approach introduces invisible characters
+that introduce errors. In the long run, typing the code character-by-character,
+line-by-line makes you think more about what goes into your code and what fix
+you can do in instances of errors.
+
+Some more advice Just as the other posts had mentioned, there will be a lot of
+frustrations ahead. Especially when there is an error that you can't easily
+solve or a style that you can't easily implement. Treat these instances as
+learning opportunities. Just keep using LaTeX. Like any new skill, it takes time
+before you feel that using it is a natural thing. And there are a lot of help
+now to be had. In my case, there is no local TeX group I can join so I joined
+this site instead. And I learned a lot in the short time that I am here. And I
+am still learning a lot. I think I learned more in five months about LaTeX more
+than I have learned in the three years of using it before joining here. So use
+LaTeX, read the manuals/books, and ask if you have a problem that you can't
+solve on your own. And your learning will be tremendous.
+** a wonderful answer to TeX workflow  
+see [[  http://tex.stackexchange.com/questions/50827/a-simpletons-guide-to-tex-workflow-with-emacs#][here]]
+
+*** tools can be integrated 
+
+**** org mode
+
+**** AucTeX 
+
+**** RefTeX
+**** YASnippet
+
+**** FlySpell
+*** summary
+** \textsc, here *sc* means *small cap*
+* Key questions [0/0]
+** useful package/preamble
+*** AMS packages
+*** graphic and table related
+** high frequency commands/macros/environments
+*** environments
+array, align, figure,tabular, enumerate
+** write your own snippets/template/macros
+** why do we need *cross reference*?
+** TODO how to preview a region when i was in a chapter latex file(which is without the preamble like *documentclass* )

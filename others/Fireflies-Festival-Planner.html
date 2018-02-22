@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-05-14 Sun 20:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Synchronous Fireflies Trip Plan</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Chuan Liu" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Synchronous Fireflies Trip Plan</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org2dc9e50">1. 相关信息</a>
+<ul>
+<li><a href="#org792eda9">1.1. 关于共鸣萤火虫</a></li>
+<li><a href="#org8314e1f">1.2. 蓝岭高速 Blue Ridge Parkway</a></li>
+<li><a href="#orgff6da01">1.3. 大烟山/大雾山</a></li>
+<li><a href="#org5e7cc5d">1.4. Nashville?(under discussion)</a></li>
+<li><a href="#org4674e1d">1.5. 住店</a>
+<ul>
+<li><a href="#org53a8f42">1.5.1. 六月二日</a></li>
+<li><a href="#org68b5828">1.5.2. 六月三日 至 六月四日</a></li>
+<li><a href="#orgf8eafe0">1.5.3. 六月五日</a></li>
+</ul>
+</li>
+<li><a href="#orge5b54bf">1.6. 租车</a></li>
+<li><a href="#org8d8d9f3">1.7. 其他相隔不远可以考虑的去处</a>
+<ul>
+<li><a href="#org69acfe8">1.7.1. 从大烟山到Nashville路上</a></li>
+<li><a href="#org7d82642">1.7.2. 北卡</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org1851d2d">2. 行程安排</a>
+<ul>
+<li><a href="#org2770134">2.1. 六月二日</a></li>
+<li><a href="#org81a8c21">2.2. 六月三日</a></li>
+<li><a href="#org3ffa29f">2.3. 六月四日</a></li>
+<li><a href="#org7b2fa0c">2.4. 六月五日</a></li>
+<li><a href="#orgb704703">2.5. 六月六日</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+This is a planner file for our June trip to the <b>synchronous fireflies festival</b>. Currently it is still an outline and is very incomplete but I will expand it to the level which satisfies our need. If you want to address any particular thing in the planner, please let me know : )
+</p>
+<div id="outline-container-org2dc9e50" class="outline-2">
+<h2 id="org2dc9e50"><span class="section-number-2">1</span> 相关信息</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-org792eda9" class="outline-3">
+<h3 id="org792eda9"><span class="section-number-3">1.1</span> 关于共鸣萤火虫</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+The Synchronous Firefly (Photinus carolinus) and the Blue Ghost Firefly (Phausis
+reticulata) are two species that are found only in the Southern Appalachian
+Mountains which include the Great Smokies. And during the short mating season in
+late May and early June, both firefly species put on quite a show to behold! The
+male Synchronous Fireflies flash their little green-yellow bioluminescent
+lanterns in unison for about 6-8 blinks and then they go dark for a few seconds
+creating a sublime wave of light throughout the forest. The male Blue Ghost
+Fireflies don’t flash their blue-white lanterns, instead they glow continuously
+just a few inches above the ground. The ethereal experience of either nighttime
+show should be on everyone’s bucket list! National Park scientists mostly use
+air and soil temperatures to predict the timing of each year’s mating season.
+</p>
+
+<p>
+One of the most popular places to view the Synchronous Fireflies is in Elkmont
+in the Great Smoky Mountains National Park. This event has become so popular
+that a free lottery system was instituted this year for the $1.50 parking passes
+for the eight-day shuttle period to Elkmont. During this time of peak viewing,
+Elkmont is closed at nighttime with the exception of shuttle users and campers
+in Elkmont Campground.
+</p>
+
+<p>
+<a href="http://weibo.com/1957491335/CmwPXr9TI?type=comment#_rnd1494805600914">来自朋友的sample照片一张</a> （因为是夜间，需要较好的拍照技术&#x2026;.）
+</p>
+</div>
+</div>
+<div id="outline-container-org8314e1f" class="outline-3">
+<h3 id="org8314e1f"><span class="section-number-3">1.2</span> 蓝岭高速 Blue Ridge Parkway</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+<a href="http://www.blueridgeparkway.org/index.php">offcial website</a>
+</p>
+
+<p>
+<a href="http://weibo.com/1957491335/CmzaRh66o%20">路上的风景照sample一张</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgff6da01" class="outline-3">
+<h3 id="orgff6da01"><span class="section-number-3">1.3</span> 大烟山/大雾山</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+This is the <a href="https://www.nps.gov/grsm/index.htm">official webiste</a> for the Great Smoky Mountain national park. For a map of the park, click <a href="https://www.nps.gov/grsm/planyourvisit/upload/grsmmap2-2.pdf">here</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-org5e7cc5d" class="outline-3">
+<h3 id="org5e7cc5d"><span class="section-number-3">1.4</span> Nashville?(under discussion)</h3>
+</div>
+<div id="outline-container-org4674e1d" class="outline-3">
+<h3 id="org4674e1d"><span class="section-number-3">1.5</span> 住店</h3>
+<div class="outline-text-3" id="text-1-5">
+</div><div id="outline-container-org53a8f42" class="outline-4">
+<h4 id="org53a8f42"><span class="section-number-4">1.5.1</span> 六月二日</h4>
+</div>
+<div id="outline-container-org68b5828" class="outline-4">
+<h4 id="org68b5828"><span class="section-number-4">1.5.2</span> 六月三日 至 六月四日</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<p>
+<a href="https://smokymountains.com/lodging/29138593/?checkin=06/03/2017&amp;checkout=06/05/2017&amp;guests=6&amp;dp=MTE5">目前的candidate</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgf8eafe0" class="outline-4">
+<h4 id="orgf8eafe0"><span class="section-number-4">1.5.3</span> 六月五日</h4>
+</div>
+</div>
+<div id="outline-container-orge5b54bf" class="outline-3">
+<h3 id="orge5b54bf"><span class="section-number-3">1.6</span> 租车</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+目前六个人的话可以考虑租一辆大一点的车。
+</p>
+</div>
+</div>
+<div id="outline-container-org8d8d9f3" class="outline-3">
+<h3 id="org8d8d9f3"><span class="section-number-3">1.7</span> 其他相隔不远可以考虑的去处</h3>
+<div class="outline-text-3" id="text-1-7">
+</div><div id="outline-container-org69acfe8" class="outline-4">
+<h4 id="org69acfe8"><span class="section-number-4">1.7.1</span> 从大烟山到Nashville路上</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<p>
+两个瀑布
+</p>
+
+<p>
+<a href="https://s-media-cache-ak0.pinimg.com/originals/e8/c4/f4/e8c4f416b89c07f3a0dd83a3fc459f2e.jpg">Ozone Falls</a>
+</p>
+
+<p>
+<a href="https://s-media-cache-ak0.pinimg.com/originals/67/df/01/67df010731c3d788db7840f678f49a80.jpg">Greeter Falls</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org7d82642" class="outline-4">
+<h4 id="org7d82642"><span class="section-number-4">1.7.2</span> 北卡</h4>
+<div class="outline-text-4" id="text-1-7-2">
+<p>
+<a href="http://www.biltmore.com/visit">biltmore estate</a>
+</p>
+
+<p>
+Linville Falls
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1851d2d" class="outline-2">
+<h2 id="org1851d2d"><span class="section-number-2">2</span> 行程安排</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-org2770134" class="outline-3">
+<h3 id="org2770134"><span class="section-number-3">2.1</span> 六月二日</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+出发赶路
+</p>
+</div>
+</div>
+<div id="outline-container-org81a8c21" class="outline-3">
+<h3 id="org81a8c21"><span class="section-number-3">2.2</span> 六月三日</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+赶路
+</p>
+
+<p>
+蓝岭高速
+</p>
+
+<p>
+到达大烟山
+</p>
+</div>
+</div>
+<div id="outline-container-org3ffa29f" class="outline-3">
+<h3 id="org3ffa29f"><span class="section-number-3">2.3</span> 六月四日</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Clingmans Dome 据说是看日出的好去处，有小伙伴感兴趣的话可以安排。    
+</p>
+
+<p>
+Morton Overlook
+</p>
+
+<p>
+The Sinks
+</p>
+
+<p>
+晚上Fireflies event
+</p>
+</div>
+</div>
+<div id="outline-container-org7b2fa0c" class="outline-3">
+<h3 id="org7b2fa0c"><span class="section-number-3">2.4</span> 六月五日</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Nashville?
+</p>
+
+<p>
+赶路回家
+</p>
+</div>
+</div>
+<div id="outline-container-orgb704703" class="outline-3">
+<h3 id="orgb704703"><span class="section-number-3">2.5</span> 六月六日</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+赶路到家
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Chuan Liu</p>
+<p class="date">Created: 2017-05-14 Sun 20:31</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

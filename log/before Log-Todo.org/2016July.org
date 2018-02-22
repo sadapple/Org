@@ -1,0 +1,54 @@
+
+* Sanofi-U.Man Project
+
+** methodology implementation [3/3]
+
+*** DONE stratified cox
+CLOSED: [2016-07-27 Wed 10:11] SCHEDULED: <2016-07-01 Fri>
+
+*** DONE propensity score and IPW
+CLOSED: [2016-07-27 Wed 10:12]
+
+*** DONE g-formula
+CLOSED: [2016-08-26 Fri 20:02] SCHEDULED: <2016-07-03 Sun>
+
+** parameter setup
+** simulation
+** performance evaluation
+** DONE report
+CLOSED: [2016-08-30 Tue 10:41] SCHEDULED: <2016-08-30 Tue>
+
+* JSM planning
+
+** DONE checklist before leave
+CLOSED: [2016-07-31 Sun 13:11]
+
+*** suites
+
+*** tower
+* moving
+
+** DONE prepare boxes for book storage
+CLOSED: [2016-07-24 Sun 06:17] SCHEDULED: <2016-07-09 Sat>
+ 
+** DONE return non-used library books
+CLOSED: [2016-07-27 Wed 15:43]
+
+** TODO organize the books and store them in boxes
+
+
+*** important documents like visa, I-20
+
+*** research related material, like papers
+
+*** interview related material
+
+*** other math/stat material
+*** programming
+
+*** others
+** DONE move the two furnitures on July 29 or July 30 morning
+CLOSED: [2016-07-31 Sun 13:12]
+* Visit Dongming
+
+** TODO mail Siegel's complex analysis book to him

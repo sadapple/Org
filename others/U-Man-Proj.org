@@ -1,0 +1,16 @@
+* Current Tasks 
+* Meeting minutes
+** TODO 7.18
+*** Varying follow-up time due to enrollment, e.g., Uniform distribution instead of constant administrative censoring
+*** Incorporate simulation data generation of pragmatic trial in addition to what was already incorporated, re: Skevi’s R code
+*** Criteria for evaluating the methods, e.g., power
+** 8.5
+*** a unified function to produce the results of six methods for the same data simulated
+* Questions
+** What allocation mechanism is realistic for our project? for pragmatic trial
+* Aside
+** time-dependent trial framework [0/2] 
+*** TODO how to simulate the outcome & covariates 
+SCHEDULED: <2016-02-09 Tue>
+in our case, do we need to simulate random effects at each time point?
+*** TODO how to model the simulated data 

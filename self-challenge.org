@@ -1,0 +1,389 @@
+* Long Term Practice [0/4]
+
+** TODO habit of making connections and analogies
+** TODO habit of solving problems
+** TODO habit of make abstraction, combination & generalization
+** TODO habit of visualizing a general procedure/algorithm or anything useful
+* Current Focus
+** optimization
+*** Langrange Multiplier Theory
+to the extent that I can derive the all the dual problems in the
+recent papers I read(ROAD,Cai,LARS,etc) swiftly
+
+know how to derive dual form and solve langrange multiplier equations
+**** Duality and Application
+*** KKT conditions
+** analysis
+*** inequalities techniques
+**** elementary inequality
+     check out Ivan Matic's *classical inequalities* notes for IMO
+***** Minkowski, Holder and Young
+***** Schur and Muirhead
+****** notion of *one array majorizes another*
+***** Jensen and Karamata
+***** Chebyshev
+**** norm inequality
+**** concentration inequality
+***** Q: how to find/construct the right function in proving inequalities
+*** Taylor expansion calculation
+*** integration calculation
+    check out the book *Inside Interesting Integrals* by Paul J. Nahin
+*** matrix analysis
+** Asymptotics
+*** familiarize with the common convergence concepts and proving techniques
+*** CLT and LLN
+
+* Building Skill Trees(around a few but good books/projects/tools/community groups)
+** Data Science
+
+*** machine learning [0/4]
+**** TODO 《机器学习》 周志华
+**** TODO MLaPP book
+**** TODO PRML book by Bishop(a good book to learn Bayesian)
+**** TODO Deep Learning, MIT
+*** statistical learning [0/3]
+**** TODO ESL
+**** TODO Statistical Learning with Sparsity
+**** TODO Advanced Data Analysis from an Elementary Point of View, by Shalizi
+** Math
+*** Analysis [/]
+**** Real Mathematical Analysis by Pugh
+**** Zorich
+**** Principle of Math Analysis, Rudin
+*** Optimization [0/2]
+**** TODO Nonlinear Programming by Bersekas 
+**** TODO Convex Optimization by Boyd
+
+** Prob & Stat [0/4]
+*** TODO Theory of Multivariate Statistics by Bilodeau & Brenner
+*** TODO Concentration Inequalities by Lugosi
+*** TODO Probability-1 by Shiryaev 
+At least finish Ch1
+*** Tao's probability course notes & book on random matrix 
+*** TODO Time Series by Brockwell
+** Programming [0/3]
+*** TODO Algorithm by Dasgupta
+*** TODO SICP(with *the little scheme* as reference)
+*** C++ primer
+*** Intro to Algorithm
+*** TODO Algorithm Design Manual
+*** Code Complete
+*** The Pragmatic Programmer
+*** The Linux Command Line
+** Finance [0/3]
+
+*** TODO Elements of Financial Econometrics
+*** Essentials of Stochastic Finance
+
+*** Financial Time Series
+*** TODO Financial Methods notes by Zhang
+*** TODO 绿皮书
+
+** Projects [0/3]
+*** TODO leetcode
+*** Codewar Kata
+*** SICP problems
+*** Github Blog(to maintain actively)
+*** TODO Data Mining Hw problems revisit
+*** Cracking the code interview problems
+*** Finish the remaining Python problems in edx MIT 6.001 Course
+*** TODO Machine Learning online course by Andrew Ng 
+** Tools [0/4]
+*** Emacs and Vim
+**** Org mode
+**** Helm & Magit
+*** Git & Github
+*** Regular Expressions
+*** TODO Latex & TeXmacs
+*** Edx & Coursera
+*** TODO Google Scholar
+*** TODO SQL
+*** Spark, Scala, Clojure
+*** Jekyll, Markdown & other Web tools
+*** TODO Matlab 
+** Discussion/Community Groups [0/4]
+*** TODO Some Friends, Fellow Students & Mentor
+*** TODO SICP/Scheme and Emacs qq group
+*** TODO Zhihu Programming Language and Data Science related group
+*** TODO Codewar & Kaggle
+*** Emacs Google+ group
+*** StackOverflow
+* Challenges
+** Research Challenges
+*** 2017-1-1 - 1-4 [1/1]
+**** DONE write down the derivation of lambda.max of ROAD
+     CLOSED: [2017-01-12 Thu 20:50]
+*** 3.12 - 3.15 [0/2]
+**** TODO understand the factor model part of the r6306 code
+**** TODO how to propose a version of LPD to shrink to the diagonal matrix?
+*** 4.1 - 4.4 [2/2]
+**** DONE sort of a list of papers to write summary and put them in the shared folder
+     CLOSED: [2017-04-08 Sat 13:09]
+**** DONE finish Homework 1 and 2 of Dan's 588
+     CLOSED: [2017-04-27 Thu 17:22]
+*** 4.26 - 4.28[2/2]
+**** DONE test the lpd performance in classification
+     CLOSED: [2017-04-27 Thu 17:27]
+**** DONE derive Hoeffding and Bernstein inequality
+     CLOSED: [2017-06-12 Mon 17:12] SCHEDULED: <2017-04-28 Fri>
+*** 4.29 - 5.1 [2/4]
+**** DONE what is A/B test
+     CLOSED: [2017-06-29 Thu 15:49]
+**** DONE attend leetcode contest
+     CLOSED: [2017-04-29 Sat 23:04] SCHEDULED: <2017-04-29 Sat>
+**** TODO derive the MGF for common distributions
+**** TODO write a brief report on so far the basic concentration inequality theory and techniques
+***** why not study the tail probabilities of distributions via *characteristic functions*?
+we raise the notions of *sub-Gaussian*, *sub-exponential* and *sub-Gamma* by
+studying the M.G.F(or equivalently all orders of moments), then why not study
+the tail probability of a distribution via characteristic function?
+***** what are the relationships between *sub-Gaussian*, *sub-exponential* and *sub-Gamma*?
+***** try to learn the *pro and cons* of the concentration inequalities you learned so far and apply them 
+***** under what scenarios can you improve the *Chernoff bound*?
+*** 6.8 - 6.11 [2/5]
+**** DONE 绿宝书 ch2 and ch5
+     CLOSED: [2017-06-08 Thu 16:43]
+**** DONE study & try to reproduce the proof of Theorem 2 in the LPD paper
+     CLOSED: [2017-06-12 Mon 02:01] SCHEDULED: <2016-09-12 Mon>
+
+**** TODO test another version of lpd solver which uses *primal dual* approach
+
+**** TODO Go back to think about the LPD and ROAD problems(and their variants) mathematically [/]
+
+***** TODO what is the idea behind LPD-V2 ,V3 and V4?
+***** TODO will LPD-V3 and V4 has empty feasible set for particular choice of parameters?
+***** TODO derive their primal and dual form
+
+      
+**** TODO include ROAD in the classification performance comparison
+     
+*** 6.21 - 6.23 [0/1]
+
+**** TODO Wasserman 705 Notes 3,4 and 5
+     
+*** 10.11 - 10.13 [0/2]
+
+**** TODO Classical Regression & GLM 
+     SCHEDULED: <2017-10-12 Thu>
+***** Classical Linear Models
+****** Interpretation of some quantities/parameters
+******* beta
+******* R^2
+****** Estimation
+******* Gauss Markov Th implication
+******* Bias Variance Tradeoff
+******* Ridge
+******* Lasso
+****** Testing and C.I.
+******* test for residual and normality assumption
+******* test beta belong to a region
+******* simultaneous C.I. 
+****** other issue 
+******* outlier
+******* influential points
+******* multi-collinearity
+******* residual analysis
+***** GLM
+****** model setup: link function and moment properties
+****** estimation, algorithm
+****** testing
+**** TODO finish backbone of LPD chapter
+*** Previous
+**** 9.14 - 9.24 [1/3]
+***** DONE primal dual problems examples
+      CLOSED: [2015-09-30 Wed 15:11]
+***** TODO how can you generalize the sign pattern method for proving piecewise linearity
+***** TODO the homotopy idea
+**** 11.18 - 12.1 [1/2]
+***** DONE write down the uniqueness proof for LPD
+      CLOSED: [2015-12-16 Wed 19:22]
+***** TODO Study Lagrangian Duality Theory and accumlate more examples
+**** 12.16 - 12.23 [2/3]
+
+***** TODO read the concentration inequality section of Tao's random matrix book
+***** DONE read the recent two latex notes
+      CLOSED: [2016-01-29 Fri 18:19]
+***** revise CV
+***** DONE think about professor Zhang's 663 second project
+      CLOSED: [2015-12-19 Sat 21:05]
+**** 1.4 - 1.7 [1/1]
+***** DONE finish the pdf notes on LPD uniqueness
+      CLOSED: [2016-02-14 Sun 22:43]
+**** 1.29 - 2.3 [2/2]
+***** DONE study Ch2 of Lugosi's *concentration inequality* book, exclude the problem section
+      CLOSED: [2016-02-14 Sun 22:41]
+***** DONE study causal inference & structural models
+      CLOSED: [2016-03-10 Thu 19:13]
+****** think about how to model time dependent treatment data in survival problem context
+****** search related R packages
+**** 3.10 - 3.13 [0/0]
+***** algorithm design book Ch3 & 4
+**** 3.14 - 3.20 [3/3]
+
+***** DONE SICP section 2.1 - 2.3, section 3.1
+      CLOSED: [2016-03-20 Sun 21:50]
+***** DONE C++ coursera video learning, cover *functions*, *recursion*, *pointers*
+      CLOSED: [2016-03-20 Sun 21:50]
+***** DONE intro to lambda calculus
+      CLOSED: [2016-03-20 Sun 21:50]
+**** 4.2 - 4.5 [2/3]
+***** DONE understand the related proof in Cai's 2011 precision matrix estimation paper
+      CLOSED: [2016-04-05 Tue 17:13]
+***** DONE review some elementary inequalites 
+      CLOSED: [2016-05-18 Wed 10:25]
+***** TODO brief summarize the state of the art of the inequality manipulation in the LPD related paper
+**** 4.22-4.24 [0/2]
+***** TODO study BDA appendix C.3, simulation of Gibbs and Metropolis in R
+***** TODO how to carry out MC simulation in G-formula
+**** 4.29 - 5.1 [0/1]
+***** TODO Partial Least Square
+**** 6.6 -6.13 [3/5]
+***** TODO LPD asymptotics for correlation matrices
+****** how to formulate the problem correctly
+****** what types of inequality do I need
+****** formulate & prove the inequality on tail probability of correlation terms
+***** DONE notes on best marginal feature
+      CLOSED: [2016-06-06 Mon 03:55]
+***** DONE implement/find another version of LPD and compare
+      CLOSED: [2016-07-27 Wed 22:44]
+****** Matlab function clime.m
+***** TODO Find some cov/cor matrix pattern under which the LPD performs good enough
+****** independence matrix
+****** sparse matrix
+****** dense matrix
+****** construct sparse vector Sig^(-1)*delta
+***** DONE implement LPD Cross Validation and try it on real data
+      CLOSED: [2016-07-27 Wed 22:45]
+**** 7.27 - 7.29 [3/4]
+
+***** TODO think about the motivation/idea behind the current LPD variants and write them down
+***** DONE Apply a pertubation to the current matrix patterns considered in the LPD simulation
+      CLOSED: [2016-09-01 Thu 14:32]
+***** DONE implement LPD-V3(variant 3)
+      CLOSED: [2016-09-04 Sun 18:19]
+****** when p>n, is v3 still well defined?
+***** DONE prepare a Rnw report for the simulation results of the current 4 variants of LPD
+      CLOSED: [2016-09-04 Sun 18:19]
+**** 9.1 - 9.3 [1/4]
+***** DONE compare the two versions of implementation of the weighted penalized LPD(V2 and V4)
+      CLOSED: [2016-09-02 Fri 10:49]
+  the numerical result suggest they are equivalent
+***** TODO think about p>n scenario for all variants of LPD
+**** 9.4 - 9.6 [1/4]
+
+***** TODO deduce how to get the estimates of factor model based on PCA yourself 
+***** TODO parallel the current lpd simulation code
+***** DONE include the shrinkage approach to the numerical analysis
+      CLOSED: [2016-09-18 Sun 19:58]
+  SCHEDULED: <2016-09-22 Thu>
+**** 9.18 - 9.22 [3/3]
+***** DONE produce the *accumulative return* plot
+      CLOSED: [2016-10-07 Fri 15:51]
+***** DONE find and organize the important related papers which cites Ingrid Daubechies's *Sparse and stable Markowitz portfolios* paper
+      CLOSED: [2016-10-24 Mon 21:21]
+***** DONE write a solver for tuning Gross Exposure level
+      CLOSED: [2016-11-14 Mon 16:56]
+**** 11.14 - 11. 16 [2/2]
+
+***** DONE find out why current ROAD is slow when p=300
+      CLOSED: [2016-12-24 Sat 12:04]
+***** DONE validate and improve(speed and precision)  current version of ROAD
+      CLOSED: [2016-11-20 Sun 18:21]
+**** 11.17 - 11.19 [0/1]
+***** TODO think about whether ROAD is doable in R
+**** 12.25 - 12.31 [0/2]
+
+***** TODO how to set the lambda grid for our problem, maybe need to write some code to do selection?
+***** TODO think about how to compare different methods in a reasonable manner for the r6306 real data analysis?
+      use classification rate?
+***** validate the current lpd solvers [2/3]
+****** DONE mathematically, all versions are fine under recheck
+       CLOSED: [2017-01-14 Sat 23:12]
+****** DONE V3 and V4 were observed to produce warnings during p=300 simulation
+       CLOSED: [2017-01-14 Sat 23:11]
+****** TODO more solver test for small p
+*** Future
+**** TODO Rethink/Restudy some fundamental stat methods and try to summarize in my own words [0/4]
+***** Typical questions to be asked
+****** Intuition, Assumption, Derivation, Estimation(point type & C.I. type), Testing, Interpretation, Prediction, Diagnostics
+****** When to use it?
+****** How do you think about it?
+****** Connections and Comparisons with other methods/models
+***** TODO Classical Regression & GLM 
+****** Classical Linear Models
+******* Interpretation of some quantities/parameters
+******** beta
+******** R^2
+******* Estimation
+******** Gauss Markov Th implication
+******** Bias Variance Tradeoff
+******** Ridge
+******** Lasso
+******* Testing and C.I.
+******** test for residual and normality assumption
+******** test beta belong to a region
+******** simultaneous C.I. 
+******* other issue 
+******** outlier
+******** influential points
+******** multi-collinearity
+******** residual analysis
+****** GLM
+******* model setup: link function and moment properties
+******* estimation, algorithm
+******* testing
+***** TODO Logistic Regression
+***** Bootstrap Method
+***** TODO PCA & Factor Models
+***** TODO EM algorithm
+***** two versions of Partial Least Square
+** Expression Challenges
+
+*** TODO a brief overview of the current portfolio allocation data analysis
+
+*** TODO prerequisite part of the thesis
+*** paper writing log 
+**** TODO one paper summary OR 2 pages writing everyday
+     SCHEDULED: <2018-02-22 Thu +1d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2018-02-21 Wed 09:25]
+     :END:
+     - State "DONE"       from "TODO"       [2018-02-21 Wed 09:25]
+     - State "DONE"       from "TODO"       [2018-02-20 Tue 19:19]
+     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
+     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
+     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
+     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
+     - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
+*** DONE May-31 *Interpretation of Data* lecture [3/3]
+    CLOSED: [2017-06-07 Wed 15:23] DEADLINE: <2017-05-29 Mon>
+**** DONE Application Examples
+     CLOSED: [2017-06-07 Wed 15:23]
+**** DONE Linear Regression Review
+     CLOSED: [2017-06-07 Wed 15:23]
+**** DONE R Introduction
+     CLOSED: [2017-05-21 Sun 17:38]
+** Programming Challenges
+*** 4-8-2017 [0/2]
+**** TODO implement 2048 game in R
+**** TODO how to write a Python program to send email
+
+*** Improve general coding & simulation technique
+
+**** DONE R problems, hard section
+     CLOSED: [2017-10-10 Tue 03:56]
+     
+**** TODO R problems, last section
+** Data Incubator
+*** apply (deadline:) [0/2]
+**** TODO finish all HW of Yang Dan's 588
+**** TODO finish the major chapters of 周志华 《机器学习》
+
+

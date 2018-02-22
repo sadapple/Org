@@ -36,7 +36,13 @@ CLOSED: [2016-04-22 Fri 13:29] SCHEDULED: <2016-04-03 Sun>
 *** TODO Ch3 (Invariance Principle)
 *** TODO Ch6&7 (Multivariate Sampling & Wishart)
 *** TODO Ch10&11 (PCA & Canonical Correlation)
-** TODO 663 Notes & Problems by Professor Zhang 
+** 663 Notes & Problems by Professor Zhang [1/3]
+*** DONE the linear model
+    CLOSED: [2017-06-25 Sun 20:38] SCHEDULED: <2017-06-15 Thu>
+*** statistical inference in the linear model
+*** TODO biased estimators
+*** TODO nonparametric regression
+*** general linear models
 * Probability [0/4]
 ** TODO Familiar with common distribution charaterization and facts
 ** Some Math Expectation Calculation Techniques & Tricks

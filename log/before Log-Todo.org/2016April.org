@@ -4,14 +4,6 @@
 #+LATEX_HEADER: \setmainfont{SimSun}
 
 
-* Chinese export Test
-二零一六年关键词————“好的习惯，好的思考，好的表达，好的交流”
-
-“在那些年月里，我们为了推翻卓越的前辈们，废寝忘食地不知付出了多大的努力。现在的
-风尚的确与当时不大相同了。眼下，日本围棋界的条件相当优越。比如学棋的场所、学棋的
-对手几乎遍地皆是。然而只有这些，似乎还不足以激发棋手们学习的冲动，因为能让他们感
-动的东西太少了。或许正是因为年轻棋手们拥有的太多，结果反倒成了他们的不幸。”
-
 
 * Plan to road trip Shenandoah NP & Blue Ridge Pkwy(and Great Smoky Mountain if possible) this April or May
 [[./fireflies-great-smoky-mountains.jpg]]

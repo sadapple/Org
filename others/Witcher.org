@@ -1,0 +1,55 @@
+* Novel Reading
+* Witcher 3 Gam3
+** gwent card collection memo
+收集之前我们需要知道昆特牌收集的基本规则：
+
+　　首先获得昆特牌的方法有三种，一是在商店购买，购买的卡片的内容与地点都是固定的;二
+是与商人或者铁匠在昆特牌对战中获胜取得，一个商人只可以赢的一张卡片，获得的卡片是
+完全随机的;三是在一些特定任务中取得，最明显的就是昆特收集任务，这些任务会要求你
+去和一些强力的NPC对战，胜利会取得属性更好的卡牌，当然还有很多卡牌是穿插在一些其
+他的支线任务之中，有些甚至错过了就再也收集不到了，这些我们会在下文详细说明。
+
+　　在收集的过程中，我们最好记录下来我们去过哪些城市和哪些商人对战过，这样后期就
+可以知道哪个商人没打过从而去找他收集随机卡片。或者到一个新村庄或者城市就把里面商
+店的卡牌买完(如果有卖卡商的话。)，再战胜全部可以对战的商人，这样我们只需要记得城
+市名字就好了。
+
+　　顺便说明一下本收集攻略是按照地图+所属阵营来分类的，因为如果切地图的话读盘会
+比较慢，漏的卡牌比较散的话会很浪费时间，所以这篇收集攻略的使用方法建议大家先把这
+个地图的所有可能收集到的卡片对照地点全部收集完之后再去下一个地区，免去来回读盘的
+烦恼。同时这也可以很好的当做从零开始收集卡牌的参考。
+
+　　最后温馨提示，请在开始任务之前保存好进度，由于本作有bug可能导致任务无法完成，
+所以一旦发现达成任务条件却没有给自己卡牌奖励的时候请务必读档。建议大家在接到任务
+之后就赶紧去完成，如果主线推一半些再去支线做一半就很容易出现这些问题。
+
+** details
+*** *line of salt*, Family Matters
+** combat
+Witchers tend to draw their swords an awful lot; it's just what happens when
+you're a monster hunter. Geralt carts around two swords at all times: a steel
+one for taking on human foes and non-magical beast and a silver one for pretty
+much everything else. The game is thankfully smart enough to draw the right
+sword automatically based on the enemies arrayed in front of you... usually, so
+it's still a good idea to remember how steel and silver differ.
+
+Effective combat comes down to a mix of dodging, rolling or parrying Effective
+combat comes down to a mix of dodging, rolling or parrying, then responding with
+a light/heavy attack as soon as you see an opening. Dodging is a sidestep that
+doesn't create a lot of distance, but it doesn't chew up any stamina at all;
+rolling creates that distance, but at the cost of stamina. You can block by
+holding down L2, but parrying is a timed challenge wherein you press L2 just as
+the enemy is swiping. Pull it off to stun the enemy and create an opening.
+
+The trick is to get behind whatever it is you're attacking, as strikes from the
+rear do considerably more damage. Use repeated dodges to circle around your
+target and make your move as soon as you're in position. Just be sure to dodge
+or roll away after two or three chops, as most enemies recover and strike back
+after too many successive hits.
+
+Also be sure to read up on the more unusual enemies you encounter in the
+bestiary (accessible via "Glossary" in the game menus). Once you've defeated a
+monstrous foe, an entry for it appears in Geralt's journal. In addition to
+offering basic details about what the creature is, the bestiary entry also lists
+which signs and/or consumables are particularly effective against it.
+* Gwent Card Game 

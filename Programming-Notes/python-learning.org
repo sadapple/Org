@@ -1,0 +1,68 @@
+* basic data types
+** questions to ask
+*** is the data type recursive?
+** tuple
+*** operations
+*** a "mutable" tuple eg
+
+#+BEGIN_SRC python
+t = ('a', 'b', ['A', 'B'])
+t[2][0] = 'X'
+t[2][1] = 'Y'
+t
+('a', 'b', ['X', 'Y'])
+
+#+END_SRC
+
+表面上看，tuple的元素确实变了，但其实变的不是tuple的元素，而是list的元素。tuple
+一开始指向的list并没有改成别的list，所以，tuple所谓的“不变”是说，tuple的每个元素，
+指向永远不变。
+
+** list
+
+** dictionary
+Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。
+
+为什么dict查找速度这么快？因为dict的实现原理和查字典是一样的。假设字典包含了1万个汉字，我们要查某一个字，一个办法是把字典从第一页往后翻，直到找到我们想要的字为止，这种方法就是在list中查找元素的方法，list越大，查找越慢。
+
+第二种方法是先在字典的索引表里（比如部首表）查这个字对应的页码，然后直接翻到该页，找到这个字。无论找哪个字，这种查找速度都非常快，不会随着字典大小的增加而变慢。
+
+如果key不存在，dict就会报错
+
+要避免key不存在的错误，有两种办法，一是通过in判断key是否存在
+二是通过dict提供的get方法，如果key不存在，可以返回None，或者自己指定的value
+要删除一个key，用pop(key)方法，对应的value也会从dict中删除
+
+
+请务必注意，dict内部存放的顺序和key放入的顺序是没有关系的。
+
+和list比较，dict有以下几个特点：
+
+查找和插入的速度极快，不会随着key的增加而变慢；
+需要占用大量的内存，内存浪费多。
+而list相反：
+
+查找和插入的时间随着元素的增加而增加；
+占用空间小，浪费内存很少。
+所以，dict是用空间来换取时间的一种方法。
+
+dict可以用在需要高速查找的很多地方，在Python代码中几乎无处不在，正确使用dict非常重要，需要牢记的第一条就是dict的key必须是不可变对象。
+
+这是因为dict根据key来计算value的存储位置，如果每次计算相同的key得出的结果不同，那dict内部就完全混乱了。这个通过key计算位置的算法称为哈希算法（Hash）。
+
+要保证hash的正确性，作为key的对象就不能变。在Python中，字符串、整数等都是不可变的，因此，可以放心地作为key。而list是可变的，就不能作为key
+
+** set
+set和dict的唯一区别仅在于没有存储对应的value，但是，set的原理和dict一样，所以，同样不可以放入可变对象，因为无法判断两个可变对象是否相等，也就无法保证set内部“不会有重复元素”。试试把list放入set，看看是否会报错
+
+** immutable data types
+使用key-value存储结构的dict在Python中非常有用，选择不可变对象作为key很重要，最常用的key是字符串。
+
+tuple虽然是不变对象，但试试把(1, 2, 3)和(1, [2, 3])放入dict或set中，并解释结果。
+
+* 字符串和编码
+
+* control flows
+
+** if statement
+if语句执行有个特点，它是从上往下判断，如果在某个判断上是True，把该判断对应的语句执行后，就忽略掉剩下的elif和else
