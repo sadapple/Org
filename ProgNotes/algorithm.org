@@ -1,7 +1,0 @@
-* Divide & Conquer
-* Sort & Search
-* Greedy Methods
-* Graph Traversal
-** how to choose the right graph implementation? like adjacent matrix or adjacent linked list?
-* Dynamic Programming
-* Combinatorial Search

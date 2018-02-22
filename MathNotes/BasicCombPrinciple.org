@@ -1,3 +1,0 @@
-* Principle of Inclusion & Exclusion
-** Probability form
-** Waring formula

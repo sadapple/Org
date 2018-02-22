@@ -1,3 +1,0 @@
-* Reading Schedule 
-** TODO Read Ch5 of BDA
-   SCHEDULED: <2015-04-09 Thu>
