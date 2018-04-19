@@ -24,11 +24,16 @@
 ******* I believe this kind of technique would have some application in creating photo/anime and also in *game industry*
 ****** what is *tensor PCA*?
        notice Anru Zhang's arxiv paper *Guaranteed Tensor PCA with Optimality in Statistics and Computation*
+**** 2018 
+***** Tony Cai & Linjun Zhang's preprint on AdaLDA, which is an extension of LPD
+      *High-dimensional Linear Discriminant Analysis: Optimality, Adaptive Algorithm, and Missing Data*
 ** Books and Notes
 *** Lagrange multiplier and KKT theory
     
 **** ch2 of *Optimization-theory and practice(Forst-SUMAT)*
 **** ch5 of *Optimization(Lange-STS)*
+*** ESL
+**** Ch 4, classification
 *** Wasserman 705 Notes
 **** uniform bounds
 ***** VC dimension
@@ -217,7 +222,11 @@ CLOSED: [2015-11-15 Sun 18:43]
 CLOSED: [2016-04-29 Fri 14:39] SCHEDULED: <2016-04-13 Wed>
 Not missing, see the official paper version
 *** TODO prove LPD type asymptotics results for correlation matrices
+**** TODO why consider correlation version of LPD
 **** do not expect better results than the covariance matrix version, but in practice use the correlation version is better
+     why?
+*** TODO study the related part of the AdaLDA paper by Tony Cai & Linjun Zhang(2018)
+**** compare their adaptive approach with our LPD variants based on the weighting idea
 ** TODO LPD performance comparison
 
 *** methods involved in comparison
@@ -230,6 +239,7 @@ Not missing, see the official paper version
 **** IND, independence rule
 **** NSS
 **** SAM 
+**** AdaLDA(if time permits)
 *** Questions [0/2]
 **** TODO on what kind of convariance matrix will it perform better than NSS?
 
@@ -238,7 +248,7 @@ Not missing, see the official paper version
 *** what is the pros & cons?
 
 *** TODO Can LPD select the best marginal feature? How about ROAD? [1/2]
-when the tuning parameter is near lambda_max, L0 norm = 1 implies the best
+for LPD with correlation matrix, when the tuning parameter is near lambda_max, L0 norm = 1 implies the best
 marginal feature is in the active set
 **** DONE study whether whenever L0 norm = 1, the nonzero feature is the best marginal feature
      CLOSED: [2015-09-09 Wed 16:33] SCHEDULED: <2015-08-28 Fri>
@@ -249,8 +259,6 @@ The answer is no, counter example exists.
 
 **** DONE professor Lee Dicker's Danzig Selector uniqueness reference
 CLOSED: [2015-11-18 Wed 16:13]
-** Given results on MGF, how to obtain results for moments and the *converse* problem
-*** For motivation, see my PaperCalculation.pdf file 
 ** TODO Analyze leukemia data
 *** Original dataset vs golub dataset in mulltest package?
 No conflict, since I found the script which the autors of mulltest used to
@@ -289,6 +297,8 @@ How to do CV for the current problem?
 
 *** TODO ROAD exact algorithm: singular case
     SCHEDULED: <2017-10-11 Wed>
+** Given results on MGF, how to obtain results for moments and the *converse* problem
+*** For motivation, see my PaperCalculation.pdf file 
 ** study two version of *Partial Least Square*
 ** complexity results [1/2]
 *** DONE one constrain lasso(classo special case)
@@ -363,10 +373,22 @@ keep notes in a timely manner
 *** improve related problem solving skill
 as often as possible, better be everyday
 **** TODO math/stat problem solving
-     SCHEDULED: <2018-02-23 Fri +2d>
+     SCHEDULED: <2018-04-19 Thu +2d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-02-22 Thu 10:54]
+     :LAST_REPEAT: [2018-04-18 Wed 09:25]
      :END:
+     - State "DONE"       from "TODO"       [2018-04-18 Wed 09:25]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
+     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+     - State "DONE"       from "TODO"       [2018-04-01 Sun 01:38]
+     - State "DONE"       from "TODO"       [2018-02-26 Mon 11:56]
+     - State "DONE"       from "TODO"       [2018-02-24 Sat 13:08]
      - State "DONE"       from "TODO"       [2018-02-22 Thu 10:54]
      - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
      - State "DONE"       from "TODO"       [2018-02-18 Sun 09:21]
@@ -376,10 +398,20 @@ as often as possible, better be everyday
      - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
      - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
 **** TODO programming problem solving
-     SCHEDULED: <2018-02-24 Sat +2d>
+     SCHEDULED: <2018-04-18 Wed +2d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-02-22 Thu 14:25]
+     :LAST_REPEAT: [2018-04-18 Wed 09:26]
      :END:
+     - State "DONE"       from "TODO"       [2018-04-18 Wed 09:26]
+     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
+     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
+     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
+     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
+     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
+     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+     - State "DONE"       from "TODO"       [2018-04-01 Sun 01:38]
+     - State "DONE"       from "TODO"       [2018-02-24 Sat 23:20]
      - State "DONE"       from "TODO"       [2018-02-22 Thu 14:25]
      - State "DONE"       from "TODO"       [2018-02-20 Tue 19:19]
      - State "DONE"       from "TODO"       [2018-02-19 Mon 11:04]
@@ -442,10 +474,18 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 **** two main focus
 ***** TODO wrap up thesis material, target at finishing no later than October, 2017
 ***** TODO spend regular time to know about the data science job market
-SCHEDULED: <2018-02-25 Sun +1w>
+SCHEDULED: <2018-04-22 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2018-02-18 Sun 15:45]
+:LAST_REPEAT: [2018-04-15 Sun 04:48]
 :END:
+- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
+- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
+- State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-02-26 Mon 11:56]
 - State "DONE"       from "TODO"       [2018-02-18 Sun 15:45]
 - State "DONE"       from "TODO"       [2018-02-17 Sat 21:10]
 - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
@@ -729,7 +769,19 @@ to apply the 2nd condition in Corollary 3.2, consider *Markov Inequality*
 ***** 2-21 [0/2]
 ****** TODO in the multi-case, assume iid multi-normal, calculate the lag-1 canonical correlation 
 ****** TODO besides the martingale CLT approach, the CLT for m-dependent r.v. series can also be used to establish the *asymptotic normality* under our current iid setup
+***** 3-30 [1/3]
+****** DONE characterize the covariance structure of the current multivariate asymptotic dist findings in *Kronecker product* form 
+       CLOSED: [2018-04-15 Sun 03:46]
+****** TODO see whether you can relate the obtained covariance structure with classical results(eg. for normal iid case, see Anderson's book)
+***** 4-4 [0/1]
+****** TODO consider the MA(1) approach to our multivariate CC distribution problem  
+****** TODO check whether the main result(Corollary 2.3) in Mi-Hwa Ko's 2006 paper *FUNCTIONAL CENTRAL LIMIT THEOREMS FOR MULTIVARIATE LINEAR PROCESSES GENERATED BY DEPENDENT RANDOM VECTORS* is applicable for our problem
+***** 4-13 [0/3]
+****** TODO simplify the covariance matrix obtained in our multivariate results, does the matrix J+J' in the middle commute with the matrix on the left and right?
+****** TODO my current formulation of the asymptotic dist claim can be cast in slightly general formulation, think about the problem in this more general formulation
+       see Xiao's scratch notes which he wrote down during the discussion
 *** DONE discuss thesis and graduation with advisor
+
     CLOSED: [2017-01-25 Wed 01:01]
 **** 2017.1.12 agreed on finish in the 2nd half of 2017, possibly September or October
 ** Ph.D Degree Checklist [1/9]

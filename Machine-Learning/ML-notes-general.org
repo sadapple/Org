@@ -69,6 +69,7 @@ G的训练也是如此：
 + 先将G拼接在D的上方，即G的输出作为D的输入（男生女生在一起），而同时固定D的参数（女生不愿意改变），并将进入G的噪音样本标签全部改成'1'（目标是两个人继续在一起，没有其他选择），为了最小化损失函数，此时就只能改变G的每一层权重，反复迭代后G的生成能力因此得以改进。（男生更适合女生） ------------ (2)
 
 反复迭代（1）（2），最终G就会得到较好的生成能力。
+
 * Questions
 ** 深度学习的限制
 著名深度学习库 Keras 作者 François Chollet 曾在一篇名为《深度学习的限制》的文章
@@ -79,3 +80,18 @@ G的训练也是如此：
 但本身不知道什么是猫；可以是一个种族主义者，但不知道什么是种族主义。深度学习可以
 识别猫、具有种族主义，并赢得很多游戏，这看起来是令人瞩目的进步，但深度学习无法解
 释为什么图中的动物是猫，也无法定义种族主义。
+** TODO 机器学习包含哪些学习思想？
+https://www.zhihu.com/question/267135168
+
+"我在学习的过程中发现有很多绝妙的点子，不知道有没有同学在总结类似的东西．例如竞
+争的思想(Generative Adversarial Network)，贝叶斯后验概率的思想，最大似然的思想，
+动量的思想(adam optimization)，投票的思想(random forest, bagging)，对错误值加大
+注意力的思想(boosting, Adagrad optimization)，学习自己的思想(Deep Baltzman
+Machine, autoencoder)，one-shot learning (siames-neural network)里成对学习的思想，
+记忆的思想(Long Short Term Memory)，筛子的思想(CNN)，规模的思想
+(scaling,normalization)，自然选择的思想(genetic algorithm)，人工选择的思想
+(reinforcement learning),逼近的思想(Markov, hopefield)，未观测信息的影响(hidden
+layers)，比例的思想(logorithm)."
+* Resources
+** Google Machine Learning Crash Course
+ https://developers.google.com/machine-learning/crash-course/

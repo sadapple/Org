@@ -47,10 +47,17 @@ CLOSED: [2016-04-22 Fri 13:29] SCHEDULED: <2016-04-03 Sun>
 ** TODO Familiar with common distribution charaterization and facts
 ** Some Math Expectation Calculation Techniques & Tricks
 ** TODO Conditional Expectation
+** MGF and Characteristic Function
 ** Martingale
 ** TODO Concentration Inequalities
-** TODO Asymptotic Theory 
-** MGF and Characteristic Function
+** TODO Asymptotic Theory
+*** modes of convergence
+*** LLN
+*** CLT
+**** classical CLT
+**** m-dependent CLT
+**** martingale CLT
+*** delta method
 * Important Math Techniques [0/4]
 ** TODO Generating Functions
 ** TODO Solve common recurrent equations

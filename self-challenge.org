@@ -344,24 +344,7 @@ the tail probability of a distribution via characteristic function?
 *** TODO prerequisite part of the thesis
 *** paper writing log 
 **** TODO one paper summary OR 2 pages writing everyday
-     SCHEDULED: <2018-02-22 Thu +1d>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-02-21 Wed 09:25]
-     :END:
-     - State "DONE"       from "TODO"       [2018-02-21 Wed 09:25]
-     - State "DONE"       from "TODO"       [2018-02-20 Tue 19:19]
-     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
-     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
-     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
-     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
-     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
-     - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
+     SCHEDULED: <2018-04-18 Wed +1d>
 *** DONE May-31 *Interpretation of Data* lecture [3/3]
     CLOSED: [2017-06-07 Wed 15:23] DEADLINE: <2017-05-29 Mon>
 **** DONE Application Examples
