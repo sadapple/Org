@@ -40,8 +40,203 @@ In short, combos are EASY in SFV, you can do it without much effort. Hard part
 is everything else as in how to control the neutral game, how to defend
 yourself, how to apply pressure and open people up. But htat basically goes for
 almost any fighting game
+*** 2018-4-21
+**** random DP input, not clean!
+**** improve anti-air
+**** patient and more mixup
+*** 单发确认
+好比你用了任意招式打中对手，在不是复合操作的前提下，凭反应在对手仍在受创硬直时使
+用下一招式衔接。一般像在33里这种技巧比较常见，春丽下中脚扫中对手就接凤翼扇，被防
+了下中脚就什么也不出。
+
+就是阿七说的这样，单发确认超杀在33里是高手必须的技巧。我们菜鸟玩家不需要做到这样，
+但也是可以试着练一下单发确认必杀（不是超必杀），街霸5里的压起身非常厉害，如果能
+熟练掌握单发确认必杀，会得到非常多的击倒机会，就算一些必杀技不能击倒，也能让我们
+继续压制。首先可以用蓄力系角色来练，比如古烈，下中拳确认命中后出脚刀，没命中就不
+动，或者出手刀继续压制；熟练之后换指令型角色，比如隆，下中脚确认命中后出驴踢或升
+龙击倒；再熟练之后就可以用复合输入的方法挑战单发确认超必杀了。我已是中年大叔，看
+来是做不到了，年轻人你们多努力吧，哈哈
+
+最简单的隆，5mp如果打康，可以接2HK，就是扫脚，没打康你就不能接扫脚，要不然扫出去
+就挨打。比较复杂的，还是隆，5mp后摇2626，如果5mp中了，2626后面马上按p，没中就不
+按去看momochi的确认比较牛逼，打比赛有他那种确认的在职业选手里也不多见还有比如龟
+烈，4hp可以打碎康，如果碎康成功，确认4646的必杀，没中碎康就不出小鲜肉nuckledu比
+较拿手，煤老板也行当然，这些我都不会。。。
+
+*** 延迟拆投
+*** counter的翻译 
+关于counter，我觉得ggxrd sign中文版的翻译比较贴切。游戏中翻译做【截】，应该是截击之意，同时也是截拳道的截，很有格斗术语的感觉。
 ** TODO clean input, *rhythm*
+** TODO cancel
+*** TODO cancel window for each cancelable move
+
+Q:I currently have the impression that whenever during the recovery frame of a
+move, any key input is invalid. For example, in order to cancel Ryu's cr. mk
+into hadoken, the player need to execute all the key inputs before the cr. mk
+enter its recovery frame animation. Am I right?
+
+Answer: 
+no
+
+each move has a cancel window, during which inputs that are entered will result
+in a cancel the cancel window doesn't last the full recovery, but it does last
+some frames into recovery some moves have longer cancel windows than others
+
+if what you're saying were the case, then it'd be impossible to block confirm
+unsafe moves into specials to make them safe
+** TODO negative edge
+ The game engine registers the release of the button as an input giving you the
+ ability to perform special moves with a simple release of the button. Negative
+ Edge only applies to Special Moves and Critical Arts, you cannot throw out
+ normals or command normals with the use of Negative Edge. You can even use
+ Negative Edge to perform specials in the neutral, there is no need to cancel
+ out of a normal. You may find some combos easier to perform with Negative Edge
+ while others won’t require it at all. It will mostly be personal preference but
+ this type of input can open up interesting option selects which will be
+ discussed in a later workout. The variations of this workout are only limited
+ to what you are comfortable with or think might benefit you when performing
+ combos.
 ** TODO footsies
+** TODO blocking
+*** Determining Advantage on Block 
+examples:
+https://www.reddit.com/r/StreetFighter/comments/4k269x/giefs_gym_determining_advantage_on_block_a/
+**** ken's run stop pressure 
+Ken players often take advantage of their opponent not knowing when his run stop
+pressure is safe or unsafe on block. However, if you look at the data you’ll see
+that almost every normal cancelled into his V-Skill is punishable On Hit. Ken
+Run Cancel Frame Data (Shoutouts to /u/Raich- ). All that’s left is to practice
+the timing on the punish.
+
+** TODO anti-air
+*** counter divekick 
+    consider *neutral jump*
+** TODO jumping
+   *do not jump without a reason to jump*
+  If you are unable to explain why you jumped, chances are you shouldn’t have jumped.
+
+good lesson by Gief at reddit:
+https://www.reddit.com/r/StreetFighter/comments/4pafhe/giefs_gym_jumping_a_practical_lesson_on_never/
+*** The Workout 
+  Against a live opponent either in person or online you must first determine if
+  they are making decisions based on your actions or simply on autopilot. See
+  the lesson on Conditioning for further details. Common advice is to tell new
+  players not to jump simply because it isn’t obvious as to when it might be
+  beneficial to jump. Against a skilled opponent work on utilizing your aerial
+  abilities in the following ways:
+
+ Establish a solid defense against your opponent's jump ins. Keeping your
+ opponent out of the air forces them to approach you on the ground. This will
+ require them to spend more mental energy thinking about spacing and normals
+ potentially opening up a window for you to land a jump in. Anti Airing alone
+ will not be enough to open that window, but it’s the first step in cracking
+ them open for big damage.
+
+ Utilize your neutral jump. Many characters have offensive, potentially safe
+ attacks which move them forward. Your opponent may try to take advantage of
+ these attacks to cover ground quickly and catch you off guard. For them it
+ might not be risky at max range even if you block. At these match up specific
+ ranges, perform a neutral jump just to show your opponent that you might be
+ trying to punish this type of approach. You may get lucky and come down on them
+ with a heavy neutral jump but it might also allow you to not have to worry
+ about your opponent advancing toward you in the neutral.
+
+ Neutral jump over projectiles. This is often times the safest way to avoid chip
+ and force your opponent to make a different neutral decision. When you jump
+ forward on reaction to a projectile you put yourself at risk of eating an anti
+ air plus jumping forward pushes that projectile off screen earlier allowing
+ your opponent to throw a second projectile. Performing a neutral jump over a
+ projectile can allow you to move forward without fear of having to deal with a
+ second projectile until the first projectile leaves the screen. This may also
+ allow you to see if your opponent has an automated projectile pattern if they
+ whiff a normal during the time you would be blocking the first projectile.
+
+ Neutral jumping to stay on the same horizontal plane as a character with a
+ divekick. When your opponent jumps toward you and they have the ability to
+ perform a divekick it can be difficult to time your anti air attempt if your
+ common grounded anti air has a slow start up or it doesn’t have many active
+ frames. Most all divekicks have very bad air to air hitboxes and very bad air
+ to air hurtboxes. Because of this, divekicks are susceptible to air to air anti
+ airs. So neutral jump with your best air to air normal to prevent your opponent
+ from exploiting the offensive properties of their divekick.
+
+ Now that your opponent is focused on the ground game, dance around their
+ farthest reaching normal range. Far reaching normals typically have a long
+ recovery so try to bait out and recognize a pattern of these far reaching
+ normals. This tactic relies on your ability to trick them into committing to a
+ slow normal. Find that range, wait just a moment or even whiff a jab, or crouch
+ for just long enough for your opponent to see an animation, then jump forward.
+ Crouching or walking backward puts it in your opponents mind that you are
+ stationary or allowing them to advance in the neutral. This is the trap you’ve
+ set for your opponent while they expect you to attempt a whiff punish or throw
+ out a poke. This is still a risky maneuver but you can mitigate that risk by
+ conditioning your opponent to be hyper focused on the ground.
+
+ Feint a tick throw by putting your opponent in a blockstring, walk forward just
+ a step, then neutral jump. If your opponent reacts with a late tech to keep
+ themselves safe from being thrown, then you can land on top of their head with
+ a heavy neutral jump. First you must show your opponent that you are looking
+ for tick throws and frame traps to give them a reason to perform a late throw
+ tech.
+
+ Similar to the previous two points, perform a blockstring which pushes you to
+ your own max poke range. Instead of resetting the space or trying to get greedy
+ with a poke, stand still or crouch for just a moment, just enough so they see
+ it. Then jump forward with a cross up. If they committed to a button with long
+ recovery or even attempted to throw a projectile, you’ll be able to cross them
+ up.
+
+ Above all, do not jump without a reason to jump. Making a read that your
+ opponent “might throw a fireball.” is not an acceptable reason. Picking up on
+ your opponents projectile habits and knowing that your opponent is likely to
+ throw a projectile in a given situation is an acceptable reason.
+*** The Purpose
+Own the skies my friend. Always remember that jumping is a commitment. The
+timing of the average jump arc is well within most people’s normal reaction
+time, especially when the jump is expected. If you plan on working an offensive
+jump into your game plan and your neutral, you must first establish a neutral
+which is not reliant on going airborne. It may seem counterintuitive at first
+but consider that for most characters your forward jump has the same trajectory
+every time. Play enough of one game and anyone can recognize the prime jump in
+range and to know exactly which button to press to anti air at that range with
+proper timing.
+
+ However, if your opponent is expecting to hit you or at the very least force
+ you to block their farthest reaching normal, they might not have also prepared
+ themselves to anti air your jump attack in that same situation. Instead of
+ thinking of your forward jump as a way to get in on your opponent consider it a
+ normal with a great deal of start up and a high reward if you are able to
+ connect with your opponent. If you are unable to explain why you jumped,
+ chances are you shouldn’t have jumped.
+*** TODO safe jumps(having questions)
+https://www.reddit.com/r/StreetFighter/comments/5lmn2r/giefs_gym_safe_jumps_second_edition_edit/
+**** landing frames of a jump
+Every character in SFV has a total of 4 landing frames at the end of their jump.
+However, if you did not attack in the air, you can cancel out of those landing
+frames on the first frame into a block, normal attack, special attack, throw,
+V-Skill/Trigger, or Critical Art. If you did perform an attack in the air, such
+as the neutral jump hard kick outlined in the workout, you are limited to only
+being able to cancel the landing frames on the second frame in which case you
+are only able to block or tech a throw. Consider that you need at least 1 active
+frame of the jump-in attack to be active as your opponent is waking up, then a
+minimum of 2 frames after landing before you can block a reversal. By the 4th
+frame, you are now able to block again. This should better explain why frame
+perfect safe jumps do not work on 3 frame reversals but will beat 4 frame
+reversals.
+
+Just keep in mind that you can position your safe jump in a way that can cause 3
+frame reversals to either whiff or not have enough reach to catch you on the
+first active frame. However, these setups will often lose to auto-corrected
+reversals or other defensive options.
+** TODO throw
+*** delayed throw
+** TODO reversals
+** TODO Projectile Tactics
+   https://www.reddit.com/r/StreetFighter/comments/770uud/giefs_gym_projectile_tactics/
+** TODO punishing
+** TODO combo
+*** Ryu's Down hp>DP>CA cancel combo
+    input: d hp f d df hp f hp
 ** TODO hit confirm
 
 *** tips
@@ -49,7 +244,39 @@ almost any fighting game
     2. to do hit-confirm, besides looking at animation, you can also pay attention to the stuck meter or the hit/block sound
     3. start practicing from some safe hit-confirm, like two light normals, since you won't eat huge punishes for screwing up 
 *** counter & crush counter hit confirm
-** TODO blockstrings
+*** TODO stun/hit recovery & whiff recovery different? I don't think so
+"the move isn't in whiff recovery if it hits
+the recovery is different if the move connects
+and the recovery window depends on the move" --- this assertion is not correct, Chuan 4-10-2018
+*** TODO taking the human reaction time into acount, right now it seems to me that it's possible to do Ryu's single hit confirm *cr. mk xx hadoken*?
+    but if cr. mk does cause 12 frames of *hitstop*, then this might be possible for those with quick reaction
+*** TODO what is hitstop data?
+Hitstop is a sort of freeze that happens when one character makes contact with
+another. It’s a period of time where the blocking character is enduring the
+opponent’s hit before they can respond. Graphically, it serves the purpose of
+showing the impact of the opponent’s hit on the blocking character. It doesn’t
+matter how advantaged or disadvantaged the frame data on an attack might be,
+there’s (almost) always a static amount of hitstop frame data for normals. As a
+rule in Street Fighter V, a light attack like a standing jab or a crouching
+short causes 8 frames of hitstop on block, a medium attack causes 12 frames of
+hitstop, and a heavy attack causes 15.
+*** TODO hitstun & hit confirm
+I meant special moves canceled from a normal. Blockstun will determine whether
+you can safely chip or if your opponent can mash a reversal in the gap for
+example.
+
+Also while yes frame advantage determines whether or not a link is possible,
+hitstun is what determines whether you can hit confirm.
+
+When you attack either the opponent will block or get hit or get counter hit.
+Attempting to do a particular follow up based on the hit outcome is easier with
+longer hitstun.
+
+Confirming off a jab or short is not possible. You can try this in training
+mode. Put the dummy on random block random counter hit. Do a jab. On block, hit
+and counter hit do 3 different actions. Off mediums this is easier and off
+heavies it is simple.
+** TODO blockstring
 The Blockstring is the other side of the coin to Hit Confirms. Its a series of
 attacks designed to keep pressure on your opponent when they block, so that you
 can continue your offence. They also have the beneficial side-effect of pushing
@@ -62,17 +289,61 @@ like a combo, that ends with something safe. The best ones end with a move that
 leaves you at Advantage when blocked but in a pinch, any attack that's not
 Punishable when blocked will do.
 ** TODO shimmy: baiting throws
-** TODO cancel
-** TODO combo
-*** Ryu's Down hp>DP>CA cancel combo
-    input: d hp f d df hp f hp
 ** TODO option select
 *** 正逆择
 *** 起身择
 ** TODO wake up recovery, options & strategies
+** TODO Meter Management
+Gief's article on this topic:
+https://www.reddit.com/r/StreetFighter/comments/4ktkix/giefs_gym_meter_management_muscle_power_for_meter/
+*** If my opponent is stunned and close to KO, how can I build the most Meter? 
+Stun can often occur when your opponent is near KO with very little health. If
+you have time, whiff as many special attacks as you can in order to gain
+Critical Gauge before the end of the round. Also consider the best way to end
+the round. For example, Ryu’s HP Shoryuken builds a lot more Meter than his
+crouching jab. This end of the round Meter Gain, might be obvious but it could
+make a big difference heading into the next round.
 ** TODO other techniques
 *** plinking
+examples:
+https://www.reddit.com/r/StreetFighter/comments/4j0hej/giefs_gym_double_tapping_a_practical_solution_to/
+**** Using Double Tap to cancel into a special
+While cancel windows are typically not confined to 1 frame links you can still
+take advantage of Double Taps to increase your chances of hitting the cancel
+window. If you remember from the lesson on Negative Edge, special moves can be
+executed by pressing or releasing the button. When you apply a Double Tap to
+performing special moves you are essentially providing 4 possible button
+“inputs” for your special move. The first button press will register, the
+release of that button will register on the second frame, the second button
+press will register on the third frame, and the release of the second button
+press will register on the fourth frame. This can be especially useful when
+linking one special move directly into another, when linking a normal move into
+a special move, or simply whenever you want to be sure to hit the cancel window
+of your bread and butter combos. While Double Tapping is certainly not required
+in order to land even the most difficult combos in Street Fighter V, it can make
+the difference in a clutch situation to improve your chances of landing that
+crucial combo.
+
 *** piano
+** TODO character specific
+*** Ryu
+**** mixups
+**** combo choice
+***** note 1
+Second is to work on effective combos. I won’t post any here but you can find a
+complete list in the combo thread. It will take some time to get used to which
+combo to choose. Combos with DP finisher are the best but have very short range,
+whiffing a dp is catastrophic in this game so you gotta know your ranges. MK
+tatsu combos are second best but those whiff on crouchers. Fireball combos are
+the easiest and have most range but can sometimes not combo if they are at the
+tip of your cr.MK range or if you didn’t cancel fast enough. Although his super
+is extremely good, I tend to just finish my combos with EX tatsu until I get
+more comfortable with the character, those work on crouching and standing
+opponents and will link from any cancellable normal even the absolute tip of
+cr.MK. The damage is less than a dp finisher but still quite good.
+*** Guile
+**** practice charging combos
+***** j.hk, mp, cr.lp, 16hp(sonic boom)
 * Skullgirls
 ** guide
    http://steamcommunity.com/sharedfiles/filedetails/?id=172072817
@@ -254,9 +525,28 @@ Punishable when blocked will do.
  That's why training mode is so important but try not to burn yourself out. Play
  some matches, have some fun with the game and come back to Training Mode
  regularly to smooth out the bumps as you run into problems during matches.
+* TK Practice
+** general advice
+*** starting with a small set of move with clear motivation
+i recommend only learning 5-7 staple moves, that you can use over and over again, 1-3 fast moves, 1- 2 punishers, 1 or 2 lows. you can learn more moves later.
+
+example leo, 
+1. 1 fast move
+2. 1,4 or f+1,4 fast punisher
+3. f+2,2 slow punisher
+4. df+2 slow punisher and launcher
+5. db+4,1 low move
+6. d+4,2 low move
+7. df+1 CH confirm 2. CH hunting
+
+
+Later you can add standing 4, B+4,1+2 etc.
+*** Top 15 moves for all characters
+https://drunkardshade.com/2017/05/27/tekken-7-top-15-moves-for-all-characters/
+https://www.reddit.com/r/Tekken/comments/6em988/tekken_7_top_15_moves_for_all_characters/
 
 * Articles & Notes
-
+  
 ** FTG resources
    除了我立志练习的ftg我会在第一时间支持(现在主要是SF5)，对于其他一些ftg我会先通过cracked版本尝试。如果有不错的，那我会在打折且手头充裕的时候入正支持。
    
@@ -1461,3 +1751,406 @@ Daigo: "Tokido came at it with that much passion, so the bar has really been rai
      Sheldon: https://www.youtube.com/watch?v=bji-w1gth8Y
 **** brief summary
      ST subreddit youtube channel video, begin around 27:40: https://www.youtube.com/watch?v=f8tLvX_GuM0 
+** Human Reaction Times and Fighting Games, or Why Blocking Isn’t Always Easy
+    article:
+http://shoryuken.com/2015/05/21/human-reaction-times-and-fighting-games-or-why-blocking-isnt-always-easy/
+
+    reddit discussion thread:
+https://www.reddit.com/r/Games/comments/36vdi2/human_reaction_times_and_fighting_games_or_why/
+
+*** comments
+I was waiting for this article - and I'm particularly interested in AGE AND REACTION TIMES. 
+The FGC is very interesting in that the core fundamentals go back 20+ years. 
+Sako is 36 and Daigo is now 34 (his birthday was on Tuesday) - this is much older than successful LoL or Dota players. 
+And I don't see these guys becoming garbage overnight.
+It tells me few things: 
+1. Reaction times can be maintained with consistent practice as you get older (muscle memory), 
+2. Reduced reaction times can be compensated for in a number of other approaches to the game - experience, strategy, reads, mind games, etc. 
+3. Reaction times depend on the individual (not the general consensus on age vs. reaction times). Similar to people maintaining a healthy, strong body with discipline.
+I'm really keen to see how long these guys can keep winning in the FGC....particularly since I'm an old bugger myself.
+Most of the older players in the US dropped out because there were no real winnings / the juice was not worth the squeeze. And "life happened". They had / have kids, family, responsibilities. 
+But now these games are becoming jobs. So for people like Daigo, they can spend all day keeping their skills up, and that either includes reaction times OR compensating for reaction times.
+Very interesting subject :)
+
+*** reaction time are mostly experience 
+Reaction times are really experience.
+
+Which is why it's so critical to communicate to new players that the game simply
+requires time put into it. The more familiar you are with all the potential
+situations you can be placed into in a moment's notice that require split second
+decisions to be made, the more favorable those split second decisions will be.
+
+As far as teching throws goes, I've had to explain that to a friend of mine who
+gets frustrated about being thrown. It has nothing to do with reacting to the
+throw itself, that much is impossible, you are instead reacting to both the
+current spacing and the possibility of the throw.
+
+Really looking forward to SFV's crush counters for this very reason, and loving
+how we're straying away from 1f links as our execution high points. Simple yet
+extremely strict rhythmic combos aren't hype or impressive, it's sheer
+repetition engrained in your soul. But the ability to convert off of a counter
+hit into huge damage is both impressive and hype. It's amazing to see players
+somehow capitalize on inhumanly small windows of opportunity and convert that
+insane reaction into substantial gain that they unquestionably earned.
+
+Average human reaction speed to a visual stimulation is ~15f; it takes more time
+(~22f) to confirm what you're seeing and then react appropriately (like an
+overhead) as opposed to reacting to the mere twitch of your opponent. These
+numbers on reaction times bring a lot of context to frame data and reveal just
+how meticulously SF is built around established human reaction times.
+
+*** comments 2
+I don't think it would be difficult to explain the concepts of reads and
+reaction times in a bite sized tutorial. Nothing about SF is really rocket
+science and can be boiled down to pretty simple terms.
+
+If you know something is coming, you can respond faster. The unknown makes you
+respond sluggishly. Responding to your opponent relies on reaction and/or
+prediction. It is possible to respond to your opponent based solely on one or
+the other. Prediction allows you to respond the fastest. Reaction is
+significantly slower than prediction, but it allows you to confirm you are
+executing the correct response.
+
+A mixture of reaction and prediction allows you to vary your response times
+based on the situation at hand. For example, you can respond mostly based on
+reaction, but speed up the normally slow response of reaction by relying on some
+prediction as well.
+
+Frame data needs to be accessible and explained. Etc.
+
+** 《街霸5 街机版》不完全入门指南 
+https://www.g-cores.com/articles/96575
+
+橘生淮南则为橘，生于淮北则为枳。哪里才是最适合格斗玩家成长的地方呢？我觉得还得是
+街机厅。上个世纪九十年代，各类格斗游戏几乎都是街机厅的宠儿，也正是那个时候，一大
+批高手格斗家涌现出来。街机厅有着独特的优势，在网络还不发达的年代，能和比自己水平
+高的人面对面“切磋”，技术以及思路上的进步速度都远远高于闭门造车。实战是最简单的学
+习方式，虽说有时也会遇到一些不太友好的人，不过这也会激发出你的斗志，而当你能轻松
+战胜那些人时，胜利的喜悦也会加倍放大。
+
+我觉得对于新人来说，上手一个角色一定不能着急，先从最基本的东西开始了解。每个人轻、
+中、重三种拳脚的攻击方式是怎样的，出招速度如何，攻击范围多远，有没有特殊动作，必
+杀技有哪些？这些算是基础中的基础了，自己心里一定要非常清楚。很多人一上来就先开始
+学习连续技，学习华丽的高伤害打法，其实是不太正确的。连续技有没有有用？太有用了。
+是不是最重要？还真不是。
+
+或许很多人都有这样的误解，格斗游戏好看之处就在于这些精彩华丽的连招，对不起不是这
+样的。一切有效的进攻都是建立在能击打到对手的基础之上，打都打不到就几乎没有意义。
+你学会了一套跳入重拳起手的连续技，可对手防空十分完美，你连跳入的机会都没有，怎么
+办？格斗游戏我觉得还是比较看重实战效果的，好看的连招以及各种十分秀的操作都是对策
+的最终呈现形式，在这之前是大量细致的思考与计算。新手一上来就想学 blocking 凤翼扇
+这种技巧，其实对提升没有什么实质性的帮助，就像学画时只学了个“形”，而不知道背后的
+“神”，做不到神形兼备。
+
+街霸的游戏机制保证了哪怕完全不会任何连续技也是可以取胜的，我曾经遇到过一个挺厉害
+的桑吉尔夫，有一小局他几乎只用轻拳就打败了我，就是因为他对角色的理解比我深，防的
+很严密，又能发挥出他轻拳的距离远发生快的优势，掌控了比赛。这就是基本功上的差距，
+也引入了一个街霸中最为重要的概念——立回。
+
+何为立回？简单来说，就是博弈、试探、牵制。通过控制自己与对手之间的距离，把握双方
+动作的时机，努力使对手处于不利的境地，压制并牵制对手。一味的前进攻击会进入到对手
+的攻击范围，并且自己的每一个动作都会露出破绽，给对手机会；那如果一直后退就会退至
+版边无路可退，所有的防守都会变得极其被动，更谈不上进攻了；保持在一个确保自己能攻
+击到对手但对手无法有效进攻的位置，这就是立回追求的状态。像是隆、肯、豪鬼还有小樱
+这样的“道服系”角色，最常用的立回手段就是蹲中腿接波动拳。（还记得上文提到的“回中”
+吗？回中就是摇杆方向的复位，回到中间。如果回中性能不好的话，波动拳极其容易发生成
+升龙拳，对手防御住的话这可就是大惩罚了。）
+
+立回说起来其实很玄妙，非常非常困难，如果你的立回出色，基本上已经到了可以迎战职业
+选手的水平。如何训练立回的能力呢？实战是最好的办法。这是个很难说清楚的技巧，但是
+在实战中感受会非常明显。只要掌握了基本的拳脚和必杀技，就可以实战了，但是有时候你
+会感觉自己做什么都会被对手抓到机会，对手的拳脚总是能打到你，但你始终无法开展有效
+进攻。恭喜你，已经感受到了立回做的不好是什么感觉。
+
+到了这个阶段，差不多就能体会到之前提到的了解角色基础性能有多重要。寻求进步的方法
+也很简单，就是好好利用游戏里提供的“训练模式”。在训练模式里，你能设定模拟各种状况，
+比如说你想练习对空，就可以设定 CPU 一直跳攻击。在挑战模式里学到的连续技也可以在
+这里练习，连续技是保证你抓到机会之后能造成更大伤害的有效办法，在你命中一记中拳之
+后要是还能追加一个波动，不是更赚嘛。连续技只要不失误，对手是无法防御的，只能等到
+你打完整个一套连续技。
+
+可以把 CPU 设置成“自第二段攻击后开始防御”，这样你就可以轻松练习连续技，知道自己
+在哪个部分容易失误，集中练习那个部分。有了对一些状况的应对办法以及较为熟练的连续
+技，你会发现自己的水平明显提高了，和别人的对战也显得比以前有章法了，一招一式之间
+似乎有了高手的风范。这不是错觉，你是真的在变强。
+
+不过也就是在这个节点，很快又会迎来瓶颈。这个时候的对手慢慢变得更难对付了，一些招
+式你完全没有应对方法，又退回到了立回比对手差被压制的状态。这是一个比较关键的阶段，
+很多人都是在这个时候被劝退的，不过只要你能坚持住，跨越这个瓶颈，就是朝着格斗家踏
+出了坚实的一步。这个时候对你来说，缺少的就是“知识”了。
+
+你已经基本摆脱了入门阶段，想要继续提高就得相对系统的学习一些东西了。要学的“知识”
+有很多，比如说游戏系统方面的知识、专业术语，应对某个角色时的对策，自己角色的实战
+思路与技巧等等。我现在基本上就处于这个阶段，所以我的理解以及能给出的建议也就比较
+有限了，大致是这三个方面：查资料、训练模式、看录像。
+
+知己知彼，百战不殆，先要了解自己使用的角色，每个动作分别都需要多少帧，被防御之后
+会不会加帧，有加帧就是有利，应当多以这种方式牵制对手；没加帧就是大不利，应尽量避
+免，否则会被对手惩罚。
+
+帧有什么用呢？这意味着最起码这个攻击被防御之后不会被对手确认反击，如果加的帧多还
+能继续压制，择对手的乱动，比如说你使用的角色轻拳发生只需要3帧，而你之前的攻击动
+作被防御后加4帧，这就表示，你能比对手早4帧行动，如果你选择出3帧的轻拳（3帧是游戏
+里发生最快的拳脚动作 ），除非对手使用消耗资源的无敌技能，否则他永远比你慢1帧。
+
+别小看这1/60秒，它很致命，因为它带来的判定结果就是对手会被你打中，你就可以使用连
+续技追击，造成大量伤害。所以同理，了解自己之后，我们也得清楚对手哪些动作也有加帧
+的效果，下次对手使用这招时我们切记不能乱动，老老实实的防御，或者“凹”无敌技。上面
+说的这些情况都可以使用训练模式来模拟，而模拟出来的结果就是你的“对策”。知识量越大，
+对策越多，对战时就越占优势。
+
+不过我们毕竟不是职业选手，不可能花费大量的时间研究全部的对策，有没有快速一点的办
+法呢？有，看职业选手的对战录像。他们毕竟是职业玩家，研究每个角色的对策就是他们训
+练中很重要的一部分。那投入到比赛中的当然都是模拟过许多许多次之后的结果，照着学当
+然是最简单的办法。
+
+在有了一定的知识储备后，看录像时能看懂并且学到的东西也就更多。这是个非常开心的过
+程，每场比赛看完之后都会觉得有新的收获，不过这个成长的过程十分缓慢，把别人的东西
+消化吸收成自己的东西总是需要时间的。到了这个阶段，操作已经不是最大的困难，真正的
+挑战是先进的思路与想法。同样的角色在不同的手里发挥出的实力完全不同，这就是因为对
+角色的理解不同。如果能耐心学习坚持练习，加深对各个角色的理解，街霸的排位赛突破1
+万分肯定是能够实现的目标。最重要的就是投入到实战中，不管时候，实战永远是最简单的
+提升办法。
+** Nine Tips that Street Fighter 5’s Tutorial Won't Teach You
+https://www.gamespot.com/articles/nine-tips-that-street-fighter-5s-tutorial-wont-tea/1100-6434620/
+
+Character specific info, match-up knowledge, dexterity required to pull off
+specials and combos--that’s a lot to digest and is certainly overwhelming,
+especially to newcomers. Competitive games, especially Street Fighter, require
+an inordinate amount of time to become even halfway decent.
+
+But you can quickly improve if you start by learning the fundamentals. Work on
+your ground game. Understand the psychology of your opponent’s behavior. We’ve
+gathered nine tips meant for those who feel inundated, lost in a sea of options,
+and unsure on where to start. This isn’t an in-depth guide, but advice nudging
+you in the right direction. It's information we wished we had when diving
+head-first into fighting games, information seldom taught in tutorials or
+guides.
+
+Note: The concepts described in this articles assumes the reader has a basic
+knowledge of fighting game terminology, such as spacing and common names for
+specials and general terminology. For a detailed explanation of the basics,
+refer to Patrick Miller’s excellent beginner’s book.
+*** Find Your Go-To Moves
+ The gist: find your pokes and anti-air. Worry about combos later.
+ Congratulations, you’ve picked your character! But before diving into your first online match, hit up training mode, so you can study your character’s movesets. The purpose of training mode is simple: to find your go-to moves that control vertical and horizontal space.
+ Controlling space with your attacks is an important yet abstract concept. Some normals/special attacks extend your character’s reach across the screen (e.g., fireballs extending your horizontal range). Others provide a safe way to hit your opponent out of the air (e.g., uppercuts extending your vertical range). Take the time to study each of your character’s moves, understanding their properties, range, and how to apply them to specific situations.
+ Go through each of your character’s normals and specials, and see how they interact with your surrounding space. Ask yourself the following questions:
+ Horizontal reach?
+ Normals with long range and have quick recovery are great as poking tools. (Normals are any attacks executed with a press of a button.) Use these pokes to threaten your opponent, harass them if they get too close, and--when you're panicking--push them out of your immediate space. They can even be used to stop an opponent's attack before it can be fully unleashed.
+ Vertical reach?
+ Will this move hit them out of the air (anti-air)?
+ Look at the attack and how it covers the space in front of you. Does the attack cover a lot of space above you? Does it come out fast enough so you can react to a jump in easily? If yes, you have an answer to people jumping in on you.
+ Let’s use Ryu as an example. He has several tools to punish jump-ins while standing on the ground, including his classic shoryuken and his crouching Hard Punch. His uppercut special extends his vertical reach above his head. And his crouching Hard Punch lowers his profile and sends his fist straight above.
+Fang’s anti-airs are deceptive. They don’t appear to cover a lot of space above him, but they’re fantastic tools to stop jump-ins. When Fang performs his crouching MK, his foot goes right above his head. And his crouching HP covers the top and back area of his head, effectively stopping cross-up attempts.
+Does it have quick or slow recovery?
+Normals with slow recovery leave you vulnerable to counterattacks. Sweeps (c.RH), for instance, should be used judiciously; they are slow to recover, but offer great reward (positioning and damage).
+*** Combos (Bread-n-Butter)
+The gist: learn your bread-n-butter combo first before moving onto harder ones.
+A crucial part of any fighting game is maximizing damage off an opportunity. But if you don't have the experience, dexterity, or muscle memory to execute the harder combos, stick with the basics: the bread-n-butter combos.
+This is your staple combo, something you can perform consistently and does decent damage. Every character has one.
+*** Max or Consistent Damage
+The gist: Don’t always go for a max damage combo. Spacing and potential opportunities for damage after the combo may be more advantageous.
+Advanced players don’t always go for the combo that punishes the hardest, though. Their reason? Off a combo opportunity, they may want to achieve a more advantageous position for the next situation rather than max damage.
+For example, instead of going for max damage off a single opportunity, you choose to execute a combo that pushes the opponent to the corner. In the corner, the potential for consistent damage (from cross-ups and wake-up games and resets) is greater than the single max damage opportunity.
+*** Hitting 101
+The gist: Don’t always attack up close. Use short and long-range attack strategies.
+Don’t feel compelled that your attacks should always make contact with the opponent. Beginners make the mistake of taking the fight directly in front of their opponent, literally touching them as they try to take their health away.
+Whiffing or missing a fast attack at different ranges has its advantages! First, the space controlled by the whiffed move may stuff your opponent’s attacks. Second, it may prevent the opponent from advancing into your space. A word of warning: whiffing long but slow-recovering moves is dangerous but may have great reward. The long reach allows you to control a sizable amount of space but leaves you exposed for a long duration.
+*** Situational
+The gist: a round is a series of moment-to-moment situations and each situation presents a problem and a solution.
+A typical game of Street Fighter can be summed up as a series of situations based on call and response. Most situations have an answer, but knowing and responding to them properly takes time and experience. In other words, it’s about situational strategy and crisis management.
+
+Example: What to do against a jump-in attack
+You don’t always have to rely on special move as anti-airs. Use whatever that consistently works, including your normals!
+
+Example: What to do against grapplers
+A common situation is getting thrown by command grabs, like Birdie’s special move Killing Head. You have a couple of escape options. One strategy is to keep your distance. Stay out of reach of your opponent’s grab and play a defensive zoning game, rarely engaging the opponent at close combat. Another answer is to preemptively jump away whenever Birdie enters your space to avoid the throw.
+
+Example: What to do in the corner
+Another situation is when you’re in the corner being bombarded by fireballs in a zoning trap. In the corner, your options are limited. You can’t retreat by walking or jumping back. And the opponent has the advantage since they control most of your options and space in front of you.
+
+It’s all part of the plan to get free damage off your jump. The opponent wants to manipulate your behavior. By throwing fireballs at just outside your jump arc, the opponent wants you to panic and jump towards.
+So what’s your gameplan? You look for patterns in the fireball trap and patiently try to push your way forward slowly.
+*** Use Everything (Mostly)
+The gist: your moves are an extension of yourself. Use them not just for damage but for answers to specific situations.
+I’d made the mistake of relying on strong attacks (hard punch and hard kick) over weaker ones (light punch and light kick). I wanted to hurt the opponent by capitalizing on every opportunity with the most damage. But this mentality restricts your game!
+Your normals and special moves are more than just tools for damage. They can be applied to a number of situations--restricting your opponent’s options, harassing them by constantly sticking something out in their immediate space, occasionally stuffing your opponent’s attack, confirming a combo off a light attack.
+*** Rhythm
+The gist: avoid falling into a predictable rhythm by using a set pattern. Do something unexpected--even crazy--to throw off your opponent’s mindset.
+Many veterans will harp that success in Street Fighter comes from the feel of the match. Sounds opaque, right? Let’s explore what this means and how you can incorporate “the feel” into your game.
+Think of “the feeling” as the rhythm of the match. A pattern has a predictable rhythm. For example, mindlessly chucking fireballs without changing your timing or positioning is a pattern easily exploitable by your opponent. In this case, stepping a few paces back before throwing a fireball or pausing for a brief second is enough to change the rhythm.
+A block string is another example (a series of attacks blocked by the opponent). Don’t always use the same attacks! By performing the same pattern, you’re conditioning your opponent on your habits. So change the the sequence to keep the opponent guessing, even if the pattern is as simple as a blocked string of light attacks.
+For instance, LP, LP, LP block string.
+LP, LK, pause.
+LP, pause, Lp
+LK, LP
+LP, Throw
+*** Pattern Recognition
+The gist: Recognizing patterns strengthens your ability to adapt, to anticipate, and to have a quick answer for a disadvantaged situation.
+Rhythm is an important role in pattern recognition, a required skill for any competitive game. By recognizing patterns, you can come up with an answer to the obstacle and stay one step ahead of your opponent.
+
+Example: attacking right after blocking
+You’re defending an attack. As soon as the block animation ends, you counterattack. A good opponent will notice this pattern, and take advantage of your commitment by baiting your attack. They’ll wait and block your counterattack and punish you accordingly.
+
+Example: getting thrown from throw set-ups
+The common answer is to tech the throws. But that may be risky if you’re mindlessly trying to tech throws at all times (the opponent can counter by delaying an attack for a counter hit).
+Recognizing your opponent’s set-up will give you more info on when to tech and help minimize the inherent risk. For instance, most throw set-ups can be summed up by the following patterns:
+LP, LP, throw.
+LP, throw.
+LP, LP, pause, throw.
+LP, LP, LP, walk. throw
+
+Example: constantly poking with your go-to move
+Take, for consideration, this poking example. You think your long poke is great. So you use it a lot. Poke, poke, poke. The consequence? You’re telegraphing your next move. You’ve created a rhythmic pattern recognizable by your opponent. Seeing the pattern, your opponent can easily come up with a solution to counter your move—attempt to stay outside your poke range, jump over your poke, counter with an immediate attack like a shoryuken.
+
+Other situations:
+
+Outside your opponent’s range? Harass with your best poke in hopes of stuffing out their attacks.
+Getting clobbered by Laura’s rushdown game? Recognize the pattern/holes and poke out of the rushdown.
+Ryu parrying most of your moves up close? Counter the parry by throwing him.
+The opponent landing a lot of counterhits on you? Solution: stop trying to attack after you block. Conserve your movement.
+*** Fear
+The gist: just being in someone’s immediate space is enough to manipulate their behavior.
+When people are scared, they’ll either fight or flee. In fighting games, this means you’ll probably jump back and/or walk away from your opponent, or hit a bunch of buttons to get the opponent out of your surrounding space. Fear can be as simple as standing just outside of your opponent’s range. Encroaching into their space may make them panic, and in turn, they’ll react with a move to push you out of their space. Use this to influence your opponent's decision-making process--they may panic and change their strategy, commit dumb errors exposing their defense, or crumble under pressure.
+
+*** The fundamentals takes time
+Whew, that’s a lot of info to digest. And out there on community sites like
+Shoryuken is even more info! Study your matches, study notable players on
+YouTube and Twitch (Xian and Infiltration, to name a few), and study the
+mechanics of the game. Practice against players who are equally as skilled as
+you, because being molly-whopped by someone way better than you is no fun--and
+you probably won’t learn much from the experience. Learning the fundamentals
+takes time, and executing them without hesitation is an exercise in patience.
+But the payoff will be well worth it.
+
+** Impact Freeze(hitstop)
+http://sonichurricane.com/?p=1043
+
+One of the least discussed technical topics in fighting games is the existence
+of impact freeze, also known as hitstop. Someone asked about it earlier this
+week and i couldn’t find any articles addressing it, so i thought i’d talk about
+it today.
+
+Frame data usually gives you startup, active period, and recovery for each move
+in the game. When an attack connects, the remainder of its active period is
+converted to recovery (assuming it’s not a multi-hit attack).
+
+Impact freeze definitely exists in most fighting games and the easiest way to
+spot it is by mashing jabs. It’s impossible to chain a jab into another jab
+before it reaches an active frame. You can stand next to someone and double-tap
+jabs all day and you’ll never get one to whiff chain into another before it
+connects.
+
+Now that we’ve established that mashed whiff jabs reach at least their first
+active frame, you can compare whiff jabs against connecting jabs. It’s easy to
+tell that whiffed jabs come out three or four times faster than connected ones.
+That’s because when they whiff, you’re looking at 3 frames of startup followed
+by 1 or 2 active frames and then canceled back to startup. When they connect,
+it’s like 3 frames startup, followed by around 10 frames of impact freeze and
+then back to startup. Therefore whiffed repetitions take around 4 frames,
+whereas connected reps last around 14.
+
+Take a look at the Rufus/Viper Combo Challenge video for a few examples. First
+of all, Rufus’ j.DF+MK divekick connects almost on the last frame, right before
+he lands. Yet you can still see the impact of the attack. If there was no impact
+freeze then he’d basically shoot right through Viper’s leg and continue the
+combo with no pause whatsoever. The same thing is true of his s.LK -> s.HK
+chain, which was executed with only a 5 frame delay between the buttons, yet you
+can clearly see the s.LK connect.
+
+As it turns out, Ultimate Mortal Kombat 3 has no impact freeze. On the ground,
+most punches are cancelable and most kicks aren’t. Shang Tsung chains s.LP ->
+s.HP then cancels into the Kung Lao transformation. Yet you only see s.HP
+animate for one frame before it’s canceled. Furthermore, Kung Lao cancels
+vertical j.HK into divekick and then vertical j.HP into divekick. In both cases
+the divekick actually whiffs, so it’s almost impossible to see the move that
+actually connects. You barely see the startup of j.HK and j.HP before they
+disappear on impact. That’s what it looks like when a game has no impact freeze.
+
+Going back to the SF4 example, check out Viper’s c.HP xx HP Seismo Hammer. You
+can clearly see her c.HP animate before she cancels it. That command was
+completed quickly as well, so if there was no impact freeze then it would look
+like some phantom attack connected then immediately canceled into ground pound.
+ 
+
+Impact freeze is important is because it stabilizes cancel timing. For example,
+Viper’s EX Seismo Hammer is a very slow move which always combos when she
+cancels c.HP into it. You have that entire 12-frame impact freeze window to
+complete the input. That’s what makes it easy. As long as you do it before
+impact freeze ends, she automatically cancels into the special move as soon as
+c.HP hitstop ends (but never sooner). If there was no impact freeze, then the
+timing on it would vary dramatically. For slow specials like that, you’d have to
+complete the command very quickly in order to get them to combo. Match gameplay
+would be a mess.
+
+As for its attributes, each move causes a specific amount of impact freeze
+regardless of how it connects (antiair, air to air, air to ground, etc). In most
+games, light attacks freeze around 9 frames, medium attacks around 11, hard
+attacks around 13. In the oldschool SF2 series they were all around 14 frames
+regardless of button strength. Some specials have very long impact freeze while
+others have relatively short impact freeze.
+
+Projectiles operate by slightly different rules. As expected, they cause impact
+freeze to the victim but not to the attacker. When a fireball connects, the
+victim freezes in place for around 12 frames, then starts getting pushed back.
+Since pushback has no effect in the corner, there’s no practical difference
+between one-sided impact freeze and pure hit stun if the victim is cornered.
+Lastly, impact freeze caused by other attacks has no effect on projectiles. For
+example, if Dhalsim’s DF+LP hits Ryu by reaching under his LP Hadoken, Ryu’s
+fireball will continue traveling forward without pause.
+
+Knowing all this information isn’t particularly important for understanding
+gameplay or dealing with frame data, since most of it works fine behind the
+scenes. However, impact freeze is crucial for advanced charge character combos
+because it provides additional recharge time.
+
+In a more practical setting, it’s also important for avoiding projectiles in
+matches using slides and jump attacks. For example, ST Dee Jay’s c.HK slide can
+go under certain projectiles only when it connects, because it freezes both
+characters without affecting the projectile. This works for invincibility as
+well. There’s a famous clip of Fei Long uppercutting through a Dee Jay fireball
+which wouldn’t have worked if the uppercut hadn’t connected and frozen during an
+invincible frame.
+
+Make sense?
+
+*** discussion
+Okay i know the discussion is pretty old but i was discussing “hit confirm” in vega forums recently, basically there was an argument about whether you could “hit confirm” after say SFIV vega cr.lp 
+the move is :
+4 ST 2 AC 8 RE +1BA +4HA
+then we have two conflicting theories 
+On one side we have several Vega vet swearing they can hit confirm that into an otherwise unsafe combo reliably.
+On the other side we have Neuroscience past 30 years experiments that strongly suggest it is very unlikely to be humanly possible.
+That is if we stick to frame data, but I can very much see “impact freeze” settling the matter, which would give impact freeze another use beside increasing “advance charge buffering”
+the thing is vega cr.lp cannot be linked into a true blockstring, so in SFIV you can be SRKED between 2 cr.lp if the first one is blocked, frame data suggest you have less than 11 frames to react to the hit that is 166ms of frames,
+http://img835.imageshack.us/img835/9…hitconfirm.jpg
+while neuroscience says average response time for simpler and more rehersed task than street fighter (reaction to color, reaction to matching of a 2 letters, reaction to an anticipated flash) is in the 250 ms. 
+Simply put even not factoring input/display lag (that further handicap reaction time to a visual information) the numbers/claim don’t fit.
+Now if we had say a pause of 7 frames of “impact freeze” before one character starts 8 frame of recovery and the other starts 9-12 frames of block-hit stun, then hit confirming even such a fast move before commiting into a link combo sequence becomes very doable even for a random dude providing one plays on a decent gaming platform.
+basically the question is “(fireballs aside) Is impact freeze included in the RE / BS / HS frames figures or does it add up to them on both character side ?”
+
+** 格斗游戏对你来说最大的乐趣在哪？
+
+*** 一位机核网友的看法
+格斗游戏最大的乐趣就是，你的身体能力跟着游戏能力一起提升，就是眼力、判断力和手部动作的精度。我已经过40岁了，从街霸2出来那天就开始打各种格斗，2000年之后就很少打了，街霸4出来之后重新捡起来，发现反应慢到惨不忍睹的地步，连对方前跳都不敢出升龙，本来都不想玩了，正巧一个同事喜欢玩vr战士，我就陪他天天玩，两个人水平都很菜，但玩了两个月，有一天突然意识到反应提高许多。vr战士是按键防御，拉后是没有防御的，刚开始我们都按着防御原地不动大眼瞪小眼，很搞笑的局面，后来能做到看见对方出招再防御，再后来甚至能判断对手是否出中段技。然后我就回去打街霸4，水平还是只能虐电脑，但格斗的乐趣总算是找回来了。
+
+现在打街霸5，如果从“战胜对手”这方面找乐子，那我的感受是负值；如果说“自我提高”，那我每天都有高潮。我觉得玩格斗也需要给自己定几个阶段性的小目标，一步一步锻炼，初学者首先应该在练习模式中把指令显示打开，练习简单的连段，不仅要成功，还要指令输入干净，不能有太多的多余指令，比如波动拳236p，你用力过猛弄成4236、41236，甚至81236都能出，当时觉得没什么，反正动作是打出去了，以后会吃大亏的；然后就练两发确认，职业选手的单发确认我们基本上不可能练成，两发确认还是能练的。把对手开成随机防御，对他点下蹲轻脚接下蹲轻拳，他防御住了就不动，他没防御就出后续的必杀技。这两个阶段都过了，你的主力角色基本上就能暴打电脑，以及像我这样的“老”玩家了：）
+
+** FTG 辅助练习的idea汇集
+
+*** 和音乐节奏相联系
+不是高手，但指令输入有个小技巧可以分享一下。大多数格斗游戏很难通过看画面决定按键
+节奏，总是会慢半拍连不上。而通过机械肌肉记忆的方式则基本能形成固定的节奏感减少失
+误。同时自己练过钢琴，对声音和节奏的的记忆力较好，因此用了这种方法：
+
+1. 写个程序在后台运行，按键盘的每一个键都会发出声音。与这东西类似：
+https://www.grc.com/freeware/clickey.htm 个人习惯钢琴的声音。
+2. 大量练习指令，大脑自动记下声音节奏与音高。
+3. 实战需要输入特定指令时，脑中自动调用相应声音片段的敲击乐谱，按节奏输入进去。当然指令输入只是个低段位问题，高段位更重要的还是制人和
+反制的反应速度了。
+
+作者：波布兰
+链接：https://www.zhihu.com/question/28701367/answer/41809096
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

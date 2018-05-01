@@ -2,6 +2,12 @@
 ** Papers 
 
 *** by category
+**** TODO penalized least square & penalized likelihood
+     for overview, see Jianqing Fan's *A selective overview of variable selection in high dimensional feature space*
+**** TODO lasso
+***** variable selection properties
+***** calibration of Lasso
+****** TODO Wainwright, 2016, A Practical Scheme and Fast Algorithm to Tune the Lasso With Optimality Guarantees
 **** portfolio optimization
 **** classification
 **** factor models
@@ -32,6 +38,15 @@
     
 **** ch2 of *Optimization-theory and practice(Forst-SUMAT)*
 **** ch5 of *Optimization(Lange-STS)*
+*** Cunhui Zhang 663 Regression Notes
+**** linear model setup
+     老张从空间和基的角度来讲linear model setup的方法还是蛮有高代和几何的感觉的
+***** SVD of the design matrix *X* 蛮有用的
+***** Moore-Penrose pseudoinverse
+*** 588 notes
+**** TODO cointegration
+***** motivation
+***** application
 *** ESL
 **** Ch 4, classification
 *** Wasserman 705 Notes
@@ -45,13 +60,9 @@
      see *lecture notes 9*
 ***** regularity conditions
 ***** when MLE fails to be consistent
-*** Cunhui Zhang 663 Regression Notes
-**** linear model setup
-     老张从空间和基的角度来讲linear model setup的方法还是蛮有高代和几何的感觉的
-***** SVD of the design matrix *X* 蛮有用的
-***** Moore-Penrose pseudoinverse
+*** TODO Empirical Process notes by *Sara van de Geer* from ETH
 *** TODO Anderson's Multivariate book chapter on *correlation* 
-*** *Linear Regression Analysis* by Seber
+    
 ** Essay, Report and others
 *** *infinite exchangeability* and De Finetti's Theorem
 *** interview with Gromov
@@ -200,6 +211,10 @@
      Raussen and Skau: *What about Pushkin?*
 
      Gromov: You see, with Pushkin, the problem is as follows. *He was taught at school, and that has a tremendously negative impact. But forty years later I rediscovered Pushkin and found him fantastic when I had forgotten what I had learned in school.*
+** pending list
+*** book
+    Statistical Learning from a Regression Perspective, by Richard Berk
+    *Linear Regression Analysis*, by Seber
 * Current Tasks
 
 ** TODO Read the LPD & ROAD papers(do the necessary calculations)and figure out a strategy to establish our result
@@ -288,6 +303,11 @@ Read the code of ROAD and see whether we could modify it to use in the
 weighted scenario.
 *** TODO Cross Validation
 How to do CV for the current problem?
+** TODO Lasso到底是不是革命性的创新？
+https://www.zhihu.com/question/275196908
+
+   what's your opinion?
+
 ** CLIME paper
 *** result on bounding the absolute difference between true sigma_ij & estimated sigma_ij^hat
 ** implementation of our algorithm
@@ -304,7 +324,16 @@ How to do CV for the current problem?
 *** DONE one constrain lasso(classo special case)
 CLOSED: [2016-02-14 Sun 23:03]
 *** TODO LPD
-* Previous work
+* Future Plan
+** learn some modern nonparametric statistics
+*** resources
+**** a distribution free theory of nonparametric regression, by Laszlo
+
+* Temporary aside
+** TODO Think about how to apply our algorithm in classification
+** TODO Think about how to modify the algorithm for extension
+** estimation of conditional heteroscedastic time series
+* Previous Work
 
 ** DONE Find other implementation code of CLASSO to compare
    CLOSED: [2017-01-25 Wed 03:35]
@@ -331,10 +360,6 @@ using the lars package, for p=4, the number of pieces doesn't meet the expected 
 ** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
 CLOSED: [2016-03-04 Fri 12:50]
 Done by modify some export options inside Texmacs
-* Temporary aside
-** TODO Think about how to apply our algorithm in classification
-** TODO Think about how to modify the algorithm for extension
-** estimation of conditional heteroscedastic time series
 * Fun Stuff Learned
 ** Asymptotic equivalence between White Noise Model & Nonparametric Regression
 A fun reading experience with professor Zhang's regression project notes
@@ -347,6 +372,12 @@ A fun reading experience with professor Zhang's regression project notes
 ** general ways to construct two random vectors which are *uncorrelated* but *dependent*
    see Casella's *statistical inference* 2nd Ed, exercise 4.49
 *** how strong is the notion of *independent*? what fascinating things does it imply?
+** spline application
+*** biostat
+Cox model里的baseline function就可以用spline来估计。这样好处是可以直接写likelihood function
+** regularization & overfitting
+reg能够防止过拟合，是因为
+过拟合 = 不该过分增长的参数过分地增长。
 * Thoughts compilation
 ** Tao of learning
 *** motivation
@@ -373,10 +404,16 @@ keep notes in a timely manner
 *** improve related problem solving skill
 as often as possible, better be everyday
 **** TODO math/stat problem solving
-     SCHEDULED: <2018-04-19 Thu +2d>
+     SCHEDULED: <2018-05-01 Tue +2d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-04-18 Wed 09:25]
+     :LAST_REPEAT: [2018-04-29 Sun 18:36]
      :END:
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:31]
+     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
+     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
      - State "DONE"       from "TODO"       [2018-04-18 Wed 09:25]
      - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
      - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
@@ -398,10 +435,16 @@ as often as possible, better be everyday
      - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
      - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
 **** TODO programming problem solving
-     SCHEDULED: <2018-04-18 Wed +2d>
+     SCHEDULED: <2018-04-30 Mon +2d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-04-18 Wed 09:26]
+     :LAST_REPEAT: [2018-04-29 Sun 18:36]
      :END:
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
+     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
+     - State "DONE"       from "TODO"       [2018-04-19 Thu 06:37]
      - State "DONE"       from "TODO"       [2018-04-18 Wed 09:26]
      - State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
      - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
@@ -474,10 +517,12 @@ I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much
 **** two main focus
 ***** TODO wrap up thesis material, target at finishing no later than October, 2017
 ***** TODO spend regular time to know about the data science job market
-SCHEDULED: <2018-04-22 Sun +1w>
+SCHEDULED: <2018-05-06 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2018-04-15 Sun 04:48]
+:LAST_REPEAT: [2018-04-29 Sun 18:36]
 :END:
+- State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+- State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
 - State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
 - State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
 - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
