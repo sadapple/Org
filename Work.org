@@ -143,10 +143,19 @@ CLOSED: [2016-07-18 Mon 13:15] SCHEDULED: <2016-07-02 Sat>
 *** Algorithm & Data Structure [0/4]
 **** TODO *Algorithm Design* Ch3,4 including exercises
 **** TODO *leetcode*, at least finish all the easy problems
-     SCHEDULED: <2018-05-05 Sat +1w>
+     SCHEDULED: <2018-07-07 Sat +1w>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-04-29 Sun 18:36]
+     :LAST_REPEAT: [2018-06-30 Sat 03:55]
      :END:
+     - State "DONE"       from "TODO"       [2018-06-30 Sat 03:55]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-05-23 Wed 17:13]
+     - State "DONE"       from "TODO"       [2018-05-14 Mon 19:21]
+     - State "DONE"       from "TODO"       [2018-05-14 Mon 19:21]
      - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
      - State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
      - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]

@@ -1,5 +1,6 @@
 * Fighting Game Design
-** 2D 
+** 2D
+** 3D
 * SF Practice
 ** log
 *** 2017-2-8 SFV rank match 五连胜, 但找到了improvement方向
@@ -44,6 +45,56 @@ almost any fighting game
 **** random DP input, not clean!
 **** improve anti-air
 **** patient and more mixup
+*** 2018-5-23 [0/8]
+**** TODO wake up defense/offense
+**** TODO corner defense/offense
+**** TODO mixup attack with dash throws
+**** TODO air Tatsu usage
+**** TODO what to do at the start of match: forward/backward/jump in?
+**** TODO Ryu vs Nash, Ryu vs Ken, Ryu vs Zeku
+**** TODO light combos for interrupting pressure & punishing
+     (learned from Jimmy's *Ryu's combo guide* video)
+     lp, lk xx H dp
+     lp, lk xx L Tatsu, CA(far)
+     2lp, lp, lk xx M Tatsu(close)
+     2lk, 2lp xx H dp
+**** solar strike usage with/without meter examples
+     without meter: 
+     6hp, 2hp xx H dp(close)
+     6hp, 2hp xx M Tatsu(close)
+     6hp, 2mp xx M Tatsu(standing only)
+     6hp, H dp(far)
+     6hp, 2 hk(very far)
+
+     with meter: 
+     6hp, 2hp, hp+hk, hp xx H dp
+     6hp, 2mp xx M dk xx CA
+
+**** axe kick usage example:
+     4hk, lk, 214mk(close)
+     4hk, lk xx H dp xx CA(close)
+**** Donkey kick usage example: #3 in trial 3, need V-trigger + one meter
+**** realize why 2lk, 2lp, 623hp works by studying frame data, note that lk and lp can be chained into each other
+**** Footsies Lessen 1
+Element 01: Momentarily step into your opponent’s poke range and quickly back
+out instead of attacking. This is Footsies 101. This bait works well in
+tense matches, after extended periods of cautious zoning, or with charge
+characters who rarely walk forward.
+
+Element 02: Determine which of your combos and attack strings position your
+opponents barely outside their effective reversal range, especially when facing
+characters with greater mobility. One of the best ways to trick someone into
+wasting meter and handing you the match is by making yourself appear falsely
+vulnerable. 
+
+Element 03: Once you’ve established a pattern of poking consistently at a
+certain range, use your opponent’s hesitation to walk up and throw them. It’s
+always dangerous to wander into enemy attack space, so wait until you’re certain
+you’ve trained them to think twice about pushing buttons. 
+
+All of these plays are universally applicable to any fighting game. That’s why
+footsies and zoning are considered fundamentals.
+**** TODO idea: if you loss to someone, try search his online match record and see how others who using the same character like you defeat him/her
 *** 单发确认
 好比你用了任意招式打中对手，在不是复合操作的前提下，凭反应在对手仍在受创硬直时使
 用下一招式衔接。一般像在33里这种技巧比较常见，春丽下中脚扫中对手就接凤翼扇，被防
@@ -67,36 +118,9 @@ almost any fighting game
 *** counter的翻译 
 关于counter，我觉得ggxrd sign中文版的翻译比较贴切。游戏中翻译做【截】，应该是截击之意，同时也是截拳道的截，很有格斗术语的感觉。
 ** TODO clean input, *rhythm*
-** TODO cancel
-*** TODO cancel window for each cancelable move
-
-Q:I currently have the impression that whenever during the recovery frame of a
-move, any key input is invalid. For example, in order to cancel Ryu's cr. mk
-into hadoken, the player need to execute all the key inputs before the cr. mk
-enter its recovery frame animation. Am I right?
-
-Answer: 
-no
-
-each move has a cancel window, during which inputs that are entered will result
-in a cancel the cancel window doesn't last the full recovery, but it does last
-some frames into recovery some moves have longer cancel windows than others
-
-if what you're saying were the case, then it'd be impossible to block confirm
-unsafe moves into specials to make them safe
-** TODO negative edge
- The game engine registers the release of the button as an input giving you the
- ability to perform special moves with a simple release of the button. Negative
- Edge only applies to Special Moves and Critical Arts, you cannot throw out
- normals or command normals with the use of Negative Edge. You can even use
- Negative Edge to perform specials in the neutral, there is no need to cancel
- out of a normal. You may find some combos easier to perform with Negative Edge
- while others won’t require it at all. It will mostly be personal preference but
- this type of input can open up interesting option selects which will be
- discussed in a later workout. The variations of this workout are only limited
- to what you are comfortable with or think might benefit you when performing
- combos.
 ** TODO footsies
+*** footsies handbook
+http://sonichurricane.com/?page_id=1702
 ** TODO blocking
 *** Determining Advantage on Block 
 examples:
@@ -107,7 +131,7 @@ pressure is safe or unsafe on block. However, if you look at the data you’ll s
 that almost every normal cancelled into his V-Skill is punishable On Hit. Ken
 Run Cancel Frame Data (Shoutouts to /u/Raich- ). All that’s left is to practice
 the timing on the punish.
-
+** TODO punishing
 ** TODO anti-air
 *** counter divekick 
     consider *neutral jump*
@@ -229,11 +253,32 @@ frame reversals to either whiff or not have enough reach to catch you on the
 first active frame. However, these setups will often lose to auto-corrected
 reversals or other defensive options.
 ** TODO throw
-*** delayed throw
+*** delayed tech throw
 ** TODO reversals
 ** TODO Projectile Tactics
    https://www.reddit.com/r/StreetFighter/comments/770uud/giefs_gym_projectile_tactics/
-** TODO punishing
+** TODO wake up recovery, options & strategies
+** TODO corner strategies
+** TODO option select
+*** 正逆择
+*** 起身择
+** TODO cancel
+*** TODO cancel window for each cancelable move
+
+Q:I currently have the impression that whenever during the recovery frame of a
+move, any key input is invalid. For example, in order to cancel Ryu's cr. mk
+into hadoken, the player need to execute all the key inputs before the cr. mk
+enter its recovery frame animation. Am I right?
+
+Answer: 
+no
+
+each move has a cancel window, during which inputs that are entered will result
+in a cancel the cancel window doesn't last the full recovery, but it does last
+some frames into recovery some moves have longer cancel windows than others
+
+if what you're saying were the case, then it'd be impossible to block confirm
+unsafe moves into specials to make them safe
 ** TODO combo
 *** Ryu's Down hp>DP>CA cancel combo
     input: d hp f d df hp f hp
@@ -289,10 +334,6 @@ like a combo, that ends with something safe. The best ones end with a move that
 leaves you at Advantage when blocked but in a pinch, any attack that's not
 Punishable when blocked will do.
 ** TODO shimmy: baiting throws
-** TODO option select
-*** 正逆择
-*** 起身择
-** TODO wake up recovery, options & strategies
 ** TODO Meter Management
 Gief's article on this topic:
 https://www.reddit.com/r/StreetFighter/comments/4ktkix/giefs_gym_meter_management_muscle_power_for_meter/
@@ -325,6 +366,18 @@ the difference in a clutch situation to improve your chances of landing that
 crucial combo.
 
 *** piano
+*** negative edge
+  The game engine registers the release of the button as an input giving you the
+  ability to perform special moves with a simple release of the button. Negative
+  Edge only applies to Special Moves and Critical Arts, you cannot throw out
+  normals or command normals with the use of Negative Edge. You can even use
+  Negative Edge to perform specials in the neutral, there is no need to cancel
+  out of a normal. You may find some combos easier to perform with Negative Edge
+  while others won’t require it at all. It will mostly be personal preference but
+  this type of input can open up interesting option selects which will be
+  discussed in a later workout. The variations of this workout are only limited
+  to what you are comfortable with or think might benefit you when performing
+  combos.
 ** TODO character specific
 *** Ryu
 **** mixups
@@ -344,6 +397,539 @@ cr.MK. The damage is less than a dp finisher but still quite good.
 *** Guile
 **** practice charging combos
 ***** j.hk, mp, cr.lp, 16hp(sonic boom)
+*** Karim
+**** TODO like trial 2 in wave 1, need to execute 236k->2p and 236k->p consistently 
+** TODO character matchup
+*** Ryu vs Birdie
+**** some Birdie move
+     st. hp: -6 on block, could use ryu's lk->tatsu to punish
+     cr. mp: -5 on block
+     cr. mk: -4 on block
+     cr. hk: -11
+     bull charge: -8
+     bull slider: -8
+     bull drop: -6
+     bull horn: -18
+     ex bull horn: -19
+     lp/mp bull head: -10
+     hp bull head: -5
+     ex hanging chain: -21
+     lk/mk hanging chain: -23
+**** strategy
+***** use hadoken to bait?
+**** opinions
+***** 1
+ 1.Preferably you want to be at close range on the offensive. Being mid range means
+ you need to play a very very reactive game to Birdie’s numerous options, also
+ his buttons are damn damn good. MK, cr MK, HP. You dont really want to be
+ trading with him.
+
+ 2.Dont respect his wake up. Always pressure unless he has CA.
+
+ 3.Chain and the hop grab will beat your fireball clean (so dont throw too often).
+ Try and jump in the former and neutral jump the latter with a good combo.
+
+ 4.Keep a DP on lock and zone until you get a knock down and can go in
+***** 2
+
+Birdie has range on his normals but your fireball game will cut him to pieces
+from range. If you see him go for the can at fullscreen, just fire a
+hadouken, it really hampers his ability to follow it. Otherwise, you just
+need to be cognizant of your spacing. If you're within chain range, don't
+throw fireballs. However, his chain is very punishable on block, you could
+probably hit him with a super. Fullscreen chain jumps are easily
+punishable with a DP on reaction, even if you threw a fireball (unless he
+nails it psychically before you even throw it).
+
+All of his headbutts are super punishable on block. LP/MP are -10, HP is -5.
+Easy punish into whatever you want. When he's in V-trigger, they get armor and
+the EX version comes out fast as hell, so don't throw fireballs from anywhere
+but fullscreen in this situation.
+
+His s.mk is -2 on block, so don't let him get cute and throw it out and keep
+sticking out pokes afterwards, you can probably get a solid CH on him if he's
+doing this. It is difficult to capitalize on this because of its range, but it's
+still something to keep in mind.
+
+And last but not least, don't jump at him, dear god, c.mp stuffs everything,
+stop jumping at him.
+
+It's an intimidating matchup for sure, but you just have to play patient and
+capitalize on everything you can.
+***** 3
+rush him down
+
+he doesn't have a strong wakeup game
+
+He has more options than you if u wanna zone him. The only thing u can do is try to bait him out.
+* DBFZ Practice
+** log
+*** 5-15
+    some tips
+**** homing attack is just *super dash* ?
+**** starting combo with light massively scale the combo
+**** auto combo is strictly superior in air combo
+**** three 1-meter supers might be better than one 3-meter super
+**** TODO practice air-combo 
+*** 5-16
+**** cell combo 10 trial, 2m not able to connect(just a little distance from target)
+** match analysis
+*** 5-15 match analysis
+opponent team: cell, kid buu, black goku
+
+issues: 
+1. how to recover fast and better after combo?
+2. react to overhead and block high
+3. fail to pull out cell's anti-air 
+4. counter cell's special move
+5. counter cell's fireball
+
+** system
+   https://docs.google.com/document/d/1rrh_EWca6MB1WUZfjIZ97LYhYspshivHjM352KmZ4g4/edit#heading=h.2njvzg8b49xl
+
+*** combos mechanics
+https://www.polygon.com/2018/1/29/16946514/combos-chaining-auto-jump-cancel-vanish-smash-sliding
+
+While Dragon Ball FighterZ has a very advanced auto combo system that will turn
+just about any button-mashing sequence into a spectacular combo, if we want to
+move ahead we should look at the buttons that we’re mashing. The auto combo will
+continue to serve you well as you play this game, but understanding how to
+perform manual combos will allow you to tweak, optimize and create new and
+stronger combos.
+**** Chaining attacks
+This will make itself apparent as you play, but in Dragon Ball FighterZ normal
+moves can chain into each other. That is, by pressing buttons immediately in
+sequence, we’re able to attack many times with no break in between moves. This
+is contrary to a franchise like Street Fighter, where chain combos are much more
+strict and we generally have to wait for one attack to finish before going for
+the next.
+
+The basic chain sequence is light to medium to heavy attack, in that order. We
+usually can’t move backward in the order, from medium to light attack or heavy
+to medium.
+**** auto combos
+Dragon Ball FighterZ has extremely easy auto combos that allow any player to keep up with veterans in terms of inflicting damage: 
+
+Pressing the light attack button repeatedly will perform a full basic combo using normal attacks.
+Pressing the medium button repeatedly will perform a full basic combo using special and super attacks.
+Pressing the heavy button again after a heavy strike will automatically use the Super Dash and set you up for a manual combo.
+
+Even if you don’t intend to use auto combos, you should pay attention to the
+first two strikes of the light combo chain. These are frequently useful moves in
+and of themselves, and you can use them in a normal combo chain by going to a
+medium attack after the first two strikes hit.
+***** You can switch between auto-combos mid-combo
+DBFZ has auto-combos attached to every button. The light auto combo earns you a
+Dragon Ball and does a quick air combo. The medium auto-combo does a bit more
+damage, hits with a low, and ends with a super. The heavy auto combo knocks the
+opponent back and chases them into the corner. All three of these auto combos
+have varying utility and should be used in different circumstances.
+
+What DBFZ doesn’t tell you however, is that you can chain these combos together.
+Let’s say that you want to punish an opponent that just attacked you with an
+unsafe move. You probably don’t want to attack with your medium auto-combo,
+because it starts with a slow medium attack that can likely be blocked. Instead,
+you want to attack with your light auto-combo, since it starts with a quick jab.
+Unfortunately, this combo doesn’t do a lot of damage. Why not get the best of
+both worlds? Just switch to the medium auto-combo before the light auto-combo
+launches the opponent into the air. You’ll then end the combo with a super, as
+if you started with a medium in the first place.
+
+Then, once you get the hang of switching from light to medium, it’s just a small
+step away from chaining into heavy attacks and making up manual combos of your
+own.
+***** You can auto-combo after a low-hit
+Most fighting games require you to be standing in order to execute an
+auto-combo. This isn’t the case in DBFZ. You can actually continue your auto
+combo from any hit, high or low. This allows you to create whatever mix-up you
+want and still convert it into damage, even if you haven’t learned a manual
+combo. If you are new at the game, try jumping in with a medium and then
+executing a crouching medium for an easy high-low mix-up that can then confirm
+into an auto-combo.
+***** You can hold a direction to avoid using a homing attack during a light auto-combo
+Many newbies may be tripped up by the auto-combo tutorial if they find
+themselves holding forward naturally while attacking. This is because basic
+auto-combos have to be done without holding any directional input. If you hold
+forward, you will execute your light auto-combo without a homing attack after
+launching the enemy into the air. This allows you to pursue them however you
+like for an air-combo of choice.
+***** You can hold a direction to avoid auto-comboing at all
+While holding forward avoids automatic follow ups, holding backward avoids
+executing auto-combos at all. This allows you to throw rapid-fire jabs or medium
+attacks without transitioning into your combo. This is good for hit-confirming
+manual combos.
+
+**** Jump cancels
+The auto combos handle all the movement for you, but when you’re doing combos
+manually, you have to do the jumping and dashing yourself.
+
+Most moves in Dragon Ball FighterZ are jump cancelable, meaning you can
+immediately jump after using them. This is useful for a variety of reasons, but
+let’s stick to combo usage.
+
+Above, you’ll see a basic jump cancel combo that doesn’t use anything fancy. Here’s what you’re looking at: 
+
+1.After a low medium attack, we go to a standing medium attack, which is a jump cancelable move. 
+2.If all this hits, we jump at the moment the standing medium attack lands. 
+3.Then, almost immediately, we use an air medium attack. 
+4.This move is jump cancelable too (we get one extra jump while in the air), so we double jump and use a chain of air medium attack into air heavy attack, which slams the opponent to the ground. 
+
+This is a basic building block in our combo theory.
+**** The Smash effect
+If you’ve done an auto combo, you’ve probably noticed the loud crashing sound
+and the zoom whenever you land a heavy attack, accompanied by “Smash!” on the
+side of the screen. We’ll call this the Smash effect, and depending on the hit,
+it’s one way that you can extend a combo.
+
+For example, if the first Smash move you use in a combo is the midair launcher
+(down + heavy attack in the air for most characters), you’ll shoot your opponent
+into the sky and be able to follow them up there with a Super Dash.
+
+Certain special moves also have the Smash property, allowing them to bounce
+opponents from walls.
+
+However, we usually only get one Smash per combo. If we use the auto combo with
+heavy attack, our Smash gets used immediately and we lose that method of
+extending a combo. A manual combo, using jump cancel or otherwise, allows us to
+bypass this handicap and build bigger combos.
+**** The sliding state
+Straight from the series, you can slam an opponent into the floor and watch them
+grind, sliding, into the concrete floor. This looks like it’s just a cool
+animation, but it’s actually more than that. In this state, you can only hit
+your opponent with super moves. As such, this represents the very end of a
+combo: Finish it with a big hit!
+**** Putting everything together
+This Krillin combo starts with a basic jump cancel chain and extends with a
+Vanish. Krillin runs in toward the enemy after the wall bounce and repeats the
+same jump cancel combo again, but finishes with a heavy special move that slams
+the opponent to the floor in the sliding state. After this, it’s time for a
+super move, and Krillin dishes out five Destructo-Discs with the rest of his
+super meter.
+
+By experimenting with your moves and these systems, you’ll be able to find
+significantly more powerful combos than the auto combos can offer. Just be
+prepared to spend some time in practice mode getting it all right.
+**** TODO how long can an air combo be like?
+*** anti-air
+**** Crouching heavy attacks are air invulnerable
+Every character in DBFZ has a universal anti-air attack. Every character’s
+crouching heavy attack appears to be completely invulnerable to aerial attacks.
+This includes the homing attack, which many players have gotten into the habit
+of spamming. Connecting with this attack will launch your opponent into the air.
+You can either jump-cancel it or follow up with a homing attack of your own.
+
+It’s also worth noting that attacking an aerial opponent like this will allow
+you to follow up with a heavily damaging combo since your combo started with a
+heavy attack and was most likely a counter-hit.
+*** air dashing
+**** instant air dashing
+*** canceling
+**** Vanishing attacks are universal cancels
+The tutorial teaches you that vanishing (by pressing medium and heavy at the
+same time) is a way to spend a bar and attack the opponent from behind. However,
+it does not tell you that vanishing attacks cancel out of basically anything
+except super moves. This makes them useful as combo extenders, not just mix-up
+tools. If you find yourself unable to finish a combo, try vanishing after the
+final hit. You’ll cancel it and attack the opponent from behind, at which point
+you can follow-up with a homing attack or super attack. You can also vanish
+after an unsafe move to punish an opponent’s counter-attack.
+*** knockdown & recovery
+**** soft vs hard knockdown
+***** An auto-combo spike is a soft knockdown while a manual spike is a hard knockdown
+This one is a little complicated. Using your light auto combo will knock the
+opponent into the air and then spike them down to the ground. You may notice
+that once they hit the floor they will immediately be able to get up and start
+fighting again. This is called a soft knockdown.
+
+You can actually extend this into a hard knockdown if you spike your opponent
+manually. You do this by pressing the heavy attack button in the air. You can do
+this at any time. Instead of mashing your light auto attack to completion, press
+the heavy attack button right before it ends. You will do the same spike, but
+your opponent will hit the ground hard, cracking it and sliding across it. They
+will then be stunned, lying on the ground for a while. This gives you extra time
+to continue to hit them with an OTG (off the ground) attack, or lets you set up
+a follow-up mix-up.
+*** ki
+**** Ki attacks are cancelable
+The ki button usually throws a projectile, and most fighting game veterans might
+regard this as a special move. However, this is Dragon Ball Z we are talking
+about here. Throwing a fireball is as easy as punching. Hence, projectiles
+thrown by the ki button aren’t special moves at all. They are normals, and they
+follow the same cancel rules as normals. This means you can chain them after a
+heavy attack and cancel them into specials and supers. If you seem to be having
+problems with ending your combos, remember that ending with a ki barrage
+canceled into a super works just fine. Ki attacks also have heavy hit-stun, so
+consider canceling in to them if you can’t get the next step of your combo to
+hit. You can also cancel ki attacks on block to keep ranged pressure on your
+opponent.
+**** Most characters have at least two basic ki attacks
+This is really just the second half of the “ki attacks are normals” mechanic.
+This mean you have a standing ki attack, a crouching ki attack, a jumping ki
+attack, and even sometimes command ki attacks by holding forward. These
+different ki attacks range from anti-air blasts, to special types of movement,
+to traps, and more.
+
+Utilize them all to maximize your effectiveness in combat.
+*** tag in & out
+*** defensive options
+** combo practice
+*** resources
+https://www.reddit.com/r/dragonballfighterz/comments/7rebeo/so_you_want_to_do_manual_combos/
+*** universal combo
+** advice
+*** polygon guide 
+https://www.polygon.com/2018/1/29/16945980/super-dash-tagging-assist-vanish
+https://www.polygon.com/2018/1/29/16946238/assists-team-tag-super-attack-super-meter
+https://www.polygon.com/2018/1/29/16946514/combos-chaining-auto-jump-cancel-vanish-smash-sliding
+
+**** attack high and low
+ most characters’ medium attack while crouching is a low hit
+ Every character can hold forward and press medium attack to do a high attack
+
+ However, with the help of the right assist, attackers can turn even a basic
+ overhead into big damage. If you see them hop and then see an assist pop out,
+ stand up and block.
+
+ Because you can tie nearly any hit into a big combo in Dragon Ball FighterZ, you
+ need to be especially vigilant while blocking. Most players start their barrage
+ with a low hit, so it’s good to start with a low guard while looking out for the
+ opponent to try a high attack. However, no defense is absolute. When you’re
+ blocking, always be thinking about how you can turn the tables and land a
+ counter hit.
+**** hit confirm
+ example:
+
+  Goku’s charging punch (seen above) is a powerful surprise overhead attack that
+  he can cancel into a super attack. If it hits, the reward is great. However, if
+  it doesn’t, and Goku doesn’t have meter to cancel into a super attack or
+  Vanish, he is forced into a defensive posture. He’s not open for long enough to
+  take a hit, but he is open for long enough that the opponent gets to attack,
+  and Goku can’t do anything about that but block. Were Goku to attack at this
+  point, he’d be counter hit no matter what he did.
+**** beat super dash
+ The Super Dash is a powerful movement option that homes in on the enemy no
+ matter where they are on the screen, runs through standard energy blasts and can
+ lead to a big combo once it lands. Naturally, players use this very often — but
+ you don’t have to let them get away with it.
+
+ Special energy blasts like Goku’s Kamehameha — along with standard super attacks
+ — blast right through Super Dash. From here, you can often cancel into a super
+ attack, piling on some extra damage.
+
+ If you really want to make your counter attack hurt, time your crouching heavy
+ attack to crash through your opponent’s Super Dash. The crouching heavy attack
+ is a move that specifically counters aerial attackers, so it will pass through
+ Super Dashes with no problem and lead into a big combo.
+
+ When you tag a partner in, they come in with a Super Dash, so you can also use
+ these tactics when you are certain an opponent is going to tag out their
+ low-health character. When players are very low on health, they suddenly stop
+ fighting and start to walk backward as the player holds down the assist button
+ to tag. When you see this telltale sign, show your opponent that you’re not
+ going to let them tag out without paying for it.
+**** safe tagging
+Be careful when you tag. Tagging is vital and will often save a teammate’s life,
+but there are safer ways to get your hurting teammate to the bench than to take
+the risk that a predictable Super Dash represents.
+
+Once such method is using a tag super move. Do a super move with your first
+character (as seen below), then tap the assist button of the character you want
+to bring in. If the super move hits, you’ve tagged in your teammate safely. This
+is an especially good way to finish a combo when you’re at low health with a
+character.
+
+Even if your enemy blocks your super attack, you may still be able to get away
+with the tag. If the tagged-in teammate’s move leaves them relatively safe, like
+Goku’s Kamehameha, your opponent probably won’t be able to do much to
+counterattack. This is a lot of meter to spend in exchange for no damage to the
+opponent, but it’s a completely safe way to get an ailing team member out of
+harm’s way.
+
+Likewise, a guard cancel pushes offensive pressure away and switches characters
+in a safe twofer deal at the cost of one meter.
+
+It’s even possible to tag in a teammate during a regular combo without using
+super moves. Use a basic combo into a heavy move and then immediately do a
+V-Change by pressing forward and the assist of the character you want at the
+same time. Your teammate will Super Dash on in and continue the combo normally.
+There are a lot of spots in combos where you can tag with a V-Change, but it
+isn’t completely reliable, particularly in the corner.
+**** assist safety
+When calling your assist, keep in mind that they are vulnerable to attack and
+will take quite a lot of blue (recoverable) damage if hit. As such, it’s not
+necessarily a great idea to call certain assists out of the blue if, for
+example, the opponent can easily react and hit them with a beam or super attack.
+
+In the example above, Goku inexplicably calls two assists and Krillin instantly
+reacts by dropping all seven super meter bars to decimate all three characters’
+health bars. This isn’t likely to happen in a real match. It’s just a
+demonstration.
+**** using vanish
+Vanish is an extremely versatile tool that you can use to keep your opponent on
+their toes. This move teleports you behind the opponent’s back and attacks them.
+Because of the “hold back to block” rule, this can confuse the opponent. If
+they’re holding back to block you and you teleport behind them, they now need to
+switch their block to the other side or they’ll be hit. In other fighting games,
+we call this a “cross-up.”
+
+That’s not its only use, however. Think of those long-distance situations where
+the energy blasts start flying. If you know your opponent is going to throw a
+beam out, why not call them on it? Pop up behind their back and hit them out of
+it. Vanish doesn’t do a lot of damage and costs a full bar to use, but it can
+win the match in those low-life situations.
+
+Vanish can also extend combos. Landing Vanish in the air causes the opponent to
+bounce off of the wall, leaving them open for just enough time for you to land
+some more hits. Vanish can add a whole lot of damage to your combos, making it
+well worth that one bar of energy it calls for.
+**** captain Ginyu's trick
+True to the series, Captain Ginyu’s Meteor Attack switches his body with the
+opponent’s. Though it’s a total gimmick move, he can steal the opponent’s
+character and leave them stuck with Ginyu. Odds are, the opponent won’t know how
+to play as this oddball character and their entire game plan will be disrupted
+as the formerly-Ginyu beats them up with their own character.
+
+Be prepared for this dirty trick by knowing the basics of playing as Ginyu. Just
+give him a go or two in practice mode so that you’re not completely blind. On
+the other hand, the Ginyu player should study up on playing as … well, every
+other character in the game.
+**** assembling a team
+A major consideration for any character in Dragon Ball FighterZ is the quality
+of their assist move. We want to give each character on the team abilities that
+they didn’t have before by virtue of their teammates. Goku’s assist is a really
+easy example: Characters who have little in the way of long-range attacks like
+Android 18 clearly benefit from access to a huge, screen-filling Kamehameha
+blast. Here are some other notable assists to get you thinking.
+
+Piccolo’s assist is a slow-moving energy ball that makes it difficult for the
+player on the receiving end to attack or defend while it’s on screen. This is a
+great all-around move to throw out whenever you have the upper hand, especially
+after you’ve knocked the opponent down.
+
+Krillin’s assist is an unusual type: He tosses either a stone (which can hit the
+opponent, opening them up for a combo) or the healing Senzu Bean from the
+series. If you call Krillin and stand still for a moment to catch the bean,
+you’re likely to get a substantial heal. This is a great assist to run, but
+especially if you’re running a long-distance gameplan like, ironically,
+Frieza’s.
+
+You should also keep a more straightforward attack-type assist on your team, as
+they are the only way you can get a combo — and thus more damage — out of the
+standard overhead attack. Android 16 has an excellent point-blank assist move
+meant for this purpose: Unlike other attack assists, which pop the opponent into
+the air, Android 16 holds them to the ground, allowing you to follow up with
+anything you want. Gotenks’ Galactic Donuts assist is almost as good for this
+purpose.
+***** Tag super attack synergy
+In Dragon Ball FighterZ, combos often end in super attacks and then tag super
+attacks after that. The problem is that tag super attacks are not guaranteed to
+hit.
+
+For example, it’s very easy for Goku to do an air combo that flies about halfway
+up the stage and finishes with a Kamehameha.: I was doing it by reflex in a lot
+of my matches in the beta. The problem with this combo is that, once he’s in the
+middle of that super move, it’s unlikely that any of his teammates’ tag super
+moves will reach where he is on the screen. If you’re in the air, teammates will
+still tag in from the ground. In this case, a character like Trunks or Krillin
+will switch in and perform their super move in exchange for one bar of meter —
+but it won’t hit, and you won’t get any damage out of it. This is inefficient.
+
+Not only do you want to pick characters whose super moves effortlessly cancel
+into each other, but you want to build combos that allow that to happen. Though
+how you’re going to do this depends on your team, you generally want to land
+super attacks close to the ground. Goku’s Warp Kamehameha is specifically meant
+for this purpose, and other characters have attacks that allow them to slam an
+opponent to the ground during an air combo and continue with a super attack.
+***** Super meter management and team roles
+Though there’s nothing wrong with burning your super meter away as you get it,
+you will only get so many bars in a match. You may want to consider where you’re
+typically going to use meter in a match and which character is going to use it.
+
+To borrow from Marvel vs. Capcom parlance, your “point” (starting) character
+should function well without a lot of super meter in the early stages of the
+match. At this stage of the game, you’re either spending meter as you get it, or
+you’re saving it up for big damage later. In either case, you want a character
+with powerful basic moves and combos who’s a threat without much meter.
+
+Some characters need just a little meter to get going. Adult Gohan has to land
+his Potential Unleashed super move at least once to unlock his full slate of
+attacks. This character is a prime candidate for the second slot: You can land a
+super with your point character, and when you tag in Gohan he’ll be powered up
+and ready to go.
+
+To borrow once more from Marvel vs. Capcom players, your anchor character is the
+one you’re saving for the end, typically one who can put a lot of super meter to
+good use alone. As a standout case, Tien can burn all seven bars of the super
+meter by himself in a single super move, delivering damage well beyond what
+other characters in Dragon Ball FighterZ can do alone. Gas guzzler characters
+like this are best in the back, where they can use a lot of super meter when
+there’s nobody else left on the team to do so. The Sparking Blast move, which
+supercharges characters for a brief time (depending on how many characters are
+left on the team) was made for this situation.
+***** Assembling a team
+Keeping these points in mind, it’s really up to you where you go with team
+building. So long as you understand the strengths and weaknesses that a team can
+have, you don’t have to build a perfectly balanced team. You want a big guy team
+composed of Majin Buu, Android 16 and Nappa? Go nuts. Only want to play as
+Vegeta and his son from two different time periods? Sure. Do you want to play as
+three different Gokus? You can.
+
+Start with characters that you like, and keeping this advice in mind, keep
+playing around the roster and thinking about how your characters go together.
+Stay curious about the possibilities. This game just came out, and nobody has
+even scratched the surface. Eventually you’ll find a combination that fits you
+like your favorite weighted practice gear.
+** character specific
+*** Gohan
+**** move notes
+***** 3H
+      high kick, does not knock far
+***** 2S
+      better for covering retreat 
+***** 3L, machine gun punch(after potential unleash)
+***** 236S, only on ground
+***** 214L, performs slightly different after potential unleash
+**** combos
+*** Cell
+*** black Goku
+*** android 16
+    seems to have some good option select?(see set 2 of the Final Round SonicFox vs GO1 exhibition FT10 match)
+** character matchup
+** questions
+*** what moves are safe and non-safe?
+*** when to defend, when to attack?
+* Tekken Practice
+** log
+*** what is high crush and low crush
+** general advice
+*** starting with a small set of move with clear motivation
+i recommend only learning 5-7 staple moves, that you can use over and over again, 1-3 fast moves, 1- 2 punishers, 1 or 2 lows. you can learn more moves later.
+
+example leo, 
+1. 1 fast move
+2. 1,4 or f+1,4 fast punisher
+3. f+2,2 slow punisher
+4. df+2 slow punisher and launcher
+5. db+4,1 low move
+6. d+4,2 low move
+7. df+1 CH confirm 2. CH hunting
+
+
+Later you can add standing 4, B+4,1+2 etc.
+*** Top 15 moves for all characters
+https://drunkardshade.com/2017/05/27/tekken-7-top-15-moves-for-all-characters/
+https://www.reddit.com/r/Tekken/comments/6em988/tekken_7_top_15_moves_for_all_characters/
+** character specific
+*** Asuka
+**** good moves
+**** punish moves
+*****  d1+2 is better than b3
+**** combos
+     1,2,1+2
+**** parry
+**** discovery
+     upper QCB(or 874, or 74) is a circle back move
+** character matchup
 * Skullgirls
 ** guide
    http://steamcommunity.com/sharedfiles/filedetails/?id=172072817
@@ -525,25 +1111,6 @@ cr.MK. The damage is less than a dp finisher but still quite good.
  That's why training mode is so important but try not to burn yourself out. Play
  some matches, have some fun with the game and come back to Training Mode
  regularly to smooth out the bumps as you run into problems during matches.
-* TK Practice
-** general advice
-*** starting with a small set of move with clear motivation
-i recommend only learning 5-7 staple moves, that you can use over and over again, 1-3 fast moves, 1- 2 punishers, 1 or 2 lows. you can learn more moves later.
-
-example leo, 
-1. 1 fast move
-2. 1,4 or f+1,4 fast punisher
-3. f+2,2 slow punisher
-4. df+2 slow punisher and launcher
-5. db+4,1 low move
-6. d+4,2 low move
-7. df+1 CH confirm 2. CH hunting
-
-
-Later you can add standing 4, B+4,1+2 etc.
-*** Top 15 moves for all characters
-https://drunkardshade.com/2017/05/27/tekken-7-top-15-moves-for-all-characters/
-https://www.reddit.com/r/Tekken/comments/6em988/tekken_7_top_15_moves_for_all_characters/
 
 * Articles & Notes
   
@@ -2154,3 +2721,40 @@ https://www.grc.com/freeware/clickey.htm 个人习惯钢琴的声音。
 链接：https://www.zhihu.com/question/28701367/answer/41809096
 来源：知乎
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+** BornFree's interview with Lord Knight is interesting
+   like for the question on training, his answer is enlightening and insightful:
+   the best way to train is to do *problem solving* and *critical thinking*
+
+** the Fighting Game Mindset
+   good video on the game mindset:
+   https://www.youtube.com/watch?v=mu73xXHby3Y&t=16s
+
+   ignore win/loss
+
+    Your goal should not be to win the match, but to improve from the match.
+    Aim to *learn something new from the game every time*, even if small.
+
+    You can win against a very weak opponent that barely resists and learn
+    nothing, and you can lose 10 matches in a row to a strong player and learn a
+    lot.
+
+    The key is to not look at the match as a whole, but to *divide it into various small scenarios* you encounter,
+    with each being like a *small puzzle you need to solve*. After a match ends, instead of thinking about the result,
+    keep your focus on *one single new situation you've encountered*, *what worked, what didn't work, and what can be done better* 
+    the next time you encounter this  situation.
+
+    It's better to play a *long session* against the *same player and team*, so that you encounter the same small array of scenario 
+    puzzles *again and again* and *try different solutions each time. If you feel like it all happens too fast to be able to think
+    as you play, then *look at the replay of the match*, and examine exactly what happened.
+
+    When you understand what the opponents did, go to the training mode, *recreate the situation* and try out different possible solutions.
+
+    You can *ask better players for advice*, even the one who just beat you.
+
+    Every time you *got hit or got yourself cornered*, this *indicates a mistake you made*.
+
+    If you *actively monitor your actions* during and between matches, *you'll start making progress*, and instead of frustration,
+    *you'll feel satisfaction*.
+
+** Have Fun in FTG

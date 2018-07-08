@@ -1,4 +1,4 @@
-* Readings
+* Reading
 ** Papers 
 
 *** by category
@@ -8,6 +8,9 @@
 ***** variable selection properties
 ***** calibration of Lasso
 ****** TODO Wainwright, 2016, A Practical Scheme and Fast Algorithm to Tune the Lasso With Optimality Guarantees
+**** TODO dimension reduction space and sliced reverse regression
+**** TODO model free variable selection
+     yu2016trace
 **** portfolio optimization
 **** classification
 **** factor models
@@ -215,6 +218,313 @@
 *** book
     Statistical Learning from a Regression Perspective, by Richard Berk
     *Linear Regression Analysis*, by Seber
+* Learning
+** Math
+*** geometry
+**** affine space
+The following characterization may be easier to understand than the usual formal
+definition: an affine space is what is left of a vector space after you've
+forgotten which point is the origin (or, in the words of the French
+mathematician Marcel Berger, "An affine space is nothing more than a vector
+space whose origin we try to forget about, by adding translations to the linear
+maps").
+*** optimization
+**** convergence condition for *Newton Method*,  *Gradient Descent* and SGD
+** Probability 
+*** concentration inequalities
+**** 对 ||S-I_p|| 算子范数的 非渐进集中不等式 
+https://zhuanlan.zhihu.com/p/34322732
+*** probability measures
+**** weak convergence
+*** stochastic process
+**** Brownian bridge & semi-martingale
+** Conjecturing & Proving
+*** Proofs can be hard to read. So how to read them efficiently?
+related thread: 我们看不懂一个数学证明仅仅是因为知识储备不够吗？
+https://www.zhihu.com/question/26659203/
+**** A1
+我觉得原因主要有两点。
+
+第一点确实就是知识储备不够，尤其是在你看一个你并不熟悉的领域的证明的时候。数学证
+明难免会用到一些领域内的概念和结论，如果你没有学过，就只能两眼瞎。当然你可以现学，
+但是这样做就会把你的注意力从「看懂证明」上分散掉；而且，现学的东西需要一段时间才
+能内化成你的「信仰」，在此之前，你可能还是不太相信这个证明。
+
+第二点是，写在书面上的证明，为了严谨性，往往不能直接体现出证明的思路和直觉。我们
+在写证明的时候，往往是先有思路和直觉，然后再往上添加各种细节；甚至有时候为了行文
+连贯，需要调整证明各部分的顺序，甚至先引入一些零散的「引理」，到最后再把这些引理
+串起来。那么看证明的过程，就是要反过来从文本中看出思路和直觉；当证明太过复杂时，
+这件事就也变得困难。如果在证明之外还有一个「思路提要」就会好得多。
+
+
+作者：王赟 Maigo
+链接：https://www.zhihu.com/question/26659203/answer/374562080
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+**** A2
+作者：武三思
+链接：https://www.zhihu.com/question/26659203/answer/374549489
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+个人浅见 ，希望交流
+看不懂有两种情况.....
+
+1. 就是不熟悉证明所用到的计算技巧，和需要的定理，甚至包括一些结论等....当你翻看教材证明时，你会尝试先行像高中看压轴题答案一样慢慢抄一样滴看（不管是在心中抄还是写下来），这时候有计算，你觉得很神来之笔，你就回忆微积分里头是不是有这样的骚操作，觉得这个结论很陌生，你就查一查之前的笔记还是书什么的，还有的根本没见过，你说这就是一个小gap...作者默认你可以做出来或者很trivial或者就是用到了前面证明的思路或者借用了什么东西......这时候你这么弱，那就可以当习题做一遍好了，谁让你弱呢对吧！
+2. 就是你看懂了 合上书 就会有类似于马冬梅式的折磨人的遗忘症..... 这种也算看不太懂，因为作者思路没有get到...你就相当于白看了，说白了作者写证明你都不知道人家想干哈......可以借助中心思想形式......step 1 step 2 step 3...... 一气呵成也很少是做学问的方法....都要拆开来看...方法思想排列组合......
+
+偏个题.......微积分的算功很重要，布朗运动算密度推半群真是要哭QvQ......
+
+马尔科夫过程没推荐看Rogers那两卷，书是真的棒，编排真的迷，证明真的简略，内容真多...就自己承受去吧。
+**** A3
+作者：sjing
+链接：https://www.zhihu.com/question/26659203/answer/374596587
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+看数学论文，一开始读研究生或者博士的时候，老想把每一个细节给搞清楚。然后就发现有
+好多结论你根本没可能搞清楚。因为一篇引一篇这个数量增长太快了。
+
+原则应该是，对你有用的结果，就拿来用。特别是一些基础的结论。如果你犯了不搞清楚就
+不能理解的强迫症，那你读一篇数学论文可能要被逼死。要搞清楚侧重点，自己方向的基本
+结果确实是要知识储备的。但经常你要用一些不完全是自己方向的东西，这时候就不要钻牛
+角尖去看证明了。
+
+例如在研究Poisson方程有限元方法的时候，需要这个方程的解的正则性(regularity)。问
+题如下，
+
+其中 ， 问题是 属于哪个空间？这个结论是非常经典的PDE的正则性问题。但并不简单啊。
+如果 是凸的，那么 ，这个叫做full elliptic regularity。但是当 不是凸的时候，那 就
+会失去这个正则性，这时候 。这个结论我们天天用，但是要搞清楚证明？请看Grisvard的
+著作。人一辈子都在研究正则性问题，包括Monique Dauge教授也是正则性问题的专家，特
+别是这种非凸集上的椭圆问题。你能去看这些证明吗？人家整个career都在做这个我们只要
+拿来用就好了。
+
+所以看论文的时候最好是把这篇论文的idea给找到，细节有时候没有必要去纠结。特别是一
+些看似简单但是很大的结论，例如上述正则性问题。这样可能会增加读论文的效率，不至于
+纠结在一个地方导致觉得自己什么都不懂。
+
+** People
+*** Peter Hall
+Published Books
+P. Hall; C.C. Heyde (1980): Martingale Limit Theory and its Application, Academic Press, New York. ISBN 0-12-319350-8
+P. Hall (1982): Rates of Convergence in the Central Limit Theorem, Pitman, London. ISBN 0-273-08565-4
+P. Hall (1988): Introduction to the Theory of Coverage Processes, Wiley, New York. ISBN 0-471-85702-5
+P. Hall (1992): The Bootstrap and Edgeworth Expansion, Springer, New York. ISBN 0-387-97720-1
+*** Patrick Billingsley
+   Books: 
+Weak Convergence of Measures: Applications in Probability
+Probability And Measure
+Convergence of Probability Measures
+*** Serik Sagitov
+    his notes on stat inference(at applied master level) is worth reading for interview preparation purpose(good read in relative short time)
+    link below:
+    http://www.math.chalmers.se/Stat/Grundutb/CTH/mve155/1718/notes.html
+
+    and his notes on *weak convergence* and *probability and random process* is also worth reading
+    http://www.math.chalmers.se/Stat/Grundutb/GU/MSF500/S17/
+*** Gordan Žitković
+    https://www.ma.utexas.edu/users/gordanz/
+    
+    check out his probability and continuous-time finance notes
+* Fun Topics
+** Asymptotic equivalence between White Noise Model & Nonparametric Regression
+A fun reading experience with professor Zhang's regression project notes
+** coupon collector's problem
+   see [[https://en.wikipedia.org/wiki/Coupon_collector%27s_problem][this link]]
+*** compute the expectation and variance of the r.v.
+*** also notice *Lawrence Shepp's* generalization on this problem
+** approximate the probability of the *birthday problem*
+   see [[https://en.wikipedia.org/wiki/Birthday_problem][this link]]
+** general ways to construct two random vectors which are *uncorrelated* but *dependent*
+   see Casella's *statistical inference* 2nd Ed, exercise 4.49
+*** how strong is the notion of *independent*? what fascinating things does it imply?
+** spline application
+*** biostat
+Cox model里的baseline function就可以用spline来估计。这样好处是可以直接写likelihood function
+** regularization & overfitting
+reg能够防止过拟合，是因为
+过拟合 = 不该过分增长的参数过分地增长。
+* Thoughts compilation
+** Tao of learning
+*** motivation
+If you really wanna learn something, always find/generate the *motivation*
+first! Then spending enough time/efforts/good communications with others(if possible)
+should follow.
+*** time, squeeze time!
+no skill can be developed without enough time
+read and think about Peter Norvig's intriguing article *learn programming in 10
+years* .
+*** find the right/good questions and direction
+*** find the right/good circle to discuss and learn
+*** *deliberate practise*
+*** build your knowledge/skill tree from in some systematic way(like using a few but good book in the field)
+*** be avid to solve problems, accumulate problem solving strategies in the field you're interested in(same as in life)
+keep notes in a timely manner
+*** keep thinking, possibly everyday!
+*** be brave to focus, to compromise, to make trade-off, to give up
+** Research Habits
+*** save time & squeeze time
+**** ban wechat moments, news checking, etc
+**** avoid unnecessary meet and appointment
+**** prepare good breakfast, eat quick lunck
+*** improve related problem solving skill
+as often as possible, better be everyday
+**** TODO math/stat problem solving
+     SCHEDULED: <2018-07-01 Sun +2d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2018-06-30 Sat 03:55]
+     :END:
+     - State "DONE"       from "TODO"       [2018-06-30 Sat 03:55]
+     - State "DONE"       from "TODO"       [2018-06-28 Thu 06:53]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:33]
+**** TODO programming problem solving
+     SCHEDULED: <2018-06-30 Sat +2d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2018-06-30 Sat 03:55]
+     :END:
+     - State "DONE"       from "TODO"       [2018-06-30 Sat 03:55]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+*** express/organize your learning and finding in timely manner, through onenote/org/latex, etc
+*** back up your findings(notes and script) in a timely manner
+**** using github
+currently I'm maintaining backup repositories for my org, lyx and research r
+scripts on github.
+*** find projects to challenge yourself in timely manner
+
+** on thesis
+*** Take initiative & Communicate Efficiently
+**** if stuck when trying to prove sth, try find help
+Consider people like Boss Xiao, Shetou, Chunhong, Feng Long, Li Qian
+Also consider the internet community
+**** find more chances to talk to Boss Xiao
+Try to do twice a week, like on Wednesday afternoon
+*** Practise *mental calculation*
+*** Work hard & consistently
+*** Persistently improve on the related math skills
+I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much higher level!!!
+*** Aha & Crystal Clear Moments!
+*** Two Trinities: "Body, Skill, Heart", "Math, Stat, Programming"
+*** What results have you got?
+**** written down formally?
+***** the ROAD exact algorithm for nonsingular case
+***** a result of best marginal feature
+**** scratch or in mind
+***** counter example for best marginal feature
+***** algorithm for singular covariance matrix
+*** What results are you currently aiming to obtain?
+**** easy ones
+***** DONE uniqueness of the LPD
+      CLOSED: [2017-01-25 Wed 01:08]
+**** hard ones
+***** LPD asymptotics results for correlation matrices
+*** Any idea about extension/generalization?
+*** Idea about data analysis?
+*** Have the results necessary for a paper? How to organize them?
+** Stage thoughts
+*** 2017-June-报答肖老师
+**** 改变目前讨论和交流的一些方式，使得更有效率
+**** 抓紧在美国的时间学点肖老师的真功夫
+**** 抓紧在美国的时间做出点东西来
+*** 2016-2.14
+1. squeeze time to think about research everyday this year!
+2. your focus shall not be more than two at a time
+3. gain is accompanied by loss
+**** focus
+***** thesis
+****** LPD asymptotics
+***** job skill
+****** data mining review
+***** job information
+*** 4.3
+**** two main focus
+***** TODO wrap up thesis material, target at finishing no later than October, 2017
+***** TODO spend regular time to know about the data science job market
+SCHEDULED: <2018-07-01 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2018-06-27 Wed 04:34]
+:END:
+- State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+- State "DONE"       from "TODO"       [2018-06-23 Sat 08:02]
+- State "DONE"       from "TODO"       [2018-06-23 Sat 08:02]
+- State "DONE"       from "TODO"       [2018-06-23 Sat 08:02]
+- State "DONE"       from "TODO"       [2018-06-23 Sat 08:02]
+- State "DONE"       from "TODO"       [2018-05-23 Wed 17:13]
+- State "DONE"       from "TODO"       [2018-05-14 Mon 19:24]
+- State "DONE"       from "TODO"       [2018-05-14 Mon 19:21]
+- State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
+- State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
+- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
+- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
+- State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
+- State "DONE"       from "TODO"       [2018-02-26 Mon 11:56]
+- State "DONE"       from "TODO"       [2018-02-18 Sun 15:45]
+- State "DONE"       from "TODO"       [2018-02-17 Sat 21:10]
+- State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
+- State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
+- State "DONE"       from "TODO"       [2017-12-08 Fri 16:42]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
+- State "DONE"       from "TODO"       [2017-11-05 Sun 09:34]
+- State "DONE"       from "TODO"       [2017-11-04 Sat 14:06]
+- State "DONE"       from "TODO"       [2017-10-28 Sat 17:06]
+- State "DONE"       from "TODO"       [2017-10-15 Sun 01:06]
+- State "DONE"       from "TODO"       [2017-10-10 Tue 02:05]
+- State "DONE"       from "TODO"       [2017-10-03 Tue 21:27]
+- State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
+- State "DONE"       from "TODO"       [2017-09-04 Mon 20:06]
+- State "DONE"       from "TODO"       [2017-08-28 Mon 17:43]
+- State "DONE"       from "TODO"       [2017-08-21 Mon 01:59]
+- State "DONE"       from "TODO"       [2017-08-14 Mon 11:17]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
+- State "DONE"       from "TODO"       [2017-07-16 Sun 17:10]
+- State "DONE"       from "TODO"       [2017-07-11 Tue 15:30]
+- State "DONE"       from "TODO"       [2017-07-09 Sun 15:57]
+- State "DONE"       from "TODO"       [2017-06-25 Sun 11:58]
+- State "DONE"       from "TODO"       [2017-06-18 Sun 01:01]
+- State "DONE"       from "TODO"       [2017-06-16 Fri 09:56]
+- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
+- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
+- State "DONE"       from "TODO"       [2017-05-21 Sun 00:07]
+*** 5.18
+**** current priority brief table
+| Feature    | Important                                           | Unimportant                   |
+|------------+-----------------------------------------------------+-------------------------------|
+| urgent     | Thesis Research, Data Mining Knowledge and Practice | Job information, Work Project |
+| not urgent | build a solid probability foundation                | Money                         |
+**** research motivations
+***** classification
+****** lpd vs road
+****** lpd correlation version
+****** best marginal feature property
+***** portfolio optimization
+****** can lpd beat road? what version of lpd?
+*** 6.7
+**** Whenever you learned any interesting methods/algorithms, try implementing it yourself if possible. *Get your hands dirty*!
+**** If you don't have time to learn the detail of something, at least try to know *its main idea*, *its main application* (with some examples) and one or two *its current implementation usage*
+**** accumulate useful/interesting ideas in the field and think about combine/extend them whenever possible
+**** 增强你的统计直觉，编程技巧与熟练度
+**** write your scratch down on papers might very much improve your thinking
+*** 6.30
+**** thoughts after talk with Chengrui [0/4]
+***** TODO focus on representing solid stat knowledge during interviews!
+***** TODO take initiative to make connections, like contact recruiter directly
+***** TODO practice interview and presentation skills
+***** TODO practice problem solving everyday
+**** priority
+***** job finding/networking & interview preparing
+***** thesis research
+***** sanofi last project
+
 * Current Tasks
 
 ** TODO Read the LPD & ROAD papers(do the necessary calculations)and figure out a strategy to establish our result
@@ -328,7 +638,6 @@ CLOSED: [2016-02-14 Sun 23:03]
 ** learn some modern nonparametric statistics
 *** resources
 **** a distribution free theory of nonparametric regression, by Laszlo
-
 * Temporary aside
 ** TODO Think about how to apply our algorithm in classification
 ** TODO Think about how to modify the algorithm for extension
@@ -360,252 +669,37 @@ using the lars package, for p=4, the number of pieces doesn't meet the expected 
 ** DONE Gradually export the texmacs version of the CLASSO notes to a latex version
 CLOSED: [2016-03-04 Fri 12:50]
 Done by modify some export options inside Texmacs
-* Fun Stuff Learned
-** Asymptotic equivalence between White Noise Model & Nonparametric Regression
-A fun reading experience with professor Zhang's regression project notes
-** coupon collector's problem
-   see [[https://en.wikipedia.org/wiki/Coupon_collector%27s_problem][this link]]
-*** compute the expectation and variance of the r.v.
-*** also notice *Lawrence Shepp's* generalization on this problem
-** approximate the probability of the *birthday problem*
-   see [[https://en.wikipedia.org/wiki/Birthday_problem][this link]]
-** general ways to construct two random vectors which are *uncorrelated* but *dependent*
-   see Casella's *statistical inference* 2nd Ed, exercise 4.49
-*** how strong is the notion of *independent*? what fascinating things does it imply?
-** spline application
-*** biostat
-Cox model里的baseline function就可以用spline来估计。这样好处是可以直接写likelihood function
-** regularization & overfitting
-reg能够防止过拟合，是因为
-过拟合 = 不该过分增长的参数过分地增长。
-* Thoughts compilation
-** Tao of learning
-*** motivation
-If you really wanna learn something, always find/generate the *motivation*
-first! Then spending enough time/efforts/good communications with others(if possible)
-should follow.
-*** time, squeeze time!
-no skill can be developed without enough time
-read and think about Peter Norvig's intriguing article *learn programming in 10
-years* .
-*** find the right/good questions and direction
-*** find the right/good circle to discuss and learn
-*** *deliberate practise*
-*** build your knowledge/skill tree from in some systematic way(like using a few but good book in the field)
-*** be avid to solve problems, accumulate problem solving strategies in the field you're interested in(same as in life)
-keep notes in a timely manner
-*** keep thinking, possibly everyday!
-*** be brave to focus, to compromise, to make trade-off, to give up
-** Research Habits
-*** save time & squeeze time
-**** ban wechat moments, news checking, etc
-**** avoid unnecessary meet and appointment
-**** prepare good breakfast, eat quick lunck
-*** improve related problem solving skill
-as often as possible, better be everyday
-**** TODO math/stat problem solving
-     SCHEDULED: <2018-05-01 Tue +2d>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-04-29 Sun 18:36]
-     :END:
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:31]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
-     - State "DONE"       from "TODO"       [2018-04-18 Wed 09:25]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-16 Mon 01:45]
-     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
-     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
-     - State "DONE"       from "TODO"       [2018-04-01 Sun 01:38]
-     - State "DONE"       from "TODO"       [2018-02-26 Mon 11:56]
-     - State "DONE"       from "TODO"       [2018-02-24 Sat 13:08]
-     - State "DONE"       from "TODO"       [2018-02-22 Thu 10:54]
-     - State "DONE"       from "TODO"       [2018-02-20 Tue 01:22]
-     - State "DONE"       from "TODO"       [2018-02-18 Sun 09:21]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:37]
-     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
-     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
-     - State "DONE"       from "TODO"       [2018-01-27 Sat 12:27]
-**** TODO programming problem solving
-     SCHEDULED: <2018-04-30 Mon +2d>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-04-29 Sun 18:36]
-     :END:
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
-     - State "DONE"       from "TODO"       [2018-04-19 Thu 06:37]
-     - State "DONE"       from "TODO"       [2018-04-18 Wed 09:26]
-     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
-     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
-     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
-     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
-     - State "DONE"       from "TODO"       [2018-04-15 Sun 04:47]
-     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
-     - State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
-     - State "DONE"       from "TODO"       [2018-04-01 Sun 01:38]
-     - State "DONE"       from "TODO"       [2018-02-24 Sat 23:20]
-     - State "DONE"       from "TODO"       [2018-02-22 Thu 14:25]
-     - State "DONE"       from "TODO"       [2018-02-20 Tue 19:19]
-     - State "DONE"       from "TODO"       [2018-02-19 Mon 11:04]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-     - State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
-     - State "DONE"       from "TODO"       [2018-01-28 Sun 12:41]
-*** express/organize your learning and finding in timely manner, through onenote/org/latex, etc
-*** back up your findings(notes and script) in a timely manner
-**** using github
-currently I'm maintaining backup repositories for my org, lyx and research r
-scripts on github.
-*** find projects to challenge yourself in timely manner
-
-** on thesis
-*** Take initiative & Communicate Efficiently
-**** if stuck when trying to prove sth, try find help
-Consider people like Boss Xiao, Shetou, Chunhong, Feng Long, Li Qian
-Also consider the internet community
-**** find more chances to talk to Boss Xiao
-Try to do twice a week, like on Wednesday afternoon
-*** Practise *mental calculation*
-*** Work hard & consistently
-*** Persistently improve on the related math skills
-I definitely could improve my Matrix Calculus & Matrix Analysis Skills to a much higher level!!!
-*** Aha & Crystal Clear Moments!
-*** Two Trinities: "Body, Skill, Heart", "Math, Stat, Programming"
-*** What results have you got?
-**** written down formally?
-***** the ROAD exact algorithm for nonsingular case
-***** a result of best marginal feature
-**** scratch or in mind
-***** counter example for best marginal feature
-***** algorithm for singular covariance matrix
-*** What results are you currently aiming to obtain?
-**** easy ones
-***** DONE uniqueness of the LPD
-      CLOSED: [2017-01-25 Wed 01:08]
-**** hard ones
-***** LPD asymptotics results for correlation matrices
-*** Any idea about extension/generalization?
-*** Idea about data analysis?
-*** Have the results necessary for a paper? How to organize them?
-** Stage thoughts
-*** 2017-June-报答肖老师
-**** 改变目前讨论和交流的一些方式，使得更有效率
-**** 抓紧在美国的时间学点肖老师的真功夫
-**** 抓紧在美国的时间做出点东西来
-*** 2016-2.14
-1. squeeze time to think about research everyday this year!
-2. your focus shall not be more than two at a time
-3. gain is accompanied by loss
-**** focus
-***** thesis
-****** LPD asymptotics
-***** job skill
-****** data mining review
-***** job information
-*** 4.3
-**** two main focus
-***** TODO wrap up thesis material, target at finishing no later than October, 2017
-***** TODO spend regular time to know about the data science job market
-SCHEDULED: <2018-05-06 Sun +1w>
-:PROPERTIES:
-:LAST_REPEAT: [2018-04-29 Sun 18:36]
-:END:
-- State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-- State "DONE"       from "TODO"       [2018-04-23 Mon 08:27]
-- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
-- State "DONE"       from "TODO"       [2018-04-15 Sun 04:48]
-- State "DONE"       from "TODO"       [2018-04-05 Thu 02:27]
-- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
-- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
-- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
-- State "DONE"       from "TODO"       [2018-03-30 Fri 21:24]
-- State "DONE"       from "TODO"       [2018-02-26 Mon 11:56]
-- State "DONE"       from "TODO"       [2018-02-18 Sun 15:45]
-- State "DONE"       from "TODO"       [2018-02-17 Sat 21:10]
-- State "DONE"       from "TODO"       [2018-02-04 Sun 15:38]
-- State "DONE"       from "TODO"       [2018-01-30 Tue 19:31]
-- State "DONE"       from "TODO"       [2017-12-08 Fri 16:42]
-- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
-- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
-- State "DONE"       from "TODO"       [2017-11-25 Sat 11:56]
-- State "DONE"       from "TODO"       [2017-11-05 Sun 09:34]
-- State "DONE"       from "TODO"       [2017-11-04 Sat 14:06]
-- State "DONE"       from "TODO"       [2017-10-28 Sat 17:06]
-- State "DONE"       from "TODO"       [2017-10-15 Sun 01:06]
-- State "DONE"       from "TODO"       [2017-10-10 Tue 02:05]
-- State "DONE"       from "TODO"       [2017-10-03 Tue 21:27]
-- State "DONE"       from "TODO"       [2017-09-27 Wed 18:08]
-- State "DONE"       from "TODO"       [2017-09-04 Mon 20:06]
-- State "DONE"       from "TODO"       [2017-08-28 Mon 17:43]
-- State "DONE"       from "TODO"       [2017-08-21 Mon 01:59]
-- State "DONE"       from "TODO"       [2017-08-14 Mon 11:17]
-- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
-- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
-- State "DONE"       from "TODO"       [2017-08-10 Thu 08:38]
-- State "DONE"       from "TODO"       [2017-07-16 Sun 17:10]
-- State "DONE"       from "TODO"       [2017-07-11 Tue 15:30]
-- State "DONE"       from "TODO"       [2017-07-09 Sun 15:57]
-- State "DONE"       from "TODO"       [2017-06-25 Sun 11:58]
-- State "DONE"       from "TODO"       [2017-06-18 Sun 01:01]
-- State "DONE"       from "TODO"       [2017-06-16 Fri 09:56]
-- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
-- State "DONE"       from "TODO"       [2017-06-06 Tue 12:17]
-- State "DONE"       from "TODO"       [2017-05-21 Sun 00:07]
-*** 5.18
-**** current priority brief table
-| Feature    | Important                                           | Unimportant                   |
-|------------+-----------------------------------------------------+-------------------------------|
-| urgent     | Thesis Research, Data Mining Knowledge and Practice | Job information, Work Project |
-| not urgent | build a solid probability foundation                | Money                         |
-**** research motivations
-***** classification
-****** lpd vs road
-****** lpd correlation version
-****** best marginal feature property
-***** portfolio optimization
-****** can lpd beat road? what version of lpd?
-*** 6.7
-**** Whenever you learned any interesting methods/algorithms, try implementing it yourself if possible. *Get your hands dirty*!
-**** If you don't have time to learn the detail of something, at least try to know *its main idea*, *its main application* (with some examples) and one or two *its current implementation usage*
-**** accumulate useful/interesting ideas in the field and think about combine/extend them whenever possible
-**** 增强你的统计直觉，编程技巧与熟练度
-**** write your scratch down on papers might very much improve your thinking
-*** 6.30
-**** thoughts after talk with Chengrui [0/4]
-***** TODO focus on representing solid stat knowledge during interviews!
-***** TODO take initiative to make connections, like contact recruiter directly
-***** TODO practice interview and presentation skills
-***** TODO practice problem solving everyday
-**** priority
-***** job finding/networking & interview preparing
-***** thesis research
-***** sanofi last project
 * Thesis Writing [0/1]
-** what to discuss?
-*** unfinished [0/3]
-**** TODO singular covariance matrix case for one constraint classo
-**** TODO LPD correlation version asymptotics
-**** TODO theory for the LPD variants
-*** CLASSO
-*** LPD
-*** Comparison
 ** general writing principle
 *** explain your problem setup and motivation
 *** discuss your finding/contribution in detail
 *** make connections with your work and other related works/papers
 *** discuss the key idea of the proof, but put the detailed proof in separate section
 *** show examples
+** what to discuss?
+*** unfinished [0/3]
+**** TODO singular covariance matrix case for one constraint classo
+**** TODO LPD correlation version asymptotics
+**** TODO theory for the LPD variants
+*** CLASSO
+**** why constrained lasso? motivation?
+**** exact algorithm for on constraint lasso
+***** nonsingular case
+***** singular case
+***** numerical investigation
+*** LPD
+**** connection with Dantzig selector
+**** possible extensions of LPD
+**** numerical investigation
+*** white noise test via CC
+**** motivation
+**** numerical investigation
+*** numerical investigation perspectives
+**** classification
+***** real data
+***** simulation
+**** portfolio allocation
+***** real data
 ** structure [0/6]
 *** TODO Introduction
 *** TODO ROAD/CLASSO and its algorithms
@@ -769,7 +863,7 @@ CLOSED: [2016-05-14 Sat 15:35]
 ****** TODO include ROAD and SLDA into the classification simulations
 ***** 8-23 [/]
 ****** TODO implement Xiao's new idea, use CV to select
-       for Model 3, check whether the new idea would enable us to select out the 11th feature
+       for Model 3, check whether the new idea would enable us to select ouT the 11th feature
 ******* how to do CV here?
 ***** 9-27 [2/3]
 ****** DONE read the proof of the asymptotic distribution of the squared sample canonical correlation for the iid case 
@@ -804,27 +898,53 @@ CLOSED: [2016-05-14 Sat 15:35]
 ****** TODO For the two sample covariance matrix constructed from the two sub time series
  prove cov(A_ij,B_kl) = 0 asymptotically for all i,j,k,l, then apply Corollary 3.1 in the book *martingale limit theory and its application* and *Cramer-Wold* device to prove our needed results
 **** 2018
-***** 1-11 [1/4]
-****** DONE finish the entriwise uncorrelated proof
-       CLOSED: [2018-02-20 Tue 19:25]
+***** 1-11 [0/2]
 ****** TODO apply the Martingale CLT to obtain the asymptotic normality
-to apply the 2nd condition in Corollary 3.2, consider *Markov Inequality*
+       to apply the 2nd condition in Corollary 3.2, consider *Markov Inequality*
 ****** TODO consider the case when the mean vector is not zero
-****** TODO for the univariate case, write down notes on the equivalence between the projection interpretation of CC and usual CC definition
 ***** 2-21 [0/2]
 ****** TODO in the multi-case, assume iid multi-normal, calculate the lag-1 canonical correlation 
 ****** TODO besides the martingale CLT approach, the CLT for m-dependent r.v. series can also be used to establish the *asymptotic normality* under our current iid setup
-***** 3-30 [1/3]
+***** 3-30 [2/2]
 ****** DONE characterize the covariance structure of the current multivariate asymptotic dist findings in *Kronecker product* form 
        CLOSED: [2018-04-15 Sun 03:46]
-****** TODO see whether you can relate the obtained covariance structure with classical results(eg. for normal iid case, see Anderson's book)
-***** 4-4 [0/1]
+****** DONE see whether you can relate the obtained covariance structure with classical results(eg. for normal iid case, see Anderson's book)
+       CLOSED: [2018-07-07 Sat 16:33]
+       the cov structure is different from the classical iid normal case
+***** 4-4 [1/2]
 ****** TODO consider the MA(1) approach to our multivariate CC distribution problem  
-****** TODO check whether the main result(Corollary 2.3) in Mi-Hwa Ko's 2006 paper *FUNCTIONAL CENTRAL LIMIT THEOREMS FOR MULTIVARIATE LINEAR PROCESSES GENERATED BY DEPENDENT RANDOM VECTORS* is applicable for our problem
-***** 4-13 [0/3]
+****** DONE check whether the main result(Corollary 2.3) in Mi-Hwa Ko's 2006 paper *FUNCTIONAL CENTRAL LIMIT THEOREMS FOR MULTIVARIATE LINEAR PROCESSES GENERATED BY DEPENDENT RANDOM VECTORS* is applicable for our problem
+       CLOSED: [2018-05-01 Tue 20:37]
+       seems not suitable
+***** 4-13 [0/2]
 ****** TODO simplify the covariance matrix obtained in our multivariate results, does the matrix J+J' in the middle commute with the matrix on the left and right?
 ****** TODO my current formulation of the asymptotic dist claim can be cast in slightly general formulation, think about the problem in this more general formulation
        see Xiao's scratch notes which he wrote down during the discussion
+***** 5-1 [1/1]
+****** DONE divide the series into to parts so that each part is a independent problem, find the 1st cc of each part, and check whether it's asymptotically independent
+       CLOSED: [2018-07-07 Sat 16:19]
+******* simulation
+******* theoretical justification
+***** 5-9 [1/3]
+****** TODO distribution of p-values and its application in simulations
+****** DONE calculate the covariance structure between the two off-diagonal matrices, see whether it can be use to prove asymptotic independence
+       CLOSED: [2018-07-07 Sat 16:19]
+****** TODO combine the 1st cc in those two parts to form a test we need
+***** 5-18 [0/2]
+****** TODO derive the distribution when our null is NOT true?
+****** TODO what's the pro an cons of our test comparing with other available WN tests?
+***** 7-7 [0/5]
+****** TODO clearly state the citing references whenever necessary in thesis writing
+****** TODO state your intermediate technical results and assumptions clearly
+****** TODO extension to *elliptical* case
+
+******* assume iid + 4th moment, if weaken the iid to independent only, then we might need *uniformly integrable* condition
+******* might need to cite results from Tyler's paper
+****** TODO extension to *non-normal* case
+******* assume similar stuff as in *elliptical* case, but the covariance structure will be different here
+****** TODO for the above possible extension, consider using Peter Hall's *martingale CLT* results to prove asymptotic normal property for the sample covariance matrix
+       T^{1/2}(S - Sigma) -> in distribution to multivariate normal
+****** TODO for the univariate case, write down notes on the equivalence between the projection interpretation of CC and usual CC definition
 *** DONE discuss thesis and graduation with advisor
 
     CLOSED: [2017-01-25 Wed 01:01]

@@ -126,20 +126,12 @@ At least finish Ch1
      CLOSED: [2017-04-27 Thu 17:27]
 **** DONE derive Hoeffding and Bernstein inequality
      CLOSED: [2017-06-12 Mon 17:12] SCHEDULED: <2017-04-28 Fri>
-*** 4.29 - 5.1 [2/4]
+*** 4.29 - 5.1 [2/3]
 **** DONE what is A/B test
      CLOSED: [2017-06-29 Thu 15:49]
 **** DONE attend leetcode contest
      CLOSED: [2017-04-29 Sat 23:04] SCHEDULED: <2017-04-29 Sat>
 **** TODO derive the MGF for common distributions
-**** TODO write a brief report on so far the basic concentration inequality theory and techniques
-***** why not study the tail probabilities of distributions via *characteristic functions*?
-we raise the notions of *sub-Gaussian*, *sub-exponential* and *sub-Gamma* by
-studying the M.G.F(or equivalently all orders of moments), then why not study
-the tail probability of a distribution via characteristic function?
-***** what are the relationships between *sub-Gaussian*, *sub-exponential* and *sub-Gamma*?
-***** try to learn the *pro and cons* of the concentration inequalities you learned so far and apply them 
-***** under what scenarios can you improve the *Chernoff bound*?
 *** 6.8 - 6.11 [2/5]
 **** DONE 绿宝书 ch2 and ch5
      CLOSED: [2017-06-08 Thu 16:43]
@@ -188,6 +180,17 @@ the tail probability of a distribution via characteristic function?
 ****** estimation, algorithm
 ****** testing
 **** TODO finish backbone of LPD chapter
+*** 2018-6-23 - 6-25 [/]
+
+**** TODO write a draft on the WN test project
+**** TODO write a brief report on so far the basic concentration inequality theory and techniques
+***** why not study the tail probabilities of distributions via *characteristic functions*?
+we raise the notions of *sub-Gaussian*, *sub-exponential* and *sub-Gamma* by
+studying the M.G.F(or equivalently all orders of moments), then why not study
+the tail probability of a distribution via characteristic function?
+***** what are the relationships between *sub-Gaussian*, *sub-exponential* and *sub-Gamma*?
+***** try to learn the *pro and cons* of the concentration inequalities you learned so far and apply them 
+***** under what scenarios can you improve the *Chernoff bound*?
 *** Previous
 **** 9.14 - 9.24 [1/3]
 ***** DONE primal dual problems examples
@@ -344,22 +347,17 @@ the tail probability of a distribution via characteristic function?
 *** TODO prerequisite part of the thesis
 *** paper writing log 
 **** TODO one paper summary OR 2 pages writing everyday
-     SCHEDULED: <2018-04-30 Mon +1d>
+     SCHEDULED: <2018-06-30 Sat +1d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-04-29 Sun 18:36]
+     :LAST_REPEAT: [2018-06-30 Sat 03:55]
      :END:
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-29 Sun 18:36]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:32]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:32]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:31]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
-     - State "DONE"       from "TODO"       [2018-04-23 Mon 08:28]
-     - State "DONE"       from "TODO"       [2018-04-19 Thu 06:37]
+     - State "DONE"       from "TODO"       [2018-06-30 Sat 03:55]
+     - State "DONE"       from "TODO"       [2018-06-30 Sat 03:55]
+     - State "DONE"       from "TODO"       [2018-06-28 Thu 06:53]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
+     - State "DONE"       from "TODO"       [2018-06-27 Wed 04:34]
 *** DONE May-31 *Interpretation of Data* lecture [3/3]
     CLOSED: [2017-06-07 Wed 15:23] DEADLINE: <2017-05-29 Mon>
 **** DONE Application Examples
